@@ -2,10 +2,7 @@
 Plone 4 User Manual
 ====================
 
-`« Return to page
-index <http://plone.org/documentation/manual/plone-4-user-manual>`_
-
-A User Manual for Plone content creators and managers.
+Il utente di Plone per utenti e amministratori.
 
 .. toctree::
     :maxdepth: 2
