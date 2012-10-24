@@ -1,6 +1,6 @@
-========================
-1.1. Conceptual Overview
-========================
+===========================
+1.1. Panoramica concettuale
+===========================
 
 An explanation of Plone as a content management system
 
