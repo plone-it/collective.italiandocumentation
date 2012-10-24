@@ -555,7 +555,7 @@ definitions of each standard content type
 
 New content items are added via the **Add New . . .** drop-down menu:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/copy_of_addnewmenu.png/image_preview
+.. figure:: _static/copy_of_addnewmenu.png
    :align: center
    :alt: add-new-menu.png
 
@@ -692,14 +692,14 @@ system.
 Folders are added by clicking the **Add new...** drop-down menu. Select
 **Folder** from the menu:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/add-item-menu-folder.png
+.. figure:: _static/add-item-menu-folder.png
    :align: center
    :alt: add-item-menu-folder.png
 
    add-item-menu-folder.png
 You should now see the *Add Folder* screen:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/addfolder.png
+.. figure:: _static/addfolder.png
    :align: center
    :alt: 
 
@@ -736,12 +736,11 @@ Be sure to click **Save** at the bottom of the page when you are
 finished. This will complete the folder creation process.
 
 `|lights-camera-action.png| <http://media.plone.org/LearnPlone/Adding%20a%20new%20folder%20and%20new%20page.swf>`_
-Watch a Plone 4Â video on `adding a
+Watch a Plone 4 video on `adding a
 folder <http://dist.plone.org/media/video/plone4-user-manual/foldercreation.html>`_.
 
-Â
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/additemmenufolder.png
+.. figure:: _static/additemmenufolder.png
    :align: center
    :alt: 
 
@@ -842,14 +841,14 @@ as these are not widely supported by web browsers.
 When you are ready to upload an image, use the *Add new...* drop-down
 menu (You will only see the *Add new...* menu after logging in):
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/add-item-menu-image.png/image_preview
+.. figure:: _static/add-item-menu-image.png
    :align: center
    :alt: add-item-menu-image.png
 
    add-item-menu-image.png
 After clicking to add an **Image**, you'll see the *Add Image* panel:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/addimage.png/image_preview
+.. figure:: _static/addimage.png
    :align: center
    :alt: add-image.png
 
@@ -889,14 +888,14 @@ another.
 
 To add a page, use the *Add new...* menu for a folder:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/copy_of_addnewmenu.png
+.. figure:: _static/copy_of_addnewmenu.png
    :align: center
    :alt: 
 
 Select **Page** from the drop-down menu, and you'll see the *Add Page*
 panel:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/editpagepanelplone3.png
+.. figure:: _static/editpagepanelplone3.png
    :align: center
    :alt: 
 
@@ -927,14 +926,14 @@ Files of various types can be uploaded to Plone web sites.
 
 Choose file in the *Add new...* menu for a folder to upload a file:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/copy_of_addnewmenu.png
+.. figure:: _static/copy_of_addnewmenu.png
    :align: center
    :alt: add-new-menu.png
 
    add-new-menu.png
 You will see the *Add File* panel:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/addfile.png
+.. figure:: _static/addfile.png
    :align: center
    :alt: 
 
@@ -970,14 +969,14 @@ navigation.
 Add a link by clicking the menu choice in the *Add new...* menu for a
 folder:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/copy_of_addnewmenu.png
+.. figure:: _static/copy_of_addnewmenu.png
    :align: center
    :alt: add-new-menu.png
 
    add-new-menu.png
 You will see the Add*Link* panel:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/addlink.png
+.. figure:: _static/addlink.png
    :align: center
    :alt: 
 
@@ -1014,7 +1013,7 @@ events.
 
 Use the *Add new...* menu for a folder to add an event:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/copy_of_addnewmenu.png
+.. figure:: _static/copy_of_addnewmenu.png
    :align: center
    :alt: add-new-menu.png
 
@@ -1050,13 +1049,13 @@ consult a calendar. There is a handy pop-up calendar that offers an
 alternate way to select the day. If you click one of the little calendar
 icons adjacent to the day pull-down, :
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/eventstartandendfields.png
+.. figure:: _static/eventstartandendfields.png
    :align: center
    :alt: 
 
 you'll see this pop-up calendar:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/calendarpopuppanel.png
+.. figure:: _static/calendarpopuppanel.png
    :align: center
    :alt: 
 
@@ -1078,14 +1077,14 @@ Plone web sites have a built-in system for publishing news items.
 
 Use the *Add new...* menu for a folder to add a news item:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/copy_of_addnewmenu.png
+.. figure:: _static/copy_of_addnewmenu.png
    :align: center
    :alt: add-new-menu.png
 
    add-new-menu.png
 You will see the *Add News Item* panel:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/addnewsitem.png
+.. figure:: _static/addnewsitem.png
    :align: center
    :alt: 
 
@@ -1120,7 +1119,7 @@ engines that run Plone.
 Any content item, when clicked by a user with edit rights for the item,
 will show a set of tabs at the top for setting basic properties:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/basicpropertiestabs.png
+.. figure:: _static/basicpropertiestabs.png
    :align: center
    :alt: null
 
@@ -1144,7 +1143,7 @@ Plone can use this metadata in a multitude of ways.
 Here is the *Categorization* panel, shown for a page content item (would
 be the same for other content types):
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/editpagecategorization.png
+.. figure:: _static/editpagecategorization.png
    :align: center
    :alt: null
 
@@ -1176,7 +1175,7 @@ The *Dates* panel has fields for the publishing date and the expiration
 date, effectively start and stop dates for the content if you wish to
 set them:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/datessettings.png
+.. figure:: _static/datessettings.png
    :align: center
    :alt: null
 
@@ -1219,7 +1218,7 @@ content type, but generally there are input fields controlling whether
 or not the item appears in navigation, or if there are comments allowed,
 and other similar controls:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/settingspanel.png
+.. figure:: _static/settingspanel.png
    :align: center
    :alt: null
 
@@ -1289,14 +1288,14 @@ images in the images folder.
 First, select the last choice in the *Add new...* menu called
 *Restrictions...*:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/addnewmenu.png
+.. figure:: _static/addnewmenu.png
    :align: center
    :alt: add-new-menu.png
 
    add-new-menu.png
 There are three choices shown for restricting types in the folder:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/restricttypes.png
+.. figure:: _static/restricttypes.png
    :align: center
    :alt: 
 
@@ -1308,7 +1307,7 @@ standard types to be added, is a way to reset to the default,
 unrestricted setting. The last choice allows selection from a list of
 available types:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/restricttypesmanually.png
+.. figure:: _static/restricttypesmanually.png
    :align: center
    :alt: 
 
@@ -1374,7 +1373,7 @@ commonly .jpg (or .jpeg). Other common formats for images include .png
 and .gif. Take note of where you save images on your computer so that
 you can find them when you upload them to your Plone web site.
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/adding-content/image_resizing.png/
+.. figure:: _static/adding-content/image_resizing.png/
    :align: center
    :alt: image\_resizing.png
 
@@ -1964,7 +1963,7 @@ To compare any previous version with the one just before it, click the
 *Compare* link located between two adjacent versions in the History
 overlay.
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/compare-button.png/image_preview
+.. figure:: _static/compare-button.png
    :align: center
    :alt: compare-button.png
 
@@ -1972,7 +1971,7 @@ overlay.
 By clicking this button, you'll see a screen like this one where you can
 see the differences between the two versions:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/compare-versions.png/image_preview
+.. figure:: _static/compare-versions.png
    :align: center
    :alt: compare-versions.png
 
@@ -1982,7 +1981,7 @@ green is text which has been added to the newer version. You can toggle
 between **inline** or **as code** views of the differences between
 versions.
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/versioncompare-src.png/image_preview
+.. figure:: _static/versioncompare-src.png
    :align: center
    :alt: Comparing Versions (HTML Source)
 
@@ -4269,14 +4268,13 @@ site. For more on Static Text Portlets and an example view the How-to
 Portlets <http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/resolveuid/3698a06fc5f57d6f9bd6eaf1824f5cc8>`_.
 
 .. |plone-default-design-areas.png| image:: _static/plone-default-design-areas.png
-.. |Events summary
-table| image:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/events-summary-chart.jpg/image_preview
-.. |lights-camera-action.png| image:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/lights-camera-action.png
-.. |image3| image:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/lights-camera-action.png
-.. |image4| image:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/addevent.png
-.. |image5| image:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/lights-camera-action.png
-.. |image6| image:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/lights-camera-action.png
-.. |null| image:: http://plone.org/documentation/manual/plone-4-user-manual/adding-content/ownershipsettings.png
+.. |Events summary table| image:: _static/events-summary-chart.jpg/image_preview
+.. |lights-camera-action.png| image:: _static/lights-camera-action.png
+.. |image3| image:: _static/lights-camera-action.png
+.. |image4| image:: _static/addevent.png
+.. |image5| image:: _static/lights-camera-action.png
+.. |image6| image:: _static/lights-camera-action.png
+.. |null| image:: _static/ownershipsettings.png
 .. |image8| image:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/lights-camera-action.png
 .. |image9| image:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/folderviewtabular.png
 .. |image10| image:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/lights-camera-action.png
@@ -4295,7 +4293,5 @@ table| image:: http://plone.org/documentation/manual/plone-4-user-manual/adding-
 .. |image23| image:: http://plone.org/documentation/manual/plone-3-user-manual/adding-content/tableediting.png
 .. |image24| image:: http://plone.org/documentation/manual/plone-4-user-manual/collaboration-and-workflow/lightscameraaction.png
 .. |image25| image:: http://plone.org/documentation/manual/plone-4-user-manual/collaboration-and-workflow/07b.png
-.. |Portlet manage
-link| image:: http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/copy_of_manage_portlets_button.png/image_preview
-.. |Manage
-portlets| image:: http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/manage_portlets.png/image_preview
+.. |Portlet manage link| image:: http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/copy_of_manage_portlets_button.png/image_preview
+.. |Manage portlets| image:: http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/manage_portlets.png/image_preview
