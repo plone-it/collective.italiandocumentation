@@ -1,142 +1,3 @@
-1.3. Plone User Accounts and Roles
-==================================
-
-The basics of using a Plone web site account, the distinction between
-anonymous surfing and "logged in" web site work, and the description of
-user roles.
-
-Plone web sites come in many flavors, ranging from personal websites
-with one user to community, organization, or business websites that
-could have hundreds of users. Each person who adds content to a Plone
-web site has their own user account. A user account includes a user name
-and a password. Some Plone sites allow people to sign up by visiting the
-site, clicking a **Join** link, and filling out basic user information.
-Other sites have user accounts that are created by web site
-administrators, in which case people normally receive emails with the
-user account details.
-
-However created, a Plone user account allows a person to log in by
-typing their user name and password. Passwords are case-sensitive, which
-means that you have to pay attention to the uppercase and lowercase
-letters. For example, if your password is xcFGt6v, you would have to
-type that exactly for it to work. Passwords that have a variety of
-characters in them are preferred over passwords like "raccoon" or
-"boardwalk," as they are more difficult to guess and therefore more
-secure.
-
-Anonymous vs Authenticated Web Surfing
---------------------------------------
-
-The distinction between *anonymous web surfing* and *authenticated
-(logged-in) web activity* is an important one:
-
-Anonymous Web Surfing
-~~~~~~~~~~~~~~~~~~~~~
-
-This is the normal experience for a person surfing the web. You type the
-web address of a web site into your browser and you look at web pages,
-watch videos, view images, but you don't have to log in. This is why
-this mode is called anonymous: anyone can do it just by surfing
-normally. Note the presence of the *log in* link the screen image below
-(top right). If there is a *log in* link showing, you haven't logged in
--- and you are surfing the web site anonymously, as seen in the
-following screen capture of a new Plone web site:
-
-.. figure:: _static/plonemain3.0anon.png
-   :align: center
-   :alt: 
-
-Authenticated (Logged-in) Web Activity
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-You know the *authenticated* mode of web experience if you have ever
-used a bank or credit card website, or any other website that involved a
-user account. A bank web site will let you view your account
-information, fill out information forms, transfer funds, and do other
-actions, but only after you have logged in. A Plone web site is not much
-different, except that you can do more sophisticated things. Compare the
-screen image below, captured after a user called "John Smith" has logged
-in. Near the top right you see links for John Smith's name and a log out
-link. There is another important difference you see after logging in --
-the main area in the middle now has a green header strip with tabs. This
-sort of header strip is present when a user has rights to change an area
-of the website. John Smith has the user rights to change this main area.
-The tabs in the green header strip for the main area will vary somewhat,
-but you can count on it looking like a tabbed interface with this
-particular green color. In the following screen capture, user John Smith
-has logged into a new Plone web site:
-
-.. figure:: _static/plonemain3.0loggedin.png
-   :align: center
-   :alt: 
-
-User Roles
-----------
-
-Equally important is the distinction between different user roles on a
-Plone web site. To illustrate the simplest case, let's consider two user
-roles, one called *member* and the other called *manager*. Consider the
-different rights or "power" of these two roles:
-
-Member
-~~~~~~
-
--  has a user account, so can log in
--  can add content, but only in specific areas, and can't change
-   anything outside of this area; often users are given a "home area,"
-   to treat as personal space where they can add content.
--  can not publish content so that it is visible to the anonymous web
-   surfer, even content which they added; a person with manager role
-   must approve content for publishing
-
-Manager
-~~~~~~~
-
--  has a user account, so can log in
--  can add content anywhere and has the power to change anything
--  can publish any content
-
-When you get your new account on a Plone web site, you should be given
-information indicating where you have the right to add content, after
-you have logged in. After logging in, if you go to a folder where you
-have rights, you'll see a header strip that has a green color with tabs
-for *contents*, *view*, *edit*, rules**, and *sharing*:
-
-.. figure:: _static/editstriptabs.png
-   :align: center
-   :alt: 
-
-You'll be able to explore to find the differences between these tabs,
-but here are descriptions to help you start:
-
--  *Contents* - shows a list of items in a folder
--  *View* - shows the view an anonymous web surfer would see
--  *Edit* - shows a panel for changing a view
--  *Rules* - shows a panel for controlling how an item is created and
-   managed
--  *Sharing* - shows a panel for setting rights of other users to see or
-   edit content
-
-You also see menus in the lower part of the green header strip,
-*Display, Add new..., and State*:
-
-.. figure:: _static/editstripmenus.png
-   :align: center
-   :alt: 
-
-Explore these also. Here are basic descriptions of these menus:
-
--  *Display* - shows menu choices for setting the display type (list
-   view, summary view, etc.)
--  *Add new...* - shows menu choices for adding content items (images,
-   pages, folders, etc.)
--  *State* - shows menu choices for setting publication state (private,
-   public draft, public, etc.)
-
-These menus and tabs will offer the main ways you interact with Plone.
-You will become very familiar with them as you learn more about managing
-a Plone-powered website.
-
 1.4. Logging In
 ===============
 
@@ -151,6 +12,7 @@ top-right corner like this:
    :alt: log-in.png
 
    log-in.png
+
 After clicking the *log in* link, you'll see an input panel where you
 can type in your user name and password:
 
@@ -169,7 +31,7 @@ the Security settings control panel. The effect is that on the
 registration form no field is shown for the user name. On the login form
 the user is now asked to fill in an email address. See `E-mail address
 based login in the Upgrade
-Guid <http://plone.org/documentation/manual/upgrade-guide/version/upgrading-plone-3-x-to-4.0/e-mail-address-based-login>`_e
+Guid <http://plone.org/documentation/manual/upgrade-guide/version/upgrading-plone-3-x-to-4.0/e-mail-address-based-login>`_
 for more info about this feature.
 
 1.5. Setting Your Preferences
@@ -212,7 +74,7 @@ Date entry fields include:
 -  *E-mail address* - REQUIRED - You may receive emails from the web
    site system, or from a message board, if installed, etc. When an item
    is required, a little red square will show alongside the item.
--  *Location*text box**- This is the name of your city, town, state,
+-  *Location*text box** - This is the name of your city, town, state,
    province, or whatever you wish to provide*.
    *
 -  *Language preference* selection menu - Plone excels at offering
@@ -310,19 +172,18 @@ New content items are added via the **Add New . . .** drop-down menu:
    :alt: add-new-menu.png
 
    add-new-menu.png
+
 Adding content in Plone is done *placefully,*which is to say that you
 must navigate to the section of your Plone website that you wish the new
 content to reside before you use the **Add New . . .** drop-down menu.
 You can of course cut, copy, and paste content items from one section to
 another if necessary.
 
-Â
-
 Content Types
 -------------
 
-In Plone, you can use a number of**Content Types** to post certain kinds
-of content. For example, to upload an image you must use the**Image**
+In Plone, you can use a number of **Content Types** to post certain kinds
+of content. For example, to upload an image you must use the **Image**
 content type. Below is a list of the available content types in order of
 their appearance, and what each are used for:
 
@@ -337,11 +198,11 @@ Event
     visitor to add the event to their desktop calendar with either the
     iCal or vCal standard. This includes applications such as: Google
     Calendar, Outlook, Sunbird and others.
-     To add a single event to your calendar, click on the vCal or iCal
+    To add a single event to your calendar, click on the vCal or iCal
     links next to the "Add event to calendar" text in the main view of
     the event item.
     |Events summary table|
-     From Plone 3.3 on you can also get all the events in a folder in
+    From Plone 3.3 on you can also get all the events in a folder in
     one go (currently only available in iCal format). To download the
     iCal file, append *@@ics\_view* to the end of the URL of the folder
     that contains the events. For example, if you want to get all the
@@ -377,14 +238,12 @@ Page
     Use Pages to write the bulk of your web pages on your Plone website.
 
 Note: Depending on what add-on products you have installed, you may see
-more options in your **Add New . . .**drop-down menu than appear here.
+more options in your **Add New . . .** drop-down menu than appear here.
 For information about those additional content types, refer to the
 Product documentation for the add-on in question.
 
-Â
-
 Title
-~~~~~
+-----
 
 Nearly all content types in Plone have two fields in common: **Title**
 and **Description.**
@@ -416,10 +275,8 @@ The fields will vary according to the content type. For instance, the
 Link content type has the URL field. The File content type has the File
 field, and so on.
 
-Â
-
 Description
-~~~~~~~~~~~
+-----------
 
 The **Description** appears at the top of pages, just under the Title.
 Descriptions are often used to conjunction with a variety of Folder and
@@ -447,6 +304,7 @@ Folders are added by clicking the **Add new...** drop-down menu. Select
    :alt: add-item-menu-folder.png
 
    add-item-menu-folder.png
+
 You should now see the *Add Folder* screen:
 
 .. figure:: _static/addfolder.png
@@ -580,13 +438,11 @@ little work on your local computer, but is essential, because
 photographs, maps, and custom graphics are so important on web sites.
 
 **`Preparing Images for the
-Web <http://plone.org/documentation/manual/plone-4-user-manual/adding-content/preparing-images-for-the-web>`_
-**
+Web <http://plone.org/documentation/manual/plone-4-user-manual/adding-content/preparing-images-for-the-web>`_**
 
 **Remember to use web-standard file formats for all images. Acceptable
 formats include: JPG, JPEG, GIF, and PNG. Do not use BMP or TIFF formats
-as these are not widely supported by web browsers.
-**
+as these are not widely supported by web browsers.**
 
 When you are ready to upload an image, use the *Add new...* drop-down
 menu (You will only see the *Add new...* menu after logging in):
@@ -596,6 +452,7 @@ menu (You will only see the *Add new...* menu after logging in):
    :alt: add-item-menu-image.png
 
    add-item-menu-image.png
+
 After clicking to add an **Image**, you'll see the *Add Image* panel:
 
 .. figure:: _static/addimage.png
@@ -603,6 +460,7 @@ After clicking to add an **Image**, you'll see the *Add Image* panel:
    :alt: add-image.png
 
    add-image.png
+
 The Title and Description fields (field, as in "data input field") are
 there, as with adding a Folder, and at the bottom there is a place to
 upload an image. Let's look at the three input fields individually:
@@ -681,6 +539,7 @@ Choose file in the *Add new...* menu for a folder to upload a file:
    :alt: add-new-menu.png
 
    add-new-menu.png
+
 You will see the *Add File* panel:
 
 .. figure:: _static/addfile.png
@@ -689,7 +548,7 @@ You will see the *Add File* panel:
 
 Click the *Browse* button to navigate to the file you want to upload
 from your local computer. Provide a title (you can use the same file
-name used on your local computer if you want). Provide a *description***
+name used on your local computer if you want). Provide a *description*
 if you want. When you click the save button the file will be uploaded to
 the folder.
 
@@ -724,6 +583,7 @@ folder:
    :alt: add-new-menu.png
 
    add-new-menu.png
+
 You will see the Add*Link* panel:
 
 .. figure:: _static/addlink.png
@@ -740,7 +600,7 @@ browser window where you are viewing the target for the link to be sure
 you have the address correct.
 
 The Link Object in Use
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 A link object will behave in the following ways, depending on your login
 status, or permissions.
@@ -768,6 +628,7 @@ Use the *Add new...* menu for a folder to add an event:
    :alt: add-new-menu.png
 
    add-new-menu.png
+
 You will see rather large *Add Event* panel:
 
 |image4|
@@ -832,6 +693,7 @@ Use the *Add new...* menu for a folder to add a news item:
    :alt: add-new-menu.png
 
    add-new-menu.png
+
 You will see the *Add News Item* panel:
 
 .. figure:: _static/addnewsitem.png
@@ -874,6 +736,7 @@ will show a set of tabs at the top for setting basic properties:
    :alt: null
 
    null
+
 These basic properties tabs are:
 
 -  *Default* - shows the main data entry panel for the content item
@@ -930,6 +793,7 @@ set them:
    :alt: null
 
    null
+
 The publication and expiration dates work like this:
 
 -  When an item is past its expiration date, it's marked "expired" in
@@ -973,8 +837,9 @@ and other similar controls:
    :alt: null
 
    null
+
 Recommendations
-~~~~~~~~~~~~~~~
+---------------
 
 There is no requirement to enter the information specified through these
 panels, but it is a good idea to do so. For the *Ownership* panel,
@@ -995,7 +860,7 @@ able to put your finger on what you need, and you may be able to
 discover and use relationships within the content.
 
 Exposing Metadata Properties as meta tags in the HTML source
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------
 
 From Plone 4 on, in *Site Setup â†’ Site*, there is a check box that
 will expose the Dublin Core metadata properties. Checking this box will
@@ -1043,6 +908,7 @@ First, select the last choice in the *Add new...* menu called
    :alt: add-new-menu.png
 
    add-new-menu.png
+
 There are three choices shown for restricting types in the folder:
 
 .. figure:: _static/restricttypes.png
@@ -1159,7 +1025,7 @@ Cut, copy, and paste operations involve moving one or more items from
 one folder to another.
 
 Cut/Paste
-~~~~~~~~~
+---------
 
 Moving items from one area to another on a website is a common task.
 Often this need arises with placement of content in the wrong folder.
@@ -1168,7 +1034,7 @@ butterflies realizes that a Swallowtail butterfly was mistakenly
 included -- the Eastern Tiger Swallowtail folder shown below -- the
 folder can simply be moved with a *cut*/*paste* operation:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/copy_of_operationcut.png
+.. figure:: _static/copy_of_operationcut.png
    :align: center
    :alt: 
 
@@ -1181,21 +1047,21 @@ disappear, however, awaiting the actual *paste* operation. The *paste*
 button is now highlighted to show the cut/paste operation is in
 progress:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/operationpaste.png
+.. figure:: _static/operationpaste.png
    :align: center
    :alt: 
 
 The *paste* button is now active. The next step is to navigate to the
 destination folder, in this case the Swallowtails folder:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/copy_of_operationpaste2.png
+.. figure:: _static/copy_of_operationpaste2.png
    :align: center
    :alt: 
 
 After clicking the Swallowtails folder, the *paste* button will continue
 to show, because the paste operation has not yet been completed:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/operationpaste3.png
+.. figure:: _static/operationpaste3.png
    :align: center
    :alt: 
 
@@ -1204,7 +1070,7 @@ the Eastern Tiger Swallowtail folder to its proper place in the
 Swallowtails folder, and cuts it from the original location, the
 Skippers folder, and the *cut*/*paste* operation is complete:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/operationpaste4.png
+.. figure:: _static/operationpaste4.png
    :align: center
    :alt: 
 
@@ -1215,7 +1081,7 @@ for example, as a kind of template or basis document, into several
 folders.
 
 Copy/Paste
-~~~~~~~~~~
+----------
 
 A *copy*/*paste* operation is identical to the *cut*/*paste* operation,
 except that there is no removal of content from the original folder. It
@@ -1252,7 +1118,7 @@ the descriptions of Plone content items as simple as possible.
 Here is the *Edit* panel for a folder, in this case, one called
 "Butterflies":
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/edititemfolder.png
+.. figure:: _static/edititemfolder.png
    :align: center
    :alt: 
 
@@ -1272,7 +1138,7 @@ Image can be done by navigating to an individual image and clicking the
 *Edit* tab. Clicking the *Edit* tab for the image, you will see the
 following *Edit Image* panel:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/editimage.png
+.. figure:: _static/editimage.png
    :align: center
    :alt: 
 
@@ -1286,7 +1152,7 @@ simply delete the image entirely.
 Notice also the *Transform* tab at the top, which pertains specifically
 to images, offering a choice of several image transforms:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/transformimage.png
+.. figure:: _static/transformimage.png
    :align: center
    :alt: 
 
@@ -1297,7 +1163,7 @@ Editing panels for other content items are also usually just like the
 panels for adding.
 
 Inline Editing (*optional*)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
     Inline editing is disabled by default in the latest versions of
     Plone (3.3+). It can be enabled through the control panel by a Site
@@ -1314,21 +1180,21 @@ will outline the editable text. In the following screen capture, the
 mouse cursor is *not* over editable text, so you see the page title and
 body text as normal:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/inlineeditingoff.png
+.. figure:: _static/inlineeditingoff.png
    :align: center
    :alt: 
 
 But when the mouse is moved over the body text, a box highlights the
 body text as editable:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/inlineeditingbodytext1.png
+.. figure:: _static/inlineeditingbodytext1.png
    :align: center
    :alt: 
 
 Clicking within the body text after the inline editing box has appeared
 will bring up the visual editor:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/inlineeditingbodytext2.png
+.. figure:: _static/inlineeditingbodytext2.png
    :align: center
    :alt: 
 
@@ -1340,14 +1206,14 @@ the page.
 If the mouse is moved over the title, also editable, an inline editing
 box appears:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/inlineeditingtitle1.png
+.. figure:: _static/inlineeditingtitle1.png
    :align: center
    :alt: 
 
 Clicking the title after the box appears will activate a very simple
 editing field with a Save/Cancel choice:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/inlineeditingtitle2.png
+.. figure:: _static/inlineeditingtitle2.png
    :align: center
    :alt: 
 
@@ -1378,6 +1244,7 @@ shown:
    :alt: folder-view-standard.png
 
    folder-view-standard.png
+
 The *View* is always how a content item would show for anonymous web
 site visitors. Click the *View tab* when you want to see what a content
 item looks like after you have changed something. For folders, you will
@@ -1385,7 +1252,7 @@ see a listing of contained content items, in one of several list
 presentations, selected via the *display* pull-down menu. The default
 view is called *standard view*:
 
-.. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/folderdisplaymenu.png
+.. figure:: _static/folderdisplaymenu.png
    :align: center
    :alt: 
 
@@ -1454,14 +1321,15 @@ The Contents tab for folders is like "File Manager" or "My Computer"
 system utilities in Windows and Linux desktops and the "Finder" in Mac
 OS X, with similar functionality.
 
-Clicking the *Contents*tab for a folder, such as the "Skippers" folder
-below, shows the *Contents*tab panel:
+Clicking the *Contents* tab for a folder, such as the "Skippers" folder
+below, shows the *Contents* tab panel:
 
 .. figure:: http://plone.org/documentation/manual/plone-4-user-manual/managing-content/foldercontents.png/image_large
    :align: center
    :alt: folder-contents.png
 
    folder-contents.png
+
 The *Contents* tab panel is immediately recognized by observing the
 check boxes beside the items in the contents list. Click these check
 boxes to select multiple items for performing *copy*, *cut*, *rename*,
@@ -1488,6 +1356,7 @@ following example:
    :alt: rename-item.png
 
    rename-item.png
+
 If you were to change the title to "Long-tailed Skippers," you would
 also change the short name to "long-tailed-skippers." This keeps things
 tidy -- it keeps them correct, so that the URL for the item, the web
@@ -1552,6 +1421,7 @@ the "double-colon" symbols) and drag the row to the desired position:
    :alt: Example of Reordering
 
    Example of Reordering
+
 Dragging and dropping is done by holding the mouse button down as you
 move the item. The item that is being moved turns yellow as it is being
 moved:
@@ -1663,8 +1533,8 @@ edits*.
 An overview on how to view the version history of an item, compare
 versions, preview previous versions and revert to previous versions.
 
-**Creating a new version**
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Creating a new version
+--------------------------
 
 Plone includes a versioning feature. By default, the following content
 types have versioning enabled:
@@ -1688,7 +1558,7 @@ A new version is created every time the item is saved. Versioning keeps
 track of all kinds of edits: content, metadata, settings, etc.
 
 Viewing the version history
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 Once an item as been saved, you can use the **History** link found near
 the top of the page. Simply click it to show the History overlay:
@@ -1704,7 +1574,7 @@ the following information:
 -  What date and time the edit occurred
 
 Comparing versions
-~~~~~~~~~~~~~~~~~~
+------------------
 
 From the History viewlet you can compare any previous version with the
 current version or any other version with the version just before it.
@@ -1718,6 +1588,7 @@ overlay.
    :alt: compare-button.png
 
    compare-button.png
+
 By clicking this button, you'll see a screen like this one where you can
 see the differences between the two versions:
 
@@ -1726,6 +1597,7 @@ see the differences between the two versions:
    :alt: compare-versions.png
 
    compare-versions.png
+
 In this example, text in red is text which has been deleted and text in
 green is text which has been added to the newer version. You can toggle
 between **inline** or **as code** views of the differences between
@@ -1736,12 +1608,13 @@ versions.
    :alt: Comparing Versions (HTML Source)
 
    Comparing Versions (HTML Source)
+
 You may also compare any previous version to the *current* version by
 clicking the *Compare to current* link History overlay, found to the far
 right of each version listed.
 
 Viewing and reverting to previous versions 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 **You can preview any previous version** of a document by clicking the
 *View* link to the right of any version listed.`
@@ -1751,8 +1624,7 @@ Viewing and reverting to previous versions
 revision* button to the right of any version listed.`
  <http://plone.org/documentation/manual/plone-4-user-manual/versionpreview2.png>`_
 
-`
- <http://plone.org/documentation/manual/plone-4-user-manual/managing-content/versionrevert.png>`_
+`<http://plone.org/documentation/manual/plone-4-user-manual/managing-content/versionrevert.png>`_
 
 3.10. Presentation Mode
 =======================
@@ -1767,7 +1639,7 @@ Once checked, a link will appear in the view of the page for a user to
 view the page in Presentation Mode.
 
 How to Create Slides
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 All the content for a presentation lives on a single page. You do not
 need to create a page for each slide. A slide is created when you use
@@ -1779,7 +1651,7 @@ more Heading (h1) tags to your page and the content between that h1 tag
 and the next h1 tag becomes the content of your slide.
 
 How to Format a Slide
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 It is very important to note that the **Normal Paragraph style will not
 render any content in the slide**. Slides are meant to display summary
@@ -1809,7 +1681,7 @@ menu, you will need to contact your site manager and request that
 "Working Copy Support (Iterate)" be installed.**
 
 Overview
-~~~~~~~~
+--------
 
 You might have been in a situation like this before: you have published
 a document, and you need to update it extensively, but you want the old
@@ -1827,7 +1699,7 @@ one in the exact same location and web address â€” and archive the old
 version as part of the document's version history.
 
 Using "Check out"
-~~~~~~~~~~~~~~~~~
+-----------------
 
 First, navigate to the page you want check out. Then from the "Actions"
 drop-down menu, select "Check out":
@@ -1852,7 +1724,7 @@ subsequently lost from) the published version while you edit your copy.
    :alt: 
 
 Using "Check in"
-~~~~~~~~~~~~~~~~
+----------------
 
 When you are ready to have your edited copy replace the published one,
 simply choose "Check-in" from the "Actions" drop-down menu:
@@ -1884,7 +1756,7 @@ do so, however, don't panic. Just go back to your working copy and use
 "Check in" from the "Actions" menu.
 
 Canceling a "Check out"
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 
 If for any reason it becomes necessary to cancel a check out and **you
 don't want to save any of your changes**, simply navigate to the working
@@ -1991,7 +1863,7 @@ text
 Subheading
 
 text
-~~~~
+----
 
 Literal
 
@@ -2526,6 +2398,7 @@ A typical Kupu toolbar looks like this:
    :alt: kupu-grab
 
    kupu-grab
+
 The text format is normally left with the HTML setting, but some sites
 offer structured text or other markup languages for editing pages.
 
@@ -2554,7 +2427,7 @@ The icons are:
 -  pulldown menu for text styling.
 
 Images
-~~~~~~
+------
 
 Place your cursor within the text of a page, then click the "tree" icon.
 This panel will pop up:
@@ -2589,7 +2462,7 @@ your upload or edit the image with the "tree" icon. You can also
 override the image size choice by editing the HTML.
 
 Internal Links
-~~~~~~~~~~~~~~
+--------------
 
 Select a word or phrase, click the *internal link* icon, and the *insert
 link* panel will appear:
@@ -2606,7 +2479,7 @@ link to the "Long-tailed Skippers" page will be set for the word or
 phrase selected for the link.
 
 External Links
-~~~~~~~~~~~~~~
+--------------
 
 Select a word or phrase, click the *external link* icon, and the
 External link panel will appear:
@@ -2622,7 +2495,7 @@ at the beginning of the address. Then click *ok*. The external link will
 be set to the word or phrase you selected.
 
 Anchors
-~~~~~~~
+-------
 
 Anchors are like position markers within a document, based on headings,
 subheadings, or another style set within the document. As an example,
@@ -2667,7 +2540,7 @@ styles within the document, and coming up with clever mixes. This
 functionality is especially important for large documents.
 
 Tables
-~~~~~~
+------
 
 Tables are handy for tabular data and lists. To add a table, put your
 cursor where you want it and click the *add table* icon. You'll see the
@@ -2735,7 +2608,7 @@ cell. Clicking the little arrowhead icons will add a row above or below,
 or a column to the left or right of the current cell.
 
 Text Styling
-~~~~~~~~~~~~
+------------
 
 The text style setting is made with a pulldown menu. Here are the
 choices:
@@ -2756,7 +2629,7 @@ text
 Subheading
 
 text
-~~~~
+----
 
 Literal
 
@@ -2789,7 +2662,7 @@ paragraph with your mouse, then choose one of the style choices from the
 pulldown menu and you will see the change immediately.
 
 Saving
-~~~~~~
+------
 
 Click the Save button at the very bottom and your changes will be
 committed for the page.
@@ -2797,7 +2670,7 @@ committed for the page.
 -----------
 
 Footnotes
-~~~~~~~~~
+---------
 
 **Markup languages**
 
@@ -2906,6 +2779,7 @@ The *state* menu has an *advanced*... item:
    :alt: state-menu.png
 
    state-menu.png
+
 which brings up the *advanced* state panel:
 
 .. figure:: http://plone.org/documentation/manual/plone-4-user-manual/collaboration-and-workflow/stateadvanced.png
@@ -3032,7 +2906,7 @@ The Sharing tab empowers you collaborate with other users through the
 use of several built-in roles.
 
 Example 1: Letting others add content to a folder you created
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------
 
 In this example, Jane Smythe has full access to her Plone site. She can
 add, edit, delete and publish content anywhere in the site. For now, she
@@ -3158,7 +3032,7 @@ George submits the page for review before actually doing anything
 further with this page.
 
 Example 2: Letting others edit content you created
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------
 
 Both Jane and George have been hard at work creating pages in the
 Documentation folder. **Jane has published the Documentation folder and
@@ -3177,6 +3051,7 @@ returns to the "Documentation" folder and clicks on the *Sharing* tab:
    :alt: sharing10.png
 
    sharing10.png
+
 From here she only needs to tick the "Can edit" check box and George
 will be able to edit all the content in the "Documentation" folder --
 including the "Documentation" folder itself. When George next visits the
@@ -3188,6 +3063,7 @@ created), this is what he sees:
    :alt: sharing11.png
 
    sharing11.png
+
 So now George can edit any item in the "Documentation" folder regardless
 of who created it or when.
 
@@ -3202,6 +3078,7 @@ document.
    :alt: sharing12.png
 
    sharing12.png
+
 Now when Molly goes to the "Documentation" folder, she can see the two
 published items and the private item that she is now allowed to edit:
 
@@ -3210,6 +3087,7 @@ published items and the private item that she is now allowed to edit:
    :alt: sharing13.png
 
    sharing13.png
+
 And, in fact, when she clicks on the "Widget Installation" document, she
 is able to edit it:
 
@@ -3218,6 +3096,7 @@ is able to edit it:
    :alt: sharing13b.png
 
    sharing13b.png
+
 Notice, however, when she clicks on either of the two items she isn't
 allowed to edit, she doesn't have any additional access. She can view
 these two items because they are published and in the default Plone
@@ -3228,6 +3107,7 @@ workflow (meaning that anyone can view them).
    :alt: sharing13c.png
 
    sharing13c.png
+
 One final note on this example: if the "Documentation" folder was not in
 the published state OR Molly had not been given any other permissions
 (for example, "Can view" on the Documentation folder), then Molly would
@@ -3299,6 +3179,7 @@ content types:
    :alt: p4\_addnewmenu
 
    p4\_addnewmenu
+
 You will see the Add*Collection*panel:
 
 .. figure:: http://plone.org/documentation/manual/plone-4-user-manual/using-collections/copy_of_p4_addcollection.png/image_large
@@ -3306,6 +3187,7 @@ You will see the Add*Collection*panel:
    :alt: p4\_addcollection2
 
    p4\_addcollection2
+
 Below the title and description fields is a set of fields for specifying
 the format of search results returned by the search criterion for the
 new collection. The four fields in the panel above are in pairs. The top
@@ -3314,7 +3196,7 @@ will be displayed. The bottom two fields let you control the order of
 the search result items.
 
 Setting the search criterion
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 After setting the display configuration in the edit panel shown above,
 click the criteria tab to show the panel for setting search criteria:
@@ -3324,6 +3206,7 @@ click the criteria tab to show the panel for setting search criteria:
    :alt: p4\_collectionssearchcrit1 2
 
    p4\_collectionssearchcrit1 2
+
 The top area of the panel, *Add New Search Criteria*, lets you set a
 field and a matching criterion. The bottom area, *Set Sort Order*, is a
 simple selection for a field to sort on:
@@ -3333,6 +3216,7 @@ simple selection for a field to sort on:
    :alt: p4\_collectionssearchcrit2 2
 
    p4\_collectionssearchcrit2 2
+
 The criteria types for matching data in content items depend on which
 field is selected.
 
@@ -3362,7 +3246,7 @@ Learn how display settings can change the look of your Collection page
 While the main power of Collections lies in Criteria, the display
 settings can make a big difference in the way your Collection will
 appear. All three of the settings we will cover in this section can be
-found by clicking the **Edit tab**of a Collection.
+found by clicking the **Edit tab** of a Collection.
 
 **Inherit Criteria**
 
@@ -3372,11 +3256,12 @@ using Sub Collections. If this is checked, you can create another
 Collection that is more specific than the Parent while still retaining
 the basic criteria of the Parent. A simple example might be a Parent
 Collection for displaying all Events in a site, and a Sub Collection
-that also displays Events (by inheriting Criteria) *but only*those
+that also displays Events (by inheriting Criteria) *but only* those
 Events with a particular keyword.
 
-**Limit Search Results
-**We can use Limit Search Results to limit the number of results that
+**Limit Search Results**
+
+We can use Limit Search Results to limit the number of results that
 are Collection will display *per page*. This way if we have a Collection
 that is displaying News Items, we can limit the results to five or ten,
 instead of having it show all News Items on a single, large list.
@@ -3385,7 +3270,7 @@ instead of having it show all News Items on a single, large list.
 
 Display as a Table is simply another way to display the results of a
 Collection. Instead of having the Collection spit out the results in a
-list form, we can have it **generate a table**with the results, and set
+list form, we can have it **generate a table** with the results, and set
 exactly what information about the results we want displayed. We
 customize the table by selecting the **Table Columns** from the left and
 clicking the right arrow button to move it over to the right. In the
@@ -3419,7 +3304,7 @@ Collections in several useful ways. In this section, we will use
 examples to illustrate the many ways of using Criteria.
 
 **Categories**
-~~~~~~~~~~~~~~
+--------------
 
 The Category criterion allows you to search the **Category field** of
 objects. For this to work you must specify Categories for the content
@@ -3427,7 +3312,7 @@ objects ahead of time (this is done through the Categorization tab on
 content objects). An example where you could use this is you want to
 create a Collection that would display all objects relating to the
 Category *Organization*. As you can see in the image below, we are able
-to select the value *Organization*for our criterion. Then, by saving
+to select the value *Organization* for our criterion. Then, by saving
 this criterion and viewing our Collection, the results would be all
 content objects we had designated with the Category *Organization*.
 
@@ -3435,9 +3320,7 @@ Once again the values available to you are completely dependent on what
 you have specified on your objects in the Categorization tab.
 
 **Creator**
-~~~~~~~~~~~
-
-****
+-----------
 
 When using the Creator criterion, we are **filtering objects based on
 who created them**. This might be useful if you want to do a featured
@@ -3453,23 +3336,17 @@ use the **List of Values** option. Otherwise you would normally use the
 Text option unless the creator you wanted to select was yourself in
 which case you would use Restrict to Current User.
 
-**
-**
-
 **Description**
-~~~~~~~~~~~~~~~
+---------------
 
-The Description field is essentially a **search box type**criterion.
+The Description field is essentially a **search box type** criterion.
 However, instead of searching the title and body of a page, it will
 **only search for the text in the Description field** of a content
-object.Â This criterion is only really useful if you fill out the
+object. This criterion is only really useful if you fill out the
 Description field consistently for all your content objects.
 
-**
-**
-
 **Location**
-~~~~~~~~~~~~
+------------
 
 Using the Location criterionis much like specifying a location when you
 search for a document on your hard drive. By specifying a Location
@@ -3487,11 +3364,10 @@ click the InsertÂ button next to the About Us folder.
 You can open folders to view content contained within them either by
 clicking the Browse button or directly on the title of the folder you
 want to open. You may also use the Search box to search for the Title of
-an object. **
-**
+an object.
 
 **Search Text**
-~~~~~~~~~~~~~~~
+---------------
 
 The Search Text is a very useful criterion. It is similar to the search
 box on your site or an Internet search engine. It takes the text you
@@ -3506,7 +3382,7 @@ Videos, Glossary items, etc with *collections* in the Title,
 Description, or Body would then appear in the Collection results.
 
 **Related To**
-~~~~~~~~~~~~~~
+--------------
 
 The Related To field is another field, like Category, that **must be
 specified on a content object prior to being used for a Collection**.
@@ -3529,11 +3405,10 @@ us everything that is related to the History page.
 Keep in mind that the Related To Values list does not work based on
 which objects are related to content but on which objects have another
 object related **to it**. The Collection will display the results that
-are related to that value.**
-**
+are related to that value.
 
 **State**
-~~~~~~~~~
+---------
 
 Using the State criterion is very simple. It allows us to **sort by
 published or private** state. It is a very good idea to restrict
@@ -3544,7 +3419,7 @@ might want to quickly see private content, so that they could determine
 what work needs to be done and what could deleted.
 
 **Dates**
-~~~~~~~~~
+---------
 
 You may have noticed that there are **several different dates
 available** to use as Criteria. Since there are such a large number of
@@ -3568,13 +3443,13 @@ check box is selected. By checking this we can display in reverse order,
 or newest dates first, etc.
 
 **Date****s**
-~~~~~~~~~~~~~
+-------------
 
 There are numerous Date options which will be explained in the next
 section of the manual.
 
 Object Properties
-~~~~~~~~~~~~~~~~~
+-----------------
 
 **Item Type**
 
@@ -3606,7 +3481,7 @@ Collection. It limits to the results to only those that have Related To
 information Specified on their properties.
 
 Text
-~~~~
+----
 
 **Short Name**
 
@@ -3627,8 +3502,9 @@ by Bob Baker and several of other documents published by Jane Smith.
 Sorting by the creator would result in all the documents created by Bob
 Baker listed first followed by those of Jane Smith.
 
-**Title
-**Sorting by Title will display the results in alphabetical order, by
+**Title**
+
+Sorting by Title will display the results in alphabetical order, by
 the object Titles.
 
 Next we will cover the Dates that we skipped over in this section as
@@ -3688,9 +3564,9 @@ homepage of LearnPlone.Org uses Modification Date as its date criterion.
 That way both newly created documents *and* ones that have been updated
 appear in the listing.
 
-**Event Specific Dates
-**The two following dates **only**apply to objects that
-are**Events.**These two dates are very effective for creating Recent
+**Event Specific Dates**
+The two following dates **only** apply to objects that
+are **Events.** These two dates are very effective for creating Recent
 Events and Upcoming Events Collections that will let your audience know
 what your organization is doing and will be doing in the future.
 
@@ -3731,7 +3607,7 @@ updating themselves, such as a Recent News Collections or an Upcoming
 Event Section.
 
 Relative Date
-~~~~~~~~~~~~~
+-------------
 
 Looking first at the Relative Date option, you can see we have three
 options to fill out.
@@ -3746,10 +3622,10 @@ choose whether we are looking forward or backward into time.
 
 The last option is **More or Less**. Here we can choose from three
 options. *Less than* allows us to include everything from now to a
-period of time equal to or less than the **Which Day**setting, either in
+period of time equal to or less than the **Which Day** setting, either in
 the past or future. *More than* will include everything from beyond our
 specified number of days equal to or more than **Which Day**. Finally
-*On the Day*will only include things that are on the day we specified in
+*On the Day* will only include things that are on the day we specified in
 the **Which Day**. Using the example in the image above if we had
 selected *On the Day* instead of *Less than* our Collection would
 display only objects that were modified (we are using the Modification
@@ -3762,7 +3638,7 @@ example in the image above would become "I want the results to include
 objects **Less than** **5 days in the past**".
 
 Date Range
-~~~~~~~~~~
+----------
 
 The **Date Range** is much easier to understand. Both a Start Date and
 End Date are required (do not confuse these terms with the Event
@@ -3800,6 +3676,7 @@ screen:
    :alt: Blocked portlets in management
 
    Blocked portlets in management
+
 In this diagram, our Portlets are designated in blue underneath the Page
 title:
 
@@ -3843,7 +3720,7 @@ Portlets, you can create new Portlets, remove Portlets, rename and
 rearrange Portlets.
 
 |Portlet manage link|
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 Clicking on this link will take us to a new page that will allow us to
 edit the Portlets. The other method of getting to this screen is by
@@ -3853,17 +3730,17 @@ Page, the URL would end up being
 www.myplonesite.org/about/@@manage-portlets.
 
 |Manage portlets|
-~~~~~~~~~~~~~~~~~
+-----------------
 
 Adding a Portlet
-~~~~~~~~~~~~~~~~
+----------------
 
 Adding a Portlet is as simple as selecting the **Add Portlet** drop down
 box and clicking on the type of Portlet you would like to add. We will
 cover the different options available in the next section.
 
 Editing an Existing Portlet
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 
 To edit the properties of an existing Portlet, simply click on the name
 of the Portlet. In the example to the left, if we wanted to edit the
@@ -3872,18 +3749,18 @@ Each type of Portlet will have different configuration options available
 to it.
 
 Rearranging Portlets
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 To Rearrange your Portlets, simply click the **blue up or down arrow**.
 This will affect the order your Portlets are displayed on the page.
 
 Removing Portlets
-~~~~~~~~~~~~~~~~~
+-----------------
 
-To remove a Portlet, click the**red "X"**associated with its name.
+To remove a Portlet, click the **red "X"** associated with its name.
 
 Hiding Portlets
-~~~~~~~~~~~~~~~
+---------------
 
 From Plone 4 on you can show/hide portlets using the associated
 show/hide links present.
@@ -3911,9 +3788,9 @@ basic description of the use and functionality of each available Portlet
 type.
 
 Navigation
-~~~~~~~~~~
+-----------
 
-The Navigation Portlet **allows users to navigate your site**with ease
+The Navigation Portlet **allows users to navigate your site** with ease
 by providing a structured "site map", or navigation tree. You have the
 option to display the navigation for the overall site or choose to only
 display the current folder contents. On LearnPlone.Org, you can see an
@@ -3923,7 +3800,7 @@ configuration options available that effect how the Navigation Portlet
 will behave.
 
 Calendar
-~~~~~~~~
+--------
 
 The Calendar Portlet is a very simple Portlet that will display a
 Calendar on your site. This Portlet has no customizable options. If you
@@ -3932,7 +3809,7 @@ they occur will be bolded in the calendar and will link to the
 corresponding events on your site.
 
 Classic
-~~~~~~~
+-------
 
 A Classic Portlet is refers to the way portlets were used in older
 version of Plone, prior to Plone 3. You must create a Page Template in
@@ -3940,7 +3817,7 @@ the ZMI and properly set the path and macro to enable the portlet. This
 requires technical knowledege of both TALES and the ZMI.
 
 Collection
-~~~~~~~~~~
+----------
 
 The Collection Portlet will allow you to **display the results of a
 Collection**. You must have a Collection previously created when you add
@@ -3951,7 +3828,7 @@ Collection Portlet follow this
 `How-to <http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/resolveuid/eb8800b7a664b35d069ddbcae7e4c837>`_.
 
 Events
-~~~~~~
+------
 
 The Events Portlet will **display Upcoming Events**, provided that you
 have Events on your site. You can determine how many events you want to
@@ -3959,7 +3836,7 @@ be displayed and also which events you want to display based on
 publishing state.
 
 Log in
-~~~~~~
+------
 
 The Log in Portlet is another non configurable Portlet that will simply
 **display a Log in Form** that will allow users with Log in information
@@ -3967,7 +3844,7 @@ to log in to the site. Once a user is logged into the site, this Portlet
 will not appear.
 
 News
-~~~~
+----
 
 The News Portlet works exactly like the Events Portlet. However instead
 of displaying Events, it **displays recent News items**. Once again you
@@ -3975,20 +3852,20 @@ can choose how many News items are displayed and filter them based on
 their state.
 
 RSS Feeds
-~~~~~~~~~
+---------
 
 The RSS Feed Portlet allows you to link to an RSS Feed, choose how many
 items to display, and specify the refresh rate.
 
 Recent Items
-~~~~~~~~~~~~
+------------
 
 The Recent Items Portlet displays a customizable **number of Recent
 Items**, listed by Title. A Recent Item is determined by its Last
 Modified Date.
 
 Review List
-~~~~~~~~~~~
+-----------
 
 The Review List Portlet will display a **list of objects that have been
 submitted for review**. If you are using a submit and review cycle (and
@@ -3998,7 +3875,7 @@ Portlet only appears to those logged in as this state is not viewable to
 the public.
 
 Search
-~~~~~~
+------
 
 The Search Portlet will place a search box in your Portlet Column. This
 search box will search the Titles, Descriptions, and Body text of
@@ -4007,7 +3884,7 @@ enabling Live Search. Live Search is a feature which shows live results
 if the browser supports JavaScript.
 
 Static Text
-~~~~~~~~~~~
+-----------
 
 The Static Text Portlet allows you to enter content just as you would on
 a normal Page object. This is useful for adding hyperlink to different
@@ -4040,8 +3917,8 @@ Portlets <http://plone.org/documentation/manual/plone-4-user-manual/portlet-mana
 .. |insert-image-current-folder.png| image:: http://plone.org/documentation/manual/plone-3-user-manual/adding-content/insertimagecurrentfolder.png/image_large
 .. |image21| image:: http://plone.org/arrowUp.gif
 .. |image22| image:: http://plone.org/arrowBlank.gif
-.. |image23| image:: http://plone.org/documentation/manual/plone-3-user-manual/adding-content/tableediting.png
+.. |image23| image:: _static/tableediting.png
 .. |image24| image:: http://plone.org/documentation/manual/plone-4-user-manual/collaboration-and-workflow/lightscameraaction.png
 .. |image25| image:: http://plone.org/documentation/manual/plone-4-user-manual/collaboration-and-workflow/07b.png
 .. |Portlet manage link| image:: http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/copy_of_manage_portlets_button.png/image_preview
-.. |Manage portlets| image:: http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/manage_portlets.png/image_preview
+.. |Manage portlets| image:: _static/manage_portlets.png
