@@ -1,51 +1,50 @@
-Your Dashboard
+La tua Dashboard
 ===================
 
-A Plone user has a personal "dashboard" for customizing the personal
-user interface.
+Ogni utente Plone ha una "dashboard" personale per personalizzare 
+l'interfaccia dell'utente.
 
-Plone has several built-in "views" of news, events, recently changed
-items, and such. These list views are held in discrete rectangular areas
-called portlets. Think of a portlet as a window view of a given type of
-content. For example, the news portlet offers a view of recently
-published news items.
+Plone ha diversi "viste" predefinite per le notizie, gli eventi,
+i documenti modificate recentemente, ecc. Queste liste sono raggruppate
+in aree rettangolari chiamate portlet. Pensa ad una portlet come ad una 
+finestra su un dato tipo di contenuti. Per esempio, la portlet "notizie"
+offre una vista delle notizie pubblicate recentemente.
 
-You control which portlets you view in your dashboard, and where they
-are placed. The following screen capture shows what user Elizabeth Smith
-would see after logging in and clicking her own name at upper right to
-go to her personal area:
+Tu controlli quali portlet vedi nella tua dashboard e dove sono disposte.
+Il seguente screenshot mostra cosa l'utente George Shrubb vedrebbe una
+volta che si fosse autenticata e che avesse cliccato sul suo nome, posto
+in alto a destra, per andare alla sua area personale:
 
 .. figure:: ../_static/dashboard.png
    :align: center
    :alt: 
 
-The dashboard appears to be empty for a new user.
+La dashboard appare vuota per un nuovo utente.
 
-Clicking the edit tab for the dashboard will show that there are
-portlets already assigned to the dashboard -- the dashboard view shown
-above is empty, because there is no content available for display in the
-portlets on this new web site. Here are the default portlets:
+Un click sul tab di modifica per la dashboard mostrerà che ci sono 
+portlet già assegnate alla dashboard -- la dashboard mostrata sopra 
+è vuota perchè non ci sono contenuti disponibili da mostrare nelle 
+portlet di questo nuovo sito web. Ecco le portlet di default:
 
 .. figure:: ../_static/dashboardedit.png
    :align: center
    :alt: 
 
-You see the *News* and *Events* portlets in the left-most column, the
-*Recent Items* portlet in the second column, and the *Review List*
-portlet in the right column. The third column does not have a portlet
-assigned.
+Vedi le portlet *Notizie* ed *Eventi* nella colonna più a sinistra,
+i *Contenuti recenti* nella seconda colonna e l'*Elenco di revisione*
+nella colonna di destra. La terza colonna non ha portlet assegnate.
 
-A new user account on a basic Plone web site will have a dashboard like
-the one shown, but for a web site that has been customized with add-on
-functionality, there may be more portlets to choose from, and the
-dashboard might start out with several more placed in the columns. For
-example, there could be portlets for "current weather," "stock ticker,"
-"quote of the day," etc., depending on what is installed for the web
-site (such things would require custom software). Depending on what is
-installed for the site, the user can customize the portlets they want to
-see and where to place them within the four columns.
+L'account di un nuovo utente, in un sito web Plone base, avrà una 
+dashboard come quella mostrata, ma per un sito web che è stato personalizzato
+con funzionalità aggiuntive potrebbero esserci più portlet tra cui 
+scegliere e la dashboard potrebbe partire con diverse portlet già
+posizionate nelle colonne. Per esempio, potrebbero esserci portlet
+per "il meteo", "quotazioni di borsa", "frase del giorno", ecc. 
+a seconda di cosa è stato installato sul sito web (queste opzioni
+richiederebbero software personalizzato). L'utente può personalizzare
+le portlet che vuole vedere e la loro posizione tra le quattro 
+colonne.
 
-So, for the typical Plone user account, the dashboard would start with
-the portlets shown above, and later would be "populated" as news items,
-events, and other content items are added to the web site.
-
+Quindi, per l'account Plone tipico, la dashboard parte con le portlet
+mostrate sopra che verrebbero popolate con le news, gli eventi e gli
+altri contenuti creati nel sito web.
