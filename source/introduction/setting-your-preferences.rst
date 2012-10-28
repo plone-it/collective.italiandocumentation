@@ -1,71 +1,65 @@
-.. _rst_setting-preferences:
+Impostare il tuo profilo
+================================
 
-Setting Your Preferences
-=============================
+Una volta autenticato in un sito web Plone, puoi cambiare il tuo profilo
+personale indicando informazioni circa la tua identità e scegliere le
+impostazioni del sito web.
 
-After logging in to a Plone web site, you can change your personal
-preferences for information about your identity and choice of web site
-settings.
-
-After logging in, your full name will be posted on the top-right corner
-of the screen. Click your name to open the dropdown, then click on the
-*Dashboard* link to go to your personal area:
+Il tuo nome completo viene indicato nell'angolo in alto a destra dello 
+schermo. Clicca sul tuo nome per aprire il menù a discesa, quindi clicca
+il link *Dashboard* per entrare nella tua area personale:
 
 .. figure:: ../_static/loggedinstrip.png
    :align: center
    :alt: 
 
-You will see the dashboard** panel:
+Vedrai la **dashboard** (o scrivania personale):
 
 .. figure:: ../_static/dashboardjohnsmith.png
    :align: center
    :alt: 
 
-When you log in for the first time, your dashboard will be empty, as the
-Info message explains. Portlets are specific "views" of different types
-of content. You can choose which ones you want in your dashboard by
-clicking the *Edit* tab, but we'll get to that in a second.
+La prima volta che ti autentichi, la dashboard sarà vuota come indica il 
+messaggio di Info. Le **portlet** sono specifiche viste di vari tipi di 
+contenuto. Puoi scegliere quale vuoi vedere nella tua dashboard cliccando
+sul tab *modifica*, ma ci arriveremo in un secondo.
 
-First, let's look at the *Preferences* link in the previous dropdown,
-which will bring up the personal preferences edit panel:
+Prima di tutto, diamo un occhiata al link *Preferenze personali*, nel menù a discesa di
+cui parlavamo prima, che ti porterà alla modifica del tuo profilo:
 
 .. figure:: ../_static/dashboardpersonalprefs.png
    :align: center
    :alt: 
 
-Date entry fields include:
+I campi disponibili sono:
 
--  *Full Name*- If your name is common, include your middle initial or
-   middle name.
--  *E-mail address* - REQUIRED - You may receive emails from the web
-   site system, or from a message board, if installed, etc. When an item
-   is required, a little red square will show alongside the item.
--  *Location*text box** - This is the name of your city, town, state,
-   province, or whatever you wish to provide*.
-   *
--  *Language preference* selection menu - Plone excels at offering
-   multilingual support.
--  *Biography* text box - Enter a short description of yourself here,
-   about a paragraph or so in length.
--  *Home page* web address - If you have your own web site or an area at
-   a photo-sharing web site, for instance, enter the web address here,
-   if you wish, so people can find out more about you.
--  *Content editor* selection menu - You have the choice of using
-   TinyMCE or Kupu, which lets you edit web pages with a nice graphical
-   interface, or using a basic editing panel, which is good if you are
-   accustomed to writing web pages using HTML (the basic "code" of web
-   pages). The default setting for new sites is to use TinyMCE, and is
-   assumed in this user manual.
--  *Enable external editing* checkbox - This is for switching on and off
-   an "external" editor, if one has been installed by the web site
-   administrator. Use of an "external" editor is mainly for web
-   designers and programmers who do more editing of actual code, but it
-   could be useful for volume page creation using specialized text
-   mark-up languages. (Don't worry about this setting if you haven't
-   heard anything about it from your web site administrator).
--  *Portrait* photograph upload - The portrait photograph will appear as
-   a small image or thumbnail-size image, so it is best to use a head
-   shot or upper-torso shot for this.
+-  *Nome e cognome* - Indica il tuo nome completo.
+-  *Indirizzo e-mail* - OBBLIGATORIO - Puoi ricevere email dall'amministratore
+   del sito web, o da un forum, se installato, ecc. Quando un campo è obbligatorio,
+   un piccolo quadrato rosso è presente a fianco del nome del campo.
+-  *Località* - Questo è il nome della tua città, stato, provincia o qualsiasi
+   altra informazione vorrai fornire.
+-  Selezione della *lingua* - Plone eccelle nell'offire un supporto
+   multilingua.
+-  *Biografia* - Inserisci una breve descrizione di te stesso in questo 
+   campo, un paragrafo o poco più.
+-  *Pagina personale* - Se hai un tuo web site personale o, per esempio,
+   un'area dove condividi foto, se vuoi puoi inserire qui l'indirizzo web.
+   In questo modo altre persone potranno trovare altro su di te.
+-  *Editor* - Puoi scegliere di utilizzare TinyMCE o Kupu, che ti permettono
+   di modificare le pagine web con una interfaccia grafica oppure una normale
+   area di testo, che è adatta se sei abituato a scrivere pagine web in HTML
+   (il "codice" base delle pagine web). L'impostazione di default per i 
+   siti appena creati è di utilizzare TinyMCE, e, in questo manuale, 
+   si assume che sia questa l'impostazione.
+-  *Abilita la modifica con l'editor esterno* - Questa impostazione abilita
+   e disabilita l'uso di un editor "esterno", se questo è stato impostato 
+   dall'amministratore del sito web. L'uso di un editor esterno è principalmente
+   inteso per web designer e programmatori che modificano il codice sorgente, ma 
+   puà essere utile per la creazione di pagine quando si usa un linguaggio di 
+   markup specializzato. (Non ti preoccupare di questa impostazione se il tuo
+   amministratore non te ne ha parlato esplicitamente).
+-  *Ritratto* - Il tuo ritratto apparirà come una piccola immagine, quindi è 
+   consigliata una foto del viso o del busto..
 
-You can change your preferences whenever you wish.
-
+Puoi cambiare le tue preferenze ogni volta che vuoi.
