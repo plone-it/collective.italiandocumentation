@@ -1,7 +1,7 @@
-Introduction
+Introduzione
 ====================
 
-A Conceptual Overview of Plone
+Una panoramica dei concetti di Plone
 
 .. toctree::
     :maxdepth: 2
