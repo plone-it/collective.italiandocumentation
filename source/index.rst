@@ -8,6 +8,7 @@ Il manuale di Plone per redattori e amministratori.
     :maxdepth: 2
     :numbered:
 
+<<<<<<< HEAD
     introduction/index
     adding-content/index
     managing-content/index
@@ -27,3 +28,10 @@ Il manuale di Plone per redattori e amministratori.
 .. |image11| image:: _static/lights-camera-action.png
 .. |image19| image:: _static/insert_internal_link.jpg
 .. |image24| image:: _static/lights-camera-action.png
+=======
+    conceptual-overview
+    visual-design-of-plone
+    user-accounts-and-roles
+    logging-in
+    all-content
+>>>>>>> 3b935be49d496ccc2b56fcdbc6fb6ff16bf0f7ef

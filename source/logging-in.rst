@@ -1,4 +1,4 @@
-Autenticazione
+1.4. Autenticazione
 ===================
 
 **Cosa aspettarsi quando ci si autentica in un sito Plone**
