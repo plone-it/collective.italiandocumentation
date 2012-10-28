@@ -1,8 +1,8 @@
-====================
-Plone 4 User Manual
-====================
+==========================
+Manuale utente di Plone 4
+==========================
 
-A User Manual for Plone content creators and managers.
+Il manuale di Plone per redattori e amministratori.
 
 .. toctree::
     :maxdepth: 2
