@@ -10,4 +10,5 @@ Il utente di Plone per utenti e amministratori.
     conceptual-overview
     visual-design-of-plone
     user-accounts-and-roles
+    logging-in
     all-content
