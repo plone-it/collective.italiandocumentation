@@ -1,4 +1,4 @@
-1.4. Autenticazione
+Autenticazione
 ===================
 
 **Cosa aspettarsi quando ci si autentica in un sito Plone**
@@ -7,7 +7,7 @@ Quando visiti un sito Plone come anonimo, oppure ti viene dato un
 indirizzo web per manutenzione del sito, puoi vedere un bottone 
 "Fatti riconoscere" in alto a destra come questo:
 
-.. figure:: _static/log-in.png
+.. figure:: ../_static/log-in.png
    :align: center
    :alt: bottone di login
 
@@ -15,7 +15,7 @@ indirizzo web per manutenzione del sito, puoi vedere un bottone
 Una volta cliccato il link *Fatti riconoscere*, vedrai un pannello di
 autenticazione dove puoi indicare il tuo nome utente e la tua password:
 
-.. figure:: _static/loginform.png
+.. figure:: ../_static/loginform.png
    :align: center
    :alt: modulo di login
 
