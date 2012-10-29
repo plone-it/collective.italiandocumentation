@@ -10,7 +10,7 @@ What is Plone?
 Plone is a content management system (CMS) which you can use to build a
 web site. With Plone, ordinary people can contribute content to a web
 site without the help of a computer geek. Plone runs over the Web, too,
-so you donâ€™t need to install any special software on your computer.
+so you don't need to install any special software on your computer.
 The word *content* is meant to be general, because you can publish so
 many types of information, including:
 
@@ -104,8 +104,8 @@ It then sends back the web page to your computer, in a code called HTML.
 HTML is a computer language that describes how a web page looks. It
 includes text, graphics, fonts, the color of the background, and just
 about everything else. There are many online resources that can teach
-you HTML details, but one of Ploneâ€™s advantages is that you donâ€™t
-need to know (much) about HTML. Thatâ€™s one reason for Plone and other
+you HTML details, but one of Plone's advantages is that you don't
+need to know (much) about HTML. That's one reason for Plone and other
 similar web software; to let you focus on your content, e.g., butterfly
 text and graphics, instead of learning a new computer language.
 
