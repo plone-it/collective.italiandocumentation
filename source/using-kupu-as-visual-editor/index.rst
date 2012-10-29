@@ -232,49 +232,9 @@ Text Styling
 The text style setting is made with a pulldown menu. Here are the
 choices:
 
-Description
-
-Example
-
-Normal
-
-text
-
-Heading
-
-text
-----
-
-Subheading
-
-text
-----
-
-Literal
-
-::
-
-    text
-
-Discreet
-
-text
-
-Pull-quote
-
-text
-
-Call-out
-
-text
-
-Page break (print only)
-
-Clear floats (remove style)
-
-Highlight
-
-text
+.. figure:: ../_static/kupu-text-styles.png
+   :align: center
+   :alt: kupu-text-styles
 
 As with normal word-processing editing, select a word, phrase, or
 paragraph with your mouse, then choose one of the style choices from the

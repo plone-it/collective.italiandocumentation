@@ -2,7 +2,7 @@
 Panoramica
 ===========================
 
-Una spiegazione di Plone come content management system.
+**Una spiegazione di Plone come content management system.**
 
 Cos'è Plone?
 ==============
