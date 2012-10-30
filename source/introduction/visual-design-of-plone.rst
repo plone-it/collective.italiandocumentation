@@ -1,106 +1,110 @@
-Visual Design of Plone Web Sites
+Design Grafico dei Siti Web Plone
 =====================================
 
-Plone allows web site administrators and designers the ability to create
-unique site designs. Here's an overview of the Plone layout, and some
-design examples.
+Plone permette agli amministratori e ai designer dei siti web di creare
+design unici. Ecco una panoramica del layout Plone, e alcuni esempi di
+design.
 
-What does a Plone web site look like? For years there has been a
-consistent design for the default Plone appearance. The default design
-looks generally like this:
+Come dovrebbe apparire un sito web Plone? Per anni c'è stato un
+design coerente per l'aspetto predefinito di Plone. Il design
+predefinito appare generalmente così:
 
 |plone-default-design-areas.png|
 
-The Plone web site you use could have a design radically different from
-this, but you should be able to find common elements, such as the log in
-link and a navigation panel or menu. In the default design, the
-navigation menu is in the left area, and usually appears as an indented
-list of folders in the site. There also may be a set of tabs in the *Log
-In, Location Information* strip near the top.
+Il tuo sito web Plone potrebbe avere un design radicalmente
+diverso da questo, ma dovresti essere in grado di trovare elementi
+comuni, come il link al log in e un pannello o menu di navigazione.
+Nel design di default, il menu di navigazione si trova nella zona a
+sinistra, e di solito appare come un elenco identato delle cartelle
+del sito. Ci può anche essere un insieme di schede nella striscia *Log
+In, Location Information* in testata.
 
-We can distinguish between the *design* of a web site and the
-*functionality* of a web site. For getting work done, focus on the
-functionality and don't worry so much about the appearance and layout of
-the web site. A strength of the Plone content management system is that
-a web site can be radically redesigned for a new look, without affecting
-the underlying content and functionality. The navigation menu can be
-moved from the left to the right, but it works the same. The right area
-can be deleted where functionality normally put there isn't needed. The
-areas for left, main, and right, as depicted above and below, could be
-changed to top, middle, and bottom, but it would still be a Plone web
-site underneath.
+Possiamo fare una distinzione tra il *design* e la
+*funzionalità* di un sito web. Per quanto riguarda i contenuti,
+concentrati sulla funzionalità e non preoccuparti tanto dell'aspetto
+e il layout del sito web. Un punto di forza del sistema di gestione dei
+contenuti Plone è che un sito web può essere radicalmente riprogettato
+con un nuovo look, senza incidere sul contenuto sottostante e sulle
+funzionalità. Il menu di navigazione potrebbe essere spostato da sinistra a
+destra, ma funzionerebbe lo stesso. L'area di destra potrebbe essere cancellata
+se le funzionalità che normalmente contiene non sono necessarie. Le aree
+a sinistra, centrale e destra, come illustrato sopra e sotto,
+potrebbero essere spostate in alto, al centro e in basso, ma continuerebbe
+comunque a essere un sito web Plone.
 
-We'll use the default Plone layout design as an example of typical
-divisions of the screen:
+Useremo il design del layout di default di Plone come esempio di tipica
+divisione dello schermo:
 
 .. figure:: ../_static/plonedefaultareaslabeled.png
    :align: center
    :alt: 
 
-You may need to adapt these terms as needed for your Plone web site
-design. You may encounter varied terms for describing screen real
-estate, such as right and left "slots," for the left and right column
-areas, "portlet," or "viewlet," for discrete areas or boxes, and several
-other terms.
+Potrebbe essere necessario adattare queste parti, se servono per il
+design del tuo sito web Plone. Ti potresti imbattere in diversi termini
+usati per descrivere le varie parti dello schermo, come ad esempio "slot,"
+sinistro e destro, per la colonna di sinistra e destra, "portlet," o
+"viewlet," per le zone distinte o box, e diversi altri termini.
 
-For example, we can select three web sites from the `list of Plone web
-sites <http://plone.net/sites>`_ to compare:
+Per esempio, selezioniamo tre siti web dalla `lista di siti web Plone
+<http://plone.net/sites>`_ per fare un confronto:
 
 .. figure:: ../_static/akamaidesign.png
    :align: center
    :alt: 
 
-This is the web site for Akamai, a leading provider of online web tools
-and acceleration technology. The header area has simple text menu
-choices for five main content areas arrayed horizontally at the bottom
-of the header area. At right, the header contains another horizontal
-menu and a search box. The bottom of the header area would contain log
-in information, for use by the maintainers of the web site. The main
-graphic at top left is a focus area for eye-catching graphics and
-current topics. There is a main area at left center where the main text
-is located. The right column holds a series of "portlets." The footer
-contains a horizontal menu, repeating the menu choices in the header,
-for convenience. There is a right-most column that has zoom settings.
+Questo è il sito web per Akamai, un fornitore leader di strumenti web
+online e acceleration technology. L'area di intestazione ha un semplice
+menu testuale per cinque aree di contenuto principali disposte
+orizzontalmente nella parte inferiore dell'area di intestazione. A destra,
+l'intestazione contiene un altro menù orizzontale e una casella di ricerca.
+La parte inferiore dell'area di intestazione conterrebbe dati di accesso,
+per l'uso da parte dei manutentori del sito. Il grafico principale in alto
+a sinistra è una zona di messa a fuoco per la grafica accattivante e gli argomenti
+attuali. C'è una superficie principale al centro sinistra dove si trova il
+testo più importante. La colonna di destra contiene una serie di "portlet".
+Il piè di pagina contiene un menu orizzontale, ripetendo le scelte di menu
+nell'intestazione, per comodità. C'è una colonna più a destra che contiene le
+impostazioni di zoom.
 
 .. figure:: ../_static/discoverdesign.png
    :align: center
    :alt: 
 
-This is the web site for Discover Magazine. The header area contains a
-large horizontal menu, the "main menu," if you will, a smaller
-horizontal menu at upper right, and a search box. This site is rich with
-textual "portlets" that cover so many topic areas, which are divided
-into three columnar areas, left, middle, and right. The top of the
-middle column contains a focus area with a video. There are large
-interactive boxes in several places. The footer contains basic site
-identification information and a link to "about us." For a large web
-site like Discover's, maintainers of the site log in to custom editing
-screens, and there is much automation of data feeds -- Plone uses Zope,
-a sophisticated storage system, and Python, a great programming
-language, which facilitates intelligent "wiring" of the flow of text and
-graphics into the web site.
+Questo è il sito web per la rivista Discover. L'area di intestazione contiene un
+menu orizzontale di grandi dimensioni, il "menu principale", se si vuole chiamare così,
+un più piccolo menu orizzontale in alto a destra, e una casella di ricerca. Questo sito è ricco di
+"portlet" testuali che coprono molte aree tematiche, divise
+in tre colonne, sinistra, centro, e destra. La parte superiore della
+colonna centrale contiene una zona focus con un video. Ci sono grandi
+box interattivi in diversi luoghi. Il piè di pagina contiene le informazioni di
+identificazione di un sito base e un link al "chi siamo". Per un grande sito web
+come Discover, i manutentori del sito effettuano il log in per schermi di editing personalizzati,
+e c'è molta automazione di data feeds - Plone utilizza Zope,
+un sistema di archiviazione sofisticato, e Python, un celebre linguaggio di programmazione,
+che facilita un intelligente "cablaggio" del flusso di testo e la
+grafica nel sito web.
 
 .. figure:: ../_static/smealdesign.png
    :align: center
    :alt: 
 
-The last of the three sites to examine is the web site for Penn State
-University's Smeal College of Business. The header contains a logo, a
-horizontal menu for main topic areas, and a search box at right. There
-is a main menu for this site at left, which is more traditional for a
-Plone web site. A large graphical area contains a rolling focus
-animation. There is another small graphical focus in the left column.
-Three textual columns round out the design, above the basic
-identification footer. Maintainers of this web site enter by means of a
-custom log in page, with the log in and user information showing along
-the bottom of the topmost header area.
+L'ultimo dei tre siti da esaminare è il sito web per la Penn State
+University Smeal College of Business. L'intestazione contiene un logo, un
+menu orizzontale per aree tematiche principali, e una casella di ricerca a destra.
+C'è un menu principale per questo sito a sinistra, il che è più tradizionale per un
+sito web Plone. Una vasta area grafica contiene un'animazione rolling focus.
+C'è un altro piccolo focus grafico nella colonna di sinistra.
+Tre colonne testuali completano il design, al di sopra dell'identificazione di base a
+piè di pagina. I manutentori di questo sito accedono per mezzo di una pagina di
+log in personalizzata, con il log-in e le informazioni utente che appaiono lungo la
+parte inferiore dell'area più in alto in testata.
 
-So, what does a Plone web site look like? Traditionally, the
-out-of-the-box look is like that shown at the top of this page, with
-header, menu, columns, and a footer. These three sites illustrate how
-designers typically combine focus areas, vertical and horizontal menus,
-"portlets," and textual content, usually arrayed in several columns. The
-underlying machinery is Plone and Zope and Python, but the design
-"theme" or "skin" can be made to look any way the designer chooses.
+Allora, come dovrebbe apparire un sito web Plone? Tradizionalmente, l'aspetto
+out-of-the-box è simile a quello mostrato nella parte superiore di questa pagina, con
+intestazione, menu, colonne, e un piè di pagina. Questi tre siti illustrano come i
+designer tipicamente combinano le aree di interesse, i menu verticali e orizzontali,
+"portlet" e contenuti testuali, di solito disposti in diverse colonne. Il
+meccanismo di fondo è composto da Plone, Zope e Python, ma il design "tema" o "skin" può essere
+fatto in qualunque modo il designer preferisca.
 
 .. |plone-default-design-areas.png| image:: ../_static/plone-default-design-areas.png
