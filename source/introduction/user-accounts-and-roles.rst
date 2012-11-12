@@ -1,4 +1,4 @@
-Plone User Accounts and Roles
+Account utente Plone e Ruoli
 ==================================
 
 *In questo capitolo vedremo le basi di utilizzo di un account
