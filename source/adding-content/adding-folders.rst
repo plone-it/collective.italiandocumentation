@@ -14,7 +14,7 @@ system.
 Folders are added by clicking the **Add new...** drop-down menu. Select
 **Folder** from the menu:
 
-.. figure:: ../_static/add-item-menu-folder.png
+.. figure:: ../_static/addnewmenu.png
    :align: center
    :alt: add-item-menu-folder.png
 

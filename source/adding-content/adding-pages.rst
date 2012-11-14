@@ -6,7 +6,7 @@ another.
 
 To add a page, use the *Add new...* menu for a folder:
 
-.. figure:: ../_static/copy_of_addnewmenu.png
+.. figure:: ../_static/addnewmenu.png
    :align: center
    :alt: 
 

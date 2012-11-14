@@ -6,7 +6,7 @@ definitions of each standard content type
 
 New content items are added via the **Add New . . .** drop-down menu:
 
-.. figure:: ../_static/copy_of_addnewmenu.png
+.. figure:: ../_static/addnewmenu.png
    :align: center
    :alt: add-new-menu.png
 

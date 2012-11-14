@@ -5,7 +5,7 @@ Plone web sites have a built-in system for publishing news items.
 
 Use the *Add new...* menu for a folder to add a news item:
 
-.. figure:: ../_static/copy_of_addnewmenu.png
+.. figure:: ../_static/addnewmenu.png
    :align: center
    :alt: add-new-menu.png
 
