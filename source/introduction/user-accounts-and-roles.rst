@@ -47,8 +47,8 @@ effettuato l'accesso e stai visitando il sito come utente anonimo:
    :align: center
    :alt: 
 
-Authenticated (Logged-in) Web Activity
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Navigazione autenticata (login)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Avete già avuto esperienza di *navigazione autenticata* se avete mai utilizzato
 un sito di una banca o di pagamenti con carte di credito, o qualsiasi altro
@@ -71,16 +71,16 @@ autenticato in un nuovo sito Plone:
    :align: center
    :alt: 
 
-User Roles
-----------
+Ruoli utente
+-------------
 
 Su un sito Plone è altrettanto importante la distinzione dei diversi ruoli
 degli utenti. Per illustrare il caso più semplice, consideriamo due ruoli
-utente: *membro* e *manager*. Vediamo i diversi
+utente: *collaboratore* e *manager*. Vediamo i diversi
 permessi o "poteri" di questi due ruoli:
 
-Membro
-~~~~~~
+Collaboratore
+~~~~~~~~~~~~~~
 
 - ha un account utente, quindi può autenticarsi
 - può aggiungere contenuti, ma solo in aree specifiche, e non può modificare
