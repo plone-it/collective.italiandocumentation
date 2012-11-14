@@ -86,7 +86,7 @@ a:visited:hover {
     background: #fefabc;
     position: fixed;
     bottom: 1em;
-    left: 1em;
+    left: 0px;
     font-size: 60%;
     text-align: left;
     z-index: 2;

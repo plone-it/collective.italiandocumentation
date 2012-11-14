@@ -38,12 +38,13 @@ La navigazione anonima identifica la normale esperienza di un utente che
 naviga un sito web. Si digita l'indirizzo web di un sito nel proprio browser
 e si visualizza la pagina, si guardano video e immagini, ma non è necessario
 autenticarsi. Ecco perchè questa viene chiamata navigazione anonima: chiunque
-è anonimo prima dell'autenticazione. Da notare che la presenza del link *Log in*
-(n.d.t "Accedi" in italiano) nel angolo in alto a destra dell'immagine qui
-sotto. Se c'è un link "Log in" sulla pagina, significa che non hai
-effettuato l'accesso e stai visitando il sito come utente anonimo:
+è anonimo prima dell'autenticazione. Da notare che la presenza del link
+*Fatti riconoscere* (n.d.t "Log in" in Inglese) nel angolo in alto a destra
+dell'immagine qui sotto. Se c'è un link "Fatti riconoscere" sulla pagina,
+significa che non hai effettuato l'accesso e stai visitando il sito come
+utente anonimo:
 
-.. figure:: ../_static/plonemain3.0anon.png
+.. figure:: ../_static/plone_main_anon.png
    :align: center
    :alt: 
 
@@ -57,17 +58,17 @@ permette di vedere le informazioni del vostro account, di riempire dei form,
 di trasferire dei fondi e altri tipi di operazioni, ma tutto questo solo dopo
 aver effettuato l'accesso. Un sito Plone non è molto differente, ad eccezione
 del fatto che si possono fare cose più sofisticate. Dai un'occhiata all'immagine
-qui sotto, catturata dopo che un utente "John Smith" ha effettuato l'accesso.
+qui sotto, catturata dopo che un utente "Mario Rossi" ha effettuato l'accesso.
 Vicino all'angolo in alto a destra, puoi vedere il link con il nome di 
-John Smith e un link di uscita. Un'altra differenza importante che si nota
+Mario Rossi e un link di uscita. Un'altra differenza importante che si nota
 quando si è autenticati è che nell'area principale al centro c'è una barra
 verde con dei tab (o linguette). Questa specie di striscia di testa è presente
 quando un utente ha i permessi per modificare quest'area. I tab nella striscia
 verde potrebbero variare, ma dovrebbe sempre avere questo aspetto e questo
-caratteristico colore verde. Nella seguente immagine, l'utente John Smith si è
+caratteristico colore verde. Nella seguente immagine, l'utente Mario Rossi si è
 autenticato in un nuovo sito Plone:
 
-.. figure:: ../_static/plonemain3.0loggedin.png
+.. figure:: ../_static/plone_main_loggedin.png
    :align: center
    :alt: 
 

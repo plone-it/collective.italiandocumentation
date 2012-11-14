@@ -15,7 +15,7 @@ il link *Dashboard* per entrare nella tua area personale:
 
 Vedrai la **dashboard** (o scrivania personale):
 
-.. figure:: ../_static/dashboardjohnsmith.png
+.. figure:: ../_static/dashboard.png
    :align: center
    :alt: 
 
