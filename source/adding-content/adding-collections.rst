@@ -1,9 +1,8 @@
-Adding collections
+Aggiungere collezioni
 ========================
 
-Collections (formerly called Smart Folders) are virtual containers of
-lists of items found by doing a specialized search.
+Le collezioni (precedentemente chiamate Smart Folders) sono contenitori virtuali di 
+liste di elementi trovati attraverso specifiche ricerche.
 
-See the later section of the manual `Using
-Collections <http://plone.org/documentation/manual/plone-4-user-manual/using-collections>`_.
+Consultare la sezione del manuale `Utilizzo delle collezioni <http://plone.org/documentation/manual/plone-4-user-manual/using-collections>`_.
 
