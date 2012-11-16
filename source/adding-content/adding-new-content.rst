@@ -24,15 +24,15 @@ Tipi di contenuti
 -----------------
 
 In Plone, puoi usare un certo numero di **Tipi di contenuto** per aggiungere 
-diversi contenuti. For example, to upload an image you must use the **Image**
-content type. Below is a list of the available content types in order of
-their appearance, and what each are used for:
+diversi contenuti. Ad esempio, per caricare un'immagine devi utilizzare il tipo 
+di contenuto **Immagine**. Di seguito la lista dei tipi di contenuti disponibili 
+nell'ordine in cui appaiono ed il loro utilizzo:
 
-Collection
-    Collections are used to group and display content based on a set of
-    **criteria** which you can set. Collections work much like a query
-    does in a database.
-Event
+Collezione
+    Le collezioni vengono utilizzate per raggruppare e visualizzare contenuti in base a
+    dei **criteri** impostabili. Praticamente le collezioni funzionano come le query per un 
+    database.
+Evento
     An Event is a special page-like content type specifically for
     posting information about an event (such as a fundraiser, barbecue,
     etc).Â This content type has a function which allows the site
