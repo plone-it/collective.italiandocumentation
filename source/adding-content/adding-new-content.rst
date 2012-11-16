@@ -1,10 +1,10 @@
-Adding New Content
-=======================
+Aggiungere nuovi contenuti
+==========================
 
-A general overview of how to add new content items in Plone, including
-definitions of each standard content type
+Una panoramica generale su come aggiungere nuovi contenuti in Plone, 
+includendo la definizione di ogni tipo di contenuto standard.
 
-New content items are added via the **Add New . . .** drop-down menu:
+Nuovi contenuti si aggiungono utilizzando la voce del menu a discesa **Aggiungi...**:
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
@@ -12,17 +12,19 @@ New content items are added via the **Add New . . .** drop-down menu:
 
    add-new-menu.png
 
-Adding content in Plone is done *placefully,*which is to say that you
-must navigate to the section of your Plone website that you wish the new
-content to reside before you use the **Add New . . .** drop-down menu.
-You can of course cut, copy, and paste content items from one section to
-another if necessary.
+In Plone un contenuto viene aggiunto *completamente in loco,* ovvero devi 
+navigare fino alla sezione del tuo sito Plone dove desideri che il contenuto
+venga creato prima di usare la voce del menu **Aggiungi...**.
+E' possibile ovviamente tagliare, copiare e incollare contenuti da una sezione 
+ad un altra se necessario.
 
-Content Types
--------------
 
-In Plone, you can use a number of **Content Types** to post certain kinds
-of content. For example, to upload an image you must use the **Image**
+
+Tipi di contenuti
+-----------------
+
+In Plone, puoi usare un certo numero di **Tipi di contenuto** per aggiungere 
+diversi contenuti. For example, to upload an image you must use the **Image**
 content type. Below is a list of the available content types in order of
 their appearance, and what each are used for:
 
