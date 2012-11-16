@@ -1,10 +1,10 @@
-Adding Events
+Aggiungere Eventi
 ==================
 
-Plone web sites have a built-in system for managing and showing calendar
-events.
+I siti Plone hanno un sistema integrato per la gestione e la visualizzazione 
+di eventi in un caledario.
 
-Use the *Add new...* menu for a folder to add an event:
+In una cartella, utilizza la voce del menu *Aggiungi...* per aggiungere un evento:
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
@@ -12,56 +12,56 @@ Use the *Add new...* menu for a folder to add an event:
 
    add-new-menu.png
 
-You will see rather large *Add Event* panel:
+Comparirà un pannello abbastanza grande *Aggiungi Evento*:
 
 |image4|
 
-From the top, we have the following fields:
+Dall'alto, si hanno i seguenti campi:
 
--  *Title* - **REQUIRED**
--  *Description*
--  *Event location*
--  *Start date and time* - **REQUIRED**
--  *End date and time* - **REQUIRED**
--  *Event body text* (visual editor panel)
--  *Attendees*
--  *Event type(s)*
--  *Event URL*
--  *Contact Name*
--  *Contact Email*
--  *Contact Phone*
--  Change note
+-  *Titolo* - **OBBLIGATORIO**
+-  *Descrizione*
+-  *Luogo dell'evento*
+-  *Inizio dell'evento* - **OBBLIGATORIO**
+-  *Termine dell'evento* - **OBBLIGATORIO**
+-  *Testo dell'evento* (editor visuale)
+-  *Partecipanti*
+-  *Tipo(i) di evento*
+-  *URL dell'evento*
+-  *Nome del contatto*
+-  *Indirizzo e-mail per contatti*
+-  *Telefono del contatto*
+-  Commento alle modifiche
 
-Note that only three fields, title and start and end date and time, are
-required. So, although this is a large input panel, if you are in a
-hurry, just type in the title and the start and end times and save. Of
-course, if you have the other information, you should type it in.
-One part of the panel needs a bit more explanation: the event start and
-end times. The year, month, day, and other fields are simple pull-down
-menus. But for the day, often you can't remember exactly and you need to
-consult a calendar. There is a handy pop-up calendar that offers an
-alternate way to select the day. If you click one of the little calendar
-icons adjacent to the day pull-down, :
+Nota che solo tre campi sono obbligatori: titolo, inizio e termine dell'evento. 
+Anche se si tratta di una finestra abbastanza ampia,
+se hai fretta, ti basta inserire questi tre campi e salvare per creare un 
+evento. Ovviamente, se hai altre informazioni, puoi inserirle.
+Una parte del pannello richiede una maggiore spiegazione: l'inizio e il termine dell'evento.
+L'anno, il mese, il giorno ed altri campi sono semplicemente menu a discesa. 
+Spesso però non è semplice ricordarsi esattamente il giorno da inserire e si ha la necessità
+di consultare un calendario. C'è un comodo calendario pop-up che offre un modo alternativo
+per selezionare il giorno. Se clicchi una volta sull'icona del calendario accanto 
+al selettore a discesa del giorno, :
 
 .. figure:: ../_static/eventstartandendfields.png
    :align: center
    :alt: 
 
-you'll see this pop-up calendar:
+comparirà questo calendario pop-up:
 
 .. figure:: ../_static/calendarpopuppanel.png
    :align: center
    :alt: 
 
-Just click the day and it will be set. Fill in the fields for which you
-have information and save the event, but remember:
+E' sufficiente cliccare il giorno e questo verrà impostato. Compila i campi per i quali 
+hai informazioni e salva, ma ricorda :
 
-**IMPORTANT:***It will not show on the main web site calendar until it
-has been **published*****.
+**IMPORTANTE:***L'evento non verrà visualizzato nel calendario principale del sito fino a 
+quando non sarà **pubblicato*****.
 **
 
 `|image5| <http://media.plone.org/LearnPlone/Creating%20an%20Event.swf>`_
-Watch a Plone 2 video on `adding an
-event <http://media.plone.org/LearnPlone/Creating%20an%20Event.swf>`_.
+Guarda il video con Plone 2 su come `aggiungere un
+evento <http://media.plone.org/LearnPlone/Creating%20an%20Event.swf>`_.
 
 .. |image4| image:: ../_static/addevent.png
