@@ -29,19 +29,18 @@ di contenuto **Immagine**. Di seguito la lista dei tipi di contenuti disponibili
 nell'ordine in cui appaiono ed il loro utilizzo:
 
 Collezione
-    Le collezioni vengono utilizzate per raggruppare e visualizzare contenuti in base a
-    dei **criteri** impostabili. Praticamente le collezioni funzionano come le query per un 
+    Le Collezioni sono utilizzate per raggruppare e visualizzare contenuti in base a
+    dei **criteri** impostabili. Praticamente le Collezioni funzionano come le query in un 
     database.
 Evento
-    An Event is a special page-like content type specifically for
-    posting information about an event (such as a fundraiser, barbecue,
-    etc).Â This content type has a function which allows the site
-    visitor to add the event to their desktop calendar with either the
-    iCal or vCal standard. This includes applications such as: Google
-    Calendar, Outlook, Sunbird and others.
-    To add a single event to your calendar, click on the vCal or iCal
-    links next to the "Add event to calendar" text in the main view of
-    the event item.
+    Un Evento è un tipo di pagina speciale specifico per la pubblicazione di un evento 
+    (ad esempio una raccolta fondi, un barbecue, etc). Questo tipo di contenuto ha una funzione 
+    che permette ai visitatori del sito di aggiungere l'evento al proprio calendario personale
+    utilizzando gli standard iCal e vCal. Questi standard sono compatibili con: Google
+    Calendar, Outlook, Sunbird e altri.
+    Per aggiungere un singolo evento al tuo calendario personale, fai click 
+    sui link vCal o iCal accanto al testo "Aggiungi l'evento al 
+    calendario" nella pagina principale dell'Evento.
 
     .. figure:: ../_static/events-summary-chart.jpg
        :align: center
@@ -49,45 +48,48 @@ Evento
     
        events-summary-chart.jpg
 
-    From Plone 3.3 on you can also get all the events in a folder in
-    one go (currently only available in iCal format). To download the
-    iCal file, append *@@ics\_view* to the end of the URL of the folder
-    that contains the events. For example, if you want to get all the
-    events into the *events* folder in the root of your site, go to
-    *http://yourdomain.tld/events/@@ics\_view*. There are plans to
-    provide a link to this iCal calendar inside the UI in a future
-    release.
-
+    Da Plone 3.3 è anche possibile scaricare tutti gli Eventi 
+    di una cartella in una sola volta (al momento è disponibile 
+    solo in formato iCal). Per scaricare il file iCal, appendi 
+    *@@ics\_view* alla fine dell'URL della cartella che contiene gli 
+    eventi. Ad esempio, se si desidera ottenere tutti gli eventi della 
+    cartella *eventi* posizionata nella radice del tuo sito, vai all'
+    indirizzo *http://tuodominio.tld/events/@@ics\_view*. In un 
+    futuro rilascio di Plone, è in programma l'inserimento di questo 
+    indirizzo direttamente nell'interfaccia utente.
 File
-    A File in Plone is any binary file you wish to upload with the
-    intent that it can be downloaded by your site visitors. Common
-    examples are PDFs, Word Documents, and spreadsheets.
-Folder
-    Folders work in Plone much like they do on your computer. You can
-    use folders to organize your content, and to give your Plone website
-    a navigation structure.
-Image
-    The Image content type is used for uploading image files (JPG, GIF,
-    PNG) so that you can insert them into pages or other page-like
-    content types.
-Link
-    Also referred to as the 'Link Object'; do not confuse this with the
-    links you create via TinyMCE or Kupu, Plone's visual page editors.
-    The Link content type is often used to include a link to an external
-    website in Navigation and other specialized uses.
-News Item
-    This content type is similar to Event, only News Item is
-    specifically for posting news. You can also attach a thumbnail image
-    to a News Item, which then appears in folder summary views next to
-    the summary of the News Item.
-Page
-    A Page in Plone is one of the most simple content types available.
-    Use Pages to write the bulk of your web pages on your Plone website.
+    Un File in Plone è un file binario caricabile sul sito
+    con l'intento di farlo scaricare dai visitatori. Comuni esempi
+    sono PDF, Documenti di testo e fogli di calcolo.
+Cartella
+    Le Cartelle in Plone funzionano come sul tuo computer. Puoi utilizzare 
+    le cartelle per organizzare i contenuti e per dare al tuo sito Plone 
+    una struttura di navigazione.
+Immagine
+    Il tipo di contenuto Immagine è utilizzato per caricare file di immagini 
+    (JPG, GIF, PNG) in modo tale che tu possa inserirli all'interno di 
+    pagine o di contenuti simili.
+Collegamento
+    Indicato anche come 'Oggetto Link', non è da confondere con i
+    collegamenti che vengono creati tramite TinyMCE o Kupu, gli editor visuali 
+    per le pagine di Plone.
+    Il tipo di contenuto Collegamento è spesso usato per includere un 
+    collegamento ad un sito web esterno nell'albero di navigazione o per 
+    altri usi specifici.
+Notizia
+    Questo tipo di contenuto è simile a quello degli Eventi, la Notizia si 
+    utilizza appositamente per la pubblicazione di notizie. È inoltre possibile 
+    allegare un'immagine ad una Notizia, la miniatura apparirà nella vista 
+    riassuntiva della cartella accanto al riepilogo della stessa.
+Pagina
+    Una Pagina in Plone è uno dei tipi di contenuto più semplici disponibili.
+    Utilizza le Pagine per scrivere la maggior parte delle pagine web sul tuo 
+    sito Plone.
 
-Note: Depending on what add-on products you have installed, you may see
-more options in your **Add New . . .** drop-down menu than appear here.
-For information about those additional content types, refer to the
-Product documentation for the add-on in question.
+Nota: a seconda di quali prodotti aggiuntivi hai installato, potrai vedere
+più opzioni sotto la voce **Aggiungi...** del tuo menu.
+Per informazioni su questi tipi di contenuto, fai riferimento alla
+documentazione del prodotto aggiuntivo in questione.
 
 Title
 -----
