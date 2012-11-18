@@ -91,44 +91,48 @@ più opzioni sotto la voce **Aggiungi...** del tuo menu.
 Per informazioni su questi tipi di contenuto, fai riferimento alla
 documentazione del prodotto aggiuntivo in questione.
 
-Title
------
+Titolo
+------
 
-Nearly all content types in Plone have two fields in common: **Title**
-and **Description.**
+Quasi tutti i tipi di contenuto in Plone hanno due campi in comune: **Titolo**
+e **Descrizione.**
 
-The **Title** of content items, including folders, images, pages, etc.,
-can be anything you want -- you can use any keyboard characters,
-including blanks. **Titles** become part of web address for each item
-you create in Plone. Web addresses, also known as URLs, are what you
-type in a web browser to go to a specific location in a web site (Or,
-you would click your way there), such as:
+Il **Titolo**, comprese le cartelle, le immagini, le pagine, etc.,
+può contenere tutto quello che vuoi -- puoi usare qualsiasi carattere della tastiera,
+inclusi gli spazi. **I Titoli** fanno parte dell'indirizzo web di ogni
+elemento creato in Plone. Gli indirizzi web, noti come URLs, sono quello
+che digiti in un browser per passare in una specifica posizione di un sito(O,
+il percorso del link selezionato), come ad esempio:
 
 www.mysite.com/about/personnel/sally/bio
 
-or
+o
 
 www.mysite.com/images/butterflies/skippers/long-tailed-skippers
 
-Web addresses *do* have restrictions on allowed keyboard characters, and
-blanks are not allowed. Plone does a good job of keeping web addresses
-correct by using near-equivalents of the **Title** that you provide, by
-converting them to lowercase, and by substituting dashes for spaces and
-other punctuation.
+Gli indirizzi web *sono* soggetti a restrizioni rispetto ai caratteri della tastiera 
+consentiti e, ad esempio, gli spazi non sono ammessi. Plone fa un buon lavoro 
+mantenendo gli indirizzi web molto simili ai **Titoli** forniti, convertendoli in 
+lettere minuscole, sostituendo gli spazi con i trattini e sostituendo altri
+segni di punteggiatura.
 
-The web address of a given item is referred to as the **short name** in
-Plone. When you use the **Rename** function, you'll see the short name
-along with the title.
+In Plone L'indirizzo web di un certo elemento è denominato **nome breve**. 
+Quando si utilizza la funzione **Rinomina**, verrà visualizzato  sia
+il nome breve sia il titolo.
 
-The fields will vary according to the content type. For instance, the
-Link content type has the URL field. The File content type has the File
-field, and so on.
+I campi variano a seconda del tipo di contenuto. Per esempio, il tipo di
+contenuto Collegamento ha il campo URL. Il tipo di contenuto File ha il 
+campo File, e così via.
 
-Description
+Descrizione
 -----------
 
-The **Description** appears at the top of pages, just under the Title.
+La **Descrizione** appears at the top of pages, just under the Title.
 Descriptions are often used to conjunction with a variety of Folder and
 Collection views (such as Standard and Summary). The Description also
 appears in search results via Plone's native search engine.
+La **Descrizione** appare nella parte superiore delle pagine, appena sotto il titolo.
+Le descrizioni sono spesso visualizzatein molte viste di Cartella e 
+Collezioni (come in quella Standard e in quella Sintetica). La descrizione 
+appare anche nei risultati delle ricerche eseguite con il  motore di ricerca nativo di Plone.
 
