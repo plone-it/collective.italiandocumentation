@@ -44,10 +44,10 @@ markup, è possibile disabilitare l'editor di testo visual nel pannello
 delle preferenze personali, e rimpiazzare così TinyMCE con un campo di
 testo semplificato. I formati di markup disponibili in Plone sono:
 
--   [Markdown](http://en.wikipedia.org/wiki/Markdown)
--   [Textile](http://en.wikipedia.org/wiki/Textile_%28markup_language%29)
--   [Structured Text](http://www.zope.org/Documentation/Articles/STX)
--   [Restructured Text](http://en.wikipedia.org/wiki/ReStructuredText)
+- `Markdown <http://en.wikipedia.org/wiki/Markdown>`_
+- `Textile <http://en.wikipedia.org/wiki/Textile_%28markup_language%29>`_
+- `Structured Text <http://www.zope.org/Documentation/Articles/STX>`_
+- `Restructured Text <http://en.wikipedia.org/wiki/ReStructuredText>`_
 
 Ogniuno di questi necessita di aggiungere speciali codici per la
 formattazione all'interno del testo. Ad esempio, con la formattazione
