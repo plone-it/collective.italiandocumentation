@@ -1,9 +1,11 @@
-Adding Files
+Aggiungere file
 =================
 
-Files of various types can be uploaded to Plone web sites.
+File di vari tipi possono essere caricati su un sito Plone.
 
-Choose file in the *Add new...* menu for a folder to upload a file:
+Per aggiungere un file, utilizza il menu *Aggiungi...* dentro ad una
+cartella: 
+
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
@@ -11,29 +13,24 @@ Choose file in the *Add new...* menu for a folder to upload a file:
 
    add-new-menu.png
 
-You will see the *Add File* panel:
+Seleziona la voce **File** dal menu a discesa e vedrai il pannello
+*Aggiungi file*:
 
 .. figure:: ../_static/addfile.png
    :align: center
    :alt: 
 
-Click the *Browse* button to navigate to the file you want to upload
-from your local computer. Provide a title (you can use the same file
-name used on your local computer if you want). Provide a *description*
-if you want. When you click the save button the file will be uploaded to
-the folder.
+Fai click sul pulsante *Mostra* per cercare il file da caricare dal
+proprio computer locale. Fornisci un titolo (puoi utilizzare lo stesso nome
+del file se vuoi). Fornisci una *descrizione*. Quando fai click sul bottone
+Salva il file verrà caricato nella cartella.
 
-`|image3| <http://media.plone.org/LearnPlone/Adding%20a%20File.swf>`_
-Watch a Plone 2 video on `adding a
-file <http://media.plone.org/LearnPlone/Adding%20a%20File.swf>`_.
+Guarda un video su `come aggiungere un file
+<http://media.plone.org/LearnPlone/Adding%20a%20File.swf>`_.
 
-Example file types include PDF files, Word documents, database files,
-zip files... -- well, practically anything. Files on a Plone web site
-are treated as just files and will show up in contents lists for
-folders, but there won't be any special display of them. They will
-appear by name in lists and will be available for download if clicked.
-
-There are specialized add-on tools for Plone web sites that search
-contents of files. If you are interested in this functionality, ask your
-Plone web site administrator.
-
+Alcuni esempi di file includono i file PDF, i documenti Word, i file di
+database, gli archivi zip...- praticamente qualunque cosa. I file su un sito
+Plone vengono trattati semplicemente come file e verranno mostrati nelle
+liste di contenuti delle cartelle, ma non ci sara nessuna visualizzazione
+speciale per loro. Appariranno con il loro nome nelle liste e sarà
+possibile scaricarli cliccando su di loro. 
