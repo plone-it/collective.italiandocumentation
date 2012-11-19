@@ -1,4 +1,4 @@
-Adding Pages
+Aggiungere Pagine
 =================
 
 Le pagine in Plone possono variare molto, ma ad ogni modo sono
@@ -36,25 +36,26 @@ Le persone normalmente si trovano subito a proprio agio con l'approcio
 utilizzato dagli editor WYSIWYG. Vedremo in maniera più approfondita
 questo argomento più avanti in questo manuale.
 
-Markup languages
+Linguaggi di markup
 -------------------
 
-If you are the sort of person who likes to enter text using so-called
-mark-up formats, you may switch off the visual editor under your
-personal preferences, which will replace Kupu with a simplified text
-entry panel. The mark-up formats available in Plone are:
+Se preferite scrivere il testo delle pagine utilizzando i formati di
+markup, è possibile disabilitare l'editor di testo visual nel pannello
+delle preferenze personali, e rimpiazzare così TinyMCE con un campo di
+testo semplificato. I formati di markup disponibili in Plone sono:
 
 -   [Markdown](http://en.wikipedia.org/wiki/Markdown)
 -   [Textile](http://en.wikipedia.org/wiki/Textile_%28markup_language%29)
 -   [Structured Text](http://www.zope.org/Documentation/Articles/STX)
 -   [Restructured Text](http://en.wikipedia.org/wiki/ReStructuredText)
 
-Each of these works by the embedding of special formatting codes within
-text. For example, with structured text formatting, surrounding a word
-or phrase by double asterisks will make that word or phrase bold, as in
-\*\*This text would be bold.\*\* These mark-up formats are worth
-learning for speed of input if you do a lot of page creation, or if you 
-are adept at such slightly more technical approaches to entering text.
-Some people prefer such formats not just for speed itself, but for 
-fluidity of expression.
+Ogniuno di questi necessita di aggiungere speciali codici per la
+formattazione all'interno del testo. Ad esempio, con la formattazione
+structured text, mettere tra doppi asterischi una parola o una frase le
+renderà con stile grassettato così \*\*Questo testo sarebbe grassettato\*\*.
+Vale la pena di imparare questi formati di markup per aumentare la velocità
+di input se si creano molte pagine o se sei appassionato di questo approcio
+leggermente più tecnico di inserimento del testo.
+Alcune persone preferiscono questi formati non solo per la velocità in sè ma
+anche per la fluidità di espressione. 
 
