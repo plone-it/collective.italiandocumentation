@@ -1,34 +1,31 @@
-What's in a Web Name?
+Cosa c’è in un nome Web?
 ==========================
 
-Individual content items on a Plone web site have discrete web
-addresses. Plone creates these automatically, based on the Title that
-you supply.
+**Ogni contenuto di un sito Plone ha un indirizzo web univoco.
+Plone crea gli indirizzi automaticamente, in base al Titolo che avete
+fornito.**
 
-What's in a Web Name?
----------------------
-
-The **Title** of content items, including folders, images, pages, etc.,
-can be anything you want -- you can use any keyboard characters,
-including blanks. **Titles** become part of web address for each item
-you create in Plone. Web addresses, also known as URLs, are what you
-type in a web browser to go to a specific location in a web site (Or,
-you would click your way there), such as:
+Il **Titolo** di un contenuto, incluse cartelle, immagini, pagine, etc.
+può essere tutto ciò che vuoi – puoi usare tutti i caratteri della
+tastiera, inclusi gli spazi bianchi. I titoli diventano parte dell’indirizzo
+web per ogni elemento che crei in Plone. Gli indirizzi Web, conosciuti anche
+come URL, sono quello che scrivete in un browser web per andare ad una
+posizione specifica in un sito web (In alternativa, come ad esempio:
 
 www.mysite.com/about/personnel/sally/bio
 
-OR
+o
 
 www.mysite.com/images/butterflies/skippers/long-tailed-skippers
 
-Web addresses *do* have restrictions on allowed keyboard characters, and
-blanks are not allowed. Plone does a good job of keeping web addresses
-correct by using near-equivalents of the **Title** that you provide, by
-converting them to lowercase, and by substituting dashes for spaces and
-other punctuation.
+Al contrario dei titoli, gli indirizzi web *hanno* restrizioni sui caratteri
+consentiti, come gli spazi bianchi.Plone fa un ottimo lavoro per mantenere
+gli indirizzi web corretti utilizzando una struttura quasi equivalente al
+titolo che avete fornito, convertendo tutte le lettere in minuscolo e
+sostituendo i trattini agli spazi bianchi e alla punteggiatura.
 
-To illustrate, let's take each of these two web addresses and split them
-out into their component parts:
+Per capire meglio, prendiamo ciascuno di questi due indirizzi web e dividiamoli
+nei vari componenti:
 
 ::
 
@@ -44,11 +41,12 @@ out into their component parts:
                                          ^ 
                                          a folder named Bio
 
-In this example, Plone changed each folder title to lowercase, e.g.,
-from Personnel to personnel. You don't have to worry about this. Plone
-handles the web addressing; you just type in titles however you want.
+In questo caso Plone ha cambiato ogni titolo della cartella in lettere
+minuscole, ad esempio da Personnel a personnel. Ma non dovete preoccuparvi
+di questo perchè Plone gestisce l’indirizzamento web; vi basterà digitare
+nei titoli quello che volete.
 
-And, for the second example:
+E, per il secondo esempio:
 
 ::
 
@@ -64,15 +62,14 @@ And, for the second example:
                                                ^
                                                a folder named Long-Tailed Skippers
 
-This example is similar to the first, illustrating how there is a
-lowercase conversion from the title of each folder to the corresponding
-part of the web address. Note the case of the folder named Long-tailed
-Skippers. Plone kept the dash, as that is allowed in both title and part
-of the web address, but it changed the blank between the words Tailed
-and Skippers to a dash, in the web address, along with the lowercase
-conversion.
+Questo esempio è simile al primo ed illustra come avviene la conversione
+in lettere minuscole del titolo di ciascuna cartella alla corrispondente
+parte dell’indirizzo web. Da notare il caso della cartella nominata
+"Long-tailed Skippers": Plone conserva il trattino, in quanto carattere
+consentito, sia nel titolo che nella parte dell’indirizzo web, ma converte in
+un trattino, nell’indirizzo web, lo spazio bianco tra le parole Tailed e
+Skippers oltre che le lettere da maiuscole a minuscole.
 
-The web address of a given item is referred to as the **short name** in
-Plone. When you use the **Rename** function, you'll see the short name
-along with the title.
-
+L’indirizzo web di un certo contenuto è indicato in Plone come nome breve.
+Quando usate la funzione Rinomina verrà visualizzato il nome breve insieme
+al titolo.

@@ -1,18 +1,19 @@
-Adding Folders
+Aggiungere Cartelle
 ===================
 
-Adding folders to a Plone web site is the basic way of controlling the
-organization of content.
+*Aggiungere cartelle ad un sito web Plone è il passo fondamentale per
+controllare l’organizzazione dei contenuti*
 
-You have undoubtedly created folders (directories) on your computer's
-hard drive. Personal computers use a hierarchy of folders to structure
-and organize the programs and files on the hard drive. In Plone folders
-are essentially used the same way, except that they are created on a
-Plone web site, for organizing content in Plone's built-in storage
-system.
 
-Folders are added by clicking the **Add new...** drop-down menu. Select
-**Folder** from the menu:
+Sul vostro computer, avrai sicuramente creato cartelle (directory). I
+pc utilizzano una struttura gerarchica per organizzare i programmi e
+i files all’interno del disco rigido. In Plone le cartelle sono utilizzate
+praticamente nello stesso modo, l'unica differenza è che sono create in
+un sito web al fine di strutturare il contenuto del sistema di archiviazione
+incorporato.
+
+Le cartelle si aggiungono cliccando sul menu *Aggiungi…* e selezionando
+**Cartella**:
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
@@ -20,41 +21,38 @@ Folders are added by clicking the **Add new...** drop-down menu. Select
 
    add-item-menu-folder.png
 
-You should now see the *Add Folder* screen:
+Ora dovresti vedere il pannello *Aggiungi Cartella*:
 
 .. figure:: ../_static/addfolder.png
    :align: center
    :alt: 
 
-Fill in the **Title**, which is required, as indicated by the red
-square. The **Description** is optional; you can always come back to
-the edit panel if you need to add a description of the folder.
-Descriptions are useful when a site visitor uses the search tool
-included with Plone - results will display with both the Title and
-Description of the item.
 
-You also notice tabs along the top:
+E’ necessario compilare il campo Titolo, in quanto si tratta di un campo
+richiesto (come è indicato dal quadratino rosso). Il campo Descrizione è
+opzionale; potrai sempre tornare indietro al pannello di modifica se hai
+necessità di aggiungere una descrizione alla cartella. Le descrizioni sono
+utili quando un visitatore utilizza il tool di ricerca incluso in Plone –
+nei risultati saranno visualizzati  sia il Titolo che la Descrizione
+dell’elemento.
 
--  *Default*, for entering the Title and Description fields,
--  *Categorization,* for specifying categories that apply to the folder
-   (you may know these as *keywords*),
--  *Dates*, for setting the time period when the folder should be
-   available for view on the web site,
--  *Ownership*, for specifying the creator and/or contributors for the
-   content item,
--  *Settings,* for allowing comments about the item, adding :ref:`_rst_prev-next-links`,
-   and choosing whether it shows in the navigation menu for the web
-   site.
+Noterete altre schede nella parte superiore:
 
-These tabs are standard, so you'll see them when you click other content
-types. We will cover these tabs in another section of this user manual.
+* **Default**, dove inserire i campi Titolo e Descrizione,
+* **Categorizzazione**, dove specificare le categorie a cui appartiene la
+  cartella (conosciute anche come keywords o tag),
+* **Date**, dove settare il periodo di tempo durante il quale la cartella sarà
+  visibile nel sito,
+* **Proprietario**, dove specificare il creatore e/o i collaboratori
+  dell’elemento in questione, 
+* **Impostazioni**, dove abilitare i commenti, abilitare la navigazione
+  precedente/successivo e scegliere se visualizzare il contenuto nel menu di
+  navigazione del sito web.
 
-Be sure to click **Save** at the bottom of the page when you are
-finished. This will complete the folder creation process.
+Queste schede sono standard, verranno visualizzate anche su altri tipi di
+contenuto. Ci occuperemo di queste schede in un'altra sezione di questo manuale.
 
-`|lights-camera-action.png| <http://media.plone.org/LearnPlone/Adding%20a%20new%20folder%20and%20new%20page.swf>`_
-Watch a Plone 4 video on `adding a
-folder <http://dist.plone.org/media/video/plone4-user-manual/foldercreation.html>`_.
+Assicurati di cliccare sul bottone **Salva** in basso alla pagina quando hai
+finito. Questo completerà il processo di creazione di una cartella 
 
-
-.. |lights-camera-action.png| image:: ../_static/lights-camera-action.png
+Guarda un video su `come aggiungere una cartella <http://dist.plone.org/media/video/plone4-user-manual/foldercreation.html>`_.
