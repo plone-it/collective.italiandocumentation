@@ -83,7 +83,7 @@ Notizia
     riassuntiva della cartella accanto al riepilogo della stessa.
 Pagina
     Una Pagina in Plone è uno dei tipi di contenuto più semplici disponibili.
-    Utilizza le Pagine per scrivere la maggior parte delle pagine web sul tuo 
+    Utilizza questo oggetto per scrivere la maggior parte delle pagine web sul tuo 
     sito Plone.
 
 Nota: a seconda di quali prodotti aggiuntivi hai installato, potrai vedere
@@ -97,9 +97,9 @@ Titolo
 Quasi tutti i tipi di contenuto in Plone hanno due campi in comune: **Titolo**
 e **Descrizione.**
 
-Il **Titolo**, comprese le cartelle, le immagini, le pagine, etc.,
+Il campo **Titolo** delle cartelle, delle immagini, delle pagine, etc.,
 può contenere tutto quello che vuoi -- puoi usare qualsiasi carattere della tastiera,
-inclusi gli spazi. **I Titoli** fanno parte dell'indirizzo web di ogni
+inclusi gli spazi. **I Titoli** fanno parte dell'indirizzo web di ogni 
 elemento creato in Plone. Gli indirizzi web, noti come URLs, sono quello
 che digiti in un browser per passare in una specifica posizione di un sito(O,
 il percorso del link selezionato), come ad esempio:
@@ -111,28 +111,24 @@ o
 www.mysite.com/images/butterflies/skippers/long-tailed-skippers
 
 Gli indirizzi web *sono* soggetti a restrizioni rispetto ai caratteri della tastiera 
-consentiti e, ad esempio, gli spazi non sono ammessi. Plone fa un buon lavoro 
+consentiti come, ad esempio, gli spazi che non sono ammessi. Plone fa un buon lavoro 
 mantenendo gli indirizzi web molto simili ai **Titoli** forniti, convertendoli in 
 lettere minuscole, sostituendo gli spazi con i trattini e sostituendo altri
 segni di punteggiatura.
 
-In Plone L'indirizzo web di un certo elemento è denominato **nome breve**. 
-Quando si utilizza la funzione **Rinomina**, verrà visualizzato  sia
+In Plone l'indirizzo web di un certo elemento è denominato **nome breve**. 
+Quando si utilizza la funzione **Rinomina**, verrà visualizzato sia 
 il nome breve sia il titolo.
 
 I campi variano a seconda del tipo di contenuto. Per esempio, il tipo di
 contenuto Collegamento ha il campo URL. Il tipo di contenuto File ha il 
-campo File, e così via.
+campo File e così via.
 
 Descrizione
 -----------
 
-La **Descrizione** appears at the top of pages, just under the Title.
-Descriptions are often used to conjunction with a variety of Folder and
-Collection views (such as Standard and Summary). The Description also
-appears in search results via Plone's native search engine.
-La **Descrizione** appare nella parte superiore delle pagine, appena sotto il titolo.
-Le descrizioni sono spesso visualizzatein molte viste di Cartella e 
+La **Descrizione** appare nella parte superiore delle pagine, appena sotto il titolo. 
+Sono spesso visualizzate in molte viste assegnate a Cartelle e 
 Collezioni (come in quella Standard e in quella Sintetica). La descrizione 
 appare anche nei risultati delle ricerche eseguite con il  motore di ricerca nativo di Plone.
 
