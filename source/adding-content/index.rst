@@ -1,8 +1,8 @@
 ====================
-Adding Content
+Aggiungere contenuti
 ====================
 
-How to add basic content types to Plone web sites
+Come aggiungere contenuti base ai siti web Plone
 
 .. toctree::
     :maxdepth: 2
