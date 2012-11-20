@@ -1,149 +1,139 @@
-Setting Basic Properties
-==============================
+Impostazione delle proprietà di base
+====================================
 
-The tab panels available on each content item has fields for basic
-information. Providing such data is important, providing fuel for the
-engines that run Plone.
+I riquadri corrispondenti ai tab disponibili su ogni elemento di
+contenuto dispongono di campi per le informazioni di base. Fornire tali
+dati è importante, significa fornire combustibile per il motore di Plone.
 
-Any content item, when clicked by a user with edit rights for the item,
-will show a set of tabs at the top for setting basic properties:
+Ogni elemento di contenuto, se cliccato da un utente con diritti di
+modifica per tale elemento, mostrerà una serie di tab nella parte superiore, 
+per l'impostazione delle proprietà di base:
 
 .. figure:: ../_static/basicpropertiestabs.png
    :align: center
    :alt: null
 
-   null
+   |null|
 
-These basic properties tabs are:
+Questi tab per le proprietà di base sono:
 
--  *Default* - shows the main data entry panel for the content item
--  *Categorization* - shows a panel for creating and setting categories
-   (keywords) for the item
--  *Dates* - shows the publishing date and expiration date for the item
--  *Ownership* - shows a panel for setting creators, contributors, and
-   any copyright information for the item
--  *Settings* - shows a small panel for setting whether or not the item
-   will appear in navigation menus and if comments are allowed on the
-   item
+-  *Default* - mostra il form di inserimento dei dati principali per
+   l'elemento di contenuto
+-  *Categorizzazione* - mostra un pannello per la creazione e l'impostazione
+   delle categorie (parole chiave) per l'elemento
+-  *Date* - mostra la data di pubblicazione e la data di scadenza per
+   l'elemento
+-  *Possessore* - mostra un pannello per l'impostazione dei creatori, dei
+   contributori e di tutte le informazioni sul copyright dell'elemento
+-  *Impostazioni* - mostra un piccolo pannello per stabilire se l'elemento
+   apparirà nel menu di navigazione e se sono ammessi i commenti sull'elemento
+   
+I campi di inserimento in queste schede coprono le informazioni descrittive
+di base chiamate ***metadati***. I metadati vengono a volte chiamati "dati
+sui dati". Plone può utilizzare questi metadati in moltissimi modi.
 
-The input fields under these tabs cover basic descriptive information
-called ***metadata***. Metadata is sometimes called "data about data."
-Plone can use this metadata in a multitude of ways.
-
-Here is the *Categorization* panel, shown for a page content item (would
-be the same for other content types):
+Ecco il pannello di *Categorizzazione*, mostrato per un elemento di contenuto
+pagina (sarebbe lo stesso per altri tipi di contenuto):
 
 .. figure:: ../_static/editpagecategorization.png
    :align: center
    :alt: null
 
-   null
+   |null|
 
-*Note: Tags were formerly called Categories in Plone 3, and Keywords
-prior to version 3.0.*
+*Nota: I tag sono stati precedentemente chiamati Categorie in Plone 3 e Parole Chiave
+prima della versione 3.0.*
 
-The main input field for the panel is for specifying *categories*.
-Create them anew, just by typing in words or phrases, one per line, in
-the **New tags** box. When you save, the new tags will be created within
-the system of tags for the web site, and this content item will be filed
-under them. If you re-edit this item, or edit any other, the new tags
-will show up as **Existing tags**.
+Il campo principale di inserimento del pannello serve a specificare le *categorie*.
+Per crearne di nuove basta semplicemente digitare parole o frasi, una per riga, nel
+box **Nuovi tag**. Quando si salva, i nuovi tag saranno creati nel
+sistema di tag per il sito web, e l'elemento di contenuto sarà archiviato
+sotto di esse. Se si ri-modifica questo elemento, o si modifica qualsiasi altro elemento, le
+nuove etichette verranno visualizzate sotto i **Tag esistenti**.
 
-The *Related Items* field lets you set links between content items,
-which will show as links at the bottom, when a content item is viewed.
-This is useful when you don't want to use explicit categories to connect
-content.
+Il campo *Elementi Correlati* permette di impostare i collegamenti tra gli elementi
+di contenuto, che verranno mostrati come link in fondo, quando un elemento di contenuto viene visualizzato.
+Questo è utile quando non si desidera utilizzare le categorie esplicite per connettere
+il contenuto.
 
-The *Location* field is a geographic location, suitable for use with
-mapping systems, but appropriate to enter, for general record keeping.
+Il campo *Posizione* è una posizione geografica, è adatto per l'uso con
+sistemi di mappatura, ma adeguato per l'archiviazione dei documenti in generale.
 
-The *Language* choice normally would be allowed to fall to the site
-default, but on multilingual web sites, different languages could be
-used in a mix of content.
+La *Lingua* scelta normalmente è quella di default del sito, ma su siti web multilingue,
+lingue diverse potrebbero essere utilizzate in un mix di contenuti.
 
-The *Dates* panel has fields for the publishing date and the expiration
-date, effectively start and stop dates for the content if you wish to
-set them:
+Il pannello *Date* ha campi per la data di pubblicazione e la data di scadenza,
+che si riferiscono esattamente alle date di inizio e fine per il contenuto, se si desidera
+impostarle:
 
 .. figure:: ../_static/datessettings.png
    :align: center
    :alt: null
 
-   null
+   |null|
 
-The publication and expiration dates work like this:
+Le date di pubblicazione e di scadenza funzionano in questo modo:
 
--  When an item is past its expiration date, it's marked "expired" in
-   red in its document byline when viewed.
--  An item whose publication date is before the current date doesn't get
-   extra text in its byline.
--  In both cases, the item is "unpublished", which is not to be confused
-   with a workflow state.
--  It merely means the item doesn't show up in listings and searches.
--  These listings include folder listings.
--  However, the owner of the item will keep seeing it, which is handy
-   because you like to know what you have lying around in your site.
--  The permission that controls this is Access inactive portal content.
--  Expired items in a folder are marked as such when viewing the
-   folder\_contents.
--  There's no quick way of seeing if items in a folder listing are not
-   yet published.
--  When you set an unpublished item as the default view for a folder,
-   that item will be shown.
--  Unpublishing an item doesn't have any effect for admins. They will
-   always see unpublished items in their listings and searches.
--  Giving another regular users rights ("can add", can edit", "can
-   review") on the item doesn't make it any less unpublished for those
-   users.
--  A practical way for a non-admin user to access an unpublished item is
-   directly through its URL.
+- Quando un elemento è oltre la sua data di scadenza, è contrassegnato "scaduto" in rosso nel suo sottotitolo quando viene visualizzato.
+- Un oggetto la cui data di pubblicazione è precedente alla data attuale non presenta testo aggiuntivo nel suo sottotitolo.
+- In entrambi i casi, l'elemento è "non pubblicato", definizione che non deve essere confusa con uno stato del suo workflow.
+- Vuol dire semplicemente che l'elemento non compare negli elenchi e nelle ricerche.
+- Questi elenchi includono gli elenchi delle cartelle.
+- Tuttavia, il proprietario dell'elemento continuerà a vederlo, questo perchè è desiderabile sapere quali documenti giacenti ci sono nel nostro sito.
+- Il permesso che controlla tutto questo si chiama "Access inactive portal content".
+- Gli elementi scaduti in una cartella sono contrassegnati come tali durante la visualizzazione folder\_contents.
+- Non c'è un modo rapido di vedere se gli elementi in un elenco di cartelle sono non ancora pubblicati.
+- Quando si imposta un elemento non pubblicato come la visualizzazione predefinita per una cartella tale elemento verrà visualizzato.
+- L'annullamento della pubblicazione di un elemento non ha alcun effetto per gli amministratori. Essi potranno sempre vedere gli oggetti non pubblicati nei loro elenchi e nelle ricerche.
+- Dare un altro dei diritti degli utenti regolari ("può aggiungere", "può modificare", "può revisionare") sull'elemento non lo rende meno non pubblicato per questi utenti.
+- Un modo pratico per un utente non amministratore per accedere a un elemento non pubblicato è direttamente attraverso il suo URL.
 
-The *Ownership* panel has three free-form fields for listing creators,
-contributors, and information about copyright or ownership rights to the
-content:
+Il pannello *Possessore* dispone di tre campi liberi per assegnare i creatori,
+i contributori, e le informazioni in merito ai diritti d'autore o alle proprietà del
+contenuto:
 
 |null|
 
-The *Settings* panel has fields that may vary a bit from content type to
-content type, but generally there are input fields controlling whether
-or not the item appears in navigation, or if there are comments allowed,
-and other similar controls:
+Il pannello *Impostazioni* ha campi che possono variare un po' da tipo di contenuto a
+tipo di contenuto, ma in generale ci sono campi di input per stabilire se
+o meno l'elemento appare nella navigazione, o se sono autorizzati i commenti,
+e altri controlli simili:
 
 .. figure:: ../_static/settingspanel.png
    :align: center
    :alt: null
 
-   null
+   |null|
 
-Recommendations
+Raccomandazioni
 ---------------
 
-There is no requirement to enter the information specified through these
-panels, but it is a good idea to do so. For the *Ownership* panel,
-providing the data is important for situations where there are several
-people involved in content creation, especially if there are multiple
-creators and contributors working in groups. You don't always need
-fields such as publishing and expiration dates, language, and
-copyrights, but these data should be specified when appropriate. A
-content management system can only be as good as the data completeness
-allows.
+Non vi è alcun obbligo di inserire le informazioni specificate attraverso questi
+pannelli, ma farlo è una buona idea. Per il pannello *Possessore*,
+fornire i dati è importante per situazioni dove ci sono diversi
+persone coinvolte nella creazione di contenuti, soprattutto se ci sono più
+creatori e collaboratori che lavorano in gruppo. Non sempre è necessario compilare
+campi quali la data di pubblicazione e di scadenza, lingua e
+diritti d'autore, ma questi dati devono essere specificati al momento opportuno. Un
+sistema di gestione dei contenuti non può che essere buono quanto la completezza dei dati
+che permette.
 
-Specifying categories requires attention, but if you are able to get in
-the habit, and are zealously committed to creating a meaningful set of
-categories, there is a big return on the investment. The return happens
-through the use of searching and other facilities in Plone that work off
-the categorization. The same holds for setting related items. You'll be
-able to put your finger on what you need, and you may be able to
-discover and use relationships within the content.
+Specificare le categorie richiede attenzione, ma se si prende
+l'abitudine, e se ci siamo impegnati a creare un insieme significativo di
+categorie, vi è un grande ritorno. Il ritorno avviene
+attraverso l'uso della ricerca e altri servizi di Plone che lavorano con
+la categorizzazione. Lo stesso vale per l'impostazione degli elementi correlati. Sarai
+in grado di mettere le mani su quello che ti serve, e di
+scoprire e utilizzare le relazioni all'interno del contenuto.
 
-Exposing Metadata Properties as meta tags in the HTML source
-------------------------------------------------------------
+Esposizione delle proprietà dei metadati come meta tag nel codice HTML
+----------------------------------------------------------------------
 
-From Plone 4 on, in *Site Setup â†’ Site*, there is a check box that
-will expose the Dublin Core metadata properties. Checking this box will
-expose the title, description, etc. metadata as meta tags within the
-HTML ``<head>``.
-For example:
+Da Plone 4 in poi, in *Configurazioni del sito*, *Sito*, c'è un check box che
+esporrà le proprietà di base dei metadati Dublin Core. Selezionando questa casella si
+esporrà il titolo, la descrizione, ecc... e altri metadati come meta tag all'interno
+dell'HTML ``<head>``.
+Per esempio:
 
 ::
 
@@ -154,14 +144,14 @@ For example:
     <meta content="admin" name="DC.creator" />
     <meta content="2009-11-27 17:04:03" name="DC.date.modified" />
     <meta content="2009-11-27 17:04:02" name="DC.date.created" />
-    <meta content="en" name="DC.language" />a
+    <meta content="en" name="DC.language" />
 
-` <http://dublincore.org/>`_The generator will check and obey the
+` <http://dublincore.org/>`_Il generatore verificherà e rispetterà l'impostazione
 `allowAnonymousViewAbout
-setting <http://plone.org/documentation/manual/developer-manual/plone-properties/site-properties/view?searchterm=allowAnonymousViewAbout>`_
-and affects the properties*Creator*, *Contributors* and *Publisher*.
+<http://plone.org/documentation/manual/developer-manual/plone-properties/site-properties/view?searchterm=allowAnonymousViewAbout>`_
+e riguarderà le proprietà *Creatore*, *Collaboratori* e *Publisher*.
 
-You can read more about `Dublin Core <http://dublincore.org/>`_ and
+Puoi saperne di più su `Dublin Core <http://dublincore.org/>`_ e
 `HTML
 Metatags <http://www.w3.org/TR/html401/struct/global.html#h-7.4.4.2>`_.
 
