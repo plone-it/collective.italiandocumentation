@@ -1,3 +1,4 @@
+.. _preparing-images-for-the-web:
 Preparing Images for the Web
 ==================================
 

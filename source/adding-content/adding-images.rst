@@ -1,58 +1,53 @@
-Adding Images
-==================
+Aggiungere Immagini
+=====================
 
-Adding images to a Plone web site is a basic task that may involve a
-little work on your local computer, but is essential, because
-photographs, maps, and custom graphics are so important on web sites.
+**Aggiungere immagini in un sito web Plone è un compito fondamentale che può
+comportare un po' di lavoro da parte del computer locale, ma è essenziale
+perché fotografie, mappe e grafica personalizzata sono molto importanti nei
+siti web.**
 
-**`Preparing Images for the
-Web <http://plone.org/documentation/manual/plone-4-user-manual/adding-content/preparing-images-for-the-web>`_**
+:doc:`preparing-images-for-the-web`
 
-**Remember to use web-standard file formats for all images. Acceptable
-formats include: JPG, JPEG, GIF, and PNG. Do not use BMP or TIFF formats
-as these are not widely supported by web browsers.**
+**Ricorda di utilizzare per tutte le immagini i formati di file web-standard.
+I formati consentiti includono: JPG, JPEG, GIF e PNG. Non usare i formati BMP
+e TIFF in quanto non sono pienamente supportati da tutti i web browsers.**
 
-When you are ready to upload an image, use the *Add new...* drop-down
-menu (You will only see the *Add new...* menu after logging in):
+Quando vuoi caricare una immagine, utilizza il menu *Aggiungi…*
+(vedrai il menu *Aggiungi…* solo dopo aver effettuato l'accesso): 
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
    :alt: add-item-menu-image.png
 
-   add-item-menu-image.png
-
-After clicking to add an **Image**, you'll see the *Add Image* panel:
+Dopo aver cliccato per aggiungere una **Immagine**, vedrai il pannello
+*Aggiungi Immagine*:
 
 .. figure:: ../_static/addimage.png
    :align: center
    :alt: add-image.png
 
-   add-image.png
+Ci sono i campi Titolo e Descrizione (campo inteso come "campo di immissione
+dati") come per l'aggiunta di una cartella. In fondo c'è un campo per caricare
+un'immagine. Vediamo i tre campi di input:
 
-The Title and Description fields (field, as in "data input field") are
-there, as with adding a Folder, and at the bottom there is a place to
-upload an image. Let's look at the three input fields individually:
+-  *Titolo* - Inserisci il testo che preferisci, compresi spazi bianchi e
+   punteggiatura (Plone gestisce automaticamente l'indirizzamento web)
+-  *Descrizione* - È sempre una buona idea valorizzare questo campo che però
+   non è obbligatorio
+-  *Immagine* - Il campo immagine è un campo testo con un bottone *Sfoglia…*
+   vicino. Non dovi scrivere niente qui; devi solo cliccare su Sfoglia e potrai
+   navigare nel tuo computer per selezionare il file da caricare
+   (ammesso che ricordi dove hai messo le tue immagini sul computer).
 
--  *Title* - Use whatever text you want, even with blanks and
-   punctuation (Plone handles web addressing).
--  *Description* - Always a good idea, but always optional. Leave it
-   blank if you want.
--  *Image* - The Image field is a text entry box along with a Browse...
-   button. You don't have to type anything here; just click the Browse
-   button and you'll be able to browse you local computer for the image
-   file to upload (*Remember*: You need to *remember* where you keep
-   your images on your computer).
+Per le immagini dovi selezionare dal tuo computer il file immagine e
+cliccare su Salva nella parte inferiore per caricare l'immagine sul
+sito web Plone. Dovrai aspettare qualche secondo per il completamento del
+caricamento (qualche minuto, se hai una connessione internet lenta).
+Un'anteprima dell'immagine caricata verrà visualizzata al termine del
+caricamento.
 
-For images, at a minimum, you will browse your local computer for the
-image file, then click **Save** at the bottom to upload the image to the
-Plone web site. You'll have to wait a few seconds for the upload to
-complete (or a minute or so, if you have a slow Web connection). A
-preview of the uploaded image will be shown when the upload has
-finished.
-
-As of Plone 4, images and files that are uploaded into Plone have their
-IDs (URLs) based on the title that is given to the image (instead of the
-file name of the image or file). Since the title field is not required,
-if you do not fill it out, the name of the item will default to using
-the name of the file in place of the title.
-
+A partire da Plone 4, le immagini e i file che vengono caricati sul sito
+hanno un loro ID (URL) basato sul titolo che gli è stato assegnato (invece
+del nome del file o immagine). Siccome il campo Titolo non è obbligatorio,
+se non è specificato, come nome del contenuto sarà utilizzato di default
+il nome del file al posto del titolo.
