@@ -2,7 +2,7 @@
 Plone 4: Manuale utente
 ==========================
 
-Il manuale di Plone per redattori e amministratori.
+Il manuale di Plone per utenti, redattori e amministratori.
 
 .. toctree::
     :maxdepth: 2
