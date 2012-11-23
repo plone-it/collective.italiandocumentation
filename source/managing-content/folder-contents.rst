@@ -1,16 +1,15 @@
-Folder Contents
-====================
+Contenuti delle cartelle
+========================
 
-The Contents tab shows a list of items in a folder. It is the place for
-simple item-by-item actions and for the manipulative actions of copy,
-cut, paste, move, reorder, etc.
+Il tab Contenuti mostra la lista degli elementi in una cartella. E' il posto
+dove eseguire semplici operazioni sugli elementi e dove eseguire azioni come copiare, 
+tagliare, incollare, spostare, riordinare, etc.
 
-The Contents tab for folders is like "File Manager" or "My Computer"
-system utilities in Windows and Linux desktops and the "Finder" in Mac
-OS X, with similar functionality.
+Il tab Contenuti delle cartelle è come la sezione "Gestione file" o "Risorse del Computer" 
+dei pc con Windows e Linux ed il "Cerca" nei Mac OS X, con funzionalità simili.
 
-Clicking the *Contents* tab for a folder, such as the "Skippers" folder
-below, shows the *Contents* tab panel:
+Cliccando il tab *Contenuti*, come ad esempio per la cartella "Skippers" 
+qui sotto, verrà mostrato la scheda *Contenuti*:
 
 .. figure:: ../_static/foldercontents.png
    :align: center
@@ -18,23 +17,23 @@ below, shows the *Contents* tab panel:
 
    folder-contents.png
 
-The *Contents* tab panel is immediately recognized by observing the
-check boxes beside the items in the contents list. Click these check
-boxes to select multiple items for performing *copy*, *cut*, *rename*,
-*delete*, or *change state* operations.
+La scheda *Contenuti* è immediatamente riconoscibile osservando i
+check boxes accanto alle voci della lista. Clicca questi check
+boxes per selezionare più elementi e per eseguire le funzioni *copia*, *taglia*, *rinomina*,
+*elimina* o *cambia lo stato*.
 
-Plone has a clipboard for *copy* and *cut* operations. If you check one
-or more items, and click cut or copy, a paste button will be added to
-the row of buttons along the bottom of the panel. If you then click
-another folder, you'll be able to paste the items there. For a cut
-operation, the items will remain in the source folder -- they won't
-disappear -- until they are pasted somewhere.
+Plone ha una sezione di appunti dove gestisce le operazioni di *copia* e *taglia*. Se selezioni uno 
+o più elementi e premi taglia o copia, sarà aggiunto un pulsante incolla in fondo alla scheda 
+nella stessa riga dove si trovano gli altri pulsanti. Se a questo punto vai in un'altra
+cartella, vi potrai incollare l'elemento. Utilizzando la funzione taglia
+, gli elementi rimangono nella cartella sorgente -- non scompariranno -- 
+finchè non saranno incollati da un'altra parte.
 
-*Renaming* items will show a panel for entering a new name for the
-*short name* (or *id*) of the item, as well as the *title*. The
-distinction between *short name* and *title* is one that becomes
-apparent only when you rename, because Plone automatically creates the
-*short name* from the *title* in most Plone web sites. But the renaming
+Quando si *Rinominano* i contenuti, verrà mostrata una scheda dove inserire un nuovo valore
+per il *nome breve* (o *id*) dell'elemento , così come per il *titolo*. La
+differenza tra il *nome breve* ed il *titolo* diventa evidente solo quando
+si utilizza la funzione rinomina, perchè Plone crea automaticamente il
+*nome breve* dal *titolo* nella maggior parte dei siti Plone. But the renaming
 operation must show you the *short name* as well as the *title*, because
 usually would want to change both, if changing either. Consider the
 following example:
