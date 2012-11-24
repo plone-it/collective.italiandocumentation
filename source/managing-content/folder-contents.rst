@@ -33,10 +33,10 @@ Quando si *Rinominano* i contenuti, verrà mostrata una scheda dove inserire un 
 per il *nome breve* (o *id*) dell'elemento , così come per il *titolo*. La
 differenza tra il *nome breve* ed il *titolo* diventa evidente solo quando
 si utilizza la funzione rinomina, perchè Plone crea automaticamente il
-*nome breve* dal *titolo* nella maggior parte dei siti Plone. But the renaming
-operation must show you the *short name* as well as the *title*, because
-usually would want to change both, if changing either. Consider the
-following example:
+*nome breve* dal *titolo* nella maggior parte dei siti Plone. Ma la funzione
+rinomina deve mostrarti sia il *nome breve* sia il *titolo*, perchè 
+normalmente vorrai modificare entrambi per ottenere una modifica completa. Considera il
+seguente esempio:
 
 .. figure:: ../_static/renameitem.png
    :align: center
@@ -44,30 +44,30 @@ following example:
 
    rename-item.png
 
-If you were to change the title to "Long-tailed Skippers," you would
-also change the short name to "long-tailed-skippers." This keeps things
-tidy -- it keeps them correct, so that the URL for the item, the web
-address, is kept up-to-date with the actual content item. Note that the
-short name should contain no blanks. Use dashes for any blanks in the
-title, and otherwise make it a carbon copy of the title. Also, use
-lowercase for the short name. See also the page "`What's in a Web
+Se vuoi modificare il titolo in "Long-tailed Skippers," vorrai
+cambiare anche il nome breve in "long-tailed-skippers." In questo modo i due attributi saranno in ordine
+e corretti, così che l'URL dell'elemento, l'indirizzo web
+, sarà aggiornato rispetto all'elemento stesso. Nota che il
+nome breve non deve contenere spazi. Utilizza i trattini al posto degli spazi
+e, se non ce ne sono, fai una copia precisa del titolo. Inoltre, usa
+solo lettere minuscole per il nome breve. Guarda la pagina "`What's in a Web
 Name? <http://plone.org/documentation/manual/plone-4-user-manual/adding-content/whats-in-a-web-name>`_"
-for a description of how Plone handles web addressing and the short
-name. The following video also includes in illustration of renaming:
+per una descrizione di come Plone gestisce gli indirizzi web e i nomi
+brevi. Il seguente video include anche la funzione rinomina:
 
 `|image11| <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_
-Watch a Plone 2 video that includes `renaming an
-item <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_.
+Guarda un video con Plone 2 che include la funzione `rinomina di un
+elemento <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_.
 
-The *delete* operation is straightforward. Click to select one or more
-items, and then the delete button, and the items will be deleted.
+L'operazione *cancella* è semplice. Clicca per selezionare uno o più
+elementi, in seguito premi il pulsante cancella e gli elementi saranno cancellati.
 
-The *change state* operation offers a great way to change the
-publication state of a selection of folders, and their subfolders if you
-select this option. In the following example, the publication state for
-a folder called "Long-tailed Skippers" is being modified. Checking the
-"Include Folder Items" will make the state change affect all contained
-content. Don't forget that you can do this to, say, three folders at a
+L'operazione *cambia stato* offre un ottimo modo per cambiare lo stato di
+pubblicazione delle cartelle selezionate e dei loro contenuti se hai selezionato
+l'opzione corrispondente. Nel seguente esempio, lo stato di pubblicazione della cartella
+"Long-tailed Skippers" sarà modificato. Selezionando 
+"Includi gli elementi contenuti" il cambiamento dello stato avrà effetto anche su tutto
+il suo contenuto. Non dimenticare che se lo fai Don't forget that you can do this to, say, three folders at a
 time, and all of their subfolders and contained content, so that in one
 fell swoop you can quickly publish, unpublish, etc.
 
