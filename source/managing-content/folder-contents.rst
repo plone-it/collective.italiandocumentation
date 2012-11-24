@@ -67,18 +67,17 @@ pubblicazione delle cartelle selezionate e dei loro contenuti se hai selezionato
 l'opzione corrispondente. Nel seguente esempio, lo stato di pubblicazione della cartella
 "Long-tailed Skippers" sarà modificato. Selezionando 
 "Includi gli elementi contenuti" il cambiamento dello stato avrà effetto anche su tutto
-il suo contenuto. Non dimenticare che se lo fai Don't forget that you can do this to, say, three folders at a
-time, and all of their subfolders and contained content, so that in one
-fell swoop you can quickly publish, unpublish, etc.
+il suo contenuto. Non dimenticare che, ad esempio, tre cartelle e tutto il loro 
+contenuto possono essere pubblicati, nascosti, etc. in un solo colpo.
 
-*Shift-clicking* to select a range of items works. This could be very
-handy for a folder with more than a dozen items or so, and would be
-indispensable for folders with hundreds of items.
+Utilizza *Shift-click* per selezionare un intervallo di elementi. Questo è molto utile
+in una cartella con più di una dozzina di elementi e risulta indispensabile
+in cartelle con centinaia di oggetti.
 
 .. figure:: ../_static/advancedstatepanel.png
    :align: center
    :alt: 
 
-In addition to these individual action operations, reordering is a
-natural mouse-driven manipulation, as described in the next section.
+In aggiunta a queste operazioni, il riordinamento può essere fatto
+in maniera naturale con il mouse, come descritto nella sezione successiva.
 
