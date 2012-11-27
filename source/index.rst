@@ -18,6 +18,7 @@ Il manuale di Plone per utenti, redattori e amministratori.
     portlet-management/index
 
 Altri manuali
+===============
 
 .. toctree::
     :maxdepth: 1
