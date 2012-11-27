@@ -17,6 +17,13 @@ Il manuale di Plone per utenti, redattori e amministratori.
     using-collections/index
     portlet-management/index
 
+Altri manuali
+
+.. toctree::
+    :maxdepth: 1
+
+    other-doc/plone-app-theming.rst
+
 .. |Events summary table| image:: _static/events-summary-chart.jpg
 .. |lights-camera-action.png| image:: _static/lights-camera-action.png
 .. |image3| image:: _static/lights-camera-action.png
