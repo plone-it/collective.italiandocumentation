@@ -24,6 +24,8 @@ Altri manuali
     :maxdepth: 1
 
     other-doc/plone-app-theming.rst
+    other-doc/zodb-manual/index
+    other-doc/zca-manual.rst
 
 Contributori
 ==============
