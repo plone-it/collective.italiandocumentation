@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'La documentazione Italiana di Plone'
+project = u'Documentazione di Plone'
 copyright = u''
 
 # The version info for the project you're documenting, acts as replacement for
@@ -184,7 +184,7 @@ htmlhelp_basename = 'DocumentazionePlone'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'DocumentazionePlone.tex', u'Plone 4: Manuale utente',
+  ('index', 'DocumentazionePlone.tex', u'Documentazio di Plone',
    u'La comunità Italiana di Plone', 'manual'),
 ]
 

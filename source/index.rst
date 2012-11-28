@@ -1,7 +1,9 @@
-==========================
+================================
+Documentazione di Plone
+================================
+
 Plone 4: Manuale utente
 ==========================
-
 Il manuale di Plone per utenti, redattori e amministratori.
 
 .. toctree::
