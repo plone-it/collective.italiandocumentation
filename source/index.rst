@@ -25,6 +25,19 @@ Altri manuali
 
     other-doc/plone-app-theming.rst
 
+Contributori
+==============
+
+Si ringraziano per il loro contributo a questa documentazione:
+
+* `Giacomo Spettoli <giacomo.spettoli@gmail.com>`_ (coordinatore/traduttore/motivatore)
+* `Maurizio Delmonte <maurizio.delmonte@abstract.it>`_ (ideatore/motivatore)
+* `Massimo Azzolini <massimo@redturtle.it>`_ (motivatore/traduttore)
+* `Federica D'Elia <federica.delia@redturtle.it>`_
+* `Giampiero Lago <lago.giampiero@gmail.com>`_
+* `Alex Sani <alexsani.re@gmail.com>`_
+*  Luciano Naldesi 
+
 .. |Events summary table| image:: _static/events-summary-chart.jpg
 .. |lights-camera-action.png| image:: _static/lights-camera-action.png
 .. |image3| image:: _static/lights-camera-action.png
