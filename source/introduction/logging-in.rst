@@ -3,6 +3,12 @@ Autenticazione
 
 **Cosa aspettarsi quando ci si autentica in un sito Plone**
 
+:Data: 27-11-2012
+:Traduzione: Massimo Azzolini
+:Impaginazione: Massimo Azzolini
+:Revisione:
+
+
 Quando visiti un sito Plone come anonimo, oppure ti viene dato un 
 indirizzo web per manutenzione del sito, puoi vedere un bottone 
 "Fatti riconoscere" in alto a destra come questo:

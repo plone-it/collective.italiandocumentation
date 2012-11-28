@@ -1,7 +1,13 @@
 Aggiungere file
 =================
 
-File di vari tipi possono essere caricati su un sito Plone.
+**File di vari tipi possono essere caricati su un sito Plone.**
+
+:Data: 27-11-2012
+:Traduzione: Giacomo Spettoli
+:Impaginazione: Giacomo Spettoli
+:Revisione:
+
 
 Per aggiungere un file, utilizza il menu *Aggiungi...* dentro ad una
 cartella: 

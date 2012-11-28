@@ -1,8 +1,14 @@
 Aggiungere nuovi contenuti
 ==========================
 
-Una panoramica generale su come aggiungere nuovi contenuti in Plone, 
-includendo la definizione di ogni tipo di contenuto standard.
+**Una panoramica generale su come aggiungere nuovi contenuti in Plone, 
+includendo la definizione di ogni tipo di contenuto standard.**
+
+:Data: 27-11-2012
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione:
+
 
 Nuovi contenuti si aggiungono utilizzando la voce del menu a discesa **Aggiungi...**:
 

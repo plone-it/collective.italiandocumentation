@@ -1,8 +1,14 @@
 Aggiungere Eventi
 ==================
 
-I siti Plone hanno un sistema integrato per la gestione e la visualizzazione 
-di eventi in un caledario.
+**I siti Plone hanno un sistema integrato per la gestione e la visualizzazione 
+di eventi in un caledario.**
+
+:Data: 27-11-2012
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione:
+
 
 In una cartella, utilizza la voce del menu *Aggiungi...* per aggiungere un evento:
 

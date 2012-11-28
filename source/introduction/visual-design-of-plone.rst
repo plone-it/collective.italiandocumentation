@@ -1,9 +1,15 @@
 Design Grafico dei Siti Web Plone
 =====================================
 
-Plone permette agli amministratori e ai designer dei siti web di creare
+**Plone permette agli amministratori e ai designer dei siti web di creare
 design unici. Ecco una panoramica del layout Plone, e alcuni esempi di
-design.
+design.**
+
+:Data: 27-11-2012
+:Traduzione: Federica D'Elia
+:Impaginazione: Federica D'Elia
+:Revisione:
+
 
 Come dovrebbe apparire un sito web Plone? Per anni c'è stato un
 design coerente per l'aspetto predefinito di Plone. Il design

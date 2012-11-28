@@ -1,8 +1,13 @@
 La tua Dashboard
 ===================
 
-Ogni utente Plone ha una "dashboard" personale per personalizzare 
-l'interfaccia dell'utente.
+**Ogni utente Plone ha una "dashboard" personale per personalizzare 
+l'interfaccia dell'utente.**
+
+:Data: 27-11-2012
+:Traduzione: Massimo Azzolini
+:Impaginazione: Massimo Azzolini
+:Revisione:
 
 Plone ha diversi "viste" predefinite per le notizie, gli eventi,
 i documenti modificate recentemente, ecc. Queste liste sono raggruppate

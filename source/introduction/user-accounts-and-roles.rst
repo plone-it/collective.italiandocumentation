@@ -1,9 +1,14 @@
 Account utente Plone e Ruoli
 ==================================
 
-*In questo capitolo vedremo le basi di utilizzo di un account
+**In questo capitolo vedremo le basi di utilizzo di un account
 utente su un sito Plone, la distinzione fra navigazione anonima
-e quella autenticata e una descrizione dei ruoli degli utenti*
+e quella autenticata e una descrizione dei ruoli degli utenti**
+
+:Data: 27-11-2012
+:Traduzione: Giacomo Spettoli
+:Impaginazione: Giacomo Spettoli
+:Revisione:
 
 I siti Plone possono essere di molti tipi, andando dal sito personale con un
 solo utente a siti per intere comunità, dal sito di un'organizzazione al sito
@@ -51,9 +56,10 @@ utente anonimo:
 Navigazione autenticata (login)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Avete già avuto esperienza di *navigazione autenticata* se avete mai utilizzato
-un sito di una banca o di pagamenti con carte di credito, o qualsiasi altro
-sito che preveda l'utilizzo di un account. Un sito di una banca ad esempio vi
+Se avete mai utilizzato un sito di una banca o di pagamenti con carte di
+credito, o qualsiasi altro sito che preveda l'utilizzo di un account allora
+avete già avuto esperienza di *navigazione autenticata* .
+Un sito di una banca ad esempio vi
 permette di vedere le informazioni del vostro account, di riempire dei form,
 di trasferire dei fondi e altri tipi di operazioni, ma tutto questo solo dopo
 aver effettuato l'accesso. Un sito Plone non è molto differente, ad eccezione

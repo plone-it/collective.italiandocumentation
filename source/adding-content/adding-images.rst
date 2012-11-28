@@ -6,11 +6,19 @@ comportare un po' di lavoro da parte del computer locale, ma è essenziale
 perché fotografie, mappe e grafica personalizzata sono molto importanti nei
 siti web.**
 
+:Data: 27-11-2012
+:Traduzione: Giampiero Lago
+:Impaginazione: Giacomo Spettoli
+:Revisione:
+
+
 :doc:`preparing-images-for-the-web`
 
-**Ricorda di utilizzare per tutte le immagini i formati di file web-standard.
-I formati consentiti includono: JPG, JPEG, GIF e PNG. Non usare i formati BMP
-e TIFF in quanto non sono pienamente supportati da tutti i web browsers.**
+.. note::
+
+    Ricorda di utilizzare per tutte le immagini i formati di file web-standard.
+    I formati consentiti includono: JPG, JPEG, GIF e PNG. Non usare i formati BMP
+    e TIFF in quanto non sono pienamente supportati da tutti i web browsers.
 
 Quando vuoi caricare una immagine, utilizza il menu *Aggiungi…*
 (vedrai il menu *Aggiungi…* solo dopo aver effettuato l'accesso): 

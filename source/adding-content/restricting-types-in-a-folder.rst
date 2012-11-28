@@ -1,8 +1,13 @@
 Restringere i tipi in una cartella
 ===================================
 
-Il menu "Aggiungi nuovo" ha la possibilità di restringere i tipi di 
-contenuto che posono essere aggiunti alla cartella.
+**Il menu "Aggiungi nuovo" ha la possibilità di restringere i tipi di 
+contenuto che posono essere aggiunti alla cartella.**
+
+:Data: 27-11-2012
+:Traduzione: Massimo Azzolini
+:Impaginazione: Massimo Azzolini
+:Revisione:
 
 Restringere i tipi disponibili ad essere aggiunti ad una cartella è
 il modo più semplice per controllare la creazione di contenuti in un 

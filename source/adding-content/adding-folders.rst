@@ -1,8 +1,13 @@
 Aggiungere Cartelle
 ===================
 
-*Aggiungere cartelle ad un sito web Plone è il passo fondamentale per
-controllare l’organizzazione dei contenuti*
+**Aggiungere cartelle ad un sito web Plone è il passo fondamentale per
+controllare l’organizzazione dei contenuti**
+
+:Data: 27-11-2012
+:Traduzione: Giampiero Lago
+:Impaginazione: Giacomo Spettoli
+:Revisione:
 
 
 Sul vostro computer, avrai sicuramente creato cartelle (directory). I

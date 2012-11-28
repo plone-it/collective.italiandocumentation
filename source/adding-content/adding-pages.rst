@@ -1,8 +1,14 @@
 Aggiungere Pagine
 =================
 
-Le pagine in Plone possono variare molto, ma ad ogni modo sono
-sempre "pagine web".
+**Le pagine in Plone possono variare molto, ma ad ogni modo sono
+sempre "pagine web".**
+
+:Data: 27-11-2012
+:Traduzione: Giacomo Spettoli
+:Impaginazione: Giacomo Spettoli
+:Revisione:
+
 
 Per aggiungere una pagina, utilizza il menu *Aggiungi...* dentro ad una
 cartella: 

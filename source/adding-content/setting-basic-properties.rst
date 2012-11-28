@@ -1,6 +1,11 @@
 Impostazione delle proprietà di base
 ====================================
 
+:Data: 27-11-2012
+:Traduzione: Federica D'Elia
+:Impaginazione: Federica D'Elia
+:Revisione:
+
 I riquadri corrispondenti ai tab disponibili su ogni elemento di
 contenuto dispongono di campi per le informazioni di base. Fornire tali
 dati è importante, significa fornire combustibile per il motore di Plone.

@@ -1,6 +1,11 @@
 Contenuti delle cartelle
 ========================
 
+:Data: 27-11-2012
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione:
+
 Il tab Contenuti mostra la lista degli elementi in una cartella. E' il posto
 dove eseguire semplici operazioni sugli elementi e dove eseguire azioni come copiare, 
 tagliare, incollare, spostare, riordinare, etc.
