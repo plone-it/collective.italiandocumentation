@@ -1,38 +1,37 @@
-Versioning
+Controllo di versione
 ===============
+Una panoramica su come visualizzare la cronologia delle versioni di un elemento,
+confrontare le versioni, visualizzare in anteprima le versioni precedenti e ripristinare versioni precedenti.
 
-An overview on how to view the version history of an item, compare
-versions, preview previous versions and revert to previous versions.
-
-Creating a new version
+Creare una nuova versione
 --------------------------
 
-Plone includes a versioning feature. By default, the following content
-types have versioning enabled:
+Plone include una funzione per gestire le versioni. Per impostazione predefinita, i seguenti tipi di contenuti
+hanno il controllo di versione abilitato:
 
--  Pages
--  News Items
--  Events
--  Links
+-  Pagina
+-  Notizia
+-  Eventi
+-  Collegamento
 
-Note that all other content types do track workflow history.
+Si noti che tutti gli altri tipi di contenuto mantengono la storia del flusso del workflow associato.
 
-Content items can be configured to have versioning enabled/disabled
-through the Site Setup â†’ Plone Configuration panel under "Types".
+I tipi di contenuto posso essere configurati per avere il controllo di versione abilitato/disabilitato
+attraverso il pannello Configurazione del Sitote Setup sotto la voce "Tipi di contenuto".
 
-When editing an item, you may use the **change note** field at the
-bottom; the change note will be stored in the item's version history. If
-the change note is left blank, Plone includes a default note: "Initial
-Revision".
+Quando modifichi un elemento, puoi utilizzare il campo **commento alle modifiche** in fondo;
+il commento alle modifiche verrà memorizzato nella cronologia delle versioni dell'elemento. 
+Se il commento alle modifiche viene lasciato vuoto, Plone includerà una nota standard:"Revisione iniziale".
 
-A new version is created every time the item is saved. Versioning keeps
-track of all kinds of edits: content, metadata, settings, etc.
+Una nuova versione viene creata ogni volta che un elemento viene salvato. Il controllo di versione tiene
+traccia di qualsiasi modifica effettuata: contenuti, metadata, impostazioni, etc.
 
-Viewing the version history
----------------------------
+Visualizzazione della cronologia delle versioni
+-----------------------------------------------
 
-Once an item as been saved, you can use the **History** link found near
-the top of the page. Simply click it to show the History overlay:
+Una volta salvato un oggetto, è possibile utilizzare il link **Cronologia** situato
+nella parte superiore della pagina. Semplicemente cliccalo per visualizzare la Cronologia
+in una finestra sovrapposta alla pagina:
 
 .. figure:: ../_static/history-viewlet.png
    :align: center
@@ -40,22 +39,21 @@ the top of the page. Simply click it to show the History overlay:
 
    history-viewlet.png
 
-The most recent version is listed first. The History viewlet provides
-the following information:
+La versione più recente viene elencata per prima. La viewlet della Cronologia fornisce
+le seguenti informazioni:
 
--  The type of edit (content or workflow)
--  Which user made the edit
--  What date and time the edit occurred
+-  Il tipo di modifica (al contenuto o al workflow)
+-  quale utente ha fatto la modifica
+-  in che data e ora è stata fatta la modifica
 
-Comparing versions
-------------------
+Confrontare le versioni
+-----------------------
 
-From the History viewlet you can compare any previous version with the
-current version or any other version with the version just before it.
+Dalla viewlet della Cronologia puoi confrontare qualsiasi versione precedente con
+quella corrente o qualsiasi altra versione con quella appena prima.
 
-To compare any previous version with the one just before it, click the
-*Compare* link located between two adjacent versions in the History
-overlay.
+Per confrontare qualsiasi versione precedente con quella appena prima, cliccare sul
+link *Confronta* collocato tra le due versioni nella finestra della Cronologia.
 
 .. figure:: ../_static/compare-button.png
    :align: center
@@ -63,8 +61,8 @@ overlay.
 
    compare-button.png
 
-By clicking this button, you'll see a screen like this one where you can
-see the differences between the two versions:
+Cliccando questo link, vedrai un una schermata come questa in cui è possibile
+vedere le differenze fra le due versioni:
 
 .. figure:: ../_static/compare-versions.png
    :align: center
@@ -72,28 +70,28 @@ see the differences between the two versions:
 
    compare-versions.png
 
-In this example, text in red is text which has been deleted and text in
-green is text which has been added to the newer version. You can toggle
-between **inline** or **as code** views of the differences between
-versions.
+In questo esempio, il testo in rosso è quello che è stato cancellato e il testo in
+ verde è quello che è stato aggiunto alla versione più recente.
+È possibile visualizzare le differenze tra le versioni in modalità
+**in linea** o **come codice**.
 
 .. figure:: ../_static/versioncompare-src.png
    :align: center
    :alt: Comparing Versions (HTML Source)
 
-   Comparing Versions (HTML Source)
+   Confronto versioni (Sorgente HTML)
 
-You may also compare any previous version to the *current* version by
-clicking the *Compare to current* link History overlay, found to the far
-right of each version listed.
+È inoltre possibile confrontare qualsiasi versione precedente con la versione *corrente*
+cliccando sul link *Confronta con versione attuale* nella finestra della Cronologia, 
+situato all'estrema destra di ogni versione elencata.
 
-Viewing and reverting to previous versions 
-------------------------------------------
+Visualizzare e tornare alle versioni precedenti
+-----------------------------------------------
 
-**You can preview any previous version** of a document by clicking the
-*View* link to the right of any version listed.
+**Puoi fare una anteprima di qualsiasi versione precedente** di un documento cliccando il link
+*Visualizza* alla destra di ogni versione elencata.
 
-**To revert back to a previous version**, click on the *Revert to this
-revision* button to the right of any version listed.
+**Per tornare ad una versione precedente**, clicca sul pulsante *Ripristina questa
+versione* alla destra di ogni versione elencata.
 
 
