@@ -1,39 +1,38 @@
-Reordering Items
-=====================
+Ordinamento elementi
+======================
 
-The contents tab contains functionality for quick and precise reordering
-of items in a folder.
+Il tab dei contenuti contiene una funzione veloce e precisa per l'ordinamento
+degli elementi di una cartella.
 
-Consider the following folder, called "Skippers," for holding
-information about this type of butterfly.Â Often, when we add content
-items, we don't initially get them in the order we want.Â The desired
-ordering is not always alphabetical, but in this example we can assume
-so. Below you see the Skipper butterfly subfolders are not in
-alphabetical order:
+Considera la seguente cartella, chiamata "Skippers," che contiene
+informazioni sui tipi di farfalle. Spesso, quando aggiungiamo contenuti
+, non li inseriamo nell'ordine finale che vorremmo ottenere. L'ordine desiderato
+non è sempre alfabetico ma in questo esempio il risultato finale sarà questo.
+Sotto puoi vedere che le sottocartelle di Skipper non sono in ordine
+alfabetico:
 
 .. figure:: ../_static/copy_of_foldercontents.png
    :align: center
    :alt: 
 
-To move the top item named "Spread-winged Skippers" to the bottom of the
-list, one would click within the Order column on the left (containing
-the "double-colon" symbols) and drag the row to the desired position:
+Per muovere l'elemento più in alto chiamato "Spread-winged Skippers" in fondo alla
+lista, dovrai cliccare nella colonna di sinistra per l'Ordinamento (quella con il 
+simbolo dei due punti ripetuti) e trascinare la riga nella posizione desiderata:
 
 .. figure:: ../_static/p4_foldercontentsreorder.png
    :align: center
    :alt: Example of Reordering
 
-   Example of Reordering
+   Esempio di Ordinamento
 
-Dragging and dropping is done by holding the mouse button down as you
-move the item. The item that is being moved turns yellow as it is being
-moved:
+Il trascinamento si esegue tenendo premuto il pulsante del mouse mentre sposti
+l'elemento. L'oggetto che stai spostando diventerà giallo e inizierà a muoversi:
 
 .. figure:: ../_static/foldercontentsdrag.png
    :align: center
    :alt: 
 
-When the mouse button is released, the item stays where it was dropped:
+Quando rilascierai il pulsante del mouse, l'elemento si posizionerà in quel punto:
 
 .. figure:: ../_static/foldercontentsdrop.png
    :align: center
