@@ -1,43 +1,41 @@
-Presentation Mode
+Modalità di presentazione
 =======================
 
-Plone comes with the ability to create very simple slideshow
-presentations.
+Plone viene fornito con la possibilità di creare semplici presentazioni di diapositiva.
 
-Presentation Mode is a special feature of the Page content type. You can
-enable Presentation Mode by editing the page, then going to the
-**Settings** tab. Notice the Presentation Mode checkbox available there.
-Once checked, a link will appear in the view of the page for a user to
-view the page in Presentation Mode.
+La Modalità di Presentazione è una funzione speciale del tipo di contenuto Pagina. Puoi
+abilitare la Modalità di Presentazione modificando la pagina, entrando nella linguetta
+**Impostazioni**. Nota che lì sarà presente la checkbox Modalità di Presentazione.
+Una volta selezionata, un link apparirà nella vista della pagina per dare la possibilità ad un utente
+di visualizzarla nella Modalità di Presentazionee.
 
-How to Create Slides
---------------------
+Come creare una diapositiva
+---------------------------
 
-All the content for a presentation lives on a single page. You do not
-need to create a page for each slide. A slide is created when you use
-the Heading (h1) class on the page - they effectively indicate to Plone
-where you want your slides to be.
+Tutto il contenuto di una presentazione rimane in una sola pagina. Non devi
+creare una pagina per ogni diapositiva. Una dispositiva viene creata quando vedi
+la classe Intestazione (h1) nella pagina - queste effettivamente indicano a Plone
+dove si vuole far iniziare una diapositiva.
 
-You can have as many slides as you want in your presentation. Just add
-more Heading (h1) tags to your page and the content between that h1 tag
-and the next h1 tag becomes the content of your slide.
+Non ci sono limiti al numero di diapositive che puoi aggiungere in una presentazione. Ti basta
+inserire più tags Intestazione (h1) nella tua pagina ed il contenuto tra quel tag h1
+e quello successivo diverrà il contenuto della tua diapositiva.
 
-How to Format a Slide
----------------------
+Come Formattare una Diapositiva
+-------------------------------
 
-It is very important to note that the **Normal Paragraph style will not
-render any content in the slide**. Slides are meant to display summary
-information, not chunks of paragraph text. As such, you must class all
-content in each slide with a style other than Normal Paragraph. Examples
-of those styles include:
+E' molto importante notare che i contenuti con associato lo **Stile Paragrafo Normale non vengono
+visualizzati nelle diapositive**. Le diapositive sono pensate per visualizzare informazioni
+di riepilogo, non blocchi di testo. Per questo, devi dare uno stile diverso dal Paragrafo Normale al
+contenuto di ogni diapositiva. Esempi di questi stili sono:
 
--  Heading (h1)
--  Subheading (h3)
--  Definition list
--  Bulleted list
--  Numbered list
+-  Intestazione (h1)
+-  Sottotitolo (h3)
+-  Definizioni di liste
+-  Liste non ordinate
+-  Liste ordinate
 -  Literal
 -  Pull-quote
 -  Call out
--  Highlight
+-  Evidenziato
 
