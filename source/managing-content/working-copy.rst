@@ -1,31 +1,31 @@
-Working Copy
+Copia di lavoro
 ==================
 
-Working Copy lets you have two versions of your content in parallel.
+La Copia di Lavoro ti permette di avere due versioni del tuo contenuto in parallelo.
 
-**When a Plone site is first created, there a number of additional
-features that can be enabled, including "Working Copy". If the Plone
-site you are using doesn't show the "Check out" option under the Actions
-menu, you will need to contact your site manager and request that
-"Working Copy Support (Iterate)" be installed.**
+**Quando un sito Plone viene creato per la prima volta, ci sono diverse funzioni aggiuntive
+che possono essere abilitate, tra cui la "Copia di Lavoro". Se il sito Plone
+che stai usando non presenta l'opzione "Estrai versione" nel menu Azioni
+, devi contattare l'amministratore del sito e richiedere che 
+"Il Supporto alla Copia di Lavoro" venga installato.**
 
-Overview
---------
+Panoramica
+----------
 
-You might have been in a situation like this before: you have published
-a document, and you need to update it extensively, but you want the old
-version to exist on the web site until you have published the new one.
-You also want the new document to replace the current one, but you'd
-like to keep the history of the old one, just in case. Working copy
-makes all this possible.
+In precedenza potresti esserti trovato in una situazione a questa: hai pubblicato
+un documento e lo devi aggiornare molto frequentemente, ma vuoi che la vecchia
+versione continui ad esistere sul sito web finchè non hai pubblicato il nuovo.
+Vuoi anche che il nuovo documento sostituisca quello attuale, ma ti piacerebbe
+mantenere la storia di quello vecchio. La Copia di Lavoro rende tutto questo
+possibile.
 
-Essentially, you "check out" a version of the currently published
-document, which creates a "working copy" of the document. You then edit
-the working copy (for as long as you like) and when you're ready for the
-new version to go live, you "check in" your working copy, and it's live.
-Behind the scenes, Plone will replace the original document with the new
-one in the exact same location and web address â€” and archive the old
-version as part of the document's version history.
+In sostanza, "estrai" la versione attualmente pubblicata del documento
+, che creerà una "copia di lavoro" del documento stesso. A questo punto modificherai
+la copia di lavoro (mettendoci tutto il tempo che ti servirà) e quando la nuova versione sarà
+pronta per essere pubblicata, utilizzando l'azione "crea versione" la tua copia di lavoro sarà online.
+Dietro le quinte, Plone sostituirà il documento originale con quello nuovo,
+nell'esatta posizione e con lo stesso indirizzo web e archivierà la vecchia versione 
+come parte della storia nel controllo di versione del documento nuovo.
 
 Using "Check out"
 -----------------
