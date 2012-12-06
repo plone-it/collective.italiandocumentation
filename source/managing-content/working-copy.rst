@@ -27,94 +27,92 @@ Dietro le quinte, Plone sostituirà il documento originale con quello nuovo,
 nell'esatta posizione e con lo stesso indirizzo web e archivierà la vecchia versione 
 come parte della storia nel controllo di versione del documento nuovo.
 
-Using "Check out"
------------------
+Utilizzare la funzione "Estrai"
+-------------------------------
 
 First, navigate to the page you want check out. Then from the "Actions"
-drop-down menu, select "Check out":
+In primo luogo, vai nella pagina in cui si desidera creare la copia di lavoro. Poi dal menu "Azioni"
+, seleziona "Estrai":
 
 .. figure:: ../_static/01.png
    :align: center
    :alt: 
 
-An info message will appear indicating you're now working with a working
-copy:
+Un messaggio apparirà informandoti che da questo momento
+stai lavorando su una copia di lavoro:
 
 .. figure:: ../_static/03.png
    :align: center
    :alt: 
 
-Now you're free to edit your own local copy of a published document.
-During this time, the original document is "locked" -- that is, no one
-else can edit that published version while you have a working copy
-checked out. This will prevent other changes from being made to (and
-subsequently lost from) the published version while you edit your copy.
+Da questo momento in poi potrai modificare la copia locale del documento pubblicato.
+Il documento originale risulterà "bloccato" -- ovvero, nessun altro potrà
+modificare la versione pubblicata finchè avrai una copia di lavoro estratta.
+ Questo impedirà che altre modifiche vengano effettuate (e
+conseguentemente perse) sulla versione pubblicata mentre stai modificando la tua copia di lavoro.
 
 .. figure:: ../_static/locked.png
    :align: center
    :alt: 
 
-Using "Check in"
-----------------
+Utilizzare la funzione "Crea versione"
+--------------------------------------
 
-When you are ready to have your edited copy replace the published one,
-simply choose "Check-in" from the "Actions" drop-down menu:
+Quando sei pronto a sostituire la tua copia locale con quella pubblicata,
+ti basta semplicemente selezionare "Crea versione" dal menu "Azioni":
 
 .. figure:: ../_static/04a.png
    :align: center
    :alt: 
 
-You will then be prompted to enter a Check-in message. Fill it out and
-click on "Check in":
+Ti verrà richiesto di inserire un messaggio legato alla creazione della nuova versione. Compilalo e
+clicca su "Crea versione":
 
 .. figure:: ../_static/04b.png
    :align: center
    :alt: 
 
-Your updated document will now replace the published copy and become the
-new published copy.
+Il tuo documento aggiornato diventerà la nuova copia pubblicata.
 
 .. figure:: ../_static/05.png
    :align: center
    :alt: 
 
-You will also notice that there is no longer a copy of the document in
-the user's personal folder.
+Verrai inoltre informato che non esisterà più una copia di lavoro del documento nella
+tua cartella personale.
 
-Note that it is not necessary (and in fact, it is not recommended) to
-use the "State" drop-down menu on a working copy. If you inadvertently
-do so, however, don't panic. Just go back to your working copy and use
-"Check in" from the "Actions" menu.
+Nota che non è necessario (ed infatti non è consigliata) l'utilizzo del menu 
+"Stato" con una copia di lavoro. Se tuttavia lo utilizzi senza volere, non farti prendere dal panico.
+Ti basta tornare nella tua copia di lavoro e utilizzare la funzione "Crea versione" dal menu "Azioni".
 
-Canceling a "Check out"
------------------------
+Cancellare una "Copia di lavoro"
+--------------------------------
 
-If for any reason it becomes necessary to cancel a check out and **you
-don't want to save any of your changes**, simply navigate to the working
-copy and select "Cancel check-out":
+Se, per qualsiasi motivo, devi cancellare una copia di lavoro e **non vuoi
+salvare le tue modifiche**, vai semplicemente nella copia di lavoro e clicca su
+"Annulla il check-out":
 
 .. figure:: ../_static/cancel1.png
    :align: center
    :alt: 
 
-You will prompted to confirm the "Cancel checkout" or to "Keep
+Ti verrà chiesto di confermare il comando "Annulla il check-out" o di "Mantenere il
 checkout":
 
 .. figure:: ../_static/cancel2.png
    :align: center
    :alt: 
 
-Note that if the user who has checked out a working copy is not
-available to check in or cancel a check out, users with the Manager role
-may navigate to the working copy and perform either the check in or
-cancel check out actions. That's because not all contributors have the
-*Check in* privilege. If that option is missing from your *Actions*
-menu:
+Nota che se un utente che ha estratto una copia di lavoro non è disponibile per 
+effettuare la pubblicazione della copia di lavoro o annullarla, gli utenti con il ruolo di Manager
+possono accedere alla copia di lavoro ed effettuare sia la creazione della versione che l'annullamento
+della copia di lavoro. Questo perché non tutti i collaboratoti hanno il privilegio di eseguire la funzione 
+"Crea versione". Se tale opzione non è presente dal menu Azioni:
 
-#. Use the *State* menu.
-#. Submit for publication.
-#. Ask a reviewer to **not** change the state.
-#. Ask the reviewer to perform the check in on your behalf instead.
+#. Utilizza il menu "Stato".
+#. Sottoponi per pubblicazione.
+#. Chiedi ad un recensore di **non** cambiare lo stato.
+#. Chiedi invece al revisore di effettuare il "Crea versione" per tuo conto.
 
-The check in routine will handle the state.
+La procedura "Crea versione" si occuperà della gestione dello stato.
 
