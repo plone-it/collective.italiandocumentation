@@ -1,8 +1,8 @@
-Managing Content
-====================
+Gestione dei contenuti
+======================
 
-The contents tab is the place where content items can be copied, cut,
-pasted, moved, renamed, etc.
+La scheda contenuti è il posto dove gli oggetti posso essere copiati, tagliati,
+incollati, spostati, rinominati, etc.
 
 
 .. toctree::

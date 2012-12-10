@@ -1,22 +1,22 @@
-Basics
+Nozioni di base
 ===========
 
-Basic options of TinyMCE.
+Opzioni base di TinyMCE.
 
-The default TinyMCE editor will look like this:
+L'editor TinyMCE di default ha il seguente aspetto:
 
 .. figure:: ../_static/tiny_start.jpg
    :align: center
    :alt: 
 
-On top you can see the toolbar, below the text area and at the bottom a
-resize bar. If you drag the lower right corner you can make the editor
-window bigger or smaller.
+Nella parte alta puoi vedere la barra degli strumenti, sotto l'area di testo ed in fondo una
+barra per il ridimensionamento. Se trascini l'angolo in basso a destra puoi allargare o ridurre la 
+finestra dell'editor.
 
-Toolbar
--------
+Barra degli strumenti
+---------------------
 
-The following table describes the function and output of each button.
+La seguente tabella descrive le funzioni ed il risultato di ogni pulsante.
 
 .. figure:: ../_static/tiny-mce-toolbar.png
    :align: center
