@@ -1,7 +1,9 @@
 Controllo di versione
-===============
-Una panoramica su come visualizzare la cronologia delle versioni di un elemento,
-confrontare le versioni, visualizzare in anteprima le versioni precedenti e ripristinare versioni precedenti.
+======================
+
+**Una panoramica su come visualizzare la cronologia delle versioni di un
+elemento, confrontare le versioni, visualizzare in anteprima le versioni
+precedenti e ripristinare versioni precedenti.**
 
 Creare una nuova versione
 --------------------------
@@ -71,7 +73,7 @@ vedere le differenze fra le due versioni:
    compare-versions.png
 
 In questo esempio, il testo in rosso è quello che è stato cancellato e il testo in
- verde è quello che è stato aggiunto alla versione più recente.
+verde è quello che è stato aggiunto alla versione più recente.
 È possibile visualizzare le differenze tra le versioni in modalità
 **in linea** o **come codice**.
 

@@ -1,5 +1,5 @@
 Nozioni di base
-===========
+===============
 
 Opzioni base di TinyMCE.
 

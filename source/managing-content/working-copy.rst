@@ -48,7 +48,7 @@ stai lavorando su una copia di lavoro:
 Da questo momento in poi potrai modificare la copia locale del documento pubblicato.
 Il documento originale risulterà "bloccato" -- ovvero, nessun altro potrà
 modificare la versione pubblicata finchè avrai una copia di lavoro estratta.
- Questo impedirà che altre modifiche vengano effettuate (e
+Questo impedirà che altre modifiche vengano effettuate (e
 conseguentemente perse) sulla versione pubblicata mentre stai modificando la tua copia di lavoro.
 
 .. figure:: ../_static/locked.png

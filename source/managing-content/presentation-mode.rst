@@ -1,7 +1,8 @@
 Modalità di presentazione
-=======================
+==========================
 
-Plone viene fornito con la possibilità di creare semplici presentazioni di diapositiva.
+**Plone viene fornito con la possibilità di creare semplici presentazioni di
+diapositiva.**
 
 La Modalità di Presentazione è una funzione speciale del tipo di contenuto Pagina. Puoi
 abilitare la Modalità di Presentazione modificando la pagina, entrando nella linguetta
