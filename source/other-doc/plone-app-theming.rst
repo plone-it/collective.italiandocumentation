@@ -82,17 +82,17 @@ Un tema Diazo si compone di tre elementi:
 
        </rules>
 
-   Nell'esempio si sostituiscono i contenuti (nodi figli) di un elemento
-   segnaposto con id HTML main nel file del tema (theme.html, che si
-   trova nella stessa directory del file rules.xml, come indicato nel
-   riferimnto della regola <theme />) con i contenuti (figli)
-   dell'elemento con l'id HTML content nel markup generato da Plone.
+Nell'esempio si sostituiscono i contenuti (nodi figli) di un elemento
+segnaposto con id HTML main nel file del tema (theme.html, che si
+trova nella stessa directory del file rules.xml, come indicato nel
+riferimnto della regola <theme />) con i contenuti (figli)
+dell'elemento con l'id HTML content nel markup generato da Plone.
 
-   Quando viene applicato questo tema, il risultato avrà un aspetto
-   molto simile a quello del file HTML statico theme.html (ed ai suoi
-   file di riferimento CSS, JavaScript ed immagini), eccezzion fatta per
-   il segnaposto identificato nel tema dal nodo con id main che sarà
-   riempito dall'area di contenuto principale di Plone.
+Quando viene applicato questo tema, il risultato avrà un aspetto
+molto simile a quello del file HTML statico theme.html (ed ai suoi
+file di riferimento CSS, JavaScript ed immagini), eccezzion fatta per
+il segnaposto identificato nel tema dal nodo con id main che sarà
+riempito dall'area di contenuto principale di Plone.
 
 Plone viene fornito con un tema di esempio chiamato appunto Example
 theme, che usa il venerabile `Twitter
