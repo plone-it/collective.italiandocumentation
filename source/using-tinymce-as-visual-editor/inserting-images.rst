@@ -1,48 +1,44 @@
-Inserting Images
-=====================
+Inserire delle immagini
+=========================
 
-A description of the options available for inserting images with
-TinyMCE.
+**Una panoramica delle opzioni disponibili per l'inserimento di immagini in
+TinyMCE.**
 
-The TinyMCE editor allows you to insert image files stored in Plone into
-your document, using the |Image| button on the TinyMCE toolbar:
+L'editor TinyMCE ti permette di inserire delle immagini caricate in Plone nella
+tua pagina, utilizzando il bottone |Image| sulla barra degli strumenti di TinyMCE:
 
-.. figure:: ../_static/toolbar_image.jpg
+.. figure:: ../_static/toolbar_image.png
    :align: center
    :alt: 
 
-Clicking this button launches the Insert Image dialog:
+Cliccando su questo bottone, si apre la finestra per inserire un immagine:
 
-.. figure:: ../_static/insert_image_dialog.jpg
+.. figure:: ../_static/insert_image_dialog.png
    :align: center
    :alt: 
 
-The three columns of the dialog display:
+Le tre colonne della finestra sono:
 
--  In the first column - a folder navigation list.
--  In the second column - an object navigation list, from which you can
-   select your image file.
--  In the third column - image preview, and options for alignment, size
-   and captions.
+- nella prima colonna c'è la lista di navigazione delle cartelle
+- nella seconda colonna c'è la lista dei contenuti della cartella corrente
+- nella terza colonna c'è l'anteprima dell'immagine, le opzioni di allineamento,
+  le dimensioni disponibili per mostrare l'immagine e la didascalia.
 
-In the example above, an image of a rose was selected - rose.png (rather
-large one, at its original size of 600\*450 pixels).
+Nell'esempio sopra, è stata selezionata l'immagine di una rosa - rose.png (
+l'immagine originale è piuttosto grande, 600\*450 pixel).
 
-According to the "Image alignment" option you choose, the image will be
-placed in your page (and the following HTML code will be generated):
+L'immagine verrà posizionata nella pagina in accordo al "Allineamento"
+scelto e verrà generato il seguente codice HTML:
 
--  lefthand (<img class="image-left captioned" src="rose.png" alt="rose"
-   />);
--  righthand (<img class="image-right captioned" src="rose.png"
-   alt="rose" />);
--  inline (<img class="image-inline captioned" src="rose.png" alt="rose"
-   />).
+-  A sinistra (<img class="image-left captioned" src="rose.png" alt="rose" />)
+-  A destra (<img class="image-right captioned" src="rose.png" alt="rose" />)
+-  In linea (<img class="image-inline captioned" src="rose.png" alt="rose" />)
 
-You may also choose the size of the image you need. This is especially
-convenient when you deal with large images, as there is no need to use
-Photoshop or other external image editing application to crop or change
-the size of an image. The "Image size" dropdown list provides a choice
-between many sizes and formats:
+Puoi anche scegliere la dimensione dell'immagine di cui hai bisogno.
+Questo è particolarmente utile quando hai a che fare con immagini di grandi
+dimensioni, poichè non c'è bisogno di utilizzare Photoshop o altre applicazioni
+esterne per ritagliare o modificare  l'immagine. Il menu a tendina "Dimensioni"
+ti consente di scegliere tra diverse dimensioni e formati:
 
 .. figure:: ../_static/image_size.jpg
    :align: center
@@ -65,36 +61,37 @@ between many sizes and formats:
 Image Captioning
 ----------------
 
-It is possible to put image caption under the image in TinyMCE. Caption
-is taken from image description. Alt text is taken from image title. Alt
-text and caption update if image is updated.
+In TinyMCE è possibile mettere una didascalia sotto l'immagine. La didascalia
+è presa dalla descrizione dell'immagine. Il testo alternativo è tratto dal
+titolo dell'immagine. Il testo alternativo e la didascalia si aggiornano
+automaticamente se l'immagine viene aggiornata.
 
 To enable image captioning go to **Site Setup â†’ TinyMCE**. Make sure
 that you have **Allow captioned images** selected in the **Resource
 Types tab**.
 
-.. figure:: ../_static/image_caption_settings.jpg
+.. figure:: ../_static/image_caption_settings.png
    :align: center
    :alt: 
 
 When you add image to the site, you can put some text into its
 description that will be displayed as an image caption.
 
-.. figure:: ../_static/add_image.jpg
+.. figure:: ../_static/add_image.png
    :align: center
    :alt: 
 
 Now when we create a page, and insert image into it, check the box
 Caption:
 
-.. figure:: ../_static/insert_image_caption.jpg
+.. figure:: ../_static/insert_image_caption.png
    :align: center
    :alt: 
 
 Save this page, and you will see the image followed by its description
 as the caption all inserted into a frame:
 
-.. figure:: ../_static/caption_page.jpg
+.. figure:: ../_static/caption_page.png
    :align: center
    :alt: 
 
