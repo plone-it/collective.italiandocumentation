@@ -46,17 +46,17 @@ ti consente di scegliere tra diverse dimensioni e formati:
 
 -  Large (<img src="rose.png/image\_large" alt="rose" />);
 -  Preview (<img src="rose.png/image\_preview" alt="rose" />);
--  Mini (<img src="rose.png/image\_mini" alt="rose" />) - the
-   minimum-size image is formed;
+-  Mini (<img src="rose.png/image\_mini" alt="rose" />) - questa è la
+   dimensione minima per la visualizzazione dell'immagine;
 -  Thumb (<img src="rose.png/image\_thumb" alt="rose" />) - a
-   thumb(inch)-size icon is made out of your image (little bigger than
-   2,5cm);
+   thumb(inch)- dall'immagine verrà estratta una miniatura; (un pò più
+   piccola di 2,5cm);
 -  Tile (<img src="rose.png/image\_tile" alt="rose" />) - a tile is made
    out of your image;
--  Icon (<img src="rose.png/image\_icon" alt="rose" />) - an icon is
-   made out of your image;
--  Listing (<img src="rose.png/image\_listing" alt="rose" />) - a
-   listing icon is made out of your image;
+-  Icon (<img src="rose.png/image\_icon" alt="rose" />) - dall'immagine
+   verrà ricavata un'icona;
+-  Listing (<img src="rose.png/image\_listing" alt="rose" />) - dall'immagine
+   verrà ricavata una piccola immagine in stile 'elenco';
 
 Image Captioning
 ----------------
@@ -66,30 +66,31 @@ In TinyMCE è possibile mettere una didascalia sotto l'immagine. La didascalia
 titolo dell'immagine. Il testo alternativo e la didascalia si aggiornano
 automaticamente se l'immagine viene aggiornata.
 
-To enable image captioning go to **Site Setup â†’ TinyMCE**. Make sure
-that you have **Allow captioned images** selected in the **Resource
-Types tab**.
+Per abilitare questa funzione accedere a **Configurazione del sito ->
+Editor TinyMCE**. Assicurati di selezionare **Consenti la 'titolazione'
+delle immagini** nella  tab **Tipi di risorse**.
 
 .. figure:: ../_static/image_caption_settings.png
    :align: center
    :alt: 
 
-When you add image to the site, you can put some text into its
-description that will be displayed as an image caption.
+Ora quando aggiungi un'immagine sul sito, puoi inserire una breve descrizione
+e questa verrà utilizzata come didascalia.
 
 .. figure:: ../_static/add_image.png
    :align: center
    :alt: 
 
-Now when we create a page, and insert image into it, check the box
-Caption:
+Ora quando crei una pagina e inserisci un'immagine in essa, seleziona il box
+Didascalia:
 
 .. figure:: ../_static/insert_image_caption.png
    :align: center
    :alt: 
 
-Save this page, and you will see the image followed by its description
-as the caption all inserted into a frame:
+Ora, salvando le modifiche, il risultato dovrebbe essere simile a questo,
+con la descrizione dell'immagine inserita come didascalia all'interno di una
+cornice:
 
 .. figure:: ../_static/caption_page.png
    :align: center
