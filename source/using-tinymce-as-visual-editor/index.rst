@@ -6,7 +6,6 @@ An user manual for creators
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     introduction
     basics
