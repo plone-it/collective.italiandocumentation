@@ -1,59 +1,57 @@
-Workflow Policies
+Politiche dei workflow
 ======================
 
-Workflow policies allow a site administrator to create a formalized
-system for controlling publication and content management as a
-step-by-step flow involving different users in set roles.
+Le politiche dei workflow consentono ad un amministratore del sito 
+di creare un sistema formalizzato per controllare la pubblicazione e 
+la gestione dei contenuti come in un flusso passo a passo che coinvolge 
+utenti diversi con ruoli prestabiliti.
 
-Workflow is an advanced subject. It involves creation of a more
-regimented control of content creation, review, and publication. If you
-have a user account on a typical small Plone site, you will probably not
-encounter custom workflow policies, because there isn't a need for this
-more sophisticated control. But, the potential is there for using this
-functionality, as it is built in to Plone.
+I workflow sono un argomento avanzato. Implicano la creazione di un controllo 
+più rigido nell'aggiunta di contenuti, revisione e pubblicazione. Se disponi 
+di un account su un tipico sito Plone di piccole dimensioni, probabilmente non 
+utilizzerai le politiche di workflow personalizzate perché non c'è bisogno di 
+questo controllo sofisticato. Ma, la potenzialità di questo strumento è presente, 
+in quanto è parte di Plone.
 
-For an introduction to the workflow concept, consider an example
-involving a web site for a newspaper business, for which these different
-groups of people are at work:
+Per una introduzione al concetto di workflow, considera un esempio 
+che coinvolge il sito web di un quotidiano, dove lavorano questi differenti
+gruppi di persone:
 
 Reporters
-    Can create stories, but can only submit them for review.
-Editors
-    Can review stories, but can't publish completely. They send
-    positively reviewed and edited stories up the line for further
-    approval.
-Copy Editors
-    Do final fact checking, fixes, and review, and may publish stories.
+    Possono creare articoli ma solo inviarli per essere revisionati.
+Redattori
+    Possono revisionare articoli, ma non possono pubblicarli direttamente. Mandano
+    la revisione positiva e fanno avanzare il flusso alla successiva approvazione.
+Editori
+    Fanno il controllo finale, le correzioni, la revisione e possono pubblicare gli articoli.
 
-A *workflow policy*, sometimes abbreviated to *workflow*, describes the
-constraints on state-changing actions for different groups of people.
-Once the workflow policy has been created, it needs to be applied to an
-area of the website for the rules to take affect. In the example of the
-newspaper web site, a workflow policy would be set up and then applied
-to the folders where reporters do the work of adding news articles.
-Then, reporters would create stories and send them up the line for
-review and approval:
+Una *politica di workflow*, spesso abbreviata in *workflow*, descrive i 
+vincoli che esistono durante i cambiamenti di stato per i diversi 
+gruppi di persone. Una volta che la politica di workflow è stato creato, deve essere applicata ad un'area
+del sito web in modo tale che le regole abbiano effetto. Nell'esempio del sito del
+quotidiano, una politica di workflow dovrà essere impostata e applicata
+alla cartella dove i reporters aggiungono nuovi articoli.
+In seguito, i reporters vi potranno creare gli articoli ed inviarli per la revisione e l'approvazione:
 
 .. figure:: ../_static/workflowsteps.png
    :align: center
    :alt: 
 
-Reporters would add news articles and would *submit* them (the *publish*
-menu choice is not available to them). Likewise, editors may *reject*
-the article for revision or they may, in turn, *submit* the article up
-the line to a copy editor for final proofreading and publication. In
-this newspaper business example, this policy could be called something
-like "Editorial Review Policy." Configuring a workflow policy is a
-matter of applying it to an area of the website -- to define the scope
-of the workflow. This is a web site administrator task. The web site
-administrator would use control panels of Plone to specify where on the
-web site the "Editorial Review Policy" applies, site-wide or to a
-subsection.
+I reporter dovrebbe aggiungere articoli e dovrebbero solo *sottoporli per la pubblicazione* (l'opzione *pubblica*
+del menu non è disponibile per loro). Allo stesso modo, i redattori possono *rifiutare*
+l'articolo da revisionare o possono, a loro volta, *sottoporre* l'articolo agli
+editori per la correzione finale e la pubblicazione. Nell'esempio 
+dell'azienda di quotidiani, questa politica potrebbe essere chiamata 
+"Politica di revisione editoriale". Nella configurazione di una politica di workflow è fondamentale 
+assegnare la stessa ad un'area del sito web -- per definire il campo di applicazione
+del workflow. Questo è compito dell'amministratore del sito. L'amministratore 
+deve usare il pannello di controllo di Plone per specificare dove la 
+"Politica di revisione editoriale" si applica, a livello globale o in una
+sottosezione.
 
-Plone comes with several useful workflow policies -- the default one is
-a simple web publishing policy. Your web site administrator might employ
-a more specific policy, such as a policy for a community-based web site
-or a company Intranet (internal web system). If so, you may need to
-learn some procedural steps to publishing, but these are just
-elaborations of principles in the default, basic workflow policy.
-
+Plone è dotato di diverse politiche workflow utili - quella di default è
+un semplice politica di pubblicazione web. Il tuo amministratore del sito potrebbe impiegare
+una politica più specifica, ad esempio configurata per una comunità web 
+o configurata per una Intranet aziendale (sistema web interno). In tal caso, potrebbe essere necessario
+imparare alcuni passi procedurali per la pubblicazione, ma queste sono solo
+varianti della politica base di default.
