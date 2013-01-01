@@ -1,10 +1,10 @@
-Advanced Control
+Controllo avanzato
 =====================
 
-The publication control system, under the advanced menu, has
-sophisticated features for setting availability by date and by context.
+Il sistema di controllo della pubblicazione, alla voce del menu avanzate, ha caratteristiche 
+sofisticate per impostare la disponibilità per data e per contesto.
 
-The *state* menu has an *advanced*... item:
+Il menu *stato* ha una voce *Avanzate*...:
 
 .. figure:: ../_static/statemenu.png
    :align: center
@@ -12,63 +12,62 @@ The *state* menu has an *advanced*... item:
 
    state-menu.png
 
-which brings up the *advanced* state panel:
+che porta al pannello per la gestione *avanzata* della pubblicazione:
 
 .. figure:: ../_static/stateadvanced.png
    :align: center
    :alt: 
 
-Below an explanation section at the beginning of the panel, there is a
-check box showing the content that will be affected by this change of
-publication state. It shows that the folder "Long-tailed Skipper" will
-be affected by this state change.
+Di seguito una spiegazione dell'immagine: partendo dall'inizio del pannello c'è una
+casella che mostra il contenuto che sarà interessato dalla modifica dello
+stato di pubblicazione. Nel caso mostrato nella figura, la cartella "Long-tailed Skipper" sarà interessata
+da questo cambiamento.
 
-The next field, *Include contained items*, is a check box for
-controlling whether the state change affects this item only (the
-"Long-tailed Skipper" folder) or the items it contains and all of any
-subfolders and other contained items. This is an important check box. It
-lets you easily change the availability of an entire section of a
-website. For example, the "Long-tailed Skipper" folder could contain
-four subfolders, for photographs, species occurrence descriptions,
-taxonomic history, and behavior descriptions, all of which has been kept
-*private* during the initial work to build up this content. All of it
-could be immediately made public -- it could be *published* -- by
-checking this box and checking *Publish* at the bottom before saving.
-Likewise, the *Submit for publication* choice would be used on a web
-site where editors controlled ultimate publication.
+Il campo successivo, *Includi gli elementi contenuti*, è una casella per controllare se
+il cambiamento di stato debba avere effetto solo sull'oggetto selezionato (la cartella
+"Long-tailed Skipper") o anche sugli elementi contenuti includendo sia eventuali sottocartelle e relativi sottocontenuti sia
+altri tipi di elementi. Questa è una casella importante. Ti permette di cambiare semplicemente lo stato
+di un'intera sezione del sito internet. 
+Per esempio, la cartella "Long-tailed Skipper" potrebbe contenere 
+quattro sottocartelle: una per le fotografie, una per le occorrenze speciali, 
+una per la tassonomia e una per delle descrizioni, tutte lasciate *private*
+durante il lavoro iniziale per la creazione della sezione. Tutte
+possono essere rese pubbliche -- possono essere *pubblicate* -- selezionando
+questo controllo e selezionando *Pubblica* in basso prima di salvare.
+Analogamente, la scelta *Sottoponi per pubblicazione * può essere usata nei siti web
+dove gli editori revisionano cosa pubblicare.
 
-Likewise, an entire section could be immediately made *private*. For
-example, if an automobile rental agency decided to remove a car model
-from its fleet, an entire section of their website devoted to this car
-model, with several subfolders full of pages, images, and files, could
-be set to *private*.
+Allo stesso modo, una intera sezione potrebbe essere immediatamente resa *privata*. Per
+esempio, se un agenzia di noleggio auto ha deciso di rimuovere un modello di auto
+dalla sua flotta, un'intera sezione del loro sito web dedicato a questa vettura, 
+con diverse sottocartelle piene di pagine, immagini e file, potrebbe
+essere impostata su *privato*.
 
-The next two date fields are for *effective date* and *expiration date*.
-Their meanings are straightforward. If there is a window of time, for
-which a content item or a set of content items is valid for publication,
-it may be set with these fields.
+I prossimi due campi data sono per impostare la *data di pubblicazione* e la *data di scadenza*.
+Il loro significato è semplice. Se un elemento o un insieme di elementi devono essere pubblicati
+per un certo lasso di tempo, si possono impostare questi campi.
 
-A comment lets you attach an explanation to all content affected by the
-state change. This is especially useful when several people are working
-on a website, and a person less familiar with an area of the web site
-looks at content and wonders why it isn't published. They wonder, "This
-information looks good. Why isn't it published already?" Then they read
-a comment that says something like, "Don't publish until Richard checks
-on copyright issues regarding the items described here." Using comments
-is a good idea for sensitive information, even if you are the only
-person working on the web site, because you might forget why you made a
-decision about publication state.
+Puoi lasciare un commento con la spiegazione legato a tutti i contenuti interessati dal
+cambiamento di stato. Ciò è particolarmente utile quando più persone lavorano
+sullo stesso sito web: una persona che ha meno familiarità con un'area del sito web si chiederebbe 
+il motivo per cui certi elementi non sono stati pubblicati. Si domanderebbero: "Questa
+informazione sembra buona. Perché non è già stata pubblicata?". In seguito però potrebbero leggere
+un commento che dice qualcosa del tipo: "Non pubblicare fino a che Richard non abbia fatto dei controlli 
+su possibili problemi di copyright per quanto riguarda elementi descritti qui". L'uso dei commenti
+è molto utile per annotare informazioni sensibili, anche se si è l'unica
+persona che lavora sul sito web, in quanto si potrebbe dimenticare il motivo di una
+decisione presa sullo stato di pubblicazione.
 
-Finally, at the bottom there is a choice of several available states for
-this action. It will vary, depending on the present state of the item.
-For example, if the item is currently in a published state, there won't
-be a choice for *publish*, if the item is presently in a *private*
-state, there won't be a choice for *make private*, etc. If an item is
-published already, there will be choices in this bottom part of the
-panel for *reject* and *retract*, for "unpublishing" at item, setting it
-back to *public draft* or then to *private* state.
+Infine, nella parte finale, si può scegliere lo stato da applicare tra quelli disponibili per
+questa azione. Varierà, a seconda dello stato attuale dell'elemento.
+Ad esempio, se l'articolo è attualmente nello stato pubblicato, non vi
+sarà la scelta *pubblica*, se si trova nello stato *privato*, 
+non sarà presente la scelta per renderlo *privato*, ecc. Se un elemento è
+già pubblicata, in questa parte inferiore del pannello saranno presenti le scelte
+per *revocare* e *mandare indietro*, che "annulleranno la pubblicazione" dell'elemento, reimpostandolo
+allo stato *bozza* o allo stato *privato*.
 
 `|image24| <http://media.plone.org/LearnPlone/Publishing%20States.swf>`_
-Watch a Plone 2 video about `controlling publication
-state. <http://media.plone.org/LearnPlone/Publishing%20States.swf>`_
+Guarda un video con Plone 2 sul `controllo dello stato di 
+pubblicazione. <http://media.plone.org/LearnPlone/Publishing%20States.swf>`_
 

@@ -1,134 +1,128 @@
-Collaboration through Sharing
-==================================
+Collaborazione attraverso la condivisione
+=========================================
 
-The Sharing tab empowers you collaborate with other users through the
-use of several built-in roles.
+La scheda Condivisione consente di collaborare con altri utenti attraverso 
+l'uso di diversi ruoli integrati.
 
-Example 1: Letting others add content to a folder you created
--------------------------------------------------------------
+Esepio 1: Consentire ad altri di aggiungere contenuti in una cartella che hai creato
+------------------------------------------------------------------------------------
 
-In this example, Jane Smythe has full access to her Plone site. She can
-add, edit, delete and publish content anywhere in the site. For now, she
-has created a folder called "Documentation" and added one Page to it,
-"Project Overview". She hasn't published either the folder or the
-document. The default workflow for this Plone site has not been
-modified.
-Now she wants to let her colleague, George Shrubb, add content to the
-Documentation folder. He have permission to edit any of the existing
-content, but she needs him to start adding content. Before we follow
-along with Jane, let's take a peek at what George currently sees when he
-logs in on this Plone site:
+In questo esempio, Jane Smythe ha pieno accesso al suo sito Plone. Lei è in grado di
+aggiungere, modificare, cancellare e pubblicare contenuti in qualsiasi parte del sito. Per ora, 
+ha creato una cartella denominata "Documentazione" e vi ha aggiunto una pagina,
+"Presentazione Progetto". Non ha pubblicato né la cartella né il
+documento. Il workflow di default per questo sito Plone non è stato
+modificato. Ora vuole dare il permesso al suo collega, George Shrubb, di aggiungere contenuti alla cartella
+Documentazione. Lui ha il permesso di modificare qualsiasi contenuto esistente, 
+ma lei ha bisogno che lui inizi ad aggiungere contenuti. Prima di proseguire
+insieme a Jane, diamo uno sguardo a quello che George vede quando
+si autentica in questo sito Plone:
 
 .. figure:: ../_static/02b.png
    :align: center
    :alt: 
 
-Notice that as of right now, George can't even view the Documentation
-folder, because Jane created it and it is still in the *Private* state.
-All the default permissions are currently in place and work as expected.
+Nota che in questo momento George non può nemmeno vedere la 
+cartella Documentazione perché quando Jane l'ha creata, l'ha lasciata nello stato *Privato*.
+Tutte le autorizzazioni predefinite sono attualmente in atto e funzionano come previsto.
 
-Jane gives George the permissions he needs to add content to the
-Documentation folder.
+Jane conferisce a George le autorizzazioni necessarie per aggiungere contenuti alla
+cartella Documentazione.
 
-Jane navigates to the Documentation folder and clicks on the Sharing
-tab:
+Jane passa alla cartella Documentazione e fa clic sul tab Condivisione:
 
 .. figure:: ../_static/03.png
    :align: center
    :alt: 
 
-One of the first things to notice is that Jane already has all the
-permissions available for this Folder. These permissions were actually
-granted from higher up in the site as indicated by the green/check mark
-symbol.
+Una delle prime cose da notare è che Jane ha già tutte le
+autorizzazioni disponibili per questa cartella. Queste autorizzazioni erano in realtà
+state concesse in una sezione superiore del sito, come indicato dal simbolo di spunta verde.
 
-Taking a closer look at the available permissions, they are:
+Dando un'occhiata più da vicino, le autorizzazioni disponibili sono:
 
--  **Can add** - This means that when this permission is granted to a
-   particular user (or group of users), that user can then add new
-   content items. And since that user was also the creator of that
-   content item, they will be able to edit it as they like.
--  **Can edit**- When this permission is granted on a folder, the user
-   can not only edit the Folder (its title and description) but can also
-   edit any of the items in the folder. Note, however, the user is not
-   allowed to delete any of the content. When this permission is granted
-   on a Page, for example, the user can only edit that Page and none of
-   the other items in the folder.
--  **Can view** - When this permission is used on a folder or other
-   item, the user can view the content but not make any changes.
--  **Can review** - When this permission is granted, the user can
-   publish items.
+-  **Può aggiungere** - Questo significa che quando questa autorizzazione viene concessa ad un
+   particolare utente (o gruppo di utenti), esso può aggiungere nuovi
+   contenuti. Dal momento che l'utente è stato anche il creatore di quel
+   contenuto, sarà in grado di modificarlo a suo piacimento.
+-  **Può modificare** - Quando questa autorizzazione viene concessa ad una cartella, l'utente
+   può non solo modificare la Cartella (il titolo e la descrizione), ma può anche
+   modificare uno qualsiasi degli elementi contenuti. Nota, tuttavia, che l'utente non è
+   autorizzato ad eliminare i contenuto. Se questa autorizzazione viene concessa
+   su una pagina, per esempio, l'utente può modificare solo quella pagina e nessuno degli
+   altri elementi presenti nella cartella.
+-  **Può vedere** - Quando questa autorizzazione viene utilizzata su una cartella o un altro
+   elemento, l'utente può visualizzare il contenuto ma non apportare modifiche.
+-  **Possono revisionare** - Quando questa autorizzazione viene concessa, l'utente può
+   pubblicare i contenuti.
 
-Note: these permissions will override the default workflow permissions!
-For example, if you grant a user "Can view" permission on a Page that is
-in the Private state, that user will be able to see that Page.
+Nota: queste autorizzazioni sovrascrivono i permessi definiti nel workflow!
+Ad esempio, se si concede a un utente l'autorizzazione "Può vedere" in una pagina che è
+nello stato privato, l'utente potrà vederla.
 
-In this example, Jane will grant George "Can add" permission on the
-"Documentation" folder so that he can add content to the folder. First,
-she searches to find him by his name:
+In questo esempio, Jane concede a George l'autorizzazione "Può aggiungere" nella
+Cartella "Documentazione" in modo che possa aggiungere contenuti in essa. Per fare questo, come primo passo, 
+lo cerca utilizzando il suo nome:
 
 .. figure:: ../_static/04.png
    :align: center
    :alt: 
 
-Jane can now add specific permissions for George in the "Documentation"
-folder. She is going to give him the "Can add" permission and then click
-on "Save":
+Jane ora può aggiungere le autorizzazioni necessarie a George nella cartella "Documentazione". 
+Deve selezionare il permesso "Può aggiungere" e premere "Salva":
 
 .. figure:: ../_static/05.png
    :align: center
    :alt: 
 
-And that's all there is to it! Let's see how George views the site now.
+Questo è tutto ciò che devi fare! Vediamo come George vede il sito ora.
 
-Note: George does NOT need to log out and log back in. Permissions are
-always current because they are checked every time a user accesses
-anything (e.g. clicks on a link) on a Plone site.
+Nota: George NON ha bisogno di disconnettersi e riconnettersi. Le autorizzazioni sono
+sempre aggiornate perché sono controllate ogni volta che un utente accede a 
+qualsiasi cosa (ad esempio cliccando su un link) su un sito Plone.
 
-George clicks on the *Home* tab (for example) to refresh his view of the
-site and can now see the "Documentation" folder:
+George clicca sulla scheda *Home* (per esempio) per aggiornare la sua visione del
+sito e visualizzerà la cartella "Documentazione":
 
 .. figure:: ../_static/06.png
    :align: center
    :alt: 
 
-When George clicks on the "Documentation" tab, he notices that he can
-view all the content in the "Documentation" folder, and he now is able
-to add the available content types to the folder, as shown in the *Add
-new...* menu:
+Quando George fa click sulla scheda "Documentazione", si accorge che può
+visualizzare tutto il contenuto e che è ora in grado di 
+aggiungere i tipi di contenuto disponibili nela cartella, come mostrato nel menu *Aggiungi...*:
 
 .. figure:: ../_static/07.png
    :align: center
    :alt: 
 
-George wants to review what Jane has already created, so he clicks on
-the Project Overview link and sees:
+George vuole visionare ciò che Jane ha già creato, quindi seleziona il link
+Project Overview e vede:
 
 |image25|
 
-While George can view the document, his limited permissions do not allow
-him to edit it or change its state. The only thing he can do beyond
-viewing the document is to make his own copy of it.
+Anche se George può visualizzare il documento, le sue autorizzazioni limitate non gli consentono 
+di modificarlo o di cambiare il suo stato. L'unica cosa che può fare, al di là di
+visualizzare il documento, è di farne una sua copia.
 
-George adds a Page called "Widget Installation" and creates the content
-for that Page. When he's done he saves it:
+George aggiunge una pagina intitolata "Widget Installation" e ne crea il contenuto
+. Quando ha terminato, la salva:
 
 .. figure:: ../_static/08.png
    :align: center
    :alt: 
 
-Jane views the work George has done. She clicks on the "Documentation"
-tab and sees that George indeed has been busy. She clicks on "Widget
-Installation" page to take a closer look:
+Jane vede il lavoro fatto da George. Seleziona la scheda "Documentazione" 
+e vede il lavoro di George. Clicca sulla pagina "Widget Installation" 
+per dare un'occhiata più da vicino:
 
 .. figure:: ../_static/09.png
    :align: center
    :alt: 
 
-Notice that Jane has full access to the page that George created. She
-can edit it as well as cut/copy/paste it. Instead, she will wait until
-George submits the page for review before actually doing anything
-further with this page.
+Si noti che Jane ha pieno accesso alla pagina che ha creato George. Lei
+può modificarla così come tagliarla/copiarla/incollarla. In realtà lei attenderà che 
+George invii la pagina per la revisione prima di eventualmente modificarla.
 
 Example 2: Letting others edit content you created
 --------------------------------------------------
