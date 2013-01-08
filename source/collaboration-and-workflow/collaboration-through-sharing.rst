@@ -4,7 +4,7 @@ Collaborazione attraverso la condivisione
 La scheda Condivisione consente di collaborare con altri utenti attraverso 
 l'uso di diversi ruoli integrati.
 
-Esepio 1: Consentire ad altri di aggiungere contenuti in una cartella che hai creato
+Esempio 1: Consentire ad altri di aggiungere contenuti in una cartella che hai creato
 ------------------------------------------------------------------------------------
 
 In questo esempio, Jane Smythe ha pieno accesso al suo sito Plone. Lei è in grado di
@@ -124,20 +124,20 @@ Si noti che Jane ha pieno accesso alla pagina che ha creato George. Lei
 può modificarla così come tagliarla/copiarla/incollarla. In realtà lei attenderà che 
 George invii la pagina per la revisione prima di eventualmente modificarla.
 
-Example 2: Letting others edit content you created
---------------------------------------------------
+Esempio 2: Permettere ad altri di modificare contenuti creati da te
+-------------------------------------------------------------------
 
-Both Jane and George have been hard at work creating pages in the
-Documentation folder. **Jane has published the Documentation folder and
-several pages:**
+Sia Jane sia George hanno lavoro per creare le pagine della cartella
+Documentazione. **Jane ha pubblicato la cartella e
+diverse pagine:**
 
 .. figure:: ../_static/09b.png
    :align: center
    :alt: 
 
-Jane has decided that she wants to turn over all editing (but not
-publishing) control of the "Documentation" folder to George. So she
-returns to the "Documentation" folder and clicks on the *Sharing* tab:
+Jane ha deciso che vuole consegnare a George i permessi di modifica (ma non di
+pubblicazione) per tutti gli elementi cartella "Documentazione". Per fare questo Jane deve
+tornare nella cartella "Documentazione" e cliccare sulla scheda *Condivisione*:
 
 .. figure:: ../_static/10.png
    :align: center
@@ -145,11 +145,11 @@ returns to the "Documentation" folder and clicks on the *Sharing* tab:
 
    sharing10.png
 
-From here she only needs to tick the "Can edit" check box and George
-will be able to edit all the content in the "Documentation" folder --
-including the "Documentation" folder itself. When George next visits the
-folder and clicks on "Project Overview" (which is a Page that Jane
-created), this is what he sees:
+Da qui deve solo selezionare la casella di controllo "Può modificare" e George
+sarà in grado di modificare tutto il contenuto nella cartella "Documentazione" --
+compresa la cartella "Documentazione" stessa. Quando successivamente George visiterà la
+cartella e cliccherà su "Presentazione del progetto" (che è una pagina che Jane ha
+creato), questo è quello che vedrà:
 
 .. figure:: ../_static/11.png
    :align: center
@@ -157,14 +157,14 @@ created), this is what he sees:
 
    sharing11.png
 
-So now George can edit any item in the "Documentation" folder regardless
-of who created it or when.
+Ora George può modificare qualsiasi elemento nella cartella "Documentazione", indipendentemente
+da quando o da chi lo ha creato.
 
-Meanwhile, Molly has joined George as a new team member. George helps
-Molly start updating the "Widget Installation" document. He goes to the
-sharing tab for "Widget Installation" and searches on Molly's Full Name
-(not username) and gives her the "Can edit" permissions on this
-document.
+Nel frattempo, Molly si è unita a George come nuovo membro del team. Molly aiuterà
+George nell'aggiornamento del documento "Widget Installation". George dovrà andare nella
+scheda condivisione dell'elemento "Widget Installation" e cercare il nome completo di Molly
+(non il nome utente) e selezionerà "Può modificare" per darle l'autorizzazione su questo
+documento.
 
 .. figure:: ../_static/12.png
    :align: center
@@ -172,8 +172,8 @@ document.
 
    sharing12.png
 
-Now when Molly goes to the "Documentation" folder, she can see the two
-published items and the private item that she is now allowed to edit:
+Quando Molly entrerà nella cartella "Documentazione", potrà vedere i due
+articoli pubblicati e l'elemento privato che ora è autorizzata a modificare:
 
 .. figure:: ../_static/13.png
    :align: center
@@ -181,8 +181,8 @@ published items and the private item that she is now allowed to edit:
 
    sharing13.png
 
-And, in fact, when she clicks on the "Widget Installation" document, she
-is able to edit it:
+E, infatti, quando farà un click sul documento "Widget Installation", sarà 
+in grado di modificarlo:
 
 .. figure:: ../_static/13b.png
    :align: center
@@ -190,10 +190,10 @@ is able to edit it:
 
    sharing13b.png
 
-Notice, however, when she clicks on either of the two items she isn't
-allowed to edit, she doesn't have any additional access. She can view
-these two items because they are published and in the default Plone
-workflow (meaning that anyone can view them).
+Si noti, tuttavia, che quando Molly selezionerà uno dei due elementi dove non ha il
+permesso di modifica, non avrà alcun ulteriore accesso. Può visualizzare
+questi due elementi perché sono pubblicati come definito nel workflow di default di Plone
+(il chè significa che chiunque può vederli).
 
 .. figure:: ../_static/13c.png
    :align: center
@@ -201,10 +201,10 @@ workflow (meaning that anyone can view them).
 
    sharing13c.png
 
-One final note on this example: if the "Documentation" folder was not in
-the published state OR Molly had not been given any other permissions
-(for example, "Can view" on the Documentation folder), then Molly would
-have needed the complete URL to reach the document she had been given
-access to edit. Permissions are very specific in Plone!
+Una nota finale su questo esempio: se la cartella "Documentazione" non fosse stata nello 
+stato di pubblicazione O Molly non avesse avuto delle autorizzazioni particolari 
+(per esempio, "Può visualizzare" nella cartella Documentazione), Molly avrebbe avuto 
+bisogno dell'URL completo per raggiungere il documento a cui le era stato dato
+l'accesso per la modifica. Le autorizzazioni sono molto specifiche in Plone!
 
 .. |image25| image:: ../_static/07b.png
