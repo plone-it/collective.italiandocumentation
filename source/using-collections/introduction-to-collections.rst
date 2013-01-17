@@ -1,41 +1,42 @@
-Introduction to Collections
-================================
+Introduzione alle Collezioni
+============================
 
-A Collection in Plone works much like a report or query does in a
-database. Use Collections to dynamically sort and display your content.
+Una Collezione in Plone funziona come un report o una query fatta in 
+un database. Utilizza le Collezioni per ordinare e visualizzare in modo
+dinamico il tuo contenuto.
 
-A **Collection** in Plone works much like a report or query does in a
-database. The idea is that you use a Collection to search your website
-based on a set of **Criteria** such as: content type (page, news item,
-image), the date it was published, or keywords contained in the title,
-description, or body.
+Una **Collezione** in Plone funziona come un report o una query fata in 
+un database. L'idea è di utilizzare una collezione per cercare nel tuo sito web
+in base ad un insieme di **Criteri** quali: il tipo di contenuto (pagina, notizia,
+immagine), la data di pubblicazione o parole chiave contenute nel titolo, nella
+descrizione o nel corpo.
 
-Let's say you have a large catalog of photos and maps on your website.
-You can easily display them all at once by creating a
-`hyperlink <http://learnplone.onenw.org/glossary/hyperlink>`_ to the
-`folder <http://learnplone.onenw.org/glossary/folder>`_ they're stored
-in. You could even create different links for subfolders if you've
-organized things that way. However, if your images and maps were spread
-out over the site in many folders this would quickly become cumbersome.
-Also, there is no way with normal folders to display different content,
-from different parts of your site based on things like:
+Diciamo che sul tuo sito web hai un ampio catalogo di foto e mappe.
+Si possono facilmente visualizzare tutte in una sola volta creando un
+`collegamento ipertestuale <http://learnplone.onenw.org/glossary/hyperlink>`_ alla
+`cartella <http://learnplone.onenw.org/glossary/folder>`_ dove sono archiviate. 
+Inoltre, se avessi organizzato i contenuti in sottocartelle, dovresti anche creare dei
+collegamenti diversi per ognuna di esse. Tuttavia, se le immagini e le mappe fossero state inserite
+in più cartelle sparse nel sito, questa operazione potrebbe diventare macchinosa.
+Inoltre, le cartelle normali non hanno la possibilità di visualizzare contenuti diversi,
+provenienti da diverse parti del tuo sito basandosi su criteri come:
 
--  keywords in the title
--  date of creation
--  author
--  type of content
+-  parole chiave nel titolo
+-  data di creazione
+-  autore
+-  tipo di contenuto
 
-The need for showing content in a variety of dynamic ways has given rise
-to **Collections** (formerly known as **Smart Folders**, or **Rich
-Topic** in older versions of Plone). Collections do not actually contain
-any content items themselves in the same way that a folder does. Instead
-it is the **Criteria** that you establish which determines what content
-appears on each Collection page.
+La necessità di visualizzazione i contenuti in una varietà di modi dinamici viene soddisfatta dalle
+**Collezioni** (precedentemente note come **Smart Folders** o **Rich
+Topic** nelle versioni precedenti di Plone). Le Collezioni di fatto non contengono
+elementi come accade in una cartella. Al contrario
+sono i **Criteri** stabiliti che determinano quali contenuti far apparire
+nella pagina dove è definita la Collezione.
 
-Common applications for Collections are:
+I casi comuni dove applicare le Collezioni sono:
 
--  News Archives
--  Event Archives
--  Photos Displayed by Date Range
--  Content Displayed by Keyword
+-  Archivio di Notizie
+-  Archivio di Eventi
+-  Visualizzazione di Foto dato un intervallo di date
+-  Visualizzazione di contenuti data una parola chiave
 
