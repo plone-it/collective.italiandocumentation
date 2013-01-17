@@ -13,8 +13,8 @@ descrizione o nel corpo.
 
 Diciamo che sul tuo sito web hai un ampio catalogo di foto e mappe.
 Si possono facilmente visualizzare tutte in una sola volta creando un
-`collegamento ipertestuale <http://learnplone.onenw.org/glossary/hyperlink>`_ alla
-`cartella <http://learnplone.onenw.org/glossary/folder>`_ dove sono archiviate. 
+`collegamento ipertestuale <http://documentazione-plone.readthedocs.org/en/latest/adding-content/adding-links.html>`_ alla
+`cartella <http://documentazione-plone.readthedocs.org/en/latest/adding-content/adding-folders.html>`_ dove sono archiviate. 
 Inoltre, se avessi organizzato i contenuti in sottocartelle, dovresti anche creare dei
 collegamenti diversi per ognuna di esse. Tuttavia, se le immagini e le mappe fossero state inserite
 in più cartelle sparse nel sito, questa operazione potrebbe diventare macchinosa.
