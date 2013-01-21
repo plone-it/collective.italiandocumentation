@@ -1,55 +1,52 @@
-Adjusting the Display Settings
-===================================
+Regolazione delle Impostazioni di Visualizzazione
+=================================================
 
-Learn how display settings can change the look of your Collection page
+Ulteriori informazioni su come le impostazioni di visualizzazione possono modificare l'aspetto della pagina Collezione
 
-While the main power of Collections lies in Criteria, the display
-settings can make a big difference in the way your Collection will
-appear. All three of the settings we will cover in this section can be
-found by clicking the **Edit tab** of a Collection.
+Mentre il punto di forza delle Collezioni sta nei Criteri, le impostazioni
+di display possono fare una grande differenza nel modo in cui la vostra Collezione sarà
+mostrata. Tutte e tre le impostazioni che tratteremo in questa sezione possono essere
+trovate facendo click sulla scheda **Modifica** di una Collezione.
 
-**Inherit Criteria**
+**Eredita Criteri**
 
-By selecting the **Inherit Criteria** option, the Collection will
-inherit the Criteria from a parent Collection. This is only useful when
-using Sub Collections. If this is checked, you can create another
-Collection that is more specific than the Parent while still retaining
-the basic criteria of the Parent. A simple example might be a Parent
-Collection for displaying all Events in a site, and a Sub Collection
-that also displays Events (by inheriting Criteria) *but only* those
-Events with a particular keyword.
+Selezionando l'opzione **Eredita Criteri**, la Collezione
+erediterà i Criteri da una Collezione padre. Questo è utile solo quando si
+utilizzano Collezioni Subordinate. Se questa opzione è selezionata, è possibile creare un'altra
+Collezione che è più specifica rispetto al Padre, pur mantenendo
+i Criteri di base del Padre. Un semplice esempio potrebbe essere una
+Collezione Padre per la visualizzazione di tutti gli Eventi in un sito, e una Collezione Subordinata
+che visualizza Eventi (ereditando i Criteri) *ma solo* gli
+Eventi con una particolare parola chiave.
 
-**Limit Search Results**
+**Limita i Risultati della Ricerca**
 
-We can use Limit Search Results to limit the number of results that
-are Collection will display *per page*. This way if we have a Collection
-that is displaying News Items, we can limit the results to five or ten,
-instead of having it show all News Items on a single, large list.
+Possiamo usare Limita i Risultati della Ricerca per limitare il numero di risultati che
+verranno visualizzati *per pagina*. In questo modo se abbiamo una Collezione
+che sta mostrando Notizie, siamo in grado di limitare i risultati a cinque o dieci,
+invece di mostrare tutte le Notizie in un singolo elenco di grandi dimensioni.
 
-**Display as a Table**
+**Visualizza come Tabella**
 
-Display as a Table is simply another way to display the results of a
-Collection. Instead of having the Collection spit out the results in a
-list form, we can have it **generate a table** with the results, and set
-exactly what information about the results we want displayed. We
-customize the table by selecting the **Table Columns** from the left and
-clicking the right arrow button to move it over to the right. In the
-example above we chose to include the Title of the object, its Creator,
-and the Effective date. You can use any number of the columns, or all of
-them if you so choose.
+Visualizza come Tabella è semplicemente un altro modo per visualizzare i risultati di una
+Collezione. Invece di avere una Collezione che mostra i risultati in una lista, possiamo **generare una tabella** con i risultati, e impostare esattamente le informazioni che desideriamo visualizzare sui risultati. Si può
+personalizzare la tabella selezionando **Colonne della Tabella** a partire da sinistra e
+facendo clic sul pulsante freccia destra per spostare l'indice sulla destra.
+Nell'esempio precedente abbiamo scelto di includere il Titolo dell'oggetto, i suoi Creatori
+e la Data di Pubblicazione. È possibile utilizzare qualsiasi numero di colonne, o tutte
+se lo si vuole.
 
-When considering what to select, keep in mind that not all objects will
-have the information for every column available. For example, the
-**Start Date** and **End Date** only apply to Events. Therefore if you
-added these columns and your table included Pages as well as Events then
-the rows for the Pages would not have the Start and End Dates filled in.
-The other thing to consider is that the more columns you have showing
-the more crowded the table will become. The best rule of thumb is to
-only display what you absolutely need to display.
+Quando si considera cosa scegliere, bisogna tenere presente che non tutti gli oggetti
+disporranno delle informazioni per ogni colonna disponibile. Per esempio, la
+**Data di Inizio** e la **Data di Fine** valgono solo per gli Eventi. Pertanto, se si
+aggiungono queste colonne e la tabella include Pagine oltre agli Eventi allora
+le righe per le pagine non avrebbero le date di inizio e di fine compilate.
+L'altra cosa da considerare è che più colonne stai mostrando
+più affollata diventerà la tabella. La migliore regola è quella di
+visualizzare solo ciò che è assolutamente necessario.
 
-A few more notes on selecting columns: You can select more than one at a
-time by holding down the control key (Ctrl) while you click. If you want
-to remove a column, select it on the right and click on the left arrow
-button. Also you can add and remove columns by double clicking on their
-name.
-
+Alcune note ulteriori sulla selezione delle colonne: è possibile selezionarne più di una alla 
+volta tenendo premuto il tasto (Ctrl) mentre si fa click. Se si desidera 
+rimuovere una colonna, selezionarla a destra e fare clic sul pulsante freccia sinistra. 
+Inoltre è possibile aggiungere e rimuovere le colonne con un doppio click sul loro 
+nome. 
