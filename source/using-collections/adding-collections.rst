@@ -1,16 +1,16 @@
-Adding Collections
+Aggiungere Collezioni
 =======================
 
-Collections (formerly called Smart Folders) are virtual containers of
-lists of items found by doing a specialized search.
+Le Collezioni (una volta chiamate Smart Folders) sono contenitori virtuali con liste 
+di elementi trovati utilizzando ricerche specifiche.
 
-Learning to think about content being stored wherever it is stored, and
-about using custom collections to gather up different "views" of the
-content, is an important step to using Plone most effectively. It is an
-intelligent system.
+Comprendere che i contenuti possono essere memorizzati ovunque ed imparare a
+creare collezioni personalizzare per fornire "viste" differenti ai contenuti, 
+è un passo importante per poter utilizzare Plone in modo efficace. E' un sistema
+intelligente.
 
-To add a collection, use the *Add new...* menu, as for adding other
-content types:
+Per aggiungere una collezione, utilizza il menu "Aggiungi...", nello stesso modo in cui
+aggiungi altri contenuti:
 
 .. figure:: ../_static/p4_addnewmenu.png
    :align: center
@@ -18,7 +18,7 @@ content types:
 
    p4\_addnewmenu
 
-You will see the Add*Collection*panel:
+Ti comparirà il riquadro per aggiungere una *Collezione*:
 
 .. figure:: ../_static/copy_of_p4_addcollection.png
    :align: center
@@ -26,18 +26,17 @@ You will see the Add*Collection*panel:
 
    p4\_addcollection2
 
-Below the title and description fields is a set of fields for specifying
-the format of search results returned by the search criterion for the
-new collection. The four fields in the panel above are in pairs. The top
-two fields let you limit the search results to a number of items that
-will be displayed. The bottom two fields let you control the order of
-the search result items.
+Sotto i campi titolo e descrizione ci sono un insieme di campi per specificare
+il formato dei risultati restituiti dal criterio di ricerca della
+nuova collezione. I quattro campi nel riquadro sopra sono a coppie. I primi due in alto
+consentono di limitare i risultati della ricerca a un certo numero di elementi. 
+Gli ultimi due consentono di controllare l'ordinamento dei risultati.
 
-Setting the search criterion
-----------------------------
+Impostare il criterio di ricerca
+--------------------------------
 
-After setting the display configuration in the edit panel shown above,
-click the criteria tab to show the panel for setting search criteria:
+Dopo aver impostato le configurazioni di visualizzazione nel riquadro di modifica sopra indicato,
+fai click sulla scheda criteri per visualizzare il pannello per impostare i criteri di ricerca:
 
 .. figure:: ../_static/copy2_of_copy_of_p4_collectionssearchcrit1.png
    :align: center
@@ -45,9 +44,9 @@ click the criteria tab to show the panel for setting search criteria:
 
    p4\_collectionssearchcrit1 2
 
-The top area of the panel, *Add New Search Criteria*, lets you set a
-field and a matching criterion. The bottom area, *Set Sort Order*, is a
-simple selection for a field to sort on:
+L'area superiore del pannello, *Aggiungi nuovo Criterio*, consente di impostare un
+campo e un criterio di corrispondenza. L'area inferiore, *Ordinamento*, permette semplicemente 
+di selezionare un campo per l'ordinamento:
 
 .. figure:: ../_static/copy_of_p4_collectionssearchcrit2.png
    :align: center
