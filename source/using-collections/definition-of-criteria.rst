@@ -1,132 +1,131 @@
-Definition of Criteria
-===========================
+Definizione dei Criteri
+=======================
 
-Definitions and examples of the different criteria fields available
+Definizioni ed esempi dei vari campi criteri disponibili
 
-The power of Collections most certainly lies with the Criteria fields.
-Mastering how to use the different Criteria will allow you to use
-Collections in several useful ways. In this section, we will use
-examples to illustrate the many ways of using Criteria.
+Il potere delle Collezioni si trova certamente nei campi dei criteri.
+Imparare come utilizzare i diversi Criteri vi permetterà di creare
+Collezioni molto utili. In questa sezione, useremo
+esempi per illustrare i molti modi di utilizzare i Criteri.
 
-**Categories**
+**Categorie**
 --------------
 
-The Category criterion allows you to search the **Category field** of
-objects. For this to work you must specify Categories for the content
-objects ahead of time (this is done through the Categorization tab on
-content objects). An example where you could use this is you want to
-create a Collection that would display all objects relating to the
-Category *Organization*. As you can see in the image below, we are able
-to select the value *Organization* for our criterion. Then, by saving
-this criterion and viewing our Collection, the results would be all
-content objects we had designated with the Category *Organization*.
+Il criterio Categoria consente di ricercare il **campo Categoria** degli
+oggetti. Perchè funzioni è necessario aver specificato prima le Categorie per i contenuti
+(questo è fatto tramite la scheda Categorizzazione sugli
+oggetti contenuto). Un esempio in cui è possibile utilizzare questo campo è
+creare una Collezione che riporti tutti gli oggetti relativi alla
+Categoria *Organizzazione*. Siamo in grado
+di selezionare il valore *Organizzazione* per il nostro criterio. Quindi, salvando
+questo criterio e visualizzando la nostra Collezione, i risultati sarebbero tutti gli
+oggetti di contenuto che avevamo marcato con la Categoria *Organizzazione*.
 
-Once again the values available to you are completely dependent on what
-you have specified on your objects in the Categorization tab.
+Ancora una volta, i valori disponibili sono completamente dipendenti da ciò che
+abbiamo specificato sui nostri oggetti nella scheda Categorizzazione.
 
-**Creator**
------------
-
-When using the Creator criterion, we are **filtering objects based on
-who created them**. This might be useful if you want to do a featured
-author section, where you would only want to display content on your
-site that has been created by a certain author.
-
-As you can see we have several options for our criterion type. They
-allow us to restrict the creator to the person currently logged in,
-enter the name of another user as text, or to select users from a list.
-
-If you want to display results from multiple users, you would need to
-use the **List of Values** option. Otherwise you would normally use the
-Text option unless the creator you wanted to select was yourself in
-which case you would use Restrict to Current User.
-
-**Description**
----------------
-
-The Description field is essentially a **search box type** criterion.
-However, instead of searching the title and body of a page, it will
-**only search for the text in the Description field** of a content
-object. This criterion is only really useful if you fill out the
-Description field consistently for all your content objects.
-
-**Location**
+**Creatore**
 ------------
 
-Using the Location criterionis much like specifying a location when you
-search for a document on your hard drive. By specifying a Location
-criterion, **the results that are displayed in your Collection will only
-come from that location**, most commonly a Folder. This can be useful if
-you only want to display content that is in the About Us section of your
-site, for example. This is also useful for narrowing Collection results
-when combined with other criteria.
+Quando utilizziamo il criterio Creatore, stiamo **creando un filtro sugli oggetti basato su
+chi li ha creati**. Questo potrebbe essere utile se si vuole creare una
+sezione autore, in cui si desidera visualizzare solo i contenuti sul tuo
+sito che sono stati creati da un certo autore.
 
-To specify a Location, simply click the **Add button**, which will pop
-up a new window showing you a directory of your site. If we follow our
-example and want to search the About Us section of our site, we would
-click the InsertÂ button next to the About Us folder.
+Come potete vedere abbiamo diverse opzioni per questo tipo di criterio. Esse
+ci permettono di limitare il creatore alla persona attualmente connessa,
+immettere il nome di un altro utente come testo, oppure selezionare gli utenti da un elenco.
 
-You can open folders to view content contained within them either by
-clicking the Browse button or directly on the title of the folder you
-want to open. You may also use the Search box to search for the Title of
-an object.
+Se si vuole visualizzare i risultati di più utenti, è necessario
+utilizzare l'opzione **Elenco dei Valori**. In caso contrario, si usa normalmente 
+l'opzione Testo a meno che il creatore che si vuole selezionare sia voi stessi, in
+questo caso si utilizza Limita a Utente Attuale.
 
-**Search Text**
+**Descrizione**
 ---------------
 
-The Search Text is a very useful criterion. It is similar to the search
-box on your site or an Internet search engine. It takes the text you
-specify and searches the Title, Description, and Body of all objects and
-returns **any that have the word or phrase you specify**. This is useful
-when you want to find objects that have to deal with a certain thing,
-especially if the word or phrase appears across many content types.
-Using LearnPlone.Org as an example, if I want to create a Collection
-that displays all objects that reference the word Collections, I would
-use the Search Text criterion and specify *collections*. All Tutorials,
-Videos, Glossary items, etc with *collections* in the Title,
-Description, or Body would then appear in the Collection results.
+Il campo Descrizione è essenzialmente un criterio **come il box di ricerca**.
+Tuttavia, invece di cercare il titolo e il corpo di una pagina, 
+**effettuerà una ricerca solo per il testo nel campo Descrizione** di un oggetto contenuto.
+Questo criterio è realmente utile solo se si compila il
+campo Descrizione in modo coerente per tutti gli oggetti contenuti.
 
-**Related To**
---------------
+**Posizione**
+-------------
 
-The Related To field is another field, like Category, that **must be
-specified on a content object prior to being used for a Collection**.
-The Related To field on an object lets you specify which other objects
-in your site are similar or are relevant to the object you created. By
-specifying this field, when you create an object you can create a web of
-related content that will reference each other (think of a "see also"
-kind of function). When you have done this, you can use the Related To
-criterion in a Collection to display anything related to a specific
-object.****
+Utilizzare il criterio Posizione è molto simile a specificare una posizione nella
+ricerca di un documento sul disco rigido. Specificando un criterio Posizione,
+**i risultati che vengono visualizzati nella tua Collezione
+provengono solo da quella posizione**, più comunemente una Cartella. Questo può essere utile se
+si desidera visualizzare solo il contenuto che si trova nella sezione Chi siamo del
+sito, per esempio. Il criterio Posizione è anche utile per restringere risultati delle Collezioni
+quando è combinato con altri criteri.
 
-In this case we have specified that there are pages related to Our
-Staff, History, and the About Us Homepage. By selecting one or multiple
-values from this list, our Collection will display the pages that
-related to that Value.
+Per specificare una Posizione, è sufficiente fare click sul pulsante **Aggiungi**, si apre quindi
+una nuova finestra che mostra una directory del tuo sito. Se seguiamo il nostro
+esempio e vogliamo cercare la sezione Chi siamo del nostro sito, dobbiamo
+fare click sul pulsante Inserisci accanto alla cartella Chi siamo.
 
-If we selected History as the value we wanted, our Collection would show
-us everything that is related to the History page.
+È possibile aprire le cartelle per visualizzare i contenuti in essi contenute sia
+facendo clic sul pulsante Sfoglia o direttamente sul titolo della cartella che
+si desidera aprire. È inoltre possibile utilizzare la casella di ricerca per cercare il Titolo di
+un oggetto.
 
-Keep in mind that the Related To Values list does not work based on
-which objects are related to content but on which objects have another
-object related **to it**. The Collection will display the results that
-are related to that value.
+**Testo Ricercabile**
+---------------------
 
-**State**
+Il Testo Ricercabile è un criterio molto utile. È simile al box di ricerca
+sul tuo sito o un motore di ricerca Internet. Prende il testo
+che hai indicato, cerca il Titolo, la Descrizione, e il Corpo di tutti gli oggetti e
+restituisce **quelli che hanno la parola o la frase specificata**. Questo è utile
+quando si desidera trovare oggetti che hanno a che fare con una certa cosa,
+soprattutto se la parola o la frase appare in molti tipi di contenuto.
+Utilizzando LearnPlone.Org come esempio, se voglio creare una Collezione
+che consente di visualizzare tutti gli oggetti che fanno riferimento alla parola Collezioni, lo farei
+utilizzando il criterio Testo Ricercabile e specificando *Collezioni*. Tutti i Tutorial,
+Video, voci di Glossario, ecc con *Collezioni* nel Titolo,
+nella Descrizione, o nel Corpo del Testo dovrebbero poi comparire nei risultati delle Collezione.
+
+**Contenuti Correlati**
+-----------------------
+
+Il campo Contenuti Correlati è un altro campo, come Categoria, che **deve essere
+specificato su un oggetto contenuto prima di essere utilizzato per una Collezione**.
+Il campo Contenuti Correlati su un oggetto consente di specificare quali altri oggetti
+nel tuo sito sono simili o sono rilevanti per l'oggetto creato.
+Specificando questo campo quando si crea un oggetto, è possibile creare una rete di
+contenuti correlati che faranno riferimento a vicenda (si pensi a un
+tipo di funzione "vedi anche"). Una volta fatto questo, è possibile utilizzare
+il criterio Contenuti Correlati in una Collezione, per visualizzare tutto ciò che è collegato a un specifico
+oggetto.
+
+In questo caso abbiamo specificato che ci sono pagine relative a Nostro
+Staff, Storia, e la Homepage Chi siamo. Selezionando uno o più
+valori di questa lista, la nostra collezione visualizzerà le pagine legata a quel Valore.
+
+Se avessimo scelto la Storia come il valore, la nostra Collezione mostrerebbe
+tutto ciò che è legato alla pagina Cronologia.
+
+Tenete a mente che la lista di Valori Contenuti Correlati non funziona sulla base di
+quali oggetti sono legati al contenuto, ma su quali oggetti hanno un altro oggetto correlato
+**ad esso**. La Collezione visualizzerà i risultati
+relativi a tale valore.
+
+**Stato**
 ---------
 
-Using the State criterion is very simple. It allows us to **sort by
-published or private** state. It is a very good idea to restrict
-publicly viewable Collections **to filter on published**, so that no
-private content appears in the Collection results. Filtering on the
-Private state can be useful as well. For example, a site administrator
-might want to quickly see private content, so that they could determine
-what work needs to be done and what could deleted.
+Utilizzare il criterio Stato è molto semplice. Ci permette di **fare una selezione in base allo
+stato pubblicato o privato**. È una buona idea limitare
+le Collezioni agli elementi visibili pubblicamente **impostando il filtro sullo stato pubblicato**, in modo che 
+i contenuti privati non ​​appaiano nei risultati della Collezione. Può essere utile anche impostare il filtro sullo
+stato Privato. Per esempio, un amministratore del sito
+potrebbe desiderare di vedere rapidamente i contenuti privati​​, in modo da poter determinare
+quale lavoro deve essere ancora fatto e che cosa potrebbe essere cancellato.
 
-**Dates**
----------
+**Date**
+--------
 
-You may have noticed that there are **several different dates
-available** to use as Criteria. Since there are such a large number of
-dates, they will be covered on their own section of the manual.
+Avrete notato che sono **disponibili parecchie date**
+da utilizzare come Criteri. Poiché ci sono un grande numero di
+date, esse avranno una propria sezione nel manuale.
 
