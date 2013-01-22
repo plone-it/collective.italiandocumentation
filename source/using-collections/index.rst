@@ -1,7 +1,7 @@
-Using Collections
-====================
+Utilizzo delle collezioni
+=========================
 
-Collections take advantage of the intelligence of Plone.
+Le collezioni sfruttano l'intelligenza di Plone.
 
 .. toctree::
     :maxdepth: 2
