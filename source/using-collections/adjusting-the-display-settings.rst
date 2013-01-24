@@ -33,7 +33,7 @@ Collezione. Invece di avere una Collezione che mostra i risultati in una lista, 
 personalizzare la tabella selezionando **Colonne della Tabella** a partire da sinistra e
 facendo clic sul pulsante freccia destra per spostare l'indice sulla destra.
 Nell'esempio precedente abbiamo scelto di includere il Titolo dell'oggetto, i suoi Creatori
-e la Data di Pubblicazione. È possibile utilizzare qualsiasi numero di colonne, o tutte
+e la Data di Accessibilità. È possibile utilizzare qualsiasi numero di colonne, o tutte
 se lo si vuole.
 
 Quando si considera cosa scegliere, bisogna tenere presente che non tutti gli oggetti
