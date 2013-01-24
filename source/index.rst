@@ -37,7 +37,7 @@ Si ringraziano per il loro contributo a questa documentazione:
 * `Giacomo Spettoli <giacomo.spettoli@gmail.com>`_ (coordinatore/traduttore/motivatore)
 * `Maurizio Delmonte <maurizio.delmonte@abstract.it>`_ (ideatore/motivatore)
 * `Massimo Azzolini <massimo@redturtle.it>`_ (motivatore/traduttore)
-* `Federica D'Elia <federica.delia@redturtle.it>`_
+* `Federica D'Elia <federica.delia@redturtle.it>`_ (traduttore)
 * `Giampiero Lago <lago.giampiero@gmail.com>`_
 * `Alex Sani <alexsani.re@gmail.com>`_
 *  Luciano Naldesi 
