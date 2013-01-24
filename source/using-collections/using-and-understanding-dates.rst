@@ -1,136 +1,142 @@
-Using and Understanding Dates
-==================================
+Uso e comprensione delle Date
+=============================
 
-Explanation of the Dates associated with Collections and their uses
+Spiegazione delle Date associate alle Collezioni ed il loro uso
 
-There are several different types of dates we can choose from, many of
-them sounding similar. Because of this it is very easy to get confused
-about which date to use. Below, each date option is defined.
+Ci sono diversi tipi di date che possiamo scegliere, molti di
+esse sembrano simili. Per questo motivo è molto facile confondersi
+su quale data utilizzare. Di seguito è definita ogni opzione data.
 
-Dates Defined
+Definizione delle Date
+----------------------
+
+**Data di Creazione**
+
+La Data di Creazione è la data in cui è stato fatto il documento. Si può pensare 
+questa data come il suo compleanno, il giorno in cui è nato. Non è possibile modificare la
+Data di Creazione di un oggetto.
+
+**Data di Accessibilità**
+
+La Data di Accessibilità è la data in cui un oggetto viene pubblicato. Questo
+data è personalizzabile attraverso la **scheda Modifica** sugli oggetti sotto, la
+**scheda Data**. Tuttavia, in questa scheda essa è indicata come Data di Pubblicazione (un
+discrepanza secondaria nella nomenclatura di Plone).
+
+La **Data di Creazione** e la **Data di Accessibilità** sono molto simili. Entrambe 
+rappresentano il punto di inizio di un oggetto. Un importante
+punto da tenere a mente quando si sceglie la data da utilizzare, è che
+un oggetto può essere creato molto prima che diventi pubblico. 
+Una pagina potrebbe venire modificata per diverse settimane prima che sia effettivamente
+pubblicata. Quindi si dovrebbero avere risultati diversi in un Collezione
+a seconda di quale data è stato utilizzata.
+Si consiglia di utilizzare la **Data di Accessibilità**, invece della Data di Creazione per
+Collezioni basate sulle date. In questo modo la tua Collezione mostra i risultati sulla base
+di quando sono diventati visibili, il che è più rilevante per
+il pubblico della tua collezione. Inoltre, è possibile modificare
+la Data di Accessibilità per controllare l'ordinamento, cosa che non si
+può fare con la Data di Creazione.
+
+**Data di Scadenza**
+
+La Data di Scadenza si riferisce al giorno in cui la voce non sarà più
+pubblica. Questa data è anche personalizzabile attraverso la
+scheda Modifica (indicata sopra), come la Data di Accessibilità. Per impostazione predefinita, gli oggetti non hanno
+la Data di Scadenza.
+
+**Data di Modifica**
+
+La Data di Modifica è la data dell'ultima modifica dell'oggetto. Notare che
+questa data è prima impostata al giorno in cui l'oggetto viene creato e sarà
+cambiata automaticamente ogni volta che l'oggetto viene modificato. Non vi è alcun modo per
+personalizzarla. Per esempio, è possibile utilizzare questa data come Ordinamento insieme ad un
+criterio Tipo impostato su Pagina, per visualizzare tutte le pagine modificate di recente
+entro la settimana scorsa. L'elenco What's New sulla homepage
+di LearnPlone.Org usa la Data di Modifica come criterio data.
+In questo modo i documenti appena creati *e* quelli che sono stati aggiornati
+appaiono nell'elenco.
+
+**Date specifiche degli Eventi**
+
+Le due seguenti date si applicano **solo** agli oggetti Eventi.
+Queste due date sono molto efficaci per la creazione di Collezioni 
+Eventi Recenti e Prossimi Eventi che permetterà al tuo pubblico
+di conoscere ciò che la tua organizzazione sta facendo e farà in futuro.
+
+**Data di Inizio**
+
+La Data di Inizio è semplicemente la data da cui parte un evento.
+
+**Data di Fine**
+
+La Data di Fine è semplicemente la data in cui l'evento si conclude.
+
+**Data di Pubblicazione**
+
+La Data di Pubblicazione è la data in cui un oggetto è stato pubblicato l'ultima volta. Può
+essere impostata manualmente per mezzo del campo Data di Accessibilità o, ​​se
+quest'ultima non è stato impostata, può essere calcolata in base alla data in cui oggetto è
+stato pubblicato l'ultima volta.
+
+Per visualizzare la Data di Pubblicazione sulle proprie pagine è necessario attivare l'opzione
+*"Visualizza la data di pubblicazione nelle informazioni personali" nel  
+**Pannello di Configurazione del Sito**. La Data di Pubblicazione sarà mostrata prima
+della Data di Modifica dell'oggetto all'interno dell'area informazioni personali. Per essere sicuri 
+che tutto funzioni attivare anche l'opzione *"Consenti a chiunque di vedere le informazioni personali"*  
+all'interno del **Pannello di Impostazioni sicurezza**.
+
+Impostazione Date
+-----------------
+
+Una cosa che può causare confusione sulle date è come impostare i loro Criteri. Essi
+hanno una configurazione che non è come quella degli altri. Prima di tutto,
+devi scegliere se desideri una Data Relativa o un Intervallo di Date.
+
+La Data Relativa permette di costruire un'**istruzione condizionale**.
+Come ad esempio: gli articoli modificati da meno di 5 giorni nel passato. L'Intervallo di Date
+consente di specificare **un determinato range di date**, ad esempio dal 01/02/08 al
+02/02/08. L'Intervallo di Date è utile quando si desidera creare una Collezione
+con una data statica che non cambierà. La Data Relativa può essere molto
+utile in quanto vi permetterà di creare Collezioni che sono automaticamente
+auto-aggiornate, come una Collezione News Recenti o una Sezione Prossimo
+Evento.
+
+Data Relativa
 -------------
 
-**Creation Date**
-The Creation Date is the date the document was made. You can think of
-this as its birthday, the day it was born. You cannot change the
-Creation Date of an object.
-**
-Effective Date**
-The Effective Date is the date when an object becomes published. This
-date is customizable through the **Edit tab** on objects under the
-**Date tab**. However, there it is referred to as the Publishing Date (a
-minor discrepancy in Plone's nomenclature).
+Osservando per prima l'opzione Data Relativa, si nota che abbiamo tre
+opzioni da compilare.
 
-**Creation Date** and **Effective Date** are very similar. They both are
-representative of the beginning point of an object. A very important
-point to keep in mind when choosing which one you want to use, is that
-an object can be created long before it ever becomes public. You could
-have a page that is worked on for several weeks before it is actually
-published. Thus you would get different results in a Collection
-depending on which date you used.
-We recommend using the **Effective Date**, instead of Creation Date for
-date-oriented Collections. This way your Collection shows results based
-on when they became viewable to the public, which is more relevant to
-the audience of your Collection. Also, you can go in and manually adjust
-the Effective Date to control the sort order which is not something you
-can do with the Creation Date.
-**
-Expiration Date**
-The Expiration Date refers to the day that the item will no longer
-become publicly available. This date is also customizable through the
-Edit tab (shown above) like the Effective Date. By default, objects have
-no Expiration Date.
-**
-Modification Date**
-The Modification Date is the date the object was last edited. Note that
-this date is first set the day the object is created and will
-automatically change every time the object is edited. There is no way to
-customize this date. You could use this as a Sort Order along with an
-Item Type criterion set to Page, to display all recently modified pages
-within the last week, for example. The What's New listing on the
-homepage of LearnPlone.Org uses Modification Date as its date criterion.
-That way both newly created documents *and* ones that have been updated
-appear in the listing.
+La prima opzione è **Quale giorno**. Questo ci permette di selezionare il numero di
+giorni che il nostro criterio comprenderà. Una delle opzioni è chiamata *Adesso*.
+L'utilizzo di questa opzione imposterà l'intervallo di date al giorno corrente. Le altre due
+opzioni non hanno importanza e possono essere ignorate quando si utilizza *Adesso*.
 
-**Event Specific Dates**
-The two following dates **only** apply to objects that
-are **Events.** These two dates are very effective for creating Recent
-Events and Upcoming Events Collections that will let your audience know
-what your organization is doing and will be doing in the future.
+La seconda opzione è **Nel passato o nel futuro**. Questo ci permette di
+scegliere se stiamo cercando in avanti o indietro nel tempo.
 
-**Start Date**
-The Start Date is simply the date that an Event starts.
+L'ultima opzione è **Prima o dopo**. Qui si può scegliere tra tre
+opzioni. *Minore di* ci permette di includere tutto da ora a un
+periodo di tempo pari o inferiore all'impostazione **Quale giorno**, sia in
+passato che nel futuro. *Maggiore di* includerà tutto ciò oltre il nostro
+numero di giorni specificato, pari o superiore di **Quale giorno**. Infine
+*In Giornata* comprenderà solo gli oggetti del giorno che abbiamo specificato in
+**Quale giorno**. Utilizzando l'esempio nell'immagine qui sopra se avessimo
+selezionato *In Giornata* invece di *Minore di* la nostra Collezione 
+mostrerebbe solo gli oggetti che sono stati modificati 
+5 giorni fa (stiamo usando il criterio Data di Modifica).
 
-**End Date**
-The End Date is simply the date that the Event ends.
+Se questo per te è fonte di confusione, prova a leggerlo come una frase sostituendo
+nei campo le opzioni che hai scelto. "Voglio i risultati per includere oggetti
+**Prima o dopo** di **Quale giorno**, **Nel passato o nel Futuro**. Il nostro
+esempio diventerebbe "Voglio i risultati che includono
+gli oggetti **Minore di** **5 giorni nel passato**".
 
-**Publication Date**
+Intervallo di Date
+------------------
 
-The Publication Date is the date when object was last published. It can
-either be set manually by means of Effective Date field or, if the
-latter hasn't been set, calculated based on date when object was last
-published.
-
-To display Publication Date on your pages you need to switch it on with
-*"Display publication date in 'about' information"* option in **Site
-Settings Control Panel**. Publication Date will be visible right before
-object Modification Date inside 'about' information area. Make sure
-*"Allow anyone to view 'about' information"* option is also enabled
-inside **Security Settings Control Panel** to make it all work.
-
-Setting Dates
--------------
-
-A confusing thing about dates can be how its Criteria are set up. They
-have a setup that is not like any of the other Criteria. First off, you
-have to choose whether you want a Relative Date or a Date Range.
-
-The Relative Date allows you to construct a **conditional statement**.
-Such as: Items modified less than 5 days in the past. A Date Range will
-allow you to **specify an exact range of dates**, such as 01/02/08 to
-02/02/08. The Date Range is useful when you want to create a Collection
-with a static date that won't change. The Relative Date can be very
-useful as it will allow you to create Collections that are automatically
-updating themselves, such as a Recent News Collections or an Upcoming
-Event Section.
-
-Relative Date
--------------
-
-Looking first at the Relative Date option, you can see we have three
-options to fill out.
-
-The first option is **Which Day**. This allows us to select the number
-of days our criterion will include. One of the options is called *Now*.
-Using this will set the date range to the current day. The other two
-options do not matter and can be ignored when using *Now*.
-
-The second option is **In the Past or Future**. This enables us to
-choose whether we are looking forward or backward into time.
-
-The last option is **More or Less**. Here we can choose from three
-options. *Less than* allows us to include everything from now to a
-period of time equal to or less than the **Which Day** setting, either in
-the past or future. *More than* will include everything from beyond our
-specified number of days equal to or more than **Which Day**. Finally
-*On the Day* will only include things that are on the day we specified in
-the **Which Day**. Using the example in the image above if we had
-selected *On the Day* instead of *Less than* our Collection would
-display only objects that were modified (we are using the Modification
-Date criterion) 5 days ago.
-
-If this is confusing to you, try reading it as a statement substituting
-in the field options you chose. "I want the results to include objects
-**More or Less** than **Which Day**, **In the Past or Future**". Our
-example in the image above would become "I want the results to include
-objects **Less than** **5 days in the past**".
-
-Date Range
-----------
-
-The **Date Range** is much easier to understand. Both a Start Date and
-End Date are required (do not confuse these terms with the Event
-Specific dates!). The Date Range allows us to enter a beginning and an
-end date and the display everything within that time frame. Notice also
-that it allows us to specify a specific time of day as well.
-
+L'**Intervallo di Date** è molto più facile da capire. Sono obbligatori sia una Data di Inizio che
+una Data di Fine (non confondere questi termini con le date 
+specifiche dell'Evento!). L'Intervallo di Date ci permette di inserire un inizio e una
+fine e viene mostrato tutto ciò che è entro la suddetta finestra. Si noti anche
+che ci permette di specificare una determinata ora del giorno.
