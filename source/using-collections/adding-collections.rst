@@ -54,24 +54,22 @@ di selezionare un campo per l'ordinamento:
 
    p4\_collectionssearchcrit2 2
 
-The criteria types for matching data in content items depend on which
-field is selected.
+I tipi di criteri per la ricerca dipendono dal quale campo viene selezionato.
 
-After saving the collection, the search criteria will be applied and the
-results shown when the collection is clicked. You can create any number
-of collections for such custom views. For the butterfly example
-described above, in addition to a date constraint to find recent items,
-the categories field could be used to match color to have a series of
-collections for "Blue Butterflies," "White Butterfles," etc.
+Dopo aver salvato la collezione, i criteri di ricerca saranno applicati ed il
+risultato mostrato quando la collezione viene selezionata. È possibile creare un numero qualsiasi
+di collezioni per ogni visualizzazione che si vuole personalizzare. Per l'esempio delle farfalle
+sopra descritto, oltre ad un vincolo sulla data per trovare gli elementi recenti,
+il campo categorie potrebbe essere utilizzato per abbinare il colore alle farfalle e ottenere una serie di
+collezioni di "Farfalle blu", "Farfalle Bianche," ecc.
 
-Multiple criteria can be used for a collection. For example, a
-collection called "Butterflies Photographed in the Last Month," could be
-made by setting a criterion on Creation Date and on Item Type as Image.
-Such date-based collections are really effective to show up-to-date
-views of content that don't require any administrative hand-work -- once
-such a collection has been created, it will automatically stay up to
-date.
+Criteri multipli possono essere utilizzati nella stessa collezione. Per esempio, una
+collezione chiamata "Farfalle fotografate nel mese scorso," potrebbe essere
+fatto impostando un criterio relativo alla data di creazione ed al tipo di elemento che dovrà essere una immagine.
+Questi data-base generati dalle collezioni sono veramente efficaci per mostrare
+viste di contenuti aggiornate che non richiedono alcun lavoro amministrativo a mano - una volta che
+tale raccolta è stata creata, verrà automaticamente aggiornata.
 
-*Note:* A collection doesn't behave like a normal folder â€” you can't
-add content items via the add item menu, as you can for a normal folder.
+*Nota:* Una collezione non si comporta come una normale cartella; non puoi
+aggiungere elementi tramite la voce del menu aggiungi, come è possibile fare in una normale cartella.
 

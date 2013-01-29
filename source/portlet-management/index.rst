@@ -1,7 +1,7 @@
-Portlet Management
-=====================
+Gestione delle Portlet
+======================
 
-An introduction to the use and management of portlets.
+Una introduzione all'uso e alla gestione delle portlets.
 
 .. toctree::
     :maxdepth: 2
