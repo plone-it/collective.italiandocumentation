@@ -1,12 +1,12 @@
-Managing Portlets
-======================
+Gestione delle Portlets
+=======================
 
-How to add, remove, and rearrange portlets.
+Come aggiungere, rimuovere e riordinare le portlets.
 
-To begin manipulating portlets, you must find the **Manage Portlets
-link**, usually located on the bottom of each side column. Under Manage
-Portlets, you can create new Portlets, remove Portlets, rename and
-rearrange Portlets.
+Per iniziare a manipolare le portlets, è necessario trovare il **link
+a Gestione Portlet**, solitamente posizionato nella parte inferiore di 
+ogni colonna laterale. In Gestione Portlet, è possibile crearne nuove,
+rimuoverle, rinominarle e riordinarle.
 
 |Portlet manage link|
 ---------------------
