@@ -1,31 +1,32 @@
-Portlet Hierarchy
-======================
+Gerarchia delle Portlet
+=======================
 
-Portlets use a basic hierarchy approach which determines how and why
-they appear on each section of your site.
+Le Portlet utilizzano un approccio gerarchico che determina come e 
+se devono apparire in ogni sezione del sito.
 
-Portlets use a basic hierarchical approach. By default, the portlets
-that you assign at the root (homepage) of the site will propogate down
-to all the subsections of the site. If you want a different set of
-portlets or order of portlets for a particular sub-section, you must use
-the **Block/unblock portlets** controls, to "block" the parent portlets.
-When you block Portlets, you must explicitly add all the Portlets that
-you wish to see on the child page.
+Le Portlet utilizzano un approccio basato sulla gerarchia. Per 
+impostazione predefinita, le portlets che assegni alla radice (home page) 
+del sito si propagano verso tutte le sottosezioni dello stesso. Se desideri 
+un diverso insieme di portlets o un ordinamento differente per una 
+particolare sotto-sezione, dovrai utilizzare il controllo **Blocca/sblocca
+portlets** per "bloccare" le portlets ereditate dalla pagina superiore. 
+Quando blocchi le Portlets, è necessario aggiungere esplicitamente tutte 
+quelle che desideri vedere sulla pagina figlia.
 
-The portlet management screen has been updated in Plone 4 to show all
-portlets, including portlets that are blocked. Users can now see what's
-being blocked and what's being inherited. When a portlet is blocked, you
-will notice a subtle change in color on on the portlet management
-screen:
+La schermata di gestione delle portlets è stato aggiornato in Plone 4 per 
+mostrare tutte le portlets incluso quelle bloccate. Gli utenti ora possono
+vedere ciò che è stato bloccato e ciò che è stato ereditato. Quando una portlet 
+è bloccata, si noterà un sottile cambiamento di colore nella schermata di 
+gestione portlet:
 
 .. figure:: ../_static/blocked_portlets.png
    :align: center
    :alt: Blocked portlets in management
 
-   Blocked portlets in management
+   Portlets bloccate nel pannello di gestione
 
-In this diagram, our Portlets are designated in blue underneath the Page
-title:
+In questo schema, le nostre Portlets sono rappresentate in blu sotto il 
+titolo della Pagina:
 
 .. figure:: ../_static/hierarchy.gif
    :align: center
@@ -33,26 +34,26 @@ title:
 
    hierarchy.gif
 
-As you can see we have two Portlets designated on our Home page
-(navigation and recent items). These same Portlets appear on our About
-Page because of portlet hierarchy.
+Come puoi vedere abbiamo due Portlets nella nostra pagina iniziale 
+(navigation and recent items). Entrambe appariranno nella pagina About
+a causa della gerarchia delle portlet.
 
-However, on the Documentation page we added a third portlet - the
-Collection Portlet. Here we are still allowing Parental Portlets, but in
-addition we specifically added the Collection Portlet.
+Tuttavia, nella pagina Documentation abbiamo aggiunto un terzo portlet - la
+Collection Portlet. Qui stiamo ancora permettendo la visualizzazione delle 
+Portlet della pagina genitore ma in più abbiamo espressamente aggiunto la 
+Collection Portlet.
 
-On **both** the Tutorials and Videos Pages we have to block Parental
-Portlets because we do not want the Collection Portlet that is on the
-Documentation Page to show. When we block Parental Portlets we must
-re-add the Portlets to **each** Child page. In this case we re-added the
-Navigation Portlet to both and then added the Search Portlet to both.
+Su **entrambe** le pagine Tutorials e Videos dobbiamo bloccato le portlet 
+ereditate dai genitori, perché non vogliamo che la Collection Portlet che 
+si trova nella pagina Documentation venga mostrata. Quando blocchiamo le 
+Portlet ereditate dai Genitori dobbiamo ri-aggiungere le portlets a **ogni** 
+pagina figlia. In questo caso ri-aggiungiamo la Navigation Portlet ad entrambi 
+e successivamente la Search Portlet a tutti e due.
 
-Remember that the child pages only inherit from the parent page directly
-above them. In our example, if we added a page called *Staff* under
-About and allowed the parent portlets without adding any additional
-portlets, it would show the same Portlets as the Home Page as well as
-the About Page. However do not think that it is inheriting from the Home
-page. If we were to change the About Page and added a Search Portlet,
-our Staff Page would reflect the Portlets on the About Page not the Home
-Page.
-
+Ricorda che le pagine figlie ereditano solo dalla loro pagina padre superiore. 
+Nel nostro esempio, se aggiungiamo una pagina chiamata *Staff* sotto About e 
+permettiamo le portlets del genitore senza aggiungerne altre, essa avrebbe 
+mostrato le stesse portlets della Home Page così come quelle della pagina About. 
+Tuttavia non pensare che siano ereditate dalla Home page. Se dovessimo cambiare 
+la pagina About e aggiungere una Search Portlet, la nostra Pagina Staff 
+rispecchierebbe le portlets nella pagina About e non quelle nella Home Page.
