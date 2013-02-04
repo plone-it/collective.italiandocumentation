@@ -109,5 +109,5 @@ Testo Statico
 La Portlet Testo Statico permette di inserire del testo come 
 in una normale Pagina. E' utile per aggiungere collegamenti ad altri siti
 o qualsiasi informazione statica. Un esempio è la Portlet "Ancora Perplessi?" 
-sulla destra di questo sito. Per maggiori informazioni ed esempi sulle Portlet con Testo Statico
+sulla destra di questo sito. Per maggiori informazioni ed esempi
 vedere l'How-to `Static Portlets <http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/resolveuid/3698a06fc5f57d6f9bd6eaf1824f5cc8>`_.
