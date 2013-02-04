@@ -87,8 +87,8 @@ Modifica fatta.
 Elenco di Revisione
 -------------------
 
-La Portlet Elenco di Revisione visualizzerà un elenco di oggetti **da revisionare*.
- Se si utilizza un workflow dove è presente uno stato di revisione (e
+La Portlet Elenco di Revisione visualizzerà un elenco di oggetti **da revisionare**.
+Se si utilizza un workflow dove è presente uno stato di revisione (e
 sono impostati correttamente i ruoli globali per gli utenti), questa portlet è molto comoda ai revisori per
 tenere sott'occhio quando un oggetto viene inviato per essere sottoposto a revisione. Questa
 Portlet appare solo ai revisori come per lo stato citato che non è visibile al
