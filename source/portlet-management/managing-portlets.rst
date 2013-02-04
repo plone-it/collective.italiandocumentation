@@ -39,30 +39,30 @@ Ogni tipo di portlet avrà diverse opzioni di configurazione disponibili.
 Riodinare le Portlet
 --------------------
 
-Per modificare l'ordine delle Portlet, è sufficiente fare click sulle 
+Per modificare l'ordine delle Portlet è sufficiente fare click sulle 
 **frecce blu**.
-Questo influenzerà l'ordine di visualizzazione dele portlet nella pagina.
+Questo influenzerà l'ordine di visualizzazione delle portlet nella pagina.
 
-Removing Portlets
------------------
+Rimuovere le Portlets
+---------------------
 
-To remove a Portlet, click the **red "X"** associated with its name.
+Per rimuovere una Portlet, cliccare sulla **"X" rossa** di fianco al nome della stessa.
 
-Hiding Portlets
----------------
+Nascondere le Portlets
+----------------------
 
-From Plone 4 on you can show/hide portlets using the associated
-show/hide links present.
+Da Plone 4 puoi visualizzare/nascondere le portlets utilizzando il rispettivo link
+visualizza/nascondi.
 
-As you may have noticed on the Manage Portlet screen, you have the
-ability to work with Portlets on both the right and left side of the
-page. This is because there are two columns for Portlets to be in, a
-left column and a right column. **Portlets will only appear on the side
-that you add them on**.
+Come avrai notato nella schermata "Gestisci Portlet", puoi modificare le
+portlets sia sul lato destro sia su quello sinistro della
+pagina. Questo perché ci sono due colonne per le portlets, una a
+sinistra e una a destra. ** Le Portlets appariranno solo sul lato
+in cui vengono aggiunte**.
 
-With Portlets, you can add more than one of the same type on a page.
-There is no limit to how many times you can use an individual Portlet or
-a limit to how many total Portlets can be on a Page.
+E' possibile aggiungere più di una portlet dello stesso tipo in una pagina.
+Non c'è nessun limite rispetto a quante volte possa essere utilizzata la stessa portlet 
+o al numero di portlet per pagina.
 
 .. |Portlet manage link| image:: ../_static/copy_of_manage_portlets_button.png
 .. |Manage portlets| image:: ../_static/manage_portlets.png
