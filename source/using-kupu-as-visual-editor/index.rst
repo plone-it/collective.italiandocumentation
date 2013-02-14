@@ -81,8 +81,8 @@ la dimensione che si desidera utilizzare quando si carica o modifica l'immagine
 con l'icona "albero". È anche possibile ignorare la scelta della dimensione 
 dell'immagine modificando il codice HTML.
 
-Link Interni
-------------
+Collegamenti Interni
+--------------------
 
 Selezionare una parola o una frase, fare click sull'icona *collegamento interno*, 
 e apparirà il pannello *Inserisci Link*:
@@ -98,21 +98,21 @@ scelta per il collegamento una pagina denominata "Long-tailed Skippers". Dopo ch
 pannello si è chiuso, verrà impostato un collegamento alla pagina "Long-tailed Skippers" 
 per la parola o per la frase selezionata per il collegamento.
 
-External Links
---------------
+Collegamenti Esterni
+--------------------
 
-Select a word or phrase, click the *external link* icon, and the
-External link panel will appear:
+Selezionare una parola o una frase, fare click sull'icona *collegamento esterno*, 
+e apparirà il pannello *Link Esterno*:
 
 .. figure:: ../_static/externallinkpanel.png
    :align: center
    :alt: 
 
-Type the web address of the external website in the box starting with
-http://. You can click *preview* if you need to check the address. If
-you paste in the web address, make sure you don't have duplicate http://
-at the beginning of the address. Then click *ok*. The external link will
-be set to the word or phrase you selected.
+Digitare l'indirizzo web del sito esterno nel box che inizia con http://. È possibile 
+fare click su *anteprima* se hai bisogno di controllare l'indirizzo. Se incolli 
+l'indirizzo web, assicurati di non duplicare http:// all'inizio dell'indirizzo. Poi 
+fare click su *OK*. Il collegamento esterno verrà impostato per la parola o la frase 
+selezionata.
 
 Anchors
 -------
