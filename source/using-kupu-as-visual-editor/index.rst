@@ -80,22 +80,22 @@ creerà automaticamente diversi formati di un'immagine caricata, tra cui
 carica o modifica l'immagine con l'icona "albero". È anche possibile
 ignorare la scelta della dimensione dell'immagine modificando il codice HTML.
 
-Internal Links
---------------
+Link Interni
+------------
 
-Select a word or phrase, click the *internal link* icon, and the *insert
-link* panel will appear:
+Selezionare una parola o una frase, fare click sull'icona *collegamento interno*, e apparirà il pannello
+*Inserisci Link*:
 
 .. figure:: ../_static/insertlinkpanel.png
    :align: center
    :alt: 
 
-You use this panel by clicking on Home or Current folder to begin
-navigating the Plone web site to find a folder, page, or image to which
-you wish to make a link. In the example above, a page named "Long-tailed
-Skippers" has been chosen for the link. After this panel is closed, a
-link to the "Long-tailed Skippers" page will be set for the word or
-phrase selected for the link.
+Puoi utilizzare questo pannello facendo click sulla cartella Home o cartella Corrente per iniziare
+la navigazione nel sito web Plone e per trovare una cartella, una pagina, o l'immagine a cui
+si desidera creare un collegamento. Nel precedente esempio, è stata scelta per il collegamento 
+una pagina denominata "Long-tailed Skippers". Dopo che questo pannello si è chiuso, verrà impostato un
+collegamento alla pagina "Long-tailed Skippers" per la parola o per la
+frase selezionata per il collegamento.
 
 External Links
 --------------
