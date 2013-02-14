@@ -48,54 +48,55 @@ The icons are:
 Immagini
 --------
 
-Posizionare il cursore all'interno del testo di una pagina, fare click sull'icona "albero".
-Si aprirà questo pannello:
+Posizionare il cursore all'interno del testo di una pagina, fare click 
+sull'icona "albero". Si aprirà questo pannello:
 
 |insert-image-current-folder.png|
 
-Fare click su "Cartella Corrente" nella parte sinistra del pannello, se non è
-già evidenziata. La cartella corrente è la cartella che contiene la
-pagina che si sta modificando - tutte le pagine sono contenute in cartelle.
-Ci sono molti modi per gestire la memorizzazione di immagini, tra cui avere una
-cartella centrale di immagini, ma un metodo comune è quello di memorizzare le immagini mostrate
-su una pagina nella cartella che contiene la pagina (la cartella corrente). In
-questo modo, le pagine e le immagini ad esse associate sono memorizzate
-insieme all'interno della struttura delle cartelle. Se fai click sul pulsante Carica,
-ti verrà chiesto di selezionare un'immagine sul tuo computer e caricarla.
-Dopo aver selezionato l'immagine da caricare, il pannello di destra ti permetterà di dare
-all'immagine un titolo per l'uso sul sito web, e diverse opzioni per la posizione e il dimensionamento 
-dell'immagine. Facendo click su OK viene caricata l'immagine e collocata 
-nella pagina.
-Lo stesso pannello apparirà se si fa click su un'immagine nella pagina per selezionarla
-e scegliendo la stessa icona "albero" per modificare le opzioni di immagine o per
-modificare l'immagine.
-Sei responsabile per il dimensionamento e l'editing delle immagini sul tuo computer
-prima di caricarle, ma un modo semplice per gestire le immagini da usare sulla
-maggior parte delle pagine web è quello di fare una copia di un'immagine sul computer, quindi
-ridimensionarla a qualcosa come 1000 pixel nella dimensione più grande. Questo è una
-dimensione ragionevole per il caricamento - non è necessario caricare le tue
-immagini gigantesche provenienti dalla fotocamera digitale. Plone
-creerà automaticamente diversi formati di un'immagine caricata, tra cui
-"large", "mini", e altre dimensioni. Si sceglie la dimensione che si desidera utilizzare quando si
-carica o modifica l'immagine con l'icona "albero". È anche possibile
-ignorare la scelta della dimensione dell'immagine modificando il codice HTML.
+Fare click su "Cartella Corrente" nella parte sinistra del pannello, se non 
+è già evidenziata. La cartella corrente è la cartella che contiene la pagina
+che si sta modificando - tutte le pagine sono contenute in cartelle. Ci sono 
+molti modi per gestire la memorizzazione di immagini, tra cui avere una 
+cartella centrale di immagini, ma un metodo comune è quello di memorizzare le 
+immagini mostrate su una pagina nella cartella che contiene la pagina (la 
+cartella corrente). In questo modo, le pagine e le immagini ad esse associate 
+sono memorizzate insieme all'interno della struttura delle cartelle. Se fai 
+click sul pulsante Carica, ti verrà chiesto di selezionare un'immagine sul tuo 
+computer e caricarla. Dopo aver selezionato l'immagine da caricare, il pannello 
+di destra ti permetterà di dare all'immagine un titolo per l'uso sul sito web, 
+e diverse opzioni per la posizione e il dimensionamento dell'immagine. Facendo 
+click su OK viene caricata l'immagine e collocata nella pagina.
+Lo stesso pannello apparirà se si fa click su un'immagine nella pagina per 
+selezionarla e scegliendo la stessa icona "albero" per modificare le opzioni 
+di immagine o per modificare l'immagine.
+Sei responsabile per il dimensionamento e l'editing delle immagini sul tuo
+computer prima di caricarle, ma un modo semplice per gestire le immagini da 
+usare sulla maggior parte delle pagine web è quello di fare una copia di 
+un'immagine sul computer, quindi ridimensionarla a qualcosa come 1000 pixel 
+nella dimensione più grande. Questo è una dimensione ragionevole per il 
+caricamento - non è necessario caricare le tue immagini gigantesche provenienti 
+dalla fotocamera digitale. Plone creerà automaticamente diversi formati di 
+un'immagine caricata, tra cui "large", "mini", e altre dimensioni. Si sceglie 
+la dimensione che si desidera utilizzare quando si carica o modifica l'immagine 
+con l'icona "albero". È anche possibile ignorare la scelta della dimensione 
+dell'immagine modificando il codice HTML.
 
 Link Interni
 ------------
 
-Selezionare una parola o una frase, fare click sull'icona *collegamento interno*, e apparirà il pannello
-*Inserisci Link*:
+Selezionare una parola o una frase, fare click sull'icona *collegamento interno*, 
+e apparirà il pannello *Inserisci Link*:
 
 .. figure:: ../_static/insertlinkpanel.png
    :align: center
    :alt: 
 
-Puoi utilizzare questo pannello facendo click sulla cartella Home o cartella Corrente per iniziare
-la navigazione nel sito web Plone e per trovare una cartella, una pagina, o l'immagine a cui
-si desidera creare un collegamento. Nel precedente esempio, è stata scelta per il collegamento 
-una pagina denominata "Long-tailed Skippers". Dopo che questo pannello si è chiuso, verrà impostato un
-collegamento alla pagina "Long-tailed Skippers" per la parola o per la
-frase selezionata per il collegamento.
+Puoi utilizzare questo pannello facendo click sulla cartella Home o cartella Corrente 
+per iniziare la navigazione nel sito web Plone e per trovare una cartella, una pagina, 
+o l'immagine a cui si desidera creare un collegamento. Nel precedente esempio, è stata 
+scelta per il collegamento una pagina denominata "Long-tailed Skippers". Dopo che questo 
+pannello si è chiuso, verrà impostato un collegamento alla pagina "Long-tailed Skippers" 
+per la parola o per la frase selezionata per il collegamento.
 
 External Links
 --------------
