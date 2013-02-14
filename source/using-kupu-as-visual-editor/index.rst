@@ -45,40 +45,40 @@ The icons are:
    for the page directly), and a
 -  pulldown menu for text styling.
 
-Images
-------
+Immagini
+--------
 
-Place your cursor within the text of a page, then click the "tree" icon.
-This panel will pop up:
+Posizionare il cursore all'interno del testo di una pagina, fare click sull'icona "albero".
+Si aprirà questo pannello:
 
 |insert-image-current-folder.png|
 
-Click "Current folder" in the left side of the panel, if it isn't
-already highlighted. The current folder is the folder that contains the
-page you are editing -- all pages are contained inside some folder.
-There are many ways to manage storage of images, including having one
-central images folder, but a common method is to store images that show
-on a page in the folder that contains the page (the current folder). In
-this method, pages and the images associated with them are stored
-together within the folder structure. If you click the Upload button,
-you will be prompted to select an image on your computer and upload it.
-After selecting an image to upload, the right panel will let you give
-the image a title for use on the web site, and several image placement
-and sizing options. Clicking OK will upload the image and place it on
-the page.
-The same panel will appear if you click an image on page to select it,
-then click the same "tree" icon for editing the image options or for
-changing the image.
-You are responsible for sizing and editing images on your computer
-before you upload them, but one easy way to handle images for use on
-most web pages is to make a copy of an image on your computer, then
-resize it to something like 1000 pixels in largest dimension. This is a
-reasonable size for uploading -- there is no need to upload your
-gargantuan images coming from your digital camera. Plone will
-automatically create several sizes of an uploaded image, including
-"large," "mini," and other sizes. You pick the size you want to use when
-your upload or edit the image with the "tree" icon. You can also
-override the image size choice by editing the HTML.
+Fare click su "Cartella Corrente" nella parte sinistra del pannello, se non è
+già evidenziata. La cartella corrente è la cartella che contiene la
+pagina che si sta modificando - tutte le pagine sono contenute in cartelle.
+Ci sono molti modi per gestire la memorizzazione di immagini, tra cui avere una
+cartella centrale di immagini, ma un metodo comune è quello di memorizzare le immagini mostrate
+su una pagina nella cartella che contiene la pagina (la cartella corrente). In
+questo modo, le pagine e le immagini ad esse associate sono memorizzate
+insieme all'interno della struttura delle cartelle. Se fai click sul pulsante Carica,
+ti verrà chiesto di selezionare un'immagine sul tuo computer e caricarla.
+Dopo aver selezionato l'immagine da caricare, il pannello di destra ti permetterà di dare
+all'immagine un titolo per l'uso sul sito web, e diverse opzioni per la posizione e il dimensionamento 
+dell'immagine. Facendo click su OK viene caricata l'immagine e collocata 
+nella pagina.
+Lo stesso pannello apparirà se si fa click su un'immagine nella pagina per selezionarla
+e scegliendo la stessa icona "albero" per modificare le opzioni di immagine o per
+modificare l'immagine.
+Sei responsabile per il dimensionamento e l'editing delle immagini sul tuo computer
+prima di caricarle, ma un modo semplice per gestire le immagini da usare sulla
+maggior parte delle pagine web è quello di fare una copia di un'immagine sul computer, quindi
+ridimensionarla a qualcosa come 1000 pixel nella dimensione più grande. Questo è una
+dimensione ragionevole per il caricamento - non è necessario caricare le tue
+immagini gigantesche provenienti dalla fotocamera digitale. Plone
+creerà automaticamente diversi formati di un'immagine caricata, tra cui
+"large", "mini", e altre dimensioni. Si sceglie la dimensione che si desidera utilizzare quando si
+carica o modifica l'immagine con l'icona "albero". È anche possibile
+ignorare la scelta della dimensione dell'immagine modificando il codice HTML.
 
 Internal Links
 --------------
