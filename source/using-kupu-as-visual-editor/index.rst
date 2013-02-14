@@ -159,27 +159,28 @@ links-to-anchors within narrative text, by setting anchors to other
 styles within the document, and coming up with clever mixes. This
 functionality is especially important for large documents.
 
-Tables
-------
+Tabelle
+-------
 
-Tables are handy for tabular data and lists. To add a table, put your
-cursor where you want it and click the *add table* icon. You'll see the
-*add table* panel:
+Le tabelle sono a portata di mano per la visualizzazione di dati 
+tabulari e liste. Per aggiungere una tabella posiziona il cursore 
+nel punto desiderato e fai click sull'icona *aggiungi tabella*.
+Vedrai il pannello *aggiungi tabella*:
 
 .. figure:: ../_static/inserttablepanel.png
    :align: center
    :alt: 
 
-Setting rows and columns is straightforward. If you check the *Create
-Headings* box you'll have a place to type column headings for the table.
-Table class refers to how you want the table to be styled. You have
-choices such as these:
+L'impostazione delle righe e delle colonne è semplice. Se selezioni il 
+box *Crea Intestazioni* avrai un posto dove digitare le intestazioni 
+della colonna per la tabella. La classe della tabella si riferisce al 
+suo stile. Hai scelte come queste:
 
 .. figure:: ../_static/inserttablepanelclasses.png
    :align: center
    :alt: 
 
-Here are examples of these table styles:
+Ecco alcuni esempi di questi stili per la tabella:
 
 **plain:**
 
@@ -214,18 +215,20 @@ Here are examples of these table styles:
 | Count Fleet              | Easy Jet                  |
 +--------------------------+---------------------------+
 
-After the table has been created you can click in a cell to show table
-resizing handles and row and column add/delete icons:
+Dopo che la tabella è stata creata puoi fare click in una cella per 
+mostrare il ridimensionamento della tabella e le icone per 
+aggiungere/eliminare righe e colonne:
 
 |image23|
 
-In the table above, the cursor has been placed in the "Special Leader"
-cell, which activates little square handles around the edges for
-resizing the entire table. It also activates add/delete icons for the
-current cell, the "Special Leader" cell. Clicking the little x in the
-circle will delete the entire row or column that contains the current
-cell. Clicking the little arrowhead icons will add a row above or below,
-or a column to the left or right of the current cell.
+Nella tabella sopra, il cursore è stato posizionato nella cella "Special 
+Leader", esso attiva i quadrattini di gestione intorno ai bordi per
+ridimensionare l'intera tabella. Attiva anche le icone 
+aggiungere/eliminare per la cella corrente, la cella "Special Leader". 
+Cliccando sulla piccola x nel cerchio si elimina l'intera riga o colonna 
+che contiene l'attuale cella. Cliccando le piccole icone a punta di freccia 
+si aggiunge una riga sopra o al di sotto, o una colonna a sinistra o a destra 
+della cella corrente.
 
 Text Styling
 ------------
