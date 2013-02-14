@@ -244,11 +244,11 @@ Come in un normale editor di testi, seleziona una parola, una frase, o
 paragrafo con il mouse, quindi scegli una delle opzioni di stile del menu 
 a tendina e vedrai la modifica immediatamente.
 
-Saving
-------
+Salvare
+-------
 
-Click the Save button at the very bottom and your changes will be
-committed for the page.
+Fare click sul pulsante Salva in fondo e le modifiche della pagina saranno 
+memorizzate.
 
 -----------
 
