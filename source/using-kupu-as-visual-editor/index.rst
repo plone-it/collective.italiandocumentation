@@ -1,16 +1,16 @@
-Using Kupu as visual editor
-==============================
+Usare Kupu come visual editor
+=============================
 
-Kupu is a platform independent web based Javascript HTML WYSIWYG editor.
-What this means is that it will let you create HTML content on your web
-site.
+Kupu è una piattaforma indipendente, un editor Javascript HTML WYSIWYG, 
+web based. Questo significa che ti consente di creare contenuti HTML sul 
+tuo sito web.
 
-From Plone 4 on, TinyMCE is the default visual editor for new sites.
-However, Kupu is still available to use if you prefer so. Check the
+Da Plone 4 in poi, TinyMCE è il visual editor predefinito per i nuovi siti.
+Tuttavia, Kupu è ancora disponibile se lo preferisci. Controlla la sezione 
 :ref:`rst_setting-preferences`
-section to learn how to set Kupu as your default editor.
+per imparare a impostare Kupu come il tuo editor predefinito.
 
-A typical Kupu toolbar looks like this:
+Una tipica barra degli strumenti Kupu assomiglia a questa:
 
 .. figure:: ../_static/kupugrab.png
    :align: center
@@ -18,32 +18,29 @@ A typical Kupu toolbar looks like this:
 
    kupu-grab
 
-The text format is normally left with the HTML setting, but some sites
-offer structured text or other markup languages for editing pages.
+Il formato testo viene normalmente lasciato con l'impostazione HTML, ma alcuni 
+siti offrono testo strutturato o altri linguaggi di markup per la modifica delle 
+pagine.
 
-The icons are:
+Le icone sono:
 
--  bold,
--  italics,
--  left align,
--  center,
--  right align,
--  numbered list,
--  bulleted list,
--  dictionary list,
--  tab left (block),
--  tab right (block),
--  image (the "tree" icon),
--  internal link (the "chain link" icon; make a link to another page in
-   the given site),
--  external link (the "world" icon; make a link to a web page
-   elsewhere),
--  anchor (the "anchor" icon; make a link to a specific section of a web
-   page),
--  table (add a table with rows and columns),
--  direct HTML editing (the "HTML" icon; if you know HTML, edit the HTML
-   for the page directly), and a
--  pulldown menu for text styling.
+-  grassetto,
+-  italico,
+-  giustificato a sinistra,
+-  giustificato centrato,
+-  giustificato a destra,
+-  elenco numerato,
+-  elenco puntato,
+-  elenco di definizioni,
+-  tab a sinistra (blocco),
+-  tab a destra (blocco),
+-  immagine (l'icona "albero"),
+-  link interno (l'icona "anello della catena", crea un link a un'altra pagina nel sito),
+-  link esterno (l'icona "mondo", crea un link a una pagina web altrove),
+-  ancora (l'icona "ancora", crea un link ad una sezione specifica di una pagina),
+-  tabella (aggiunge una tabella con righe e colonne),
+-  HTML editing diretto (l'icona "HTML"; se si conosce HTML, modifica direttamente il codice HTML per la pagina),
+-  menu a tendina per lo stile del testo.
 
 Immagini
 --------
