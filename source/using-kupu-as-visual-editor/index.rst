@@ -230,19 +230,19 @@ che contiene l'attuale cella. Cliccando le piccole icone a punta di freccia
 si aggiunge una riga sopra o al di sotto, o una colonna a sinistra o a destra 
 della cella corrente.
 
-Text Styling
-------------
+Stile del Testo
+---------------
 
-The text style setting is made with a pulldown menu. Here are the
-choices:
+L'impostazione dello stile del testo è fatta con un menu a tendina. Ecco le
+scelte:
 
 .. figure:: ../_static/kupu-text-styles.png
    :align: center
    :alt: kupu-text-styles
 
-As with normal word-processing editing, select a word, phrase, or
-paragraph with your mouse, then choose one of the style choices from the
-pulldown menu and you will see the change immediately.
+Come in un normale editor di testi, seleziona una parola, una frase, o
+paragrafo con il mouse, quindi scegli una delle opzioni di stile del menu 
+a tendina e vedrai la modifica immediatamente.
 
 Saving
 ------
