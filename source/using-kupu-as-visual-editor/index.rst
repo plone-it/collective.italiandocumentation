@@ -252,29 +252,29 @@ memorizzate.
 
 -----------
 
-Footnotes
----------
+Note a pié di pagina
+--------------------
 
-**Markup languages**
+**Linguaggi di mark-up**
 
-If you are the sort of person who likes to enter text using so-called
-mark-up formats, you may switch off the visual editor under your
-personal preferences, which will replace Kupu with a simplified text
-entry panel. The mark-up formats available in Plone are:
+Se sei il tipo di persona che ama inserire il testo utilizzando i 
+cosiddetti formati mark-up, è possibile disattivare l'editor visuale sotto 
+le tue preferenze personali, e un pannello semplificato di inserimento  
+testo andrà a sostituire Kupu. I formati mark-up disponibili in Plone sono:
 
 -  `Markdown <http://en.wikipedia.org/wiki/Markdown>`_
 -  `Textile <http://en.wikipedia.org/wiki/Textile_%28markup_language%29>`_
 -  `Structured Text <http://www.zope.org/Documentation/Articles/STX>`_
 -  `Restructured Text <http://en.wikipedia.org/wiki/ReStructuredText>`_
 
-Each of these works by the embedding of special formatting codes within
-text. For example, with structured text formatting, surrounding a word
-or phrase by double asterisks will make that word or phrase bold, as in
-\*\*This text would be bold.\*\* These mark-up formats are worth
-learning for speed of input if you do a lot of page creation, or if you
-are adept at such slightly more technical approaches to entering text.
-Some people prefer such formats not just for speed itself, but for
-fluidity of expression.
+Ognuno di questi funziona incorporando speciali codici di formattazione 
+all'interno del testo. Ad esempio, con la formattazione Structured Text, 
+circondando una parola o una frase da un asterisco doppio si otterrà quella 
+parola o frase in grassetto, come in *\*Questo testo sarà in grassetto.\*\*
+Vale la pena di imparare questi formati di mark-up per la velocità di inserimento 
+se si creano molte pagine, o se si è abili in tali approcci per l'inserimento di 
+testo leggermente più tecnici. Alcune persone preferiscono questi formati non solo 
+per la velocità in sé, ma per fluidità di espressione.
 
 .. |insert-image-current-folder.png| image:: ../_static/insertimagecurrentfolder.png
 .. |image21| image:: ../_static/arrowUp.gif
