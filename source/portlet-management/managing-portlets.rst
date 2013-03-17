@@ -5,64 +5,64 @@ Come aggiungere, rimuovere e riordinare le portlets.
 
 Per iniziare a manipolare le portlets, è necessario trovare il **link
 a Gestione Portlet**, solitamente posizionato nella parte inferiore di 
-ogni colonna laterale. In Gestione Portlet, è possibile crearne nuove,
+ogni colonna laterale. In Gestione Portlet è possibile crearne di nuove,
 rimuoverle, rinominarle e riordinarle.
 
 |Portlet manage link|
 ---------------------
 
-Clicking on this link will take us to a new page that will allow us to
-edit the Portlets. The other method of getting to this screen is by
-adding /@@manage-portlets to the end of the page URL that we want to
-edit the Portlets on. For example, to edit the Portlets on the About Us
-Page, the URL would end up being
+Cliccando su questo link verremo portati ad una nuova pagina che ci permetterà di
+modificare le portlet. L'altro metodo per arrivare a questa schermata è quello di
+aggiungendo /@@manage-portlets alla fine dell'URL della pagina dove si vuole
+modificare le portlet. Ad esempio, per modificare le portlet della pagina
+About Us, l'URL deve diventare
 www.myplonesite.org/about/@@manage-portlets.
 
 |Manage portlets|
 -----------------
 
-Adding a Portlet
-----------------
+Aggiungere una Portlet
+----------------------
 
-Adding a Portlet is as simple as selecting the **Add Portlet** drop down
-box and clicking on the type of Portlet you would like to add. We will
-cover the different options available in the next section.
+Per aggiungere una Portlet basta semplicemente selezionare **Aggiungi Portlet** 
+dalla casella a discesa e cliccare sul tipo che si desidera aggiungere. Le diverse
+opzioni disponibili saranno spiegate nella sezione successiva.
 
-Editing an Existing Portlet
----------------------------
+Modificare una Portlet Esistente
+--------------------------------
 
-To edit the properties of an existing Portlet, simply click on the name
-of the Portlet. In the example to the left, if we wanted to edit the
-properties of the Navigation Portlet, we would Click on *Navigation*.
-Each type of Portlet will have different configuration options available
-to it.
+Per modificare le proprietà di una Portlet esistente è sufficiente fare click sul suo
+nome. Nell'esempio a sinistra, se volessimo modificare le
+proprietà della portlet di navigazione, si dovrebbe Cliccare su *Navigazione*.
+Ogni tipo di portlet avrà diverse opzioni di configurazione disponibili.
 
-Rearranging Portlets
+Riodinare le Portlet
 --------------------
 
-To Rearrange your Portlets, simply click the **blue up or down arrow**.
-This will affect the order your Portlets are displayed on the page.
+Per modificare l'ordine delle Portlet è sufficiente fare click sulle 
+**frecce blu**.
+Questo influenzerà l'ordine di visualizzazione delle portlet nella pagina.
 
-Removing Portlets
------------------
+Rimuovere le Portlets
+---------------------
 
-To remove a Portlet, click the **red "X"** associated with its name.
+Per rimuovere una Portlet, cliccare sulla **"X" rossa** di fianco al nome della stessa.
 
-Hiding Portlets
----------------
+Nascondere le Portlets
+----------------------
 
-From Plone 4 on you can show/hide portlets using the associated
-show/hide links present.
+Da Plone 4 puoi visualizzare/nascondere le portlets utilizzando il rispettivo link
+visualizza/nascondi.
 
-As you may have noticed on the Manage Portlet screen, you have the
-ability to work with Portlets on both the right and left side of the
-page. This is because there are two columns for Portlets to be in, a
-left column and a right column. **Portlets will only appear on the side
-that you add them on**.
+Come avrai notato nella schermata "Gestisci Portlet", puoi modificare le
+portlets sia sul lato destro sia su quello sinistro della
+pagina. Questo perché ci sono due colonne per le portlets, una a
+sinistra e una a destra. ** Le Portlets appariranno solo sul lato
+in cui vengono aggiunte**.
 
-With Portlets, you can add more than one of the same type on a page.
-There is no limit to how many times you can use an individual Portlet or
-a limit to how many total Portlets can be on a Page.
+E' possibile aggiungere più di una portlet dello stesso tipo in una pagina.
+Non c'è nessun limite rispetto a quante volte possa essere utilizzata la stessa portlet 
+o al numero di portlet per pagina.
 
 .. |Portlet manage link| image:: ../_static/copy_of_manage_portlets_button.png
 .. |Manage portlets| image:: ../_static/manage_portlets.png

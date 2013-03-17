@@ -111,50 +111,49 @@ l'indirizzo web, assicurati di non duplicare http:// all'inizio dell'indirizzo. 
 fare click su *OK*. Il collegamento esterno verrà impostato per la parola o la frase 
 selezionata.
 
-Anchors
--------
+Le Ancore
+---------
 
-Anchors are like position markers within a document, based on headings,
-subheadings, or another style set within the document. As an example,
-for a page called "Eastern Tiger Swallowtail," with subheadings entitled
-"Description," "Habitat," "Behavior," "Conservation Status," and
-"Literature," an easy set of links to these subheadings (to the
-positions within the document at those subheadings) can be created using
-anchors.
+Le Ancore sono dei link in un documento che puntano direttamente ad una 
+sezione del documento stesso, sulla base di titoli, sottotitoli
+o altri stili definiti all'interno dello stesso. Ad esempio,
+in una pagina chiamata "Eastern Tiger Swallowtail", in cui sono definite delle sottosezioni intitolate
+"Description", "Habitat", "Behavior", "Conservation Status" e
+"Literature", è possibile creare un semplice elenco di link a queste sottovoci (che puntano
+direttamente alla sottovoce all'interno del documento) utilizzando le
+ancore.
 
-First, create the document with the subheadings set within it, and
-re-type the subheadings at the top of the document:
+Per prima cosa, crea il documento con i sottotitoli e riscrivi i sottotitoli
+all'inizio del documento come per un indice:
 
 .. figure:: ../_static/anchortext.png
    :align: center
    :alt: 
 
-Then select each of the re-typed subheadings at the top and click the
-anchor icon to select by subheadings:
+Quindi seleziona ogni sottotitolo riscritto all'inizio del documento e 
+clicca l'icona a forma di ancora:
 
 .. figure:: ../_static/anchorset.png
    :align: center
    :alt: 
 
-A panel will appear for selecting which subheading to which the anchor
-link should connect:
+Apparirà una maschera che permetterà di selezionare quale sottotitolo deve essere
+collegato all'ancora:
 
 .. figure:: ../_static/anchorwindow.png
    :align: center
    :alt: 
 
-The *Link to anchor* tab will appear. The left side shows a list of
-styles that could be set within the document. For this example, the
-subheadings are used for each section, which is the usual case, so
-subheadings has been selected. The right side of the panel shows the
-subheadings that have been set within the document. Here the
-*Description* subheading is chosen for the link (for the word
-Description, typed at the top of the document).
+Verrà visualizzata la scheda *Collegamento all'ancora*. La sezione di sinistra mostrerà una lista di
+stili che posso essere utilizzati nel documento. Nel nostro esempio, i sottotitoli
+verranno usati per ogni sezione, ed è il caso più comune. La parte destra mostrerà i
+sottotitoli che sono stati creati nel documento. Nel nostro caso verrà selezionato il sottotitolo
+*Description* (per creare il collegamento con lo stesso riscritto all'inizio del documento).
 
-You can be creative with this powerful feature, by weaving such
-links-to-anchors within narrative text, by setting anchors to other
-styles within the document, and coming up with clever mixes. This
-functionality is especially important for large documents.
+Puoi essere molto creativo con questa potente funzione, tessendo 
+un testo dinamico, intelligente ed intersecando diverse sezioni della
+narrazione. Questa
+funzionalità è particolarmente importante per i documenti lunghi.
 
 Tabelle
 -------
