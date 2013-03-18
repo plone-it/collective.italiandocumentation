@@ -1,14 +1,14 @@
-Adding Links
-=================
+Aggiungere un Collegamento
+===========================
 
-In addition to links embedding within pages, Links can be created as
-discrete content items. Having links as discrete items lets you do
-things like organizing them in folders, setting keywords on them to
-facilitate grouping in lists and search results, or include them in
-navigation.
+Oltre ad inserire dei collegamenti nel testo delle pagine, i collegamenti
+possono essere creati anche come contenuti a se stanti. Avere collegamenti
+come contenuti separati ti permette ad esempio di organizzarli in cartelle,
+di impostando delle parole chiave su di loro per facilitarne il raggruppamento
+negli elenchi e nei risultati di ricerca, o di inserirli in
+navigazione.
 
-Add a link by clicking the menu choice in the *Add new...* menu for a
-folder:
+Per aggiungere un collegamento clicca sul menu *Aggiungi...*:
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
@@ -16,34 +16,34 @@ folder:
 
    add-new-menu.png
 
-You will see the Add*Link* panel:
+Seleziona la voce *Collegamento*:
 
 .. figure:: ../_static/addlink.png
    :align: center
    :alt: 
 
-Good titles for links are important, because the titles will show up in
-lists of links, and because there tend to be quite a number of links
-held in a folder as a set.
+Sciegliere dei buoni titoli per i collegamenti è importante perchè i titoli
+verranno visualizzati nelle liste dei contenuti e per una buona organizzazione
+all'interno di cartelle piene di contenuti.
 
-Paste the web address in the URL field or type it in. There is no
-preview feature here, so it is best to paste the web address from a
-browser window where you are viewing the target for the link to be sure
-you have the address correct.
+Incolla l'indirizzo web nel campo URL oppure digitalo. Qui non c'è la
+funzionalità di anteprima quindi è meglio incollare l'URL dalla finestra del
+browser su cui stai visualizzando la destinazione del collegamento in modo da
+essere sicuri della correttezza del collegamento.
 
-The Link Object in Use
-----------------------
+L'oggetto collegamento
+-----------------------
 
-A link object will behave in the following ways, depending on your login
-status, or permissions.
+Un contenuto collegamento si comporterà nei seguenti modi, a seconda delle
+autorizzazioni di cui si dispone.
 
--  **If you have the ability to edit the link object**, when you click
-   on the link object you'll be taken to the object itself so that you
-   can edit it (otherwise you'd be taken to the link's target and could
-   never get to the edit tab!)
--  **If you don't have the ability to edit the link object**, when you
-   click on the link object you'll be taken to the target of the link
-   object. Likewise, if you enter the web address of the link object
-   directly in your browser, you'll be taken directly to the link's
-   target. The link object in this case acts as a *redirect*.
+- **Se hai il permesso di modificare il contenuto collegamento**, quando clicchi
+   sul collegamento vieni rimandato al contenuto stesso per poterlo modificare
+   (se così non fosse, verresti rimandato alla destinazione del collegamento e
+   non avresti modo di modificarlo) 
+- **Se non hai il permesso di modificare il collegamento**, quando clicchi sul
+   collegamento vieni rimandato direttamente alla destinazione impostata. Il
+   comportamento in questo caso è lo stesso che si avrebbe inserendo direttamente
+   l'indirizzo nel browser. L'oggetto collegamento in questo caso si comporta
+   come un *redirect*
 

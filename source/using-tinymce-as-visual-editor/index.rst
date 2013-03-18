@@ -1,8 +1,6 @@
 =================================
-Using TinyMCE as visual editor
+Usare TinyMCE come visual editor
 =================================
-
-An user manual for creators
 
 .. toctree::
     :maxdepth: 2

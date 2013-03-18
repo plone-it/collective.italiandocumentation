@@ -1,5 +1,5 @@
-Aggiungere file
-=================
+Aggiungere un File
+===================
 
 **File di vari tipi possono essere caricati su un sito Plone.**
 

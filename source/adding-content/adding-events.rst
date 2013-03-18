@@ -1,5 +1,5 @@
-Aggiungere Eventi
-==================
+Aggiungere un Evento
+=====================
 
 **I siti Plone hanno un sistema integrato per la gestione e la visualizzazione 
 di eventi in un caledario.**

@@ -1,5 +1,5 @@
-Aggiungere Cartelle
-===================
+Aggiungere una Cartella
+========================
 
 **Aggiungere cartelle ad un sito web Plone è il passo fondamentale per
 controllare l’organizzazione dei contenuti**

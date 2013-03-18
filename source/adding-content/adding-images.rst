@@ -1,5 +1,5 @@
-Aggiungere Immagini
-=====================
+Aggiungere un'Immagine
+=======================
 
 **Aggiungere immagini in un sito web Plone è un compito fondamentale che può
 comportare un po' di lavoro da parte del computer locale, ma è essenziale

@@ -1,5 +1,5 @@
-Adding News Items
-======================
+Aggiungere una Notizia
+=======================
 
 Plone web sites have a built-in system for publishing news items.
 

@@ -1,8 +1,8 @@
-Collaboration and Workflow
-=============================
+Collaborazione e flusso di lavoro
+==================================
 
-Learn how to share and control access to your content by using the
-Sharing tab and the State menu.
+Imparare a condividere e controllare l'accesso al contenuto utilizzando la
+Scheda Condivisione e il menu Stato.
 
 .. toctree::
     :maxdepth: 2

@@ -1,5 +1,5 @@
-Aggiungere Pagine
-=================
+Aggiungere una Pagina
+======================
 
 **Le pagine in Plone possono variare molto, ma ad ogni modo sono
 sempre "pagine web".**
