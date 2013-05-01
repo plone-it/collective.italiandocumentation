@@ -15,7 +15,7 @@ finestra su un dato tipo di contenuti. Per esempio, la portlet "notizie"
 offre una vista delle notizie pubblicate recentemente.
 
 Tu controlli quali portlet vedi nella tua dashboard e dove sono disposte.
-Il seguente screenshot mostra cosa vedrebbe l'utente George Shrubb una
+Il seguente screenshot mostra cosa vedrebbe l'utente Mario Rossi una
 volta che si fosse autenticato e che avesse cliccato sul suo nome, posto
 in alto a destra, per andare alla sua area personale:
 
