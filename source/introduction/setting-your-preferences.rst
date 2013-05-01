@@ -4,13 +4,13 @@ Impostare il tuo profilo
 :Data: 27-11-2012
 :Traduzione: Massimo Azzolini
 :Impaginazione: Massimo Azzolini
-:Revisione:
+:Revisione: Maurizio Delmonte [1-5-2013]
 
 Una volta autenticato in un sito web Plone, puoi cambiare il tuo profilo
 personale indicando informazioni circa la tua identità e scegliere le
 impostazioni del sito web.
 
-Il tuo nome completo viene indicato nell'angolo in alto a destra dello 
+Il tuo nome completo viene mostrato nell'angolo in alto a destra dello 
 schermo. Clicca sul tuo nome per aprire il menù a discesa, quindi clicca
 il link *Dashboard* per entrare nella tua area personale:
 
@@ -25,11 +25,11 @@ Vedrai la **dashboard** (o scrivania personale):
    :alt: 
 
 La prima volta che ti autentichi, la dashboard sarà vuota come indica il 
-messaggio di Info. Le **portlet** sono specifiche viste di vari tipi di 
-contenuto. Puoi scegliere quale vuoi vedere nella tua dashboard cliccando
+messaggio di Info. Le **portlet** sono specifiche "viste" di vari tipi di 
+contenuto. Puoi scegliere quali vedere nella tua dashboard cliccando
 sul tab *modifica*, ma ci arriveremo in un secondo.
 
-Prima di tutto, diamo un occhiata al link *Preferenze personali*, nel menù a discesa di
+Prima di tutto, diamo un'occhiata al link *Preferenze personali*, nel menù di
 cui parlavamo prima, che ti porterà alla modifica del tuo profilo:
 
 .. figure:: ../_static/dashboardpersonalprefs.png
@@ -50,7 +50,7 @@ I campi disponibili sono:
    campo, un paragrafo o poco più.
 -  *Pagina personale* - Se hai un tuo web site personale o, per esempio,
    un'area dove condividi foto, se vuoi puoi inserire qui l'indirizzo web.
-   In questo modo altre persone potranno trovare altro su di te.
+   In questo modo altre persone potranno trovare più informazioni su di te.
 -  *Editor* - Puoi scegliere di utilizzare TinyMCE o Kupu, che ti permettono
    di modificare le pagine web con una interfaccia grafica oppure una normale
    area di testo, che è adatta se sei abituato a scrivere pagine web in HTML
@@ -61,10 +61,10 @@ I campi disponibili sono:
    e disabilita l'uso di un editor "esterno", se questo è stato impostato 
    dall'amministratore del sito web. L'uso di un editor esterno è principalmente
    inteso per web designer e programmatori che modificano il codice sorgente, ma 
-   puà essere utile per la creazione di pagine quando si usa un linguaggio di 
+   può essere utile per la creazione di pagine quando si usa un linguaggio di 
    markup specializzato. (Non ti preoccupare di questa impostazione se il tuo
    amministratore non te ne ha parlato esplicitamente).
 -  *Ritratto* - Il tuo ritratto apparirà come una piccola immagine, quindi è 
-   consigliata una foto del viso o del busto..
+   consigliata una foto del viso o del busto.
 
 Puoi cambiare le tue preferenze ogni volta che vuoi.

@@ -6,11 +6,11 @@ Autenticazione
 :Data: 27-11-2012
 :Traduzione: Massimo Azzolini
 :Impaginazione: Massimo Azzolini
-:Revisione:
+:Revisione: Maurizio Delmonte [1-5-2013]
 
 
 Quando visiti un sito Plone come anonimo, oppure ti viene dato un 
-indirizzo web per manutenzione del sito, puoi vedere un bottone 
+indirizzo web per manutenzione del sito, potrai vedere un bottone 
 "Fatti riconoscere" in alto a destra come questo:
 
 .. figure:: ../_static/log-in.png
@@ -19,7 +19,7 @@ indirizzo web per manutenzione del sito, puoi vedere un bottone
 
 
 Una volta cliccato il link *Fatti riconoscere*, vedrai un pannello di
-autenticazione dove puoi indicare il tuo nome utente e la tua password:
+autenticazione dove inserire il tuo nome utente e la tua password:
 
 .. figure:: ../_static/loginform.png
    :align: center

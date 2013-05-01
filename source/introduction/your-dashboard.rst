@@ -1,23 +1,22 @@
 La tua Dashboard
 ===================
 
-**Ogni utente Plone ha una "dashboard" personale per personalizzare 
-l'interfaccia dell'utente.**
+**Ogni utente Plone ha una sua "dashboard" da personalizzare.**
 
 :Data: 27-11-2012
 :Traduzione: Massimo Azzolini
 :Impaginazione: Massimo Azzolini
-:Revisione:
+:Revisione:  Maurizio Delmonte [1-5-2013]
 
 Plone ha diversi "viste" predefinite per le notizie, gli eventi,
-i documenti modificate recentemente, ecc. Queste liste sono raggruppate
+i documenti modificati recentemente, ecc. Queste liste sono raggruppate
 in aree rettangolari chiamate portlet. Pensa ad una portlet come ad una 
 finestra su un dato tipo di contenuti. Per esempio, la portlet "notizie"
 offre una vista delle notizie pubblicate recentemente.
 
 Tu controlli quali portlet vedi nella tua dashboard e dove sono disposte.
-Il seguente screenshot mostra cosa l'utente George Shrubb vedrebbe una
-volta che si fosse autenticata e che avesse cliccato sul suo nome, posto
+Il seguente screenshot mostra cosa vedrebbe l'utente George Shrubb una
+volta che si fosse autenticato e che avesse cliccato sul suo nome, posto
 in alto a destra, per andare alla sua area personale:
 
 .. figure:: ../_static/dashboard.png
@@ -28,7 +27,7 @@ La dashboard appare vuota per un nuovo utente.
 
 Un click sul tab di modifica per la dashboard mostrerà che ci sono 
 portlet già assegnate alla dashboard -- la dashboard mostrata sopra 
-è vuota perchè non ci sono contenuti disponibili da mostrare nelle 
+è vuota perchè non ci sono contenuti disponibili da presentare nelle 
 portlet di questo nuovo sito web. Ecco le portlet di default:
 
 .. figure:: ../_static/dashboardedit.png
