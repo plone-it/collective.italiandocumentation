@@ -118,8 +118,6 @@ ma ecco qualche indicazione per aiutarti a cominciare:
 - *Contenuti* - mostra la lista dei contenuti in una cartella;
 - *Visualizza* - mostra come un utente anonimo vede il contenuto corrente;
 - *Modifica* - mostra un pannello per modificare il contenuto;
-- *Regole* - mostra un pannello per gestire come un contenuto è creato
-  e gestito;
 - *Condivisione* - mostra un pannello per assegnare ad altri
   utenti i permessi per vedere e modificare il contenuto.
 
