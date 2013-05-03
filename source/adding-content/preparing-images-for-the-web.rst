@@ -1,44 +1,45 @@
 .. _preparing-images-for-the-web:
 
-Preparing Images for the Web
+Preparare le immagini per il web
 ==================================
 
-Preparing images for the web is an essential part of using images in
-Plone, or in any online context. As you will see, size matters.
+Preparare le immagini per il web è una parte essenziale per utilizzare le immagini in Plone,
+come in qualsiasi contesto online.
+Come vedrai, le dimensioni contano.
 
-Many people source photographs taken with a digital camera, but they can
-also be scanned images, graphical illustrations made with software, and
-other specialized images. Let's take a look at the case of a butterfly
-photo taken with a digital camera.
+Molte fotografie utlizzate dagli utenti sono scattate con una fotocamera digitale,
+ma possono anche essere immagini acquisite da scanner,
+illustrazioni grafiche realizzate con software specifici e altri tipi di immagini particolari.
+Prendiamo il caso di una foto di una farfalla scattata con una fotocamera digitale.
 
-Digital photographs taken with modern cameras are usually too big to
-post directly on a website, so they need to be resized. A typical web
-site design may have a width of around 1000 pixels. When a photograph
-comes off your camera, it may be several thousand pixels wide and tall,
-and several megabytes in file size. You need to use software on your
-computer to resize the image to something less than 1000 x 1000 pixels,
-often much smaller than that.
+Le fotografie digitali scattate con macchine fotografiche moderne sono di solito troppo grandi
+per essere inserite direttamente su un sito web,
+quindi hanno bisogno di essere ridimensionate.
+Un tipico design di un sito web potrebbe avere una larghezza di circa 1000 pixel.
+Quando una foto viene scattata con una moderna macchina fotografica,
+può avere diverse migliaia di pixel di larghezza e altezza,
+e quindi risultare di diversi megabyte di dimensione come file.
+Dovrai quindi utilizzare software appositi che ridimensionino l'immagine in qualcosa di meno di 1000 x 1000 pixel,
+molto spesso serviranno anche dimensioni più piccole.
 
-The software you use to view or print your digital photos will often
-have this resizing functionality, or you may have graphics software such
-as Corel Draw, Adobe Photoshop, Irfanview, or Gimp on your computer.
-Resizing an image, sometimes called resampling, is a standard function
-you should be able to find in your software, often under the *Image*
-menu.
+I software che si utilizzano per visualizzare o stampare le foto digitali
+hanno spesso questa funzionalità di ridimensionamento,
+in alternativa si potrebbero utilizzare software di grafica come Corel Draw, Adobe Photoshop, Irfanview, o Gimp.
+Il ridimensionamento di un'immagine, a volte chiamato ricampionamento,
+è una funzione standard che spesso si trova nei software di fotoritocco sotto la voce di menu Immagine.
 
-How do you know what width, in pixels, to resize your image? It depends.
-For a little "head shot" photograph to go in a biography, maybe 200
-pixels wide is just right. For a group photograph, 200 pixels would be
-too small to allow identification of the people in the photograph, so it
-may need to be closer to 400 pixels wide. For a scanned map image,
-perhaps the image width would need to be 1000 pixels for the map detail
-to be usable.
+Come facciamo a sapere di che dimensione di larghezza in pixel abbiamo bisogno per ridimensionare la nostra immagine?
+Dipende. Per un "head shot", una fotografia da inserire in una biografia,
+forse 200 pixel di larghezza potrebbero bastare.
+Per una foto di gruppo, 200 pixel risulterebbero troppo poco per consentire l'identificazione delle persone nella fotografia,
+quindi magari si potrebbe aver bisogno di una larghezza di almeno 400 pixel.
+Per una immagine di una mappa presa da scanner,
+forse la larghezza dovrebbe essere di 1000 pixel per permettere di visualizzare i dettagli della mappa.
 
-After saving your resized image, give it a name that indicates the new
-size (e.g., butteryfly-resized-300px.jpg). The file format is most
-commonly .jpg (or .jpeg). Other common formats for images include .png
-and .gif. Take note of where you save images on your computer so that
-you can find them when you upload them to your Plone web site.
+Dopo aver salvato l'immagine ridimensionata,
+diamogli un nome che indichi il nuovo formato (ad esempio, butteryfly-resized-300px.jpg).
+Il formato del file è di solito jpg (o. jpeg). Altri formati comuni per le immagini sono png e gif.
+Prendi nota dove salvi le immagini sul tuo computer in modo che può trovarle facilmente quando le carichi sul tuo sito web Plone.
 
 .. figure:: ../_static/image_resizing.png
    :align: center
@@ -46,11 +47,10 @@ you can find them when you upload them to your Plone web site.
 
    image\_resizing.png
 
-**To summarize**:
+**Per riassumere**:
 
-#. Take your photograph with your camera, or find an existing image you
-   want to use
-#. Transfer it to your computer
-#. Use image software on your computer to resize your photograph
-#. Upload it to your Plone website
+#. Scatta la fotografia con la tua fotocamera, o trova un'immagine esistente che desideri utilizzare
+#. Trasferiscila al tuo computer
+#. Utilizzare software di fotoritocco sul tuo computer per ridimensionare la foto
+#. Carica la fotografia sul tuo sito Plone
 
