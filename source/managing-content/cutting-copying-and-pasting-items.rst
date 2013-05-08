@@ -1,73 +1,70 @@
-Cutting, Copying and Pasting Items
+Tagliare, Copiare e Incollare contenuti
 =======================================
 
-Cut, copy, and paste operations involve moving one or more items from
-one folder to another.
+Le operazioni taglia, copia e incolla comportano lo spostamento di uno o più contenuti
+da una cartella ad un'altra
 
-Cut/Paste
----------
+Taglia/Incolla
+--------------
 
-Moving items from one area to another on a website is a common task.
-Often this need arises with placement of content in the wrong folder.
-For example, if the author of the following content about Skipper
-butterflies realizes that a Swallowtail butterfly was mistakenly
-included -- the Eastern Tiger Swallowtail folder shown below -- the
-folder can simply be moved with a *cut*/*paste* operation:
+Spostare contenuti da una area ad un'altra in un sito web è un operazione comune.
+Spesso si ha necessità di questa operazione quando il posizionamento di alcuni contenuti è nella cartella sbagliata.
+Ad esempio, se l'autore del seguente contenuto sulle farfalle Skipper si rende conto che una farfalla Swallowtail
+è stata erroneamente inclusa - la cartella Eastern Tiger Swallowtail illustrato di seguito -
+la cartella può essere semplicemente spostata con una operazione di *taglia*/*incolla*:
 
 .. figure:: ../_static/copy_of_operationcut.png
    :align: center
    :alt: 
 
-Note that the Eastern Tiger Swallowtail folder has been checked, and
-that the *cut* button is about to be clicked. After clicking the *cut*
-button, the screen will show a new *paste* button. The Eastern Tiger
-Swallowtail folder and all of its contents are now in the web site's
-"memory." The Eastern Tiger Swallowtail folder does not immediately
-disappear, however, awaiting the actual *paste* operation. The *paste*
-button is now highlighted to show the cut/paste operation is in
-progress:
+Nota che la cartella Eastern Tiger Swallowtail è stata selezionata,
+e che il pulsante *Taglia* sta per essere cliccato.
+Dopo aver fatto clic sul pulsante *Taglia*, lo schermo mostrerà un nuovo pulsante *Incolla*.
+La cartella Eastern Tiger Swallowtail e tutto il suo contenuto sono ora nella "memoria" del sito web.
+La cartella Eastern Tiger Swallowtail non scompare subito in quanto è in attesa della relativa operazione *Incolla*.
+Il pulsante *Incolla* viene ora evidenziato per mostrare che l'operazione *taglia*/*incolla* è in corso:
 
 .. figure:: ../_static/operationpaste.png
    :align: center
    :alt: 
 
-The *paste* button is now active. The next step is to navigate to the
-destination folder, in this case the Swallowtails folder:
+Il pulsante *Incolla* ora è attivo.
+Il passo successivo è quello di selezionare la cartella di destinazione,
+in questo caso la cartella Swallowtails:
 
 .. figure:: ../_static/copy_of_operationpaste2.png
    :align: center
    :alt: 
 
-After clicking the Swallowtails folder, the *paste* button will continue
-to show, because the paste operation has not yet been completed:
+Dopo aver cliccato ed essere entrati nella cartella Swallowtails,
+il pulsante *Incolla* continuerà a vedersi,
+perché l'operazione Incolla non è ancora stata completata:
 
 .. figure:: ../_static/operationpaste3.png
    :align: center
    :alt: 
 
-And last, clicking the *paste* button for the destination folder adds
-the Eastern Tiger Swallowtail folder to its proper place in the
-Swallowtails folder, and cuts it from the original location, the
-Skippers folder, and the *cut*/*paste* operation is complete:
+Per ultimo, facendo clic sul pulsante *Incolla* nella cartella di destinazione
+viene aggiunta la cartella Eastern Tiger Swallowtail nel giusto posto nella cartella Swallowtails,
+viene quindi tagliata dalla posizione originale, la cartella Skippers,
+e l’operazione di *Copia*/*Incolla* è ora completata:
 
 .. figure:: ../_static/operationpaste4.png
    :align: center
    :alt: 
 
-The *paste* button remains active, because you would be allowed to
-continue pasting the folder in other places if you wanted. This could
-happen in several situations, including when you need to copy one page,
-for example, as a kind of template or basis document, into several
-folders.
+Il pulsante *Incolla* rimane attivo,
+perché sarebbe consentito continuare ad incollare la cartella in altri posti se si vuole.
+Questo potrebbe accadere in diverse situazioni, quando magari è necessario copiare una pagina,
+ad esempio una sorta di modello o documento standard, in diverse cartelle.
 
-Copy/Paste
-----------
+Copia/Incolla
+-------------
 
-A *copy*/*paste* operation is identical to the *cut*/*paste* operation,
-except that there is no removal of content from the original folder. It
-works as you would expect it to work.
+Un’operazione di *Copia*/*Incolla* è identica all'operazione di *Taglia*/*Incolla*,
+tranne che non c'è rimozione del contenuto dalla cartella originale.
+Esso funziona come ci si aspetta che funzioni.
 
 `|image8| <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_
-Watch a Plone 2 video about `performing these
-operations. <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_
+Guarda un Video riguardo Plone 2 sull’esecuzione di queste operazioni <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_
 
