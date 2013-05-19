@@ -1,127 +1,143 @@
-Editing Content
-====================
+Modificare i contenuti
+=======================
 
-Editing Plone content works the same as adding content -- usually the
-data entry and configuration panels for the content are the same for
-editing as for adding.
+La modificare dei contenuti in Plone funziona allo stesso modo
+dell’aggiunta - solitamente i pannelli per l'immissione dei dati e per
+la modifica dei contenuti sono gli stessi.
 
-Of course, when we edit an item of content, the item already exists.
-Click the Edit tab for an item and you will see the data entry panel for
-the item, along with the existing values of the item's data.
+Naturalmente, quando si modifica un elemento, l'oggetto esiste già.
+Fare clic sulla scheda Modifica di un contenuto per vedere il pannello
+di inserimento dati per quel contenuto, insieme con i valori già
+esistenti per quell’elemento.
 
-For an example of something really simple, where editing looks the same
-as adding, we can review how to edit a folder.
+Vediamo un esempio molto semplice, quando si modifica o viene aggiunto
+qualcosa, l’aspetto è lo stesso, possiamo rivedere come si modifica
+una cartella.
 
-The *Edit* panel for a folder simply shows the title and description
-input areas. Often a description is not provided for a folder, so the
-only thing changed is the title.Â If you do wish to give a description,
-which is a good idea for distinguishing folders in a list, the
-description can be text only -- there is no opportunity for setting
-styling of text, such as bold, italics, or other formatting.Â This keeps
-the descriptions of Plone content items as simple as possible.
+Il pannello *Modifica* di una cartella mostra semplicemente l’area di
+input per il titolo e la descrizione. Spesso la descrizione non è
+prevista per una cartella, quindi l'unica cosa da cambiare è il titolo
+Se si desidera dare una descrizione, che è una buona idea per
+distinguere le cartelle in un elenco, la descrizione può essere
+inserita solo in formato testo – non c’è alcuna possibilità di
+impostare lo stile di testo, come grassetto, corsivo, o altre
+formattazioni Ciò mantiene le descrizioni degli elementi Plone il più
+semplice possibile.
 
-Here is the *Edit* panel for a folder, in this case, one called
-"Butterflies":
+Ecco il pannello *Modifica* di una cartella, in questo caso, una
+cartella chiamata "Butterflies":
 
 .. figure:: ../_static/edititemfolder.png
    :align: center
    :alt: 
 
-That's it. Change what you want and save, and the content item will be
-updated in Plone's storage system. You can repeatedly edit content
-items, just as you can repeatedly edit files on your local computer.Â By
-now you have appreciated that Plone stores discrete content items as
-separate entities, akin to "files" on a local computer, but you really
-don't have to think about it that way. Plone is a content management
-system, where the content comes in the form of numerous discrete content
-items that may be individually edited. Edit away at your heart's
-content.
+Tutto qui. Cambiare ciò che si desidera e salvare, e il contenuto
+dell’elemento sarà aggiornato nel sistema Plone. Puoi modificare
+ripetutamente il contenuto degli elementi, proprio come puoi farlo con
+i file presenti sul tuo computer personale Ormai avrete apprezzato il
+fatto che  Plone memorizza gli elementi come entità separate, simili a
+"file" su un computer locale, ma non c’è bisogno di pensarla
+necessariamente in questo modo. Plone è un CMS (sistema di gestione
+dei contenuti), in cui il contenuto viene fornito sotto forma di
+numerosi elementi separati che possono essere modificati
+singolarmente a piacimento.
 
-For an example of editing a content item that is a bit different than
-adding in the first place, we can examine editing an image. Editing an
-Image can be done by navigating to an individual image and clicking the
-*Edit* tab. Clicking the *Edit* tab for the image, you will see the
-following *Edit Image* panel:
+Per fare un esempio
+di modifica di un contenuto che è un po 'diverso dall’aggiunta, in
+primo luogo, possiamo esaminare la modifica di un'immagine. La
+modifica di una immagine può essere fatta navigando fino a trovare la
+singola immagine e facendo clic sul pannello Modifica. Facendo clic
+sul pannello *Modifica*, verrà visualizzato il seguente pannello
+*Modifica immagine*:
 
 .. figure:: ../_static/editimage.png
    :align: center
    :alt: 
 
-Here, an image called "Eastern Tiger Swallowtail Butterfly" is being
-edited.Â You can change the title and description, as usual, in which
-case you would usually keep the setting to "Keep existing image."Â You
-can also change the image itself by checking the "Replace with new
-image" choice. Or, clicking the "Delete current image" choice will
-simply delete the image entirely.
+Qui, un'immagine chiamata "Eastern Tiger Swallowtail Butterfly" sta
+per essere modificata. Puoi modificare il titolo e la descrizione,
+come al solito, e in questo caso potresti lasciare l'impostazione di
+"Mantieni l’immagine corrente". È anche possibile modificare
+l'immagine stessa scegliendo "Sostituisci con la nuova immagine". In
+alternativa, cliccando sul pulsante "Elimina immagine corrente"
+l'immagine sarà eliminata del tutto.
 
-Notice also the *Transform* tab at the top, which pertains specifically
-to images, offering a choice of several image transforms:
+Si noti anche sulla parte
+superiore la presenza del tab *Trasforma*, che è pertinente alle
+immagini, e che offre una scelta di diverse trasformazioni dell’
+immagine:
 
 .. figure:: ../_static/transformimage.png
    :align: center
    :alt: 
 
-So, editing an image is a bit different than adding one in the first
-place, but not by much.
+Quindi, la modifica di un immagine è un operazione po 'diversa che
+aggiungerne una inizialmente, ma non di molto.
 
-Editing panels for other content items are also usually just like the
-panels for adding.
+I pannelli di modifica per gli altri tipi di contenuto sono
+solitamente simili ai pannelli per l'aggiunta.
 
-Inline Editing (*optional*)
----------------------------
+Modifica in linea (*opzionale*)
+---------------------------------
 
-    Inline editing is disabled by default in the latest versions of
-    Plone (3.3+). It can be enabled through the control panel by a Site
-    Manager (Site Setup -> Editing -> Enable Inline Editing checkbox).
+La modifica in linea è disabilitata di default nelle ultime versioni
+di Plone (3.3 +). Può essere abilitata tramite il pannello di
+controllo da un Amministratore del Sito (Configurazione del sito ->
+Modifica -> Spuntare la checkbox Abilita modifica in linea).
 
-The normal procedure to edit a content item is to click the *Edit* tab
-and use the discrete input fields for the item.Â For text fields, such
-as Title, Description, Body Text, etc., there is a quicker way to edit
-called inline editing. Inline editing is used when viewing the content
-item (the *View* tab is active).
+La normale procedura per modificare un contenuto è quello di fare clic
+sul pannello *Modifica* e utilizzare i relativi campi di input del
+contenuto Per i campi di testo, ad esempio Titolo, Descrizione, Testo
+del documento, ecc, c'è un modo più rapido per farlo, ed è chiamato
+modifica in linea. La modifica in linea è utilizzata durante la
+visualizzazione dell’elemento stesso (il pannello *Visualizza* è
+attivo).
 
-As the mouse passes over editable text parts of the item, a subtle box
-will outline the editable text. In the following screen capture, the
-mouse cursor is *not* over editable text, so you see the page title and
-body text as normal:
+Quando il mouse passa sopra parti di testo modificabili, un piccolo
+box evidenzierà il testo modificabile. Nella seguente schermata, il
+cursore del mouse *non* si trova sopra di testo da modificare, in modo
+da far vedere il titolo della pagina ed il testo del documento come di
+consueto:
 
 .. figure:: ../_static/inlineeditingoff.png
    :align: center
    :alt: 
 
-But when the mouse is moved over the body text, a box highlights the
-body text as editable:
+Ma quando il mouse viene spostato sopra il
+testo del documento, un box lo metterà in evidenza permettendo la
+modifica:
 
 .. figure:: ../_static/inlineeditingbodytext1.png
    :align: center
    :alt: 
 
-Clicking within the body text after the inline editing box has appeared
-will bring up the visual editor:
+Facendo clic all'interno del testo del documento dopo che il box della
+modifica in linea è apparso, si attiverà l'editor di testo:
 
 .. figure:: ../_static/inlineeditingbodytext2.png
    :align: center
    :alt: 
 
-Change or add text and save, and the normal view is back. This is
-considerably quicker -- fewer clicks and less intervening wait time --
-than clicking the *Edit* tab and bringing up the entire edit panel for
-the page.
+Cambiare o aggiungere del testo e salvare, e si torna alla normale.
+Questo è notevolmente più veloce ( in termini di numero di click e
+tempo di attesa) di fare clic sul pannello *Modifica* ed attivare
+l’intero pannello di modifica per tutta la pagina.
 
-If the mouse is moved over the title, also editable, an inline editing
-box appears:
+Se il mouse viene
+spostato sopra il titolo, anch’esso editabile, appare un box di
+modifica in linea:
 
 .. figure:: ../_static/inlineeditingtitle1.png
    :align: center
    :alt: 
 
-Clicking the title after the box appears will activate a very simple
-editing field with a Save/Cancel choice:
+Facendo clic sul titolo dopo che compare il box si attiva un campo di
+editing molto semplice con due bottoni di scelta  Salva e Annulla:
 
 .. figure:: ../_static/inlineeditingtitle2.png
    :align: center
    :alt: 
 
-Change the title and save. The speed benefit of inline editing is really
-sensed for editing something as simple as a title.
-
+Cambia il titolo e salva. Il vantaggio della velocità della modifica
+in linea è realmente percepito per l'editing di qualcosa di semplice
+come ad esempio un titolo.
