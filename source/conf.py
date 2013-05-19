@@ -184,7 +184,7 @@ htmlhelp_basename = 'DocumentazionePlone'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'DocumentazionePlone.tex', u'Documentazio di Plone',
+  ('index', 'DocumentazionePlone.tex', u'Documentazione di Plone',
    u'La comunità Italiana di Plone', 'manual'),
 ]
 

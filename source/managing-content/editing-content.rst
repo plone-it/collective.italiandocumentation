@@ -1,7 +1,7 @@
 Modificare i contenuti
 =======================
 
-La modificare dei contenuti in Plone funziona allo stesso modo
+La modifica dei contenuti in Plone funziona allo stesso modo
 dell’aggiunta - solitamente i pannelli per l'immissione dei dati e per
 la modifica dei contenuti sono gli stessi.
 
