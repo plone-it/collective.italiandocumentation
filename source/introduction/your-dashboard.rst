@@ -3,10 +3,9 @@ La tua Dashboard
 
 **Ogni utente Plone ha una sua "dashboard" da personalizzare.**
 
-:Data: 27-11-2012
-:Traduzione: Massimo Azzolini
-:Impaginazione: Massimo Azzolini
-:Revisione:  Maurizio Delmonte [1-5-2013]
+:Traduzione: Massimo Azzolini (27/11/20129)
+:Impaginazione: Massimo Azzolini (27/11/2012)
+:Revisione:  Maurizio Delmonte (01/05/2013)
 
 Plone ha diversi "viste" predefinite per le notizie, gli eventi,
 i documenti modificati recentemente, ecc. Queste liste sono raggruppate

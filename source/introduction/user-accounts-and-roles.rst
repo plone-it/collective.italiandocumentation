@@ -5,10 +5,9 @@ Account e Ruoli di un utente Plone
 utente su un sito Plone, la distinzione fra navigazione anonima
 e quella autenticata e una descrizione dei ruoli degli utenti.**
 
-:Data: 27-11-2012
-:Traduzione: Giacomo Spettoli
-:Impaginazione: Giacomo Spettoli
-:Revisione: Maurizio Delmonte [29-4-2013]
+:Traduzione: Giacomo Spettoli (27/11/2012)
+:Impaginazione: Giacomo Spettoli (27/11/2012)
+:Revisione: Maurizio Delmonte (29/04/2013)
 
 I siti Plone possono essere di molti tipi, dal sito personale con un
 solo utente ai portali di comunità ed organizzazioni con centinaia di utenti. 

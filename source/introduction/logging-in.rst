@@ -3,10 +3,9 @@ Autenticazione
 
 **Cosa aspettarsi quando ci si autentica in un sito Plone**
 
-:Data: 27-11-2012
-:Traduzione: Massimo Azzolini
-:Impaginazione: Massimo Azzolini
-:Revisione: Maurizio Delmonte [1-5-2013]
+:Traduzione: Massimo Azzolini (27/11/2012)
+:Impaginazione: Massimo Azzolini (27/11/2012)
+:Revisione: Maurizio Delmonte (01/05/2013)
 
 
 Quando visiti un sito Plone come anonimo, oppure ti viene dato un 
