@@ -9,7 +9,7 @@ siti web.**
 :Data: 27-11-2012
 :Traduzione: Giampiero Lago
 :Impaginazione: Giacomo Spettoli
-:Revisione:
+:Revisione: Giovanni Giangiobbe
 
 
 :doc:`preparing-images-for-the-web`
