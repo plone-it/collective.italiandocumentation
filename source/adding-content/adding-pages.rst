@@ -7,11 +7,10 @@ sempre "pagine web".**
 :Data: 27-11-2012
 :Traduzione: Giacomo Spettoli
 :Impaginazione: Giacomo Spettoli
-:Revisione:
+:Revisione: Giovanni Giangiobbe
 
 
-Per aggiungere una pagina, utilizza il menu *Aggiungi...* dentro ad una
-cartella: 
+Per aggiungere una pagina, utilizza il menu *Aggiungi...* presente in Plone a livello di cartella: 
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
@@ -27,18 +26,18 @@ Seleziona la voce **Pagina** dal menu a discesa e vedrai il pannello
 I campi **Titolo** e **Descrizione** sono i primi in alto, riempili in
 maniera appropriata. C'è un campo *Commento alle modifiche* in fondo,
 un normale campo di testo utile per memorizzare eventuali annotazioni
-che descrivano le modifiche fatte al documento. Questo è utile per le 
+che descrivano le modifiche fatte al documento. Ciò è utile per le 
 pagine sulle quali potresti dover collaborare con altri.
 
 Al centro del pannello c'è il campo **Testo del documento**. Il software
 utilizzato per la composizione delle pagine è comunemente detto
 *editor di testo visuale* e nello specifico in Plone si utilizza TinyMCE.
-Questo permette di comporre le pagine in maniera visuale  o WYSIWYG (*What You
-See Is What You Get*, quello che vedi è quello che avrai). Ad esempio
-quando applichi uno stile grassettato ad una parola, vedrai immediatamente
+Un editor di tipo testuale ti permette di comporre le pagine in maniera WYSIWYG.
+WYSIWYG (*What You See Is What You Get*, quello che vedi è quello che avrai) è un termine che descrive il modo in
+cui l'editor funziona: se, ad esempio, applichi il grassetto ad una parola, vedrai immediatamente
 il risultato del nuovo stile applicato.
 
-Le persone normalmente si trovano subito a proprio agio con l'approcio
+Le persone normalmente si trovano subito a proprio agio con l'approccio
 utilizzato dagli editor WYSIWYG. Vedremo in maniera più approfondita
 questo argomento più avanti in questo manuale.
 
@@ -46,7 +45,7 @@ Linguaggi di markup
 -------------------
 
 Se preferite scrivere il testo delle pagine utilizzando i formati di
-markup, è possibile disabilitare l'editor di testo visual nel pannello
+markup, è possibile disabilitare l'editor di testo visuale nel pannello
 delle preferenze personali, e rimpiazzare così TinyMCE con un campo di
 testo semplificato. I formati di markup disponibili in Plone sono:
 
@@ -55,13 +54,13 @@ testo semplificato. I formati di markup disponibili in Plone sono:
 - `Structured Text <http://www.zope.org/Documentation/Articles/STX>`_
 - `Restructured Text <http://en.wikipedia.org/wiki/ReStructuredText>`_
 
-Ogniuno di questi necessita di aggiungere speciali codici per la
-formattazione all'interno del testo. Ad esempio, con la formattazione
-structured text, mettere tra doppi asterischi una parola o una frase le
-renderà con stile grassettato così \*\*Questo testo sarebbe grassettato\*\*.
-Vale la pena di imparare questi formati di markup per aumentare la velocità
-di input se si creano molte pagine o se sei appassionato di questo approcio
-leggermente più tecnico di inserimento del testo.
+Ognuno di questi formati si basa sull'utilizzo di speciali codici di formattazione
+all'interno del testo. Ad esempio, nel formato di markup 
+Structured Text, mettere tra doppi asterischi una parola o una frase renderà la parola o 
+la frase in grassetto, così \*\*Questo testo sarebbe in grassetto\*\*.
+Può essere utile imparare ad utilizzare questi formati di markup per aumentare la velocità
+di input (soprattutto se si creano molte pagine) o se si preferisce un approccio
+leggermente più tecnico nell'inserimento del testo.
 Alcune persone preferiscono questi formati non solo per la velocità in sè ma
 anche per la fluidità di espressione. 
 
