@@ -36,13 +36,6 @@ Comportamento dell'oggetto di tipo Collegamento
 Un oggetto di tipo Collegamento si comporterà nei seguenti modi, a seconda delle
 autorizzazioni di cui si dispone.
 
-- **Se hai il permesso di modificare l'oggetto Collegamento**, quando clicchi
-   sull'oggetto vieni rimandato al pannello di editazione del contenuto stesso, per poterlo modificare
-   (se così non fosse, verresti indirizzato all'URL associato all'oggetto, e
-   non avresti modo di modificarlo) 
-- **Se non hai il permesso di modificare il l'oggetto Collegamento**, quando clicchi sull'oggetto 
-   vieni indirizzato direttamente all'URL associato all'oggetto. Il
-   comportamento in questo caso è lo stesso che si avrebbe inserendo direttamente
-   l'indirizzo nel browser. L'oggetto collegamento in questo caso si comporta
-   come un *redirect*
+- **Se hai il permesso di modificare l'oggetto Collegamento**, quando clicchi sull'oggetto vieni rimandato al pannello di editazione del contenuto stesso, per poterlo modificare (se così non fosse, verresti indirizzato all'URL associato all'oggetto, e non avresti modo di modificarlo) 
+- **Se non hai il permesso di modificare l'oggetto Collegamento**, quando clicchi sull'oggetto vieni indirizzato direttamente all'URL associato all'oggetto. Il comportamento in questo caso è lo stesso che si avrebbe inserendo direttamente l'indirizzo nel browser. L'oggetto collegamento in questo caso si comporta come un *redirect*
 
