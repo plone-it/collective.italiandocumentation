@@ -6,10 +6,10 @@ Aggiungere un File
 :Data: 27-11-2012
 :Traduzione: Giacomo Spettoli
 :Impaginazione: Giacomo Spettoli
-:Revisione:
+:Revisione: Giovanni Giangiobbe
 
 
-Per aggiungere un file, utilizza il menu *Aggiungi...* dentro ad una
+Per aggiungere un file, utilizza il menu *Aggiungi...* presente a livello di
 cartella: 
 
 
@@ -26,17 +26,21 @@ Seleziona la voce **File** dal menu a discesa e vedrai il pannello
    :align: center
    :alt: 
 
-Fai click sul pulsante *Mostra* per cercare il file da caricare dal
-proprio computer locale. Fornisci un titolo (puoi utilizzare lo stesso nome
-del file se vuoi). Fornisci una *descrizione*. Quando fai click sul bottone
-Salva il file verrà caricato nella cartella.
+Fai click sul pulsante *Scegli file* per cercare nelle cartelle del tuo computer locale il file da caricare. 
+Inserisci un titolo (puoi utilizzare lo stesso nome
+del file se vuoi). Inserisci anche una *descrizione*, se vuoi. Quando fai click sul bottone
+Salva il file verrà caricato nella cartella Plone.
 
 Guarda un video su `come aggiungere un file
 <http://media.plone.org/LearnPlone/Adding%20a%20File.swf>`_.
 
-Alcuni esempi di file includono i file PDF, i documenti Word, i file di
-database, gli archivi zip...- praticamente qualunque cosa. I file su un sito
-Plone vengono trattati semplicemente come file e verranno mostrati nelle
-liste di contenuti delle cartelle, ma non ci sara nessuna visualizzazione
-speciale per loro. Appariranno con il loro nome nelle liste e sarà
-possibile scaricarli cliccando su di loro. 
+Puoi caricare file PDF, documenti Word, file di
+database, archivi zip...- praticamente qualunque cosa. All'interno di un sito
+Plone, i file vengono trattati semplicemente come file e verranno mostrati nelle
+liste di contenuti delle cartelle Plone all'interno delle quali sono caricati,
+ma non ci sarà nessuna visualizzazione speciale per loro. Appariranno con il loro nome nelle liste e sarà
+possibile scaricarli cliccando sul link costituito dal loro nome nella lista.
+
+Esistono add-on specializzati per Plone, che permettono la ricerca di contenuti
+all'interno dei file. Chiedi all'amministratore del tuo sito Plone se hai 
+bisogno di queste funzionalità.
