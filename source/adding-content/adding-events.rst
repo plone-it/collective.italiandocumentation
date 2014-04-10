@@ -7,7 +7,7 @@ di eventi in un caledario.**
 :Data: 27-11-2012
 :Traduzione: Alex Sani
 :Impaginazione: Alex Sani
-:Revisione:
+:Revisione: Giovanni Giangiobbe
 
 
 In una cartella, utilizza la voce del menu *Aggiungi...* per aggiungere un evento:
@@ -39,12 +39,13 @@ Dall'alto, si hanno i seguenti campi:
 -  Commento alle modifiche
 
 Nota che solo tre campi sono obbligatori: titolo, inizio e termine dell'evento. 
-Anche se si tratta di una finestra abbastanza ampia,
-se hai fretta, ti basta inserire questi tre campi e salvare per creare un 
-evento. Ovviamente, se hai altre informazioni, puoi inserirle.
-Una parte del pannello richiede una maggiore spiegazione: l'inizio e il termine dell'evento.
+Anche se si tratta di una pannello con molte informazioni da inserire,
+se hai fretta, ti basta inserire questi tre campi e salvare per creare l'evento. 
+Ovviamente, se hai altre informazioni, puoi inserirle.
+
+Una parte del pannello richiede qualche informazione aggiuntiva: l'inizio e il termine dell'evento.
 L'anno, il mese, il giorno ed altri campi sono semplicemente menu a discesa. 
-Spesso però non è semplice ricordarsi esattamente il giorno da inserire e si ha la necessità
+Spesso però non è semplice ricordare esattamente il giorno da inserire e si ha la necessità
 di consultare un calendario. C'è un comodo calendario pop-up che offre un modo alternativo
 per selezionare il giorno. Se clicchi una volta sull'icona del calendario accanto 
 al selettore a discesa del giorno, :
@@ -59,12 +60,12 @@ comparirà questo calendario pop-up:
    :align: center
    :alt: 
 
-E' sufficiente cliccare il giorno e questo verrà impostato. Compila i campi per i quali 
-hai informazioni e salva, ma ricorda :
+E' sufficiente cliccare sul giorno di interesse e questo verrà automaticamente impostato nel pannello.
+Compila i campi per i quali hai informazioni e salva, ma ricorda :
 
-**IMPORTANTE:***L'evento non verrà visualizzato nel calendario principale del sito fino a 
-quando non sarà **pubblicato*****.
-**
+**IMPORTANTE**: L'evento non verrà visualizzato nel calendario principale del sito fino a 
+quando non sarà **pubblicato**.
+
 
 `|image5| <http://media.plone.org/LearnPlone/Creating%20an%20Event.swf>`_
 Guarda il video con Plone 2 su come `aggiungere un
