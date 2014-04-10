@@ -24,7 +24,7 @@ Avrai accesso al pannello Aggiungi Collegamento:
 
 Scegliere dei buoni titoli è importante, perchè sono proprio i titoli
 ad essere visualizzati nella lista di tutti i collegamenti presenti all'interno di una cartella Plone.
-E questo soprattutto se il numero di collegamenti nella cartella tende a crescere.
+Immagina cosa significhi questo se il numero di collegamenti nella cartella tende a crescere...
 
 Incolla l'indirizzo web nel campo URL oppure digitalo. Poichè non c'è alcuna
 funzionalità di anteprima dell'URL inserito, è meglio copiare quest'ultimo direttamente dalla finestra 
