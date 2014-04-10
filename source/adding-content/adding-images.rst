@@ -58,6 +58,6 @@ caricamento.
 
 A partire da Plone 4, le immagini e i file che vengono caricati sul sito
 hanno un loro ID (URL), basato sul Titolo inserito tramite il campo visto in precedenza.
-Se il campo Titolo non viene valorizzato (perchè, come detto, non obbligatorio),
+Se il campo Titolo non viene valorizzato (non è obbligatorio),
 l'URL assegnato all'immagine (o al file) sarà generato utilizzando
 il nome del file.
