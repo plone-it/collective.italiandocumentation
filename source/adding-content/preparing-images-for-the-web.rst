@@ -3,6 +3,11 @@
 Preparare le immagini per il web
 ==================================
 
+:Data: 27-11-2012
+:Traduzione: Luca De Giorgi
+:Impaginazione: Luca De Giorgi
+:Revisione: Giovanni Giangiobbe
+
 Preparare le immagini per il web è una parte essenziale per utilizzare le immagini in Plone,
 come in qualsiasi contesto online.
 Come vedrai, le dimensioni contano.
@@ -31,15 +36,16 @@ Il ridimensionamento di un'immagine, a volte chiamato ricampionamento,
 Come facciamo a sapere di che dimensione di larghezza in pixel abbiamo bisogno per ridimensionare la nostra immagine?
 Dipende. Per un "head shot", una fotografia da inserire in una biografia,
 forse 200 pixel di larghezza potrebbero bastare.
-Per una foto di gruppo, 200 pixel risulterebbero troppo poco per consentire l'identificazione delle persone nella fotografia,
-quindi magari si potrebbe aver bisogno di una larghezza di almeno 400 pixel.
+Per una foto di gruppo, 200 pixel risulterebbero troppo poco per consentire l'identificazione delle persone 
+nella fotografia, quindi magari si potrebbe aver bisogno di una larghezza di almeno 400 pixel.
 Per una immagine di una mappa presa da scanner,
 forse la larghezza dovrebbe essere di 1000 pixel per permettere di visualizzare i dettagli della mappa.
 
 Dopo aver salvato l'immagine ridimensionata,
 diamogli un nome che indichi il nuovo formato (ad esempio, butteryfly-resized-300px.jpg).
 Il formato del file è di solito jpg (o. jpeg). Altri formati comuni per le immagini sono png e gif.
-Prendi nota dove salvi le immagini sul tuo computer in modo che può trovarle facilmente quando le carichi sul tuo sito web Plone.
+Prendi nota dove salvi le immagini sul tuo computer, in modo da trovarle facilmente quando 
+le carichi sul tuo sito web Plone.
 
 .. figure:: ../_static/image_resizing.png
    :align: center
@@ -50,7 +56,7 @@ Prendi nota dove salvi le immagini sul tuo computer in modo che può trovarle fa
 **Per riassumere**:
 
 #. Scatta la fotografia con la tua fotocamera, o trova un'immagine esistente che desideri utilizzare
-#. Trasferiscila al tuo computer
-#. Utilizzare software di fotoritocco sul tuo computer per ridimensionare la foto
-#. Carica la fotografia sul tuo sito Plone
+#. Trasferiscila sul tuo computer
+#. Utilizza software di fotoritocco sul tuo computer per ridimensionare la fotografia o l'immagine
+#. Carica la fotografia o l'immagine sul tuo sito Plone
 
