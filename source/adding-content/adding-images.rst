@@ -12,10 +12,12 @@ siti web.**
 :Revisione: Giovanni Giangiobbe
 
 
-:doc:`preparing-images-for-the-web`
+`Preparare un immagine per il web
+<../adding-content/preparing-images-for-the-web.html>`_
 
-.. note::
 
+
+.. note:: 
     Ricorda di utilizzare per tutte le immagini i formati di file comunemente accettati come standard sul web.
     I formati accettabili includono: JPG, JPEG, GIF e PNG. Non usare i formati BMP
     e TIFF, poichè non sono supportati da tutti i browsers.
