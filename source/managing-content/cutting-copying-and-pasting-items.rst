@@ -8,10 +8,11 @@ Taglia/Incolla
 --------------
 
 Spostare contenuti da una area ad un'altra in un sito web è un operazione comune.
-Spesso si ha necessità di questa operazione quando il posizionamento di alcuni contenuti è nella cartella sbagliata.
-Ad esempio, se l'autore del seguente contenuto sulle farfalle Skipper si rende conto che una farfalla Swallowtail
-è stata erroneamente inclusa - la cartella Eastern Tiger Swallowtail illustrato di seguito -
-la cartella può essere semplicemente spostata con una operazione di *taglia*/*incolla*:
+Spesso si ha necessità di questa operazione quando alcuni contenuti sono posizionati nella cartella sbagliata.
+Ad esempio, se il creatore della cartella sulle farfalle Skippers mostrata nella
+figura che segue (che contiene a sua volta le cartelle relative alla singole farfalle)
+si rende conto che la cartella Eastern Tiger Swallowtail evidenziata in figura è stata erroneamente creata 
+nella cartella-padre Skippers, può semplicemente spostarla con una operazione di *taglia*/*incolla*:
 
 .. figure:: ../_static/copy_of_operationcut.png
    :align: center
@@ -44,27 +45,26 @@ perché l'operazione Incolla non è ancora stata completata:
    :align: center
    :alt: 
 
-Per ultimo, facendo clic sul pulsante *Incolla* nella cartella di destinazione
-viene aggiunta la cartella Eastern Tiger Swallowtail nel giusto posto nella cartella Swallowtails,
-viene quindi tagliata dalla posizione originale, la cartella Skippers,
-e l’operazione di *Copia*/*Incolla* è ora completata:
+Per ultimo, facendo clic sul pulsante *Incolla* all'interno della cartella di destinazione Swallowtails,
+la cartella Eastern Tiger Swallowtail viene infine aggiunta nel giusto posto, e
+viene quindi tagliata dalla posizione originale, la cartella Skippers.
+L’operazione di *Copia*/*Incolla* è ora completata:
 
 .. figure:: ../_static/operationpaste4.png
    :align: center
    :alt: 
 
 Il pulsante *Incolla* rimane attivo,
-perché sarebbe consentito continuare ad incollare la cartella in altri posti se si vuole.
-Questo potrebbe accadere in diverse situazioni, quando magari è necessario copiare una pagina,
+perché è possibile continuare ad incollare la cartella in altri posti, se si vuole.
+Ciò potrebbe accadere in diverse situazioni, quando magari è necessario copiare una pagina,
 ad esempio una sorta di modello o documento standard, in diverse cartelle.
 
 Copia/Incolla
 -------------
 
-Un’operazione di *Copia*/*Incolla* è identica all'operazione di *Taglia*/*Incolla*,
+L’operazione di *Copia*/*Incolla* è identica all'operazione di *Taglia*/*Incolla*,
 tranne che non c'è rimozione del contenuto dalla cartella originale.
 Esso funziona come ci si aspetta che funzioni.
 
-`|image8| <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_
-Guarda un Video riguardo Plone 2 sull’esecuzione di queste operazioni <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_
+`Guarda un Video riguardo Plone 2 sull’esecuzione di queste operazioni <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_
 
