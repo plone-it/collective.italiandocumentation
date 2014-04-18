@@ -1,6 +1,11 @@
 Aggiungere una Notizia
 =======================
 
+:Data: 27-11-2012
+:Traduzione: Giovanni Giangiobbe
+:Impaginazione: 
+:Revisione: 
+
 Plone integra un sistema nativo per la pubblicazione di notizie.
 
 Per aggiungere una nuova notizia, utilizza la voce corrispondente del menù *Aggiungi* 
