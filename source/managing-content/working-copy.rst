@@ -36,8 +36,7 @@ In primo luogo, raggiungi la pagina che intendi rivedere. Poi dal menu "Azioni",
    :align: center
    :alt: 
 
-Apparirà un messaggio per informarti che da quel momento
-stai lavorando su una copia di lavoro:
+Apparirà un messaggio per informarti che da quel momento stai lavorando su una copia di lavoro:
 
 .. figure:: ../_static/03.png
    :align: center
