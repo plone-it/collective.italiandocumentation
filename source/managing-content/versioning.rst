@@ -18,12 +18,12 @@ hanno il controllo di versione abilitato:
 
 Si noti che tutti gli altri tipi di contenuto mantengono la storia del flusso del workflow associato.
 
-I tipi di contenuto posso essere configurati per avere il controllo di versione abilitato/disabilitato
-attraverso il pannello Configurazione del Sitote Setup sotto la voce "Tipi di contenuto".
+I tipi di contenuto possono essere configurati per avere il controllo di versione abilitato/disabilitato
+attraverso il pannello di Configurazione del Sito, alla voce "Tipi di contenuto".
 
 Quando modifichi un elemento, puoi utilizzare il campo **commento alle modifiche** in fondo;
 il commento alle modifiche verrà memorizzato nella cronologia delle versioni dell'elemento. 
-Se il commento alle modifiche viene lasciato vuoto, Plone includerà una nota standard:"Revisione iniziale".
+Se il commento alle modifiche viene lasciato vuoto, Plone includerà una nota standard: "Revisione iniziale".
 
 Una nuova versione viene creata ogni volta che un elemento viene salvato. Il controllo di versione tiene
 traccia di qualsiasi modifica effettuata: contenuti, metadata, impostazioni, etc.
@@ -32,16 +32,14 @@ Visualizzazione della cronologia delle versioni
 -----------------------------------------------
 
 Una volta salvato un oggetto, è possibile utilizzare il link **Cronologia** situato
-nella parte superiore della pagina. Semplicemente cliccalo per visualizzare la Cronologia
+nella parte superiore della pagina. Con un semplice click sul link è possibile visualizzare la Cronologia
 in una finestra sovrapposta alla pagina:
 
 .. figure:: ../_static/history-viewlet.png
    :align: center
    :alt: history-viewlet.png
 
-   history-viewlet.png
-
-La versione più recente viene elencata per prima. La viewlet della Cronologia fornisce
+La versione più recente è la prima voce dell'elenco. La viewlet della Cronologia fornisce
 le seguenti informazioni:
 
 -  Il tipo di modifica (al contenuto o al workflow)
@@ -63,14 +61,12 @@ link *Confronta* collocato tra le due versioni nella finestra della Cronologia.
 
    compare-button.png
 
-Cliccando questo link, vedrai un una schermata come questa in cui è possibile
+Cliccando su questo link, vedrai un una schermata come questa, in cui è possibile
 vedere le differenze fra le due versioni:
 
 .. figure:: ../_static/compare-versions.png
    :align: center
    :alt: compare-versions.png
-
-   compare-versions.png
 
 In questo esempio, il testo in rosso è quello che è stato cancellato e il testo in
 verde è quello che è stato aggiunto alla versione più recente.
