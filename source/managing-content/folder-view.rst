@@ -1,21 +1,22 @@
-Folder View
-================
+Viste per una cartella
+======================
 
-Folders have the Display tab which controls the several ways of showing
-folder contents.
+Le cartelle hanno il tab Visualizza, che permette di impostare i vari modi in cui può essere mostrato 
+il contenuto della cartella stessa.
 
-For most content items, if you want to change how it looks, you edit the
-content directly. But folders are a different animal. As containers of
-other items, folders can display their contents in a variety of ways.
-We'll cover each of the options in this section.
 
-Consider a scenario where a butterfly enthusiast, John Smith, has logged
-in to his web site to work on the part devoted to Skipper butterflies.
-He navigates to the "Skippers" folder by clicking the top tabs of the
-web site, or the navigation menu, which is on the left in his default
-Plone web site design. When he clicks the "Skippers" folder, the
-standard view tab panel, or just "standard view," for the folder is
-shown:
+Per la maggior parte dei contenuti, puoi editare il contenuto stesso per cambiare il modo
+in cui esso appare. Ma le cartelle sono tipi di contenuto particolari. In quanto
+contenitori di altri elementi, le cartelle posso mostrare il loro contenuto
+in vari modi, tra loro diversi. Spiegheremo in questa sezione le varie opzioni di visualizzazione
+del contenuto di una cartella.
+
+Ipotizza uno scenario in cui un appassionato di farfalle, John Smith, ha effettuato
+l'accesso al suo sito web per lavorare su una sezione dedicata alle farfalle Skipper.
+Egli naviga fino alla cartella "Skipper" tramite click sui tab principali del sito web, cioè tramite il menù
+di navigazione, che è posto a sinistra nel layout di default del suo sito Plone.
+Quando clicca sulla cartella "Skipper", viene mostrato il pannello di visualizzazione standard della cartella, 
+più semplicemente la "vista standard":
 
 .. figure:: ../_static/folderviewstandard.png
    :align: center
@@ -23,70 +24,73 @@ shown:
 
    folder-view-standard.png
 
-The *View* is always how a content item would show for anonymous web
-site visitors. Click the *View tab* when you want to see what a content
-item looks like after you have changed something. For folders, you will
-see a listing of contained content items, in one of several list
-presentations, selected via the *display* pull-down menu. The default
-view is called *standard view*:
+Il tab *Visualizza* mostra sempre il modo in cui un qualsiasi contenuto
+appare al navigatore anonimo del sito web. Fai click sul tab *Visualizza*, perciò,
+ogni volta che vuoi vedere come un contenuto che hai modificato viene visualizzato dagli utenti del sito.
+Nel caso delle cartelle, vedrai la lista dei contenuti in essa compresi, in una delle
+diverse possibilità di presentazione selezionabili tramite il menù a tendina *Vista*.
+La vista di default è chiamata *Vista standard*:
+
 
 .. figure:: ../_static/folderdisplaymenu.png
    :align: center
    :alt: 
 
-And, here is *summary view*:
+Di seguito, invece, come appare la *Vista riassuntiva*:
 
 .. figure:: ../_static/folderviewsummary.png
    :align: center
    :alt: 
 
-And, *tabular view*:
+E ancora, la *Vista tabellare*:
 
 .. figure:: ../_static/folderviewtabular.png
    :align: center
    :alt: 
 
-And, *thumbnail view*, which is mainly useful for photographs, but still
-works for normal content:
+E, infine, la *Vista provini*, che è particolarmente utile per le immagini,
+ma funziona anche per gli altri tipi di contenuto:
 
 .. figure:: ../_static/folderviewthumbnail.png
    :align: center
    :alt: 
 
-Making a photo album is easy. Just add the photographs (images, or image
-files, the most common being .jpg files) to a folder and set the display
-view for the folder to **thumbnail view**. Thumbnail view will
-automatically update the display as images are added to the folder,
-presenting a multi-page division into sets of images, as needed, as the
-number of images grows.
+Creare un album fotografico in Plone è molto semplice. Devi solo
+aggiungere le foto (immagini, tipicamente in formato .jpg) in una cartella
+ed impostare per la cartella stessa la **Vista provini**.
+La vista si aggiornerà automaticamente man mano che aggiungi nuove
+immagini alla cartella, mostrandole in maniera raggruppata all'interno della pagina,
+se necessario in ragione del numero crescente.
 
-If you are uploading photographic images from a digital camera or
-scanner, you will most likely want to resize them on your local computer
-before uploading them, because they are too large.
+Se stai caricando immagini fotografiche da una macchina fotografica
+digitale o da uno scanner, ti converrà probabilmente ridimensionarle
+sul tuo PC prima di caricarle, perchè spesso esse sono troppo grandi. 
 
-Setting an Individual Content Item as the View for a Folder
------------------------------------------------------------
+Impostare un singolo contenuto come vista per una cartella
+----------------------------------------------------------
 
-The basic list view functionality described above for folders fits the
-normal way we think of folders -- as containers of items -- but Plone
-adds a nice facility to set the view of a folder to be that of any
-single item contained within the folder. This takes advantage of the way
-the navigation system dynamically reflects the folder structure of a
-Plone web site as folders are created.
+La funzionalità appena descritta che permette di impostare la vista di una cartella
+come un elenco di contenuti ben si adatta al modo in cui noi pensiamo
+alle cartelle -- come contenitori di contenuti, appunto --. Plone, tuttavia,
+offre anche un modo facile di impostare come vista di una cartella anche un 
+qualsiasi singolo contenuto della cartella stessa. Questa possibilità
+massimizza il vantaggio che deriva dal fatto che il menù di navigazione
+di un sito web Plone si compone in maniera automatica, mappando
+dinamicamente le sue voci sulla struttura delle cartelle man mano che queste vengono create.
 
-You can set the display view for a folder to show a single page, which
-can be useful for showing the most recent document within a list of
-documents stored in the folder. Or, you can set it to a collection,
-which on its own is already a powerful content filter. The display view
-setting should be used with care, because it changes the behavior of
-folders, from acting as simple containers to acting as direct links to
-content. Instead, you can often accomplish what you want by only using
-collections, which will be covered later in this manual.
 
-`|image10| <http://media.plone.org/LearnPlone/Choosing%20a%20default%20page.swf>`_
-Watch a Plone 2 video about `setting the page display
-view. <http://media.plone.org/LearnPlone/Choosing%20a%20default%20page.swf>`_
+Puoi ad esempio impostare una singola pagina come vista di
+una cartella, e ciò può tornare utile nel caso volessi mostrare il documento più recente
+tra quelli presenti all'interno della cartella stessa. Oppure, puoi impostare come vista
+una collezione, che di per se è già un potente strumento di filtro di contenuti.
+Le impostazioni della vista di una cartella dovrebbero essere usate con attenzione,
+poichè cambiano il modo in cui una cartella si comporta, dall'essere un semplice contenitore all'essere
+un collegamento diretto ad un contenuto. Invece, puoi spesso ottenere ciò che desideri
+semplicemente usando le collezioni, che saranno descritte più avanti in questo manuale.
 
-Next, we move to the *Contents* tab to see important functions for
-accessing content in a list of folder content.
+
+Guarda un video Plone su come `Impostare una pagina come vista <http://media.plone.org/LearnPlone/Choosing%20a%20default%20page.swf>`_.
+
+Di seguito, proseguiremo analizzando il tab *Contenuti*, per descrivere
+altre importanti funzioni per l'accesso ai contenuti presenti nella lista all'interno di una cartella.
 
