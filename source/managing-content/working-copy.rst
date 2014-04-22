@@ -6,50 +6,48 @@ La Copia di Lavoro ti permette di avere due versioni del tuo contenuto in parall
 **Quando un sito Plone viene creato per la prima volta, ci sono diverse funzioni aggiuntive
 che possono essere abilitate, tra cui la "Copia di Lavoro". Se il sito Plone
 che stai usando non presenta l'opzione "Estrai versione" nel menu Azioni
-, devi contattare l'amministratore del sito e richiedere che 
-"Il Supporto alla Copia di Lavoro" venga installato.**
+, devi contattare l'amministratore del sito e richiedere che il
+"Supporto alla Copia di Lavoro" venga installato.**
 
 Panoramica
 ----------
 
-In precedenza potresti esserti trovato in una situazione a questa: hai pubblicato
-un documento e lo devi aggiornare molto frequentemente, ma vuoi che la vecchia
-versione continui ad esistere sul sito web finchè non hai pubblicato il nuovo.
-Vuoi anche che il nuovo documento sostituisca quello attuale, ma ti piacerebbe
+In precedenza potresti esserti trovato in una situazione come questa: hai pubblicato
+un contenuto e lo devi aggiornare con frequenza, ma vuoi che la vecchia
+versione continui ad esistere sul sito web finchè non hai quella nuova da pubblicare.
+Vuoi anche che il nuovo contenuto sostituisca quello attuale, ma ti piacerebbe
 mantenere la storia di quello vecchio. La Copia di Lavoro rende tutto questo
 possibile.
 
-In sostanza, "estrai" la versione attualmente pubblicata del documento
-, che creerà una "copia di lavoro" del documento stesso. A questo punto modificherai
-la copia di lavoro (mettendoci tutto il tempo che ti servirà) e quando la nuova versione sarà
-pronta per essere pubblicata, utilizzando l'azione "crea versione" la tua copia di lavoro sarà online.
-Dietro le quinte, Plone sostituirà il documento originale con quello nuovo,
+In sostanza, "estrai" la versione attualmente pubblicata del contenuto, 
+creandone così una "copia di lavoro". A questo punto, potrai modificare
+la copia di lavoro (mettendoci tutto il tempo che ti serve) e, quando la nuova versione sarà
+pronta per essere pubblicata, utilizzando l'azione "crea versione" la tua copia di lavoro sostituirà quella online.
+Dietro le quinte, Plone sostituirà il contenuto originale con quello nuovo,
 nell'esatta posizione e con lo stesso indirizzo web e archivierà la vecchia versione 
-come parte della storia nel controllo di versione del documento nuovo.
+come parte della storia nel controllo di versione del contenuto nuovo.
 
 Utilizzare la funzione "Estrai"
 -------------------------------
 
-First, navigate to the page you want check out. Then from the "Actions"
-In primo luogo, vai nella pagina in cui si desidera creare la copia di lavoro. Poi dal menu "Azioni"
-, seleziona "Estrai":
+In primo luogo, raggiungi la pagina che intendi rivedere. Poi dal menu "Azioni", seleziona "Estrai":
 
 .. figure:: ../_static/01.png
    :align: center
    :alt: 
 
-Un messaggio apparirà informandoti che da questo momento
+Apparirà un messaggio per informarti che da quel momento
 stai lavorando su una copia di lavoro:
 
 .. figure:: ../_static/03.png
    :align: center
    :alt: 
 
-Da questo momento in poi potrai modificare la copia locale del documento pubblicato.
-Il documento originale risulterà "bloccato" -- ovvero, nessun altro potrà
+Ora puoi liberamente modificare la copia locale del contenuto pubblicato.
+Il contenuto originale risulterà "bloccato" -- ovvero, nessun altro potrà
 modificare la versione pubblicata finchè avrai una copia di lavoro estratta.
-Questo impedirà che altre modifiche vengano effettuate (e
-conseguentemente perse) sulla versione pubblicata mentre stai modificando la tua copia di lavoro.
+Questo impedirà che, mentre stai modificando la tua copia di lavoro, altre modifiche vengano apportate (e
+conseguentemente perse) sulla versione pubblicata.
 
 .. figure:: ../_static/locked.png
    :align: center
@@ -65,14 +63,14 @@ ti basta semplicemente selezionare "Crea versione" dal menu "Azioni":
    :align: center
    :alt: 
 
-Ti verrà richiesto di inserire un messaggio legato alla creazione della nuova versione. Compilalo e
+Ti verrà richiesto di inserire un commento legato alla creazione della nuova versione. Compilalo e
 clicca su "Crea versione":
 
 .. figure:: ../_static/04b.png
    :align: center
    :alt: 
 
-Il tuo documento aggiornato diventerà la nuova copia pubblicata.
+Il tuo contenuto aggiornato diventerà la nuova copia pubblicata.
 
 .. figure:: ../_static/05.png
    :align: center
