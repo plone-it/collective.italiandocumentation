@@ -1,30 +1,30 @@
 .. _rst_prev-next-links:
 
-Previous - Next Links
-==========================
+Link Precedente - Successivo
+============================
 
-Automatic previous-next links for content items in a folder can be
-enabled under the Settings tab for a folder.
+La visualizzazione dei link automatici Precedente-Successivo per i contenuti
+presenti in una cartella può essere abilitata nel tab Impostazioni della cartella stessa.
 
-The *Settings* tab is found by clicking the *Edit* tab for the folder.
-There is a toggle for enabling previous-next links for items contained
-in the folder:
+Il tab *Impostazioni* viene visualizzato al click del tab *Modifica* della cartella.
+C'è una casella di spunta per abilitare i link Precedente-Successivo per i vari 
+elementi contenuti nella cartella:
+
 
 .. figure:: ../_static/previousnextenabling.png
    :align: center
    :alt: 
 
-Once enabled, as content items are added to the folder, previous and
-next links will automatically appear as needed:
+Una volta abilitati, i link Precedente-Successivo compariranno automaticamente, se necessario, man
+mano che i vari contenuti verranno aggiunti alla cartella:
 
 .. figure:: ../_static/previousnextexample.png
    :align: center
    :alt: 
 
-Three pages have been created within the Cloudywings folder, and "Page
-Two" (which has no text, for this example) has been clicked. At the
-bottom of "Page Two" are links for "Previous: Page One" and "Next: Page
-Three."
+Tre pagine sono state create all'interno della cartella Cloudywings, ed è
+stata selezionata la "Page Two" (che in questo esempio non ha testo). Alla fine della
+"Page Two" sono presenti i link "Precedente: Page One" e "Successivo: Page Three"
 
-This is a *really* useful feature!
+Questa è una funzione *veramente* utile!
 
