@@ -1,25 +1,28 @@
-Inserting Tables
-=====================
+Inserire Tabelle
+================
 
-Inserting, updating and deleting tables, columns, rows and cells.
+Inserire, aggiornare e cancellare tabelle, colonne, righe e celle.
 
-Tables are handy for tabular data and lists. To add a table, put your
-cursor where you want it and click the *Inserts a new table* icon.
-You'll see the *Insert/Modify table* panel:
+Le tabelle sono ideali per mostrare dati in formato tabulare e liste. Per 
+aggiungere una tabella, posiziona il cursore nel punto in cui vuoi che la tabella
+sia creata e fai click sull'icona *Inserisci una nuova tabella*.
+Avrai accesso al pannello *Inserisci/Modifica Tabella*:
 
 .. figure:: ../_static/insert_table.jpg
    :align: center
    :alt: 
 
-Setting rows and columns is straightforward. You can add a summary of
-the table in the *Summary* field if you like. Table class refers to how
-you want the table to be styled. You have choices such as these:
+Impostare il numero di colonne e righe è intuitivo. Se lo desideri, puoi aggiungere anche un
+sommario della tabelle tramite l'apposito campo.
+Le classi assegnabili alla tabella ti permettono di decidere
+lo stile da applicare. Puoi scegliere tra opzioni come quelle mostrate nella figura che segue:
+
 
 .. figure:: ../_static/insert_table_classes.jpg
    :align: center
    :alt: 
 
-Here are examples of these table styles:
+Di seguito alcuni esempi degli stili disponibili:
 
 Subdued grid:
 
@@ -51,18 +54,21 @@ Fancy vertical listing:
    :align: center
    :alt: 
 
-After the table has been created you can click in a cell to show table
-resizing handles:
+Una volta creata la tabella, è possibile far apparire i comandi 
+di ridimensionamento manuale, cliccando in una cella qualsiasi:
 
 .. figure:: ../_static/table_resize.jpg
    :align: center
    :alt: 
 
-In the table above, the cursor has been placed in the "Special Leader"
-cell, which activates little square handles around the edges for
-resizing the entire table. It also activates the other table controls in
-the toolbar which, lets you edit properties of a row or a cell, lets you
-add and remove rows or columns and lets you split and merge cells.
+Nell'esempio mostrato dalla figura sopra, il cursore viene posizionato nella
+prima cella in alto a sinistra: ciò fa apparire dei piccoli quadratini lungo i bordi 
+della tabella, che possono essere utilizzati per modificare le dimensioni
+della tabella stessa. Cliccando su una cella qualsiasi compariranno inoltre nella barra 
+degli strumenti i comandi specifici della tabella: 
+potremo così editare le proprietà di una riga a di una cella,
+aggiungere o eliminare righe o colonne, dividere o unire celle.
+
 
 .. figure:: ../_static/table_controls.jpg
    :align: center
