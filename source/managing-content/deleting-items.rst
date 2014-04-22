@@ -1,23 +1,25 @@
-Deleting Items
-===================
+Cancellare contenuti da una cartella
+====================================
 
-Items may be deleted from a folder with ease.
+I vari contenuti possono essere cancellati facilmente da una cartella.
 
-Sometimes it is necessary to delete a content item, often to replace it
-with an updated version. Or, you could simply delete an item, for a
-variety of reasons. In the example of the swallowtail butterfly
-mistakenly added to the Skippers folder, instead of cutting it and
-pasting it somewhere, it could simply be deleted:
+Alcune volte è necessario cancellare un contenuto, spesso per rimpiazzarlo
+con una versione aggiornata. Oppure è semplicemente necessario cancellare quel contenuto,
+per diverse necessità. Nell'esempio del contenuto relativo alla farfalla swallowtail aggiunto per errore
+alla cartella Skippers, esso può essere semplicemente cancellato, invece che tagliato ed incollato
+in qualche altra cartella:
 
 .. figure:: ../_static/operationdelete.png
    :align: center
    :alt: 
 
-In the example shown above, the *Eastern Tiger Swallowtail* folder is
-will be deleted after clicking on the *Delete* button.
+Nell'esempio mostrato sopra, la cartella *Eastern Tiger Swallowtail* sarà
+cancellata al click del bottone *Cancella*.
 
-Entire folders may be deleted, so care must be taken with the delete
-operation, but this is true for computer use in general, and we all have
-learned to do a last minute self-check to make sure the delete operation
-is intended.
+
+Intere cartelle possono essere cancellate con un solo click, perciò
+è bene fare molta attenzione, anche se questa è una regola che vale in generale
+quando si lavora ad un PC. Tutti noi abbiamo imparato a nostre spese che è sempre
+meglio fare un ultimo controllo prima della cancellazione, per essere sicuri che
+cancellare è proprio quello che vogliamo fare.
 
