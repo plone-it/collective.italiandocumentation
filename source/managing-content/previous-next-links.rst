@@ -23,8 +23,8 @@ mano che i vari contenuti verranno aggiunti alla cartella:
    :alt: 
 
 Tre pagine sono state create all'interno della cartella Cloudywings, ed è
-stata selezionata la "Page Two" (che in questo esempio non ha testo). Alla fine della
-"Page Two" sono presenti i link "Precedente: Page One" e "Successivo: Page Three"
+stata selezionata la "Pagina Due" (che in questo esempio non ha testo). Alla fine della
+"Pagina Due" sono presenti i link "Precedente: Pagina Uno" e "Successivo: Pagina Tre"
 
 Questa è una funzione *veramente* utile!
 
