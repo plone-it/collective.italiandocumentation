@@ -2,7 +2,7 @@ Modalità di presentazione
 ==========================
 
 **Plone viene fornito con la possibilità di creare semplici presentazioni di
-diapositiva.**
+diapositive.**
 
 La Modalità di Presentazione è una funzione speciale del tipo di contenuto Pagina. Puoi
 abilitare la Modalità di Presentazione modificando la pagina, entrando nella linguetta
@@ -15,7 +15,7 @@ Come creare una diapositiva
 
 Tutto il contenuto di una presentazione rimane in una sola pagina. Non devi
 creare una pagina per ogni diapositiva. Una dispositiva viene creata quando vedi
-la classe Intestazione (h1) nella pagina - queste effettivamente indicano a Plone
+la classe Intestazione (h1) nella pagina - queste intestazioni indicano effettivamente a Plone
 dove si vuole far iniziare una diapositiva.
 
 Non ci sono limiti al numero di diapositive che puoi aggiungere in una presentazione. Ti basta
