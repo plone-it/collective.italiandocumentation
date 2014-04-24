@@ -5,6 +5,11 @@ Controllo di versione
 elemento, confrontare le versioni, visualizzare in anteprima le versioni
 precedenti e ripristinare versioni precedenti.**
 
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
+
 Creare una nuova versione
 --------------------------
 
