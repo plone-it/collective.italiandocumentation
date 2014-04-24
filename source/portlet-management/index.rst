@@ -1,7 +1,7 @@
 Gestione delle Portlet
 ======================
 
-Una introduzione all'uso e alla gestione delle portlets.
+**Una introduzione all'uso e alla gestione delle portlets.**
 
 .. toctree::
     :maxdepth: 2
