@@ -1,7 +1,12 @@
 Cancellare contenuti da una cartella
 ====================================
 
-I vari contenuti possono essere cancellati facilmente da una cartella.
+**I vari contenuti possono essere cancellati facilmente da una cartella.**
+
+:Data: 18-04-2014
+:Traduzione: Giovanni Giangiobbe
+:Impaginazione: Giovanni Giangiobbe
+:Revisione: Giovanni Giangiobbe
 
 Alcune volte è necessario cancellare un contenuto, spesso per rimpiazzarlo
 con una versione aggiornata. Oppure è semplicemente necessario cancellare quel contenuto,
