@@ -4,6 +4,11 @@ Inserire delle immagini
 **Una panoramica delle opzioni disponibili per l'inserimento di immagini in
 TinyMCE.**
 
+:Data: 18-04-2014
+:Traduzione: Giacomo Spettoli
+:Impaginazione: Giacomo Spettoli
+:Revisione: Giovanni Giangiobbe
+
 L'editor TinyMCE ti permette di inserire delle immagini caricate in Plone nella
 tua pagina, utilizzando il bottone |Image| sulla barra degli strumenti di TinyMCE:
 
