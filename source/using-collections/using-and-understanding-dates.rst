@@ -1,10 +1,15 @@
 Uso e comprensione delle Date
 =============================
 
-Spiegazione delle Date associate alle Collezioni ed il loro uso
+**Spiegazione delle Date associate alle Collezioni ed il loro uso**
+
+:Data: 18-04-2014
+:Traduzione: Federica D'Elia
+:Impaginazione: Federica D'Elia
+:Revisione: Giovanni Giangiobbe
 
 Ci sono diversi tipi di date che possiamo scegliere, molti di
-esse sembrano simili. Per questo motivo è molto facile confondersi
+essi sembrano simili. Per questo motivo è molto facile confondersi
 su quale data utilizzare. Di seguito è definita ogni opzione data.
 
 Definizione delle Date
@@ -19,9 +24,9 @@ Data di Creazione di un oggetto.
 **Data di Accessibilità**
 
 La Data di Accessibilità è la data in cui un oggetto viene pubblicato. Questo
-data è personalizzabile attraverso la **scheda Modifica** sugli oggetti sotto, la
-**scheda Data**. Tuttavia, in questa scheda essa è indicata come Data di Pubblicazione (un
-discrepanza secondaria nella nomenclatura di Plone).
+data è personalizzabile attraverso il tab **Modifica** presente sul tab **Data** di un contenuto.
+Tuttavia, in quella scheda essa è indicata come Data di Pubblicazione (un
+discrepanza nella nomenclatura di Plone).
 
 La **Data di Creazione** e la **Data di Accessibilità** sono molto simili. Entrambe 
 rappresentano il punto di inizio di un oggetto. Un importante
@@ -39,15 +44,16 @@ può fare con la Data di Creazione.
 
 **Data di Scadenza**
 
-La Data di Scadenza si riferisce al giorno in cui la voce non sarà più
-pubblica. Questa data è anche personalizzabile attraverso la
-scheda Modifica (indicata sopra), come la Data di Accessibilità. Per impostazione predefinita, gli oggetti non hanno
+La Data di Scadenza si riferisce al giorno in cui il contenuto non sarà più
+pubblico. Questa data è anche personalizzabile attraverso il
+tab Modifica (indicata sopra), come la Data di Accessibilità. 
+Per impostazione predefinita, gli oggetti non hanno
 la Data di Scadenza.
 
 **Data di Modifica**
 
-La Data di Modifica è la data dell'ultima modifica dell'oggetto. Notare che
-questa data è prima impostata al giorno in cui l'oggetto viene creato e sarà
+La Data di Modifica è la data dell'ultima modifica fatta sull'oggetto. Notare che
+questa data è inizialmente impostata al giorno in cui l'oggetto viene creato e sarà
 cambiata automaticamente ogni volta che l'oggetto viene modificato. Non vi è alcun modo per
 personalizzarla. Per esempio, è possibile utilizzare questa data come Ordinamento insieme ad un
 criterio Tipo impostato su Pagina, per visualizzare tutte le pagine modificate di recente
@@ -74,7 +80,7 @@ La Data di Fine è semplicemente la data in cui l'evento si conclude.
 **Data di Pubblicazione**
 
 La Data di Pubblicazione è la data in cui un oggetto è stato pubblicato l'ultima volta. Può
-essere impostata manualmente per mezzo del campo Data di Accessibilità o, ​​se
+essere impostata manualmente per mezzo del campo Data di Accessibilità o, se
 quest'ultima non è stato impostata, può essere calcolata in base alla data in cui oggetto è
 stato pubblicato l'ultima volta.
 
