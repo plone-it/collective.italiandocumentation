@@ -8,9 +8,9 @@ Preparare le immagini per il web
 :Impaginazione: Luca De Giorgi
 :Revisione: Giovanni Giangiobbe
 
-Preparare le immagini per il web è una parte essenziale per utilizzare le immagini in Plone,
+**Preparare le immagini per il web è una parte essenziale per utilizzare le immagini in Plone,
 come in qualsiasi contesto online.
-Come vedrai, le dimensioni contano.
+Come vedrai, le dimensioni contano.**
 
 Molte fotografie utlizzate dagli utenti sono scattate con una fotocamera digitale,
 ma possono anche essere immagini acquisite da scanner,
