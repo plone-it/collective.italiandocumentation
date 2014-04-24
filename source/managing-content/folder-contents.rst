@@ -6,9 +6,9 @@ Contenuti delle cartelle
 :Impaginazione: Alex Sani
 :Revisione: Giovanni Giangiobbe
 
-Il tab Contenuti mostra la lista degli elementi in una cartella. E' il posto
+**Il tab Contenuti mostra la lista degli elementi in una cartella. E' il posto
 dove eseguire semplici operazioni sugli elementi e dove eseguire azioni come copiare, 
-tagliare, incollare, spostare, riordinare, etc.
+tagliare, incollare, spostare, riordinare, etc.**
 
 Il tab Contenuti delle cartelle è come il "Gestione file" o "Risorse del Computer" 
 dei PC con Windows e Linux o il "Cerca" nei Mac OS X, con funzionalità simili.
