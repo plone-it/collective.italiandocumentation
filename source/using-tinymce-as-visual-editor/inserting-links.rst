@@ -1,7 +1,12 @@
 Inserire collegamenti (links)
 =============================
 
-Inserire collegamenti interni, esterni ed ancore
+**Inserire collegamenti interni, esterni ed ancore**
+
+:Data: 18-04-2014
+:Traduzione: Giovanni Giangiobbe
+:Impaginazione: Giovanni Giangiobbe
+:Revisione: Giovanni Giangiobbe
 
 Collegamenti interni
 --------------------
