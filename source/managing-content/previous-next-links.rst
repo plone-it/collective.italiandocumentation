@@ -3,8 +3,13 @@
 Link Precedente - Successivo
 ============================
 
-La visualizzazione dei link automatici Precedente-Successivo per i contenuti
-presenti in una cartella può essere abilitata nel tab Impostazioni della cartella stessa.
+**La visualizzazione dei link automatici Precedente-Successivo per i contenuti
+presenti in una cartella può essere abilitata nel tab Impostazioni della cartella stessa.**
+
+:Data: 18-04-2014
+:Traduzione: Giovanni Giangiobbe
+:Impaginazione: Giovanni Giangiobbe
+:Revisione: Giovanni Giangiobbe
 
 Il tab *Impostazioni* viene visualizzato al click del tab *Modifica* della cartella.
 C'è una casella di spunta per abilitare i link Precedente-Successivo per i vari 
