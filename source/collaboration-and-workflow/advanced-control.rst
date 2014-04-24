@@ -1,10 +1,15 @@
 Controllo avanzato
 =====================
 
-Il sistema di controllo della pubblicazione, alla voce del menu avanzate, ha caratteristiche 
-sofisticate per impostare la disponibilità per data e per contesto.
+**Il sistema di controllo della pubblicazione, alla voce del menu avanzate, ha caratteristiche 
+sofisticate per impostare la disponibilità per data e per contesto.**
 
-Il menu *stato* ha una voce *Avanzate*...:
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
+
+Il menu *Stato* ha una voce *Avanzate*...:
 
 .. figure:: ../_static/statemenu.png
    :align: center
@@ -25,8 +30,9 @@ da questo cambiamento.
 
 Il campo successivo, *Includi gli elementi contenuti*, è una casella per controllare se
 il cambiamento di stato debba avere effetto solo sull'oggetto selezionato (la cartella
-"Long-tailed Skipper") o anche sugli elementi contenuti includendo sia eventuali sottocartelle e relativi sottocontenuti sia
-altri tipi di elementi. Questa è una casella importante. Ti permette di cambiare semplicemente lo stato
+"Long-tailed Skipper") o anche sugli elementi contenuti, includendo sia eventuali sottocartelle 
+e relativi sottocontenuti sia altri tipi di elementi. Questa è una casella importante. 
+Ti permette di cambiare semplicemente lo stato
 di un'intera sezione del sito internet. 
 Per esempio, la cartella "Long-tailed Skipper" potrebbe contenere 
 quattro sottocartelle: una per le fotografie, una per le occorrenze speciali, 
@@ -43,7 +49,7 @@ dalla sua flotta, un'intera sezione del loro sito web dedicato a questa vettura,
 con diverse sottocartelle piene di pagine, immagini e file, potrebbe
 essere impostata su *privato*.
 
-I prossimi due campi data sono per impostare la *data di pubblicazione* e la *data di scadenza*.
+I successivi due campi data sono per impostare la *data di pubblicazione* e la *data di scadenza*.
 Il loro significato è semplice. Se un elemento o un insieme di elementi devono essere pubblicati
 per un certo lasso di tempo, si possono impostare questi campi.
 
@@ -63,11 +69,10 @@ questa azione. Varierà, a seconda dello stato attuale dell'elemento.
 Ad esempio, se l'articolo è attualmente nello stato pubblicato, non vi
 sarà la scelta *pubblica*, se si trova nello stato *privato*, 
 non sarà presente la scelta per renderlo *privato*, ecc. Se un elemento è
-già pubblicata, in questa parte inferiore del pannello saranno presenti le scelte
+già pubblicato, in questa parte inferiore del pannello saranno presenti le scelte
 per *revocare* e *mandare indietro*, che "annulleranno la pubblicazione" dell'elemento, reimpostandolo
 allo stato *bozza* o allo stato *privato*.
 
-`|image24| <http://media.plone.org/LearnPlone/Publishing%20States.swf>`_
 Guarda un video con Plone 2 sul `controllo dello stato di 
 pubblicazione. <http://media.plone.org/LearnPlone/Publishing%20States.swf>`_
 
