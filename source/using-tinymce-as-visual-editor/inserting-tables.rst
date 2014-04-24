@@ -1,7 +1,12 @@
 Inserire Tabelle
 ================
 
-Inserire, aggiornare e cancellare tabelle, colonne, righe e celle.
+**Inserire, aggiornare e cancellare tabelle, colonne, righe e celle.**
+
+:Data: 18-04-2014
+:Traduzione: Giovanni Giangiobbe
+:Impaginazione: Giovanni Giangiobbe
+:Revisione: Giovanni Giangiobbe
 
 Le tabelle sono ideali per mostrare dati in formato tabulare e liste. Per 
 aggiungere una tabella, posiziona il cursore nel punto in cui vuoi che la tabella
