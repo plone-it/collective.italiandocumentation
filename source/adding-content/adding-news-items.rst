@@ -1,12 +1,12 @@
 Aggiungere una Notizia
 =======================
 
+**Plone integra un sistema nativo per la pubblicazione di notizie.**
+
 :Data: 18-04-2014
 :Traduzione: Giovanni Giangiobbe
-:Impaginazione: 
-:Revisione: 
-
-Plone integra un sistema nativo per la pubblicazione di notizie.
+:Impaginazione: Giovanni Giangiobbe
+:Revisione: Giovanni Giangiobbe
 
 Per aggiungere una nuova notizia, utilizza la voce corrispondente del menù *Aggiungi* 
 presente a livello di cartella Plone:
