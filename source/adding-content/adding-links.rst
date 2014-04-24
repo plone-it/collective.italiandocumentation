@@ -7,6 +7,11 @@ come tipi di contenuto ti permette ad esempio di organizzarli in cartelle,
 di impostare delle parole chiave ad essi associate per facilitarne il raggruppamento
 negli elenchi e nei risultati di ricerca, o di inserirli nei menù di navigazione.**
 
+:Data: 27-11-2012
+:Traduzione: Giampiero Lago
+:Impaginazione: Giacomo Spettoli
+:Revisione: Giovanni Giangiobbe
+
 Per aggiungere un oggetto di tipo Collegamento seleziona la voce corrispondente
 dal menu *Aggiungi...* presente a livello di cartella Plone:
 
