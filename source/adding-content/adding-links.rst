@@ -1,11 +1,11 @@
 Aggiungere un Collegamento
 ===========================
 
-Oltre ad inserire collegamenti nel testo delle pagine, é possibile in Plone
+**Oltre ad inserire collegamenti nel testo delle pagine, é possibile in Plone
 creare collegamenti anche come tipi di contenuto autonomi. Avere collegamenti
 come tipi di contenuto ti permette ad esempio di organizzarli in cartelle,
 di impostare delle parole chiave ad essi associate per facilitarne il raggruppamento
-negli elenchi e nei risultati di ricerca, o di inserirli nei menù di navigazione.
+negli elenchi e nei risultati di ricerca, o di inserirli nei menù di navigazione.**
 
 Per aggiungere un oggetto di tipo Collegamento seleziona la voce corrispondente
 dal menu *Aggiungi...* presente a livello di cartella Plone:
