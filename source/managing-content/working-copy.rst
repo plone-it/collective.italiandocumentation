@@ -1,13 +1,18 @@
 Copia di lavoro
 ==================
 
-La Copia di Lavoro ti permette di avere due versioni del tuo contenuto in parallelo.
+**La Copia di Lavoro ti permette di avere due versioni del tuo contenuto in parallelo.**
 
-**Quando un sito Plone viene creato per la prima volta, ci sono diverse funzioni aggiuntive
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
+
+Quando un sito Plone viene creato per la prima volta, ci sono diverse funzioni aggiuntive
 che possono essere abilitate, tra cui la "Copia di Lavoro". Se il sito Plone
 che stai usando non presenta l'opzione "Estrai versione" nel menu Azioni
 , devi contattare l'amministratore del sito e richiedere che il
-"Supporto alla Copia di Lavoro" venga installato.**
+"Supporto alla Copia di Lavoro" venga installato.
 
 Panoramica
 ----------
