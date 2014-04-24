@@ -1,8 +1,13 @@
 Ordinamento elementi
 ======================
 
-Il tab dei contenuti contiene una funzione per l'ordinamento veloce e preciso
-degli elementi di una cartella.
+**Il tab dei contenuti contiene una funzione per l'ordinamento veloce e preciso
+degli elementi di una cartella.**
+
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
 
 Considera la seguente cartella, chiamata "Skippers," che contiene
 informazioni su questo tipo di farfalle. Spesso, quando aggiungiamo contenuti, 
