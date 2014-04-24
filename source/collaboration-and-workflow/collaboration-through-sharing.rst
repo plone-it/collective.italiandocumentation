@@ -1,8 +1,13 @@
 Collaborazione attraverso la condivisione
 =========================================
 
-La scheda Condivisione consente di collaborare con altri utenti attraverso 
-l'uso di diversi ruoli integrati.
+**La scheda Condivisione consente di collaborare con altri utenti attraverso 
+l'uso di diversi ruoli integrati.**
+
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
 
 Esempio 1: Consentire ad altri di aggiungere contenuti in una cartella che hai creato
 ------------------------------------------------------------------------------------
@@ -42,13 +47,13 @@ state concesse in una sezione superiore del sito, come indicato dal simbolo di s
 Dando un'occhiata più da vicino, le autorizzazioni disponibili sono:
 
 -  **Può aggiungere** - Questo significa che quando questa autorizzazione viene concessa ad un
-   particolare utente (o gruppo di utenti), esso può aggiungere nuovi
+   particolare utente (o gruppo di utenti), egli può aggiungere nuovi
    contenuti. Dal momento che l'utente è stato anche il creatore di quel
    contenuto, sarà in grado di modificarlo a suo piacimento.
--  **Può modificare** - Quando questa autorizzazione viene concessa ad una cartella, l'utente
+-  **Può modificare** - Quando questa autorizzazione viene concessa per una cartella, l'utente
    può non solo modificare la Cartella (il titolo e la descrizione), ma può anche
    modificare uno qualsiasi degli elementi contenuti. Nota, tuttavia, che l'utente non è
-   autorizzato ad eliminare i contenuto. Se questa autorizzazione viene concessa
+   autorizzato ad eliminare il contenuto. Se questa autorizzazione viene concessa
    su una pagina, per esempio, l'utente può modificare solo quella pagina e nessuno degli
    altri elementi presenti nella cartella.
 -  **Può vedere** - Quando questa autorizzazione viene utilizzata su una cartella o un altro
@@ -57,7 +62,7 @@ Dando un'occhiata più da vicino, le autorizzazioni disponibili sono:
    pubblicare i contenuti.
 
 Nota: queste autorizzazioni sovrascrivono i permessi definiti nel workflow!
-Ad esempio, se si concede a un utente l'autorizzazione "Può vedere" in una pagina che è
+Ad esempio, se si concede ad un utente l'autorizzazione "Può vedere" in una pagina che è
 nello stato privato, l'utente potrà vederla.
 
 In questo esempio, Jane concede a George l'autorizzazione "Può aggiungere" nella
@@ -68,14 +73,14 @@ lo cerca utilizzando il suo nome:
    :align: center
    :alt: 
 
-Jane ora può aggiungere le autorizzazioni necessarie a George nella cartella "Documentazione". 
+Jane ora può aggiungere le autorizzazioni necessarie a George per la cartella "Documentazione". 
 Deve selezionare il permesso "Può aggiungere" e premere "Salva":
 
 .. figure:: ../_static/05.png
    :align: center
    :alt: 
 
-Questo è tutto ciò che devi fare! Vediamo come George vede il sito ora.
+Questo è tutto ciò che deve fare! Vediamo come George vede il sito ora.
 
 Nota: George NON ha bisogno di disconnettersi e riconnettersi. Le autorizzazioni sono
 sempre aggiornate perché sono controllate ogni volta che un utente accede a 
@@ -105,15 +110,16 @@ Anche se George può visualizzare il documento, le sue autorizzazioni limitate n
 di modificarlo o di cambiare il suo stato. L'unica cosa che può fare, al di là di
 visualizzare il documento, è di farne una sua copia.
 
-George aggiunge una pagina intitolata "Widget Installation" e ne crea il contenuto
-. Quando ha terminato, la salva:
+George aggiunge una pagina intitolata "Widget Installation" e ne crea il contenuto.
+Quando ha terminato, la salva:
 
 .. figure:: ../_static/08.png
    :align: center
    :alt: 
 
 Jane vede il lavoro fatto da George. Seleziona la scheda "Documentazione" 
-e vede il lavoro di George. Clicca sulla pagina "Widget Installation" 
+e vede che George si è dato da fare.
+Clicca sulla pagina "Widget Installation" 
 per dare un'occhiata più da vicino:
 
 .. figure:: ../_static/09.png
@@ -122,12 +128,12 @@ per dare un'occhiata più da vicino:
 
 Si noti che Jane ha pieno accesso alla pagina che ha creato George. Lei
 può modificarla così come tagliarla/copiarla/incollarla. In realtà lei attenderà che 
-George invii la pagina per la revisione prima di eventualmente modificarla.
+George invii la pagina per la revisione prima di modificarla eventualmente.
 
 Esempio 2: Permettere ad altri di modificare contenuti creati da te
 -------------------------------------------------------------------
 
-Sia Jane sia George hanno lavoro per creare le pagine della cartella
+Sia Jane sia George hanno lavorato duramente per creare le pagine della cartella
 Documentazione. **Jane ha pubblicato la cartella e
 diverse pagine:**
 
@@ -155,15 +161,13 @@ creato), questo è quello che vedrà:
    :align: center
    :alt: sharing11.png
 
-   sharing11.png
-
 Ora George può modificare qualsiasi elemento nella cartella "Documentazione", indipendentemente
-da quando o da chi lo ha creato.
+da chi lo ha creato o da quando è stato creato.
 
 Nel frattempo, Molly si è unita a George come nuovo membro del team. Molly aiuterà
-George nell'aggiornamento del documento "Widget Installation". George dovrà andare nella
-scheda condivisione dell'elemento "Widget Installation" e cercare il nome completo di Molly
-(non il nome utente) e selezionerà "Può modificare" per darle l'autorizzazione su questo
+George nell'aggiornamento del documento "Widget Installation". George va nella
+scheda condivisione dell'elemento "Widget Installation", cerca il nome completo di Molly
+(non il nome utente) e seleziona "Può modificare" per darle l'autorizzazione su questo
 documento.
 
 .. figure:: ../_static/12.png
