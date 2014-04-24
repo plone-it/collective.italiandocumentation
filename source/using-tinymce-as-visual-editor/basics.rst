@@ -1,7 +1,12 @@
 Nozioni di base
 ===============
 
-Opzioni base di TinyMCE.
+**Opzioni base di TinyMCE.**
+
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
 
 L'editor TinyMCE di default ha il seguente aspetto:
 
