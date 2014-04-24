@@ -6,9 +6,9 @@ Impostazione delle proprietà di base
 :Impaginazione: Federica D'Elia
 :Revisione: Giovanni Giangiobbe
 
-I tab disponibili per ogni tipo di
+**I tab disponibili per ogni tipo di
 contenuto Plone dispongono di campi per l'immissione delle informazioni di base. Fornire tali
-dati è importante, significa fornire combustibile per il motore di Plone.
+dati è importante, significa fornire combustibile per il motore di Plone.**
 
 Ogni tipo di contenuto, se editato da un utente con diritti di
 modifica su di esso, mostrerà una serie di tab nella parte superiore, 
