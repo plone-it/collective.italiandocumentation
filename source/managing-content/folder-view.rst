@@ -1,8 +1,13 @@
 Viste per una cartella
 ======================
 
-Le cartelle hanno il tab Visualizza, che permette di impostare i vari modi in cui può essere mostrato 
-il contenuto della cartella stessa.
+**Le cartelle hanno il tab Visualizza, che permette di impostare i vari modi in cui può essere mostrato 
+il contenuto della cartella stessa.**
+
+:Data: 18-04-2014
+:Traduzione: Giovanni Giangiobbe
+:Impaginazione: Giovanni Giangiobbe
+:Revisione: Giovanni Giangiobbe
 
 
 Per la maggior parte dei contenuti, puoi editare il contenuto stesso per cambiare il modo
