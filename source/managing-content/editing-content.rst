@@ -1,9 +1,14 @@
 Modificare i contenuti
 =======================
 
-La modifica dei contenuti in Plone funziona allo stesso modo
+**La modifica dei contenuti in Plone funziona allo stesso modo
 dell’aggiunta - solitamente i pannelli per l'immissione dei dati e per
-la modifica dei contenuti sono gli stessi.
+la modifica dei contenuti sono gli stessi.**
+
+:Data: 18-04-2014
+:Traduzione: Luca De Giorgi
+:Impaginazione: Luca De Giorgi
+:Revisione: Giovanni Giangiobbe
 
 Naturalmente, quando si modifica un elemento, l'oggetto esiste già.
 Fare clic sulla scheda Modifica di un contenuto per vedere il pannello
