@@ -70,6 +70,3 @@ Copia/Incolla
 L’operazione di *Copia*/*Incolla* è identica all'operazione di *Taglia*/*Incolla*,
 tranne che non c'è rimozione del contenuto dalla cartella originale.
 Esso funziona come ci si aspetta che funzioni.
-
-`Guarda un Video riguardo Plone 2 sull’esecuzione di queste operazioni <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_
-
