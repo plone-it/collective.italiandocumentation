@@ -73,6 +73,3 @@ già pubblicato, in questa parte inferiore del pannello saranno presenti le scel
 per *revocare* e *mandare indietro*, che "annulleranno la pubblicazione" dell'elemento, reimpostandolo
 allo stato *bozza* o allo stato *privato*.
 
-Guarda un video con Plone 2 sul `controllo dello stato di 
-pubblicazione. <http://media.plone.org/LearnPlone/Publishing%20States.swf>`_
-
