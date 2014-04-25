@@ -41,8 +41,3 @@ per il campo Testo del documento.
 
 **IMPORTANTE**: le notizie inserite non appariranno nell'elenco principale o nella portlet 
 utilizzata per pubblicare le notizie sul tuo sito Plone finchè non saranno nello stato **"Pubblicato"**.
-
-
-
-Guarda un video Plone su `come aggiungere una notizia <http://media.plone.org/LearnPlone/Creating%20a%20News%20Item.swf>`_.
-
