@@ -57,9 +57,6 @@ Guarda la pagina `Cosa c'è in un nome web? <../adding-content/whats-in-a-web-na
 per una descrizione di come Plone gestisce gli indirizzi web e i nomi
 brevi. Il seguente video include anche la funzione rinomina:
 
-`Guarda un video con Plone 2 che include la funzione `rinomina di un
-elemento <http://media.plone.org/LearnPlone/Copy,%20Paste,%20Cut,%20etc.swf>`_.
-
 L'operazione *cancella* è lineare. Clicca per selezionare uno o più
 elementi, in seguito premi il pulsante cancella e gli elementi saranno cancellati.
 
