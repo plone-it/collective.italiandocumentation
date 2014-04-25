@@ -49,9 +49,7 @@ La Portlet Collezione ti permette **di visualizzare i risultati di una
 Collezione**. È necessario creare precedentemente una collezione e dopo aver aggiunto
 questa Portlet, si potrà specificare la Collezione da utilizzare. Questo
 è un ottimo modo per riassumere i risultati di una importante raccolta in modo
-che sia facilmente visibile al pubblico. Per le istruzioni sulla creazione di una 
-Portlet Collezione seguire questo
-`How-to <http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/resolveuid/eb8800b7a664b35d069ddbcae7e4c837>`_.
+che sia facilmente visibile al pubblico.
 
 Eventi
 ------
@@ -114,5 +112,4 @@ Testo Statico
 La Portlet Testo Statico permette di inserire del testo come 
 in una normale Pagina. E' utile per aggiungere collegamenti ad altri siti
 o qualsiasi informazione statica. Un esempio è la Portlet "Ancora Perplessi?" 
-sulla destra di questo sito. Per maggiori informazioni ed esempi
-vedere l'How-to `Static Portlets <http://plone.org/documentation/manual/plone-4-user-manual/portlet-management/resolveuid/3698a06fc5f57d6f9bd6eaf1824f5cc8>`_.
+sulla destra di questo sito.
