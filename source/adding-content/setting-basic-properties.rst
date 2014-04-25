@@ -146,12 +146,10 @@ Per esempio:
     <meta content="2009-11-27 17:04:02" name="DC.date.created" />
     <meta content="en" name="DC.language" />
 
-Il codice che genera i meta tag Dublin Core verificherà e rispetterà le impostazioni
-`allowAnonymousViewAbout
-<http://plone.org/documentation/manual/developer-manual/plone-properties/site-properties/view?searchterm=allowAnonymousViewAbout>`_
-e preleverà le informazioni per i meta tag dalle proprietà *Creatore*, *Collaboratori* e *Publisher* del documento.
+Le proprietà Dublin Core *Creator*, *Contributors* e *Publisher* saranno visualizzate solamente se è stata abilitata
+la visualizzazione di queste informazioni per agli utenti anonimi. La configurazione si trova *Configurazioni del sito* al link *Sicurezza* 
 
-Puoi saperne di più su `Dublin Core <http://dublincore.org/>`_ e
+Per saperne di più su `Dublin Core <http://dublincore.org/>`_ e
 `HTML
 Metatags <http://www.w3.org/TR/html401/struct/global.html#h-7.4.4.2>`_.
 
