@@ -1,13 +1,19 @@
 Ordinamento elementi
 ======================
 
-Il tab dei contenuti contiene una funzione veloce e precisa per l'ordinamento
-degli elementi di una cartella.
+**Il tab dei contenuti contiene una funzione per l'ordinamento veloce e preciso
+degli elementi di una cartella.**
+
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
 
 Considera la seguente cartella, chiamata "Skippers," che contiene
-informazioni sui tipi di farfalle. Spesso, quando aggiungiamo contenuti
-, non li inseriamo nell'ordine finale che vorremmo ottenere. L'ordine desiderato
-non è sempre alfabetico ma in questo esempio il risultato finale sarà questo.
+informazioni su questo tipo di farfalle. Spesso, quando aggiungiamo contenuti, 
+non li inseriamo nell'ordine finale che vorremmo ottenere. L'ordine desiderato
+non è sempre quello alfabetico, ma in questo esempio possiamo presumere di volere proprio questo
+tipo di ordinamento.
 Sotto puoi vedere che le sottocartelle di Skipper non sono in ordine
 alfabetico:
 

@@ -1,13 +1,18 @@
-I tipi di Portlets
+I tipi di Portlet
 ==================
 
-Descrizione dei tipi di Portlets disponibili
+**Descrizione dei tipi di Portlet disponibili**
 
-Ci sono diversi tipi di Portlets da scegliere. A volte, il nome dei vari
-tipi, può essere ambiguo. Inoltre, alcuni possono
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
+
+Ci sono diversi tipi di Portlet da scegliere. A volte, il nome dei vari
+tipi può essere ambiguo. Inoltre, alcuni possono
 essere configurati attraverso la Gestione Portlet e altri richiedono configurazioni
 attraverso la ZMI o la preventiva creazione di un oggetto. Di seguito è riportato un
-elenco con la descrizione base d'uso e delle funzionalità di ogni tipo di portlet disponibile.
+elenco con la descrizione base d'uso e le funzionalità di ogni tipo di portlet disponibile.
 
 Navigazione
 -----------
@@ -32,7 +37,7 @@ evento corrispondente sul sito.
 Classico
 --------
 
-La Portlet Classico si riferisce al modo in cui sono state utilizzate nelle vecchie
+La Portlet Classico si riferisce al modo in cui le portlet sono state utilizzate nelle vecchie
 versioni di Plone, prima di Plone 3. È necessario creare un Page Template nella
 ZMI ed impostare correttamente il percorso e le macro per attivare la portlet. Questo
 richiede una conoscenza tecnica sia di TALES sia della ZMI.
@@ -59,7 +64,7 @@ Autenticazione
 --------------
 
 La Portlet di Autenticazione è un'altra portlet non configurabile che semplicemente
-**visualizza la Form di Log in ** che consentirà agli utenti di autenticarsi.
+**visualizza la Form di Log in**, per consentire agli utenti di autenticarsi.
 Una volta che un utente è loggato sul sito, questa Portlet verrà nascosta
 automaticamente.
 
@@ -91,7 +96,7 @@ La Portlet Elenco di Revisione visualizzerà un elenco di oggetti **da revisiona
 Se si utilizza un workflow dove è presente uno stato di revisione (e
 sono impostati correttamente i ruoli globali per gli utenti), questa portlet è molto comoda ai revisori per
 tenere sott'occhio quando un oggetto viene inviato per essere sottoposto a revisione. Questa
-Portlet appare solo ai revisori come per lo stato citato che non è visibile al
+Portlet appare solo ai revisori, poichè i contentuti in stato sottoposto a revisione non sono visibile al
 pubblico.
 
 Ricerca
@@ -100,7 +105,7 @@ Ricerca
 La Portlet Ricerca visualizzerà una casella di ricerca nella colonna dove viene aggiunta.
 La ricerca del testo specificato avverrà nel titolo, nella descrizione e nel corpo degli
 oggetti del sito. C'è la possibilità di abilitare la Ricerca Istantanea 
-che mostra i risultati durante la digitazione del testo da ricercare 
+che mostra i risultati durante la digitazione del testo da ricercare,
 se il browser supporta JavaScript.
 
 Testo Statico

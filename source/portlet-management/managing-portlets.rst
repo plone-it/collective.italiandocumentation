@@ -1,10 +1,15 @@
 Gestione delle Portlets
 =======================
 
-Come aggiungere, rimuovere e riordinare le portlets.
+**Come aggiungere, rimuovere e riordinare le portlets.**
 
-Per iniziare a manipolare le portlets, è necessario trovare il **link
-a Gestione Portlet**, solitamente posizionato nella parte inferiore di 
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
+
+Per iniziare a manipolare le portlet, è necessario trovare il link
+**Gestione Portlet**, solitamente posizionato nella parte inferiore di 
 ogni colonna laterale. In Gestione Portlet è possibile crearne di nuove,
 rimuoverle, rinominarle e riordinarle.
 
@@ -56,8 +61,8 @@ visualizza/nascondi.
 
 Come avrai notato nella schermata "Gestisci Portlet", puoi modificare le
 portlets sia sul lato destro sia su quello sinistro della
-pagina. Questo perché ci sono due colonne per le portlets, una a
-sinistra e una a destra. ** Le Portlets appariranno solo sul lato
+pagina. Questo perché ci sono due colonne per le portlet, una a
+sinistra e una a destra. **Le Portlet appariranno solo sul lato
 in cui vengono aggiunte**.
 
 E' possibile aggiungere più di una portlet dello stesso tipo in una pagina.

@@ -4,6 +4,11 @@ Inserire delle immagini
 **Una panoramica delle opzioni disponibili per l'inserimento di immagini in
 TinyMCE.**
 
+:Data: 18-04-2014
+:Traduzione: Giacomo Spettoli
+:Impaginazione: Giacomo Spettoli
+:Revisione: Giovanni Giangiobbe
+
 L'editor TinyMCE ti permette di inserire delle immagini caricate in Plone nella
 tua pagina, utilizzando il bottone |Image| sulla barra degli strumenti di TinyMCE:
 
@@ -51,44 +56,43 @@ ti consente di scegliere tra diverse dimensioni e formati:
 -  Thumb (<img src="rose.png/image\_thumb" alt="rose" />) - a
    thumb(inch)- dall'immagine verrà estratta una miniatura; (un pò più
    piccola di 2,5cm);
--  Tile (<img src="rose.png/image\_tile" alt="rose" />) - a tile is made
-   out of your image;
+-  Tile (<img src="rose.png/image\_tile" alt="rose" />) - dall'immagine viene ricavata una 'mattonella';
 -  Icon (<img src="rose.png/image\_icon" alt="rose" />) - dall'immagine
    verrà ricavata un'icona;
 -  Listing (<img src="rose.png/image\_listing" alt="rose" />) - dall'immagine
    verrà ricavata una piccola immagine in stile 'elenco';
 
-Image Captioning
-----------------
+Didascalia dell'immagine
+------------------------
 
-In TinyMCE è possibile mettere una didascalia sotto l'immagine. La didascalia
+In TinyMCE è possibile inserire una didascalia sotto l'immagine. La didascalia
 è presa dalla descrizione dell'immagine. Il testo alternativo è tratto dal
 titolo dell'immagine. Il testo alternativo e la didascalia si aggiornano
 automaticamente se l'immagine viene aggiornata.
 
-Per abilitare questa funzione accedere a **Configurazione del sito ->
+Per abilitare questa funzione accedi a **Configurazione del sito ->
 Editor TinyMCE**. Assicurati di selezionare **Consenti la 'titolazione'
-delle immagini** nella  tab **Tipi di risorse**.
+delle immagini** nel pannello **Tipi di risorse**.
 
 .. figure:: ../_static/image_caption_settings.png
    :align: center
    :alt: 
 
-Ora quando aggiungi un'immagine sul sito, puoi inserire una breve descrizione
+Quando aggiungi un'immagine sul sito, puoi inserire una breve descrizione
 e questa verrà utilizzata come didascalia.
 
 .. figure:: ../_static/add_image.png
    :align: center
    :alt: 
 
-Ora quando crei una pagina e inserisci un'immagine in essa, seleziona il box
+Ora, quando crei una pagina e inserisci un'immagine in essa, seleziona il box
 Didascalia:
 
 .. figure:: ../_static/insert_image_caption.png
    :align: center
    :alt: 
 
-Ora, salvando le modifiche, il risultato dovrebbe essere simile a questo,
+Salvando le modifiche, il risultato dovrebbe essere simile a questo,
 con la descrizione dell'immagine inserita come didascalia all'interno di una
 cornice:
 

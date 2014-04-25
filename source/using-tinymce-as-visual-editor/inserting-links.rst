@@ -1,86 +1,94 @@
-Inserting Links
-====================
+Inserire collegamenti (links)
+=============================
 
-Inserting internal, external and anchor links.
+**Inserire collegamenti interni, esterni ed ancore**
 
-Internal Links
---------------
+:Data: 18-04-2014
+:Traduzione: Giovanni Giangiobbe
+:Impaginazione: Giovanni Giangiobbe
+:Revisione: Giovanni Giangiobbe
 
-Select a word or phrase, click the *Insert/edit link* icon, and the
-*Insert/edit link* panel will appear: |image19|
+Collegamenti interni
+--------------------
 
-You use this panel by clicking on Home or Current folder to begin
-navigating the Plone web site to find a folder, page, or image to which
-you wish to make a link. In the example above, a page named "Long-tailed
-Skippers" has been chosen for the link. After this panel is closed, a
-link to the "Long-tailed Skippers" page will be set for the word or
-phrase selected for the link.
+Seleziona una parola o una frase, fai click sull'icona *Inserisci/modifica collegamento* ed apparirà 
+il pannello *Inserisci/modifica collegamento* : |image19|
 
-External Links
---------------
+Il pannello va usato selezionando la cartella Home o quella corrente, per iniziare a navigare
+all'interno del sito Plone alla ricerca della cartella, della pagina o dell'immagine
+cui far puntare il collegamento. Nell'esempio della figura sopra, la pagina "Long-tailed
+Skippers" è stata scelta come destinazione del link. Una volta chiuso il pannello,
+un collegamento alla pagina "Long-tailed Skippers" verrà creato per la parola o la frase 
+scelta come testo del collegamento.
 
-Select a word or phrase, click the *Insert/edit link* icon, select
-*External* under *Libraries*, and the External link panel will appear:
+Collegamenti esterni
+--------------------
+
+Seleziona una parola o una frase, fai click sull'icona *Inserisci/modifica collegamento*,
+seleziona "Barra degli strumenti esterna" nella colonna Librerie; si aprirà un pannello simile a questo:
 
 .. figure:: ../_static/insert_external_link.jpg
    :align: center
    :alt: 
 
-Type the web address of the external web site in the box after http://.
-When you press return or leave the field a preview will appear to check
-the address. If you paste in the web address, make sure you don't have
-duplicate http:// at the beginning of the address. Then click *ok*. The
-external link will be set to the word or phrase you selected.
+Digita l'indirizzo del sito web esterno cui vuoi far puntare il collegamento nella casella dopo http://.
+Quando premi Invio sulla tastiera o clicchi in un altro punto del pannello diverso dal campo di input,
+apparirà una preview, per permetterti di verificare che il sito web scelto sia quello giusto.
+Se incolli l'indirizzo web, assicurati che la stringa http:// non venga duplicata.
+Quindi clicca *Ok*. Il collegamento esterno verrà impostato per la parola o la frase che hai selezionato.
 
-Anchors
--------
 
-Anchors are like position markers within a document, based on headings,
-subheadings, or another style set within the document. As an example,
-for a page called "Eastern Tiger Swallowtail," with subheadings entitled
-"Description," "Habitat," "Behavior," "Conservation Status," and
-"Literature," an easy set of links to these subheadings (to the
-positions within the document at those subheadings) can be created using
-anchors.
 
-First, create the document with the subheadings set within it, and
-re-type the subheadings at the top of the document:
+Ancore
+------
+
+Le ancore sono 'segnaposti' all'interno di un documento, legate a
+titoli, sottotitoli o altri stili impostati per il documento stesso.
+Ad esempio, per la pagina "Eastern Tiger Swallowtail, con sottotitoli
+Description," "Habitat," "Behavior," "Conservation Status," e
+"Literature," è possibile impostare un insieme di collegamenti ai vari sottotitoli
+utilizzando le ancore.
+
+Per prima cosa, crea il documento impostanto i vari sottotitoli nel corpo, e riscrivi 
+i sottotitoli all'inizio del documento:
 
 .. figure:: ../_static/anchor_page.jpg
    :align: center
    :alt: 
 
-Now create the anchors for each subheading. To create each anchor move
-the cursor to the beginning of the subheading and press the *Insert/edit
-anchor* icon. Enter the name of the anchor in the *Anchor name* field.
-Then click *ok*.
+
+Ora, crea le ancore per ciascun sottotitolo. Per creare un'ancora, muovi il cursore
+all'inizio del sottotitolo e fai click sull'icona "Inserisci/modifica ancora". Inserici
+il nome dell'ancora nell'apposito campo. Quindi, fai click su *Ok*
 
 .. figure:: ../_static/insert_anchor.jpg
    :align: center
    :alt: 
 
-Then select each of the re-typed subheadings at the top and click the
-*Insert/edit link* icon to select by subheadings:
+Poi, seleziona uno dei sottotitoli che hai riscritto all'inizio del documento
+e fai click sull'icona *Inserisci/modifica collegamento*
 
 .. figure:: ../_static/insert_anchor_select_text.jpg
    :align: center
    :alt: 
 
-When selecting *Anchors* under *Libraries*, a panel will appear for
-selecting which subheading to which the anchor link should connect:
+Selezionando *Ancore* dalla colonna "Librerie*, apparirà un pannello
+che ti permette di selezionare il sottotitolo cui far puntare il collegamento:
 
 .. figure:: ../_static/select_anchor.jpg
    :align: center
    :alt: 
 
-The *Link to anchor* tab will appear. The right side of the panel shows
-the anchors that have been set within the document. Here the
-*Description* anchor is chosen for the link (for the word Description,
-typed at the top of the document).
 
-You can be creative with this powerful feature, by weaving such
-links-to-anchors within narrative text, by setting anchors to other
-styles within the document, and coming up with clever mixes. This
-functionality is especially important for large documents.
+Il tab "Collegamento ad un'ancora" apparirà. La parte destra del pannello
+mostra le ancore che sono state impostate per il documento. Nell'esempio,
+l'ancora *Description* è stata scelta come destinazione del collegamento (ed impostata
+per la parola *Description* all'inizio del documento).
+
+Ci si puà sbizzarrire con questa potente funzionalità,
+impostando ancore per i vari stili del documento ed inserendo i relativi
+collegamenti all'interno delle parti narrative di un documento.
+Ciò può rivelarsi particolarmente utile nel caso di documenti di grosse dimensioni.
+
 
 .. |image19| image:: ../_static/insert_internal_link.jpg

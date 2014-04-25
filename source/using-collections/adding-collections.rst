@@ -1,16 +1,21 @@
 Aggiungere Collezioni
 =======================
 
-Le Collezioni (una volta chiamate Smart Folders) sono contenitori virtuali con liste 
-di elementi trovati utilizzando ricerche specifiche.
+**Le Collezioni (una volta chiamate Smart Folders) sono contenitori virtuali con liste 
+di elementi trovati utilizzando ricerche specifiche.**
 
-Comprendere che i contenuti possono essere memorizzati ovunque ed imparare a
-creare collezioni personalizzare per fornire "viste" differenti ai contenuti, 
+:Data: 18-04-2014
+:Traduzione: Alex Sani
+:Impaginazione: Alex Sani
+:Revisione: Giovanni Giangiobbe
+
+Comprendere che i contenuti possono essere memorizzati ovunque in un sito Plone
+ma possono essere recuperati con collezioni personalizzate che creano "viste" sui contenuti stessi, 
 è un passo importante per poter utilizzare Plone in modo efficace. E' un sistema
 intelligente.
 
 Per aggiungere una collezione, utilizza il menu "Aggiungi...", nello stesso modo in cui
-aggiungi altri contenuti:
+aggiungi altri tipi di contenuto:
 
 .. figure:: ../_static/p4_addnewmenu.png
    :align: center
@@ -54,7 +59,7 @@ di selezionare un campo per l'ordinamento:
 
    p4\_collectionssearchcrit2 2
 
-I tipi di criteri per la ricerca dipendono dal quale campo viene selezionato.
+I tipi di criteri per la ricerca dipendono da quale campo viene selezionato.
 
 Dopo aver salvato la collezione, i criteri di ricerca saranno applicati ed il
 risultato mostrato quando la collezione viene selezionata. È possibile creare un numero qualsiasi
@@ -64,11 +69,13 @@ il campo categorie potrebbe essere utilizzato per abbinare il colore alle farfal
 collezioni di "Farfalle blu", "Farfalle Bianche," ecc.
 
 Criteri multipli possono essere utilizzati nella stessa collezione. Per esempio, una
-collezione chiamata "Farfalle fotografate nel mese scorso," potrebbe essere
-fatto impostando un criterio relativo alla data di creazione ed al tipo di elemento che dovrà essere una immagine.
-Questi data-base generati dalle collezioni sono veramente efficaci per mostrare
-viste di contenuti aggiornate che non richiedono alcun lavoro amministrativo a mano - una volta che
-tale raccolta è stata creata, verrà automaticamente aggiornata.
+collezione chiamata "Farfalle fotografate nel mese scorso" potrebbe essere
+creata impostando un criterio relativo alla data di creazione 
+ed uno relativo al tipo di elemento, che dovrà essere un'immagine.
+Le collezioni con criteri basati sulle date sono veramente efficaci per mostrare
+viste di contenuti sempre aggiornate, che non richiedono alcun lavoro da parte
+dell'amministratore del sito - una volta che
+la collezione è stata creata, essa mostrerà automaticamente i contenuti più recenti.
 
 *Nota:* Una collezione non si comporta come una normale cartella; non puoi
 aggiungere elementi tramite la voce del menu aggiungi, come è possibile fare in una normale cartella.
