@@ -94,8 +94,6 @@ un collegamento diretto ad un contenuto. Invece, puoi spesso ottenere ciò che d
 semplicemente usando le collezioni, che saranno descritte più avanti in questo manuale.
 
 
-Guarda un video Plone su come `Impostare una pagina come vista <http://media.plone.org/LearnPlone/Choosing%20a%20default%20page.swf>`_.
-
 Di seguito, proseguiremo analizzando il tab *Contenuti*, per descrivere
 altre importanti funzioni per l'accesso ai contenuti presenti nella lista all'interno di una cartella.
 
