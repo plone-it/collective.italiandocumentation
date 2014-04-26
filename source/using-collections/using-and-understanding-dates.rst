@@ -3,10 +3,6 @@ Uso e comprensione delle Date
 
 **Spiegazione delle Date associate alle Collezioni ed il loro uso**
 
-:Data: 18-04-2014
-:Traduzione: Federica D'Elia
-:Impaginazione: Federica D'Elia
-:Revisione: Giovanni Giangiobbe
 
 Ci sono diversi tipi di date che possiamo scegliere, molti di
 essi sembrano simili. Per questo motivo è molto facile confondersi
