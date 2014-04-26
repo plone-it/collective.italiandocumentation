@@ -4,23 +4,19 @@ Inserire delle immagini
 **Una panoramica delle opzioni disponibili per l'inserimento di immagini in
 TinyMCE.**
 
-:Data: 18-04-2014
-:Traduzione: Giacomo Spettoli
-:Impaginazione: Giacomo Spettoli
-:Revisione: Giovanni Giangiobbe
 
 L'editor TinyMCE ti permette di inserire delle immagini caricate in Plone nella
 tua pagina, utilizzando il bottone |Image| sulla barra degli strumenti di TinyMCE:
 
 .. figure:: ../_static/toolbar_image.png
    :align: center
-   :alt: 
+   :alt: null
 
 Cliccando su questo bottone, si apre la finestra per inserire un immagine:
 
 .. figure:: ../_static/insert_image_dialog.png
    :align: center
-   :alt: 
+   :alt: null
 
 Le tre colonne della finestra sono:
 
@@ -47,7 +43,7 @@ ti consente di scegliere tra diverse dimensioni e formati:
 
 .. figure:: ../_static/image_size.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 -  Large (<img src="rose.png/image\_large" alt="rose" />);
 -  Preview (<img src="rose.png/image\_preview" alt="rose" />);
@@ -76,21 +72,21 @@ delle immagini** nel pannello **Tipi di risorse**.
 
 .. figure:: ../_static/image_caption_settings.png
    :align: center
-   :alt: 
+   :alt: null
 
 Quando aggiungi un'immagine sul sito, puoi inserire una breve descrizione
 e questa verrà utilizzata come didascalia.
 
 .. figure:: ../_static/add_image.png
    :align: center
-   :alt: 
+   :alt: null
 
 Ora, quando crei una pagina e inserisci un'immagine in essa, seleziona il box
 Didascalia:
 
 .. figure:: ../_static/insert_image_caption.png
    :align: center
-   :alt: 
+   :alt: null
 
 Salvando le modifiche, il risultato dovrebbe essere simile a questo,
 con la descrizione dell'immagine inserita come didascalia all'interno di una
@@ -98,6 +94,6 @@ cornice:
 
 .. figure:: ../_static/caption_page.png
    :align: center
-   :alt: 
+   :alt: null
 
 .. |Image| image:: ../_static/image.gif
