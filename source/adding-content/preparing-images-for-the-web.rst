@@ -3,11 +3,6 @@
 Preparare le immagini per il web
 ==================================
 
-:Data: 27-11-2012
-:Traduzione: Luca De Giorgi
-:Impaginazione: Luca De Giorgi
-:Revisione: Giovanni Giangiobbe
-
 **Preparare le immagini per il web è una parte essenziale per utilizzare le immagini in Plone,
 come in qualsiasi contesto online.
 Come vedrai, le dimensioni contano.**
@@ -51,7 +46,6 @@ le carichi sul tuo sito web Plone.
    :align: center
    :alt: image\_resizing.png
 
-   image\_resizing.png
 
 **Per riassumere**:
 
