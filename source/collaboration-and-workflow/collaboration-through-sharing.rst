@@ -4,10 +4,6 @@ Collaborazione attraverso la condivisione
 **La scheda Condivisione consente di collaborare con altri utenti attraverso
 l'uso di diversi ruoli integrati.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
 
 Esempio 1: Consentire ad altri di aggiungere contenuti in una cartella che hai creato
 ------------------------------------------------------------------------------------
@@ -25,7 +21,7 @@ si autentica in questo sito Plone:
 
 .. figure:: ../_static/02b.png
    :align: center
-   :alt:
+   :alt: null
 
 Nota che in questo momento George non può nemmeno vedere la
 cartella Documentazione perché quando Jane l'ha creata, l'ha lasciata nello stato *Privato*.
@@ -38,7 +34,7 @@ Jane passa alla cartella Documentazione e fa clic sul tab Condivisione:
 
 .. figure:: ../_static/03.png
    :align: center
-   :alt:
+   :alt: null
 
 Una delle prime cose da notare è che Jane ha già tutte le
 autorizzazioni disponibili per questa cartella. Queste autorizzazioni erano in realtà
@@ -71,14 +67,14 @@ lo cerca utilizzando il suo nome:
 
 .. figure:: ../_static/04.png
    :align: center
-   :alt:
+   :alt: null
 
 Jane ora può aggiungere le autorizzazioni necessarie a George per la cartella "Documentazione".
 Deve selezionare il permesso "Può aggiungere" e premere "Salva":
 
 .. figure:: ../_static/05_new.png
    :align: center
-   :alt:
+   :alt: null
 
 Questo è tutto ciò che deve fare! Vediamo come George vede il sito ora.
 
@@ -91,7 +87,7 @@ sito e visualizzerà la cartella "Documentazione":
 
 .. figure:: ../_static/06.png
    :align: center
-   :alt:
+   :alt: null
 
 Quando George fa click sulla scheda "Documentazione", si accorge che può
 visualizzare tutto il contenuto e che è ora in grado di
@@ -99,7 +95,7 @@ aggiungere i tipi di contenuto disponibili nela cartella, come mostrato nel menu
 
 .. figure:: ../_static/07.png
    :align: center
-   :alt:
+   :alt: null
 
 George vuole visionare ciò che Jane ha già creato, quindi seleziona il link
 Project Overview e vede:
@@ -115,7 +111,7 @@ Quando ha terminato, la salva:
 
 .. figure:: ../_static/08.png
    :align: center
-   :alt:
+   :alt: null
 
 Jane vede il lavoro fatto da George. Seleziona la scheda "Documentazione"
 e vede che George si è dato da fare.
@@ -124,7 +120,7 @@ per dare un'occhiata più da vicino:
 
 .. figure:: ../_static/09.png
    :align: center
-   :alt:
+   :alt: null
 
 Si noti che Jane ha pieno accesso alla pagina che ha creato George. Lei
 può modificarla così come tagliarla/copiarla/incollarla. In realtà lei attenderà che
@@ -139,7 +135,7 @@ diverse pagine:**
 
 .. figure:: ../_static/09b.png
    :align: center
-   :alt:
+   :alt: null
 
 Jane ha deciso che vuole consegnare a George i permessi di modifica (ma non di
 pubblicazione) per tutti gli elementi cartella "Documentazione". Per fare questo Jane deve
@@ -149,7 +145,6 @@ tornare nella cartella "Documentazione" e cliccare sulla scheda *Condivisione*:
    :align: center
    :alt: sharing10.png
 
-   sharing10.png
 
 Da qui deve solo selezionare la casella di controllo "Può modificare" e George
 sarà in grado di modificare tutto il contenuto nella cartella "Documentazione" --
@@ -174,7 +169,6 @@ documento.
    :align: center
    :alt: sharing12.png
 
-   sharing12.png
 
 Quando Molly entrerà nella cartella "Documentazione", potrà vedere i due
 articoli pubblicati e l'elemento privato che ora è autorizzata a modificare:
@@ -183,7 +177,6 @@ articoli pubblicati e l'elemento privato che ora è autorizzata a modificare:
    :align: center
    :alt: sharing13.png
 
-   sharing13.png
 
 E, infatti, quando farà un click sul documento "Widget Installation", sarà
 in grado di modificarlo:
@@ -192,7 +185,6 @@ in grado di modificarlo:
    :align: center
    :alt: sharing13b.png
 
-   sharing13b.png
 
 Si noti, tuttavia, che quando Molly selezionerà uno dei due elementi dove non ha il
 permesso di modifica, non avrà alcun ulteriore accesso. Può visualizzare
@@ -203,7 +195,6 @@ questi due elementi perché sono pubblicati come definito nel workflow di defaul
    :align: center
    :alt: sharing13c.png
 
-   sharing13c.png
 
 Una nota finale su questo esempio: se la cartella "Documentazione" non fosse stata nello
 stato di pubblicazione O Molly non avesse avuto delle autorizzazioni particolari
