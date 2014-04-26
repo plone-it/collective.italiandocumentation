@@ -3,11 +3,6 @@ Inserire Tabelle
 
 **Inserire, aggiornare e cancellare tabelle, colonne, righe e celle.**
 
-:Data: 18-04-2014
-:Traduzione: Giovanni Giangiobbe
-:Impaginazione: Giovanni Giangiobbe
-:Revisione: Giovanni Giangiobbe
-
 Le tabelle sono ideali per mostrare dati in formato tabulare e liste. Per 
 aggiungere una tabella, posiziona il cursore nel punto in cui vuoi che la tabella
 sia creata e fai click sull'icona *Inserisci una nuova tabella*.
@@ -15,7 +10,7 @@ Avrai accesso al pannello *Inserisci/Modifica Tabella*:
 
 .. figure:: ../_static/insert_table.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Impostare il numero di colonne e righe è intuitivo. Se lo desideri, puoi aggiungere anche un
 sommario della tabelle tramite l'apposito campo.
@@ -25,7 +20,7 @@ lo stile da applicare. Puoi scegliere tra opzioni come quelle mostrate nella fig
 
 .. figure:: ../_static/insert_table_classes.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Di seguito alcuni esempi degli stili disponibili:
 
@@ -33,38 +28,38 @@ Subdued grid:
 
 .. figure:: ../_static/table_subdued_grid.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Invisible grid:
 
 .. figure:: ../_static/table_invisible_grid.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Fancy listing:
 
 .. figure:: ../_static/table_fancy_listing.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Fancy grid listing:
 
 .. figure:: ../_static/table_fancy_grid_listing.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Fancy vertical listing:
 
 .. figure:: ../_static/table_fancy_vertical_listing.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Una volta creata la tabella, è possibile far apparire i comandi 
 di ridimensionamento manuale, cliccando in una cella qualsiasi:
 
 .. figure:: ../_static/table_resize.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Nell'esempio mostrato dalla figura sopra, il cursore viene posizionato nella
 prima cella in alto a sinistra: ciò fa apparire dei piccoli quadratini lungo i bordi 
@@ -77,5 +72,5 @@ aggiungere o eliminare righe o colonne, dividere o unire celle.
 
 .. figure:: ../_static/table_controls.jpg
    :align: center
-   :alt: 
+   :alt: null
 
