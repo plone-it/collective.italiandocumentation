@@ -1,9 +1,9 @@
 Impostare il tuo profilo
 ================================
 
-Una volta autenticato in un sito web Plone, puoi cambiare il tuo profilo
+**Una volta autenticato in un sito web Plone, puoi cambiare il tuo profilo
 personale indicando informazioni circa la tua identità e scegliere le
-impostazioni del sito web.
+impostazioni del sito web.**
 
 Il tuo nome completo viene mostrato nell'angolo in alto a destra dello 
 schermo. Clicca sul tuo nome per aprire il menù a discesa, quindi clicca
