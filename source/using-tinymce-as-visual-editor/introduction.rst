@@ -3,11 +3,6 @@ Introduzione
 
 **Introduzione a TinyMCE.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
 TinyMCE è un editor WYSIWYG (What You See Is What You Got) in Javascript basato su una piattaforma web indipendente, con
 il quale è possibile creare contenuti HTML sul proprio sito web. 
 TinyMCE supporta molti Sistemi Operativi e browsers.
