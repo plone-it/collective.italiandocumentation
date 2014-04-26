@@ -3,11 +3,6 @@ Cancellare contenuti da una cartella
 
 **I vari contenuti possono essere cancellati facilmente da una cartella.**
 
-:Data: 18-04-2014
-:Traduzione: Giovanni Giangiobbe
-:Impaginazione: Giovanni Giangiobbe
-:Revisione: Giovanni Giangiobbe
-
 Alcune volte è necessario cancellare un contenuto, spesso per rimpiazzarlo
 con una versione aggiornata. Oppure è semplicemente necessario cancellare quel contenuto,
 per diverse necessità. Nell'esempio del contenuto relativo alla farfalla swallowtail aggiunto per errore
@@ -16,7 +11,7 @@ in qualche altra cartella:
 
 .. figure:: ../_static/operationdelete.png
    :align: center
-   :alt: 
+   :alt: null
 
 Nell'esempio mostrato sopra, la cartella *Eastern Tiger Swallowtail* sarà
 cancellata al click del bottone *Cancella*.
