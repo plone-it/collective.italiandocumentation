@@ -15,8 +15,8 @@ Plone). Tutti gli Ordinamenti sono in Ordine Crescente a meno che il checkbox Or
 sia selezionato. Selezionandolo è possibile visualizzare in ordine inverso,
 o visualizzare prima le date più recenti, ecc.
 
-**Date**
---------
+Date
+----
 
 Ci sono numerose opzioni Data che saranno descritte nella prossima
 sezione del manuale.
