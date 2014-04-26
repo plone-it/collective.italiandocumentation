@@ -5,11 +5,6 @@ Modificare i contenuti
 dell’aggiunta - solitamente i pannelli per l'immissione dei dati e per
 la modifica dei contenuti sono gli stessi.**
 
-:Data: 18-04-2014
-:Traduzione: Luca De Giorgi
-:Impaginazione: Luca De Giorgi
-:Revisione: Giovanni Giangiobbe
-
 Naturalmente, quando si modifica un elemento, l'oggetto esiste già.
 Fare clic sulla scheda Modifica di un contenuto per vedere il pannello
 di inserimento dati per quel contenuto, insieme con i valori già
@@ -33,7 +28,7 @@ cartella chiamata "Butterflies":
 
 .. figure:: ../_static/edititemfolder.png
    :align: center
-   :alt: 
+   :alt: null
 
 Tutto qui. Cambia ciò che si desidera e salva, ed il contenuto
 dell’elemento sarà aggiornato nel sistema Plone. Puoi modificare
@@ -55,7 +50,7 @@ sul pannello *Modifica*, verrà visualizzato il seguente pannello
 
 .. figure:: ../_static/editimage.png
    :align: center
-   :alt: 
+   :alt: null
 
 Nell'esempio in figura, un'immagine chiamata "Eastern Tiger Swallowtail Butterfly" sta
 per essere modificata. Puoi modificare il titolo e la descrizione,
@@ -72,7 +67,7 @@ diverse trasformazioni dell’immagine:
 
 .. figure:: ../_static/transformimage.png
    :align: center
-   :alt: 
+   :alt: null
 
 Quindi, la modifica di un immagine è un operazione leggermente diversa rispetto
 alla sua aggiunta, anche se non di molto.
@@ -103,7 +98,7 @@ testo del documento vengono pertanto mostrati come di consueto:
 
 .. figure:: ../_static/inlineeditingoff.png
    :align: center
-   :alt: 
+   :alt: null
 
 Ma quando il mouse viene spostato sopra il
 testo del documento, un box lo metterà in evidenza permettendo la
@@ -111,14 +106,14 @@ modifica:
 
 .. figure:: ../_static/inlineeditingbodytext1.png
    :align: center
-   :alt: 
+   :alt: null
 
 Facendo clic all'interno del testo del documento dopo che il box della
 modifica in linea è apparso, si attiverà l'editor di testo:
 
 .. figure:: ../_static/inlineeditingbodytext2.png
    :align: center
-   :alt: 
+   :alt: null
 
 Puoi cambiare o aggiungere del testo e salvare, e tornare quindi alla visualizzazione
 normale. Questa procedura è notevolmente più veloce (in termini di numero di click e
@@ -130,14 +125,14 @@ modifica in linea:
 
 .. figure:: ../_static/inlineeditingtitle1.png
    :align: center
-   :alt: 
+   :alt: null
 
 Facendo clic sul titolo dopo che compare il box, si attiva un campo di
 editing molto semplice, con due bottoni di scelta Salva e Annulla:
 
 .. figure:: ../_static/inlineeditingtitle2.png
    :align: center
-   :alt: 
+   :alt: null
 
 Puoi cambiare il titolo e salvare. 
 Il vantaggio della velocità della modifica in linea 
