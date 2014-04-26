@@ -5,11 +5,6 @@ Design Grafico dei Siti Web Plone
 design unici. Ecco una panoramica del layout Plone, e alcuni esempi di
 design.**
 
-:Traduzione: Federica D'Elia (27/11/2012)
-:Impaginazione: Federica D'Elia (27/11/2012)
-:Revisione: Maurizio Delmonte (28/04/2013)
-
-
 Come dovrebbe apparire un sito web Plone? Per anni c'è stato un
 design coerente per l'aspetto predefinito di Plone. Il design
 predefinito appare generalmente così:
