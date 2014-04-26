@@ -1,7 +1,6 @@
-.. _preparing-images-for-the-web:
 
 Preparare le immagini per il web
---------------------------------
+================================
 
 **Preparare le immagini per il web è una parte essenziale per utilizzare le immagini in Plone,
 come in qualsiasi contesto online.
