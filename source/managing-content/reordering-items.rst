@@ -4,11 +4,6 @@ Ordinamento elementi
 **Il tab dei contenuti contiene una funzione per l'ordinamento veloce e preciso
 degli elementi di una cartella.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
 Considera la seguente cartella, chiamata "Skippers," che contiene
 informazioni su questo tipo di farfalle. Spesso, quando aggiungiamo contenuti, 
 non li inseriamo nell'ordine finale che vorremmo ottenere. L'ordine desiderato
@@ -19,7 +14,7 @@ alfabetico:
 
 .. figure:: ../_static/copy_of_foldercontents.png
    :align: center
-   :alt: 
+   :alt: null
 
 Per muovere l'elemento più in alto chiamato "Spread-winged Skippers" in fondo alla
 lista, dovrai cliccare nella colonna di sinistra per l'Ordinamento (quella con il 
@@ -36,11 +31,11 @@ l'elemento. L'oggetto che stai spostando diventerà giallo e inizierà a muovers
 
 .. figure:: ../_static/foldercontentsdrag.png
    :align: center
-   :alt: 
+   :alt: null
 
 Quando rilascierai il pulsante del mouse, l'elemento si posizionerà in quel punto:
 
 .. figure:: ../_static/foldercontentsdrop.png
    :align: center
-   :alt: 
+   :alt: null
 
