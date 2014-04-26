@@ -4,7 +4,7 @@ Utilizzo delle collezioni
 **Le collezioni sfruttano l'intelligenza di Plone.**
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     introduction-to-collections
     adding-collections
