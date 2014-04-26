@@ -8,8 +8,8 @@ Imparare come utilizzare i diversi Criteri vi permetterà di creare
 Collezioni molto utili. In questa sezione, useremo
 esempi per illustrare i molti modi di utilizzare i Criteri.
 
-**Categorie**
--------------
+Categorie
+---------
 
 Il criterio Categoria consente di ricercare il **campo Categoria** degli
 oggetti. Perchè funzioni, è necessario aver specificato prima le Categorie per i contenuti
@@ -24,8 +24,8 @@ oggetti di contenuto che avevamo marcato con la Categoria *Organizzazione*.
 Ancora una volta, i valori disponibili sono completamente dipendenti da ciò che
 abbiamo specificato sui nostri oggetti nella scheda Categorizzazione.
 
-**Creatore**
-------------
+Creatore
+--------
 
 Quando utilizziamo il criterio Creatore, stiamo **creando un filtro sugli oggetti basato su
 chi li ha creati**. Ciò potrebbe essere utile se si vuole creare una
@@ -51,8 +51,8 @@ Tuttavia, invece di cercare nel titolo e nel corpo di una pagina, la collezione
 Questo criterio è realmente utile solo se si compila il
 campo Descrizione in modo coerente per tutti i tipi di contenuto.
 
-**Posizione**
--------------
+Posizione
+---------
 
 Utilizzare il criterio Posizione è molto simile a specificare una posizione nella
 ricerca di un documento sul disco rigido del tuo PC. Specificando un criterio Posizione,
@@ -72,8 +72,8 @@ facendo clic sul pulsante Sfoglia, sia facendo click direttamente sul titolo del
 si desidera aprire. È inoltre possibile utilizzare la casella di ricerca per cercare il Titolo di
 un oggetto.
 
-**Testo Ricercabile**
----------------------
+Testo Ricercabile
+-----------------
 
 Il Testo Ricercabile è un criterio molto utile. È simile al box di ricerca
 sul tuo sito o un motore di ricerca Internet. Prende il testo
@@ -112,8 +112,8 @@ Tenete a mente che, se ad esempio scelgo la pagina Storia come valore dell'opzio
 la collezione non tirerà fuori tutti i contenuti impostati come Contenuti Correlati della pagina Storia,
 ma tutti i contenuti che hanno la Pagina Storia come Contenuto correlato.
 
-**Stato**
----------
+Stato
+-----
 
 Utilizzare il criterio Stato è molto semplice. Ci permette di **fare una selezione in base allo
 stato pubblicato o privato**. È una buona idea limitare
@@ -123,8 +123,8 @@ stato Privato. Per esempio, un amministratore del sito
 potrebbe desiderare di vedere rapidamente i contenuti privati, in modo da poter determinare
 quale lavoro deve essere ancora fatto e che cosa potrebbe essere cancellato.
 
-**Date**
---------
+Date
+----
 
 Avrete notato che sono **disponibili parecchie date**
 da utilizzare come Criteri. Poiché ci sono un grande numero di
