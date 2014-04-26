@@ -1,12 +1,7 @@
 Copia di lavoro
-==================
+===============
 
 **La Copia di Lavoro ti permette di avere due versioni del tuo contenuto in parallelo.**
-
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
 
 Quando un sito Plone viene creato per la prima volta, ci sono diverse funzioni aggiuntive
 che possono essere abilitate, tra cui la "Copia di Lavoro". Se il sito Plone
@@ -39,13 +34,13 @@ In primo luogo, raggiungi la pagina che intendi rivedere. Poi dal menu "Azioni",
 
 .. figure:: ../_static/01.png
    :align: center
-   :alt:
+   :alt: null
 
 Apparirà un messaggio per informarti che da quel momento stai lavorando su una copia di lavoro:
 
 .. figure:: ../_static/03_new.png
    :align: center
-   :alt:
+   :alt: null
 
 Ora puoi liberamente modificare la copia locale del contenuto pubblicato.
 Il contenuto originale risulterà "bloccato" -- ovvero, nessun altro potrà
@@ -55,7 +50,7 @@ conseguentemente perse) sulla versione pubblicata.
 
 .. figure:: ../_static/locked.png
    :align: center
-   :alt:
+   :alt: null
 
 Utilizzare la funzione "Crea versione"
 --------------------------------------
@@ -65,20 +60,20 @@ ti basta semplicemente selezionare "Crea versione" dal menu "Azioni":
 
 .. figure:: ../_static/04a.png
    :align: center
-   :alt:
+   :alt: null
 
 Ti verrà richiesto di inserire un commento legato alla creazione della nuova versione. Compilalo e
 clicca su "Crea versione":
 
 .. figure:: ../_static/04b.png
    :align: center
-   :alt:
+   :alt: null
 
 Il tuo contenuto aggiornato diventerà la nuova copia pubblicata.
 
 .. figure:: ../_static/05.png
    :align: center
-   :alt:
+   :alt: null
 
 Verrai inoltre informato che non esisterà più una copia di lavoro del documento nella
 tua cartella personale.
@@ -96,14 +91,14 @@ salvare le tue modifiche**, vai semplicemente nella copia di lavoro e clicca su
 
 .. figure:: ../_static/cancel1.png
    :align: center
-   :alt:
+   :alt: null
 
 Ti verrà chiesto di confermare il comando "Annulla il check-out" o di "Mantenere il
 checkout":
 
 .. figure:: ../_static/cancel2.png
    :align: center
-   :alt:
+   :alt: null
 
 Nota che se un utente che ha estratto una copia di lavoro non è disponibile per
 effettuare la pubblicazione della copia di lavoro o annullarla, gli utenti con il ruolo di Manager
