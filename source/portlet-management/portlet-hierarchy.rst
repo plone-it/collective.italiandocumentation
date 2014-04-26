@@ -4,12 +4,6 @@ Gerarchia delle Portlet
 **Le Portlet utilizzano un approccio gerarchico che determina come e 
 se devono apparire in ogni sezione del sito.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
-
 Le Portlet utilizzano un approccio basato sulla gerarchia. Per 
 impostazione predefinita, le portlet che assegni alla radice (home page) 
 del sito si propagano verso tutte le sottosezioni dello stesso. Se desideri 
@@ -37,7 +31,6 @@ titolo della Pagina:
    :align: center
    :alt: hierarchy.gif
 
-   hierarchy.gif
 
 Come puoi vedere abbiamo due Portlet nella nostra pagina iniziale 
 (navigation and recent items). Entrambe appariranno nella pagina About
