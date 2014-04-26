@@ -7,11 +7,6 @@ come tipi di contenuto ti permette ad esempio di organizzarli in cartelle,
 di impostare delle parole chiave ad essi associate per facilitarne il raggruppamento
 negli elenchi e nei risultati di ricerca, o di inserirli nei menù di navigazione.**
 
-:Data: 27-11-2012
-:Traduzione: Giampiero Lago
-:Impaginazione: Giacomo Spettoli
-:Revisione: Giovanni Giangiobbe
-
 Per aggiungere un oggetto di tipo Collegamento seleziona la voce corrispondente
 dal menu *Aggiungi...* presente a livello di cartella Plone:
 
@@ -19,13 +14,12 @@ dal menu *Aggiungi...* presente a livello di cartella Plone:
    :align: center
    :alt: add-new-menu.png
 
-   add-new-menu.png
 
 Avrai accesso al pannello Aggiungi Collegamento:
 
 .. figure:: ../_static/addlink.png
    :align: center
-   :alt: 
+   :alt: null
 
 Scegliere dei buoni titoli è importante, perchè sono proprio i titoli
 ad essere visualizzati nella lista di tutti i collegamenti presenti all'interno di una cartella Plone.
@@ -36,7 +30,7 @@ funzionalità di anteprima dell'URL inserito, è meglio copiare quest'ultimo dir
 del browser nella quale lo si sta vedendo, in modo da essere sicuri della sua correttezza.
 
 Comportamento dell'oggetto di tipo Collegamento
------------------------
+-----------------------------------------------
 
 Un oggetto di tipo Collegamento si comporterà nei seguenti modi, a seconda delle
 autorizzazioni di cui si dispone.
