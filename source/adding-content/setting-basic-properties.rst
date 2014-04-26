@@ -1,11 +1,6 @@
 Impostazione delle proprietà di base
 ====================================
 
-:Data: 27-11-2012
-:Traduzione: Federica D'Elia
-:Impaginazione: Federica D'Elia
-:Revisione: Giovanni Giangiobbe
-
 **I tab disponibili per ogni tipo di
 contenuto Plone dispongono di campi per l'immissione delle informazioni di base. Fornire tali
 dati è importante, significa fornire combustibile per il motore di Plone.**
@@ -147,7 +142,8 @@ Per esempio:
     <meta content="en" name="DC.language" />
 
 Le proprietà Dublin Core *Creator*, *Contributors* e *Publisher* saranno visualizzate solamente se è stata abilitata
-la visualizzazione di queste informazioni per agli utenti anonimi. La configurazione si trova *Configurazioni del sito* al link *Sicurezza* 
+la visualizzazione di queste informazioni per agli utenti anonimi. La configurazione si trova
+in *Configurazioni del sito*, al link *Sicurezza* 
 
 Per saperne di più su `Dublin Core <http://dublincore.org/>`_ e
 `HTML
