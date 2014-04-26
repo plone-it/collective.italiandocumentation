@@ -6,16 +6,8 @@ comportare un po' di lavoro sul tuo computer locale, ma è essenziale
 perché fotografie, mappe e grafica personalizzata sono molto importanti nei
 siti web.**
 
-:Data: 27-11-2012
-:Traduzione: Giampiero Lago
-:Impaginazione: Giacomo Spettoli
-:Revisione: Giovanni Giangiobbe
-
-
 `Preparare un immagine per il web
 <../adding-content/preparing-images-for-the-web.html>`_
-
-
 
 .. note:: 
     Ricorda di utilizzare per tutte le immagini i formati di file comunemente accettati come standard sul web.
