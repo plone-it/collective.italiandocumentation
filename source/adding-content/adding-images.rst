@@ -6,16 +6,16 @@ comportare un po' di lavoro sul tuo computer locale, ma è essenziale
 perché fotografie, mappe e grafica personalizzata sono molto importanti nei
 siti web.**
 
-`Preparare un immagine per il web
-<../adding-content/preparing-images-for-the-web.html>`_
 
-.. note:: 
+:doc:`Preparare un immagine per il web </adding-content/preparing-images-for-the-web>`
+
+.. note::
     Ricorda di utilizzare per tutte le immagini i formati di file comunemente accettati come standard sul web.
     I formati accettabili includono: JPG, JPEG, GIF e PNG. Non usare i formati BMP
     e TIFF, poichè non sono supportati da tutti i browsers.
 
 Quando vuoi caricare una immagine, utilizza il menu *Aggiungi…*
-(vedrai il menu *Aggiungi…* solo dopo aver effettuato l'accesso): 
+(vedrai il menu *Aggiungi…* solo dopo aver effettuato l'accesso):
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
@@ -38,13 +38,13 @@ un'immagine. Analizziamo i tre campi di immissione dei dati:
 -  *Immagine* - Il campo Immagine è una casella di testo seguita da un bottone *Sfoglia…*. Nella casella di testo, tuttavia,
    non devi scrivere niente: clicca sul bottone Sfoglia e potrai
    scegliere il file da caricare selezionandolo direttamente dalle cartelle presenti sul tuo computer
-   (per fare questo, è utile tenere bene a mente in quale cartella del proprio computer è stata salvata 
+   (per fare questo, è utile tenere bene a mente in quale cartella del proprio computer è stata salvata
    l'immagine da caricare).
 
-Poichè Titolo e Descrizione non sono campi obbligatori, 
+Poichè Titolo e Descrizione non sono campi obbligatori,
 per caricare un'immagine sul tuo sito Plone tutto quello che serve è selezionare l'immagine stessa
 sul tuo computer tramite il bottone Sfoglia e
-cliccare sul bottone Salva presente nella parte inferiore del pannello. 
+cliccare sul bottone Salva presente nella parte inferiore del pannello.
 Dovrai aspettare qualche secondo per il completamento del
 caricamento (qualche minuto, se hai una connessione internet lenta).
 Un'anteprima dell'immagine verrà visualizzata al termine del
