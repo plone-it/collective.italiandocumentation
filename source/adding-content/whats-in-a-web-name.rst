@@ -5,11 +5,6 @@ Cosa c’è in un nome Web?
 Plone crea gli indirizzi automaticamente, in base al Titolo che avete
 fornito.**
 
-:Data: 27-11-2012
-:Traduzione: Giampiero Lago
-:Impaginazione: Giacomo Spettoli
-:Revisione:
-
 Il **Titolo** di un contenuto, incluse cartelle, immagini, pagine, etc.
 può essere tutto ciò che vuoi – puoi usare tutti i caratteri della
 tastiera, inclusi gli spazi bianchi. I titoli diventano parte dell’indirizzo
