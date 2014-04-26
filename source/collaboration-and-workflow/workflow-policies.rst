@@ -6,11 +6,6 @@ di creare un sistema formalizzato per controllare la pubblicazione e
 la gestione dei contenuti come in un flusso che, passo a passo, coinvolge 
 utenti diversi con ruoli prestabiliti.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
 I workflow sono un argomento avanzato. Implicano la creazione di un controllo 
 più rigido nell'aggiunta, revisione e pubblicazione di contenuti. Se disponi 
 di un account su un tipico sito Plone di piccole dimensioni, probabilmente non 
@@ -41,7 +36,7 @@ In seguito, i reporters vi potranno creare gli articoli ed inviarli per la revis
 
 .. figure:: ../_static/workflowsteps.png
    :align: center
-   :alt: 
+   :alt: null
 
 I reporter dovrebbe aggiungere articoli e dovrebbero solo *sottoporli per la pubblicazione* (l'opzione *pubblica*
 del menu non è disponibile per loro). Allo stesso modo, i redattori possono *rifiutare*
