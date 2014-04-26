@@ -5,11 +5,6 @@ Blocco e sblocco automatico dei contenuti
 è bloccato, chi l'ha bloccato e da quanto tempo è stato bloccato - in tal modo,
 non potrai interferire con i cambiamenti apportati a quel contenuto da un altro utente.**
 
-:Data: 18-04-2014
-:Traduzione: Giovanni Giangiobbe
-:Impaginazione: Giovanni Giangiobbe
-:Revisione: Giovanni Giangiobbe
-
 Quando qualcuno fa un click sul tab Modifica di un contenuto, quest'ultimo viene
 immediatamente bloccato. Questa funzione previene che due persone editino contemporaneamente
 lo stesso contenuto, e che un utente sovrascriva accidentalmente con le proprie modifiche quelle fatte da un altro
