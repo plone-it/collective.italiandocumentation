@@ -1,13 +1,8 @@
 Aggiungere Collezioni
-=======================
+=====================
 
 **Le Collezioni (una volta chiamate Smart Folders) sono contenitori virtuali con liste 
 di elementi trovati utilizzando ricerche specifiche.**
-
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
 
 Comprendere che i contenuti possono essere memorizzati ovunque in un sito Plone
 ma possono essere recuperati con collezioni personalizzate che creano "viste" sui contenuti stessi, 
@@ -21,7 +16,6 @@ aggiungi altri tipi di contenuto:
    :align: center
    :alt: p4\_addnewmenu
 
-   p4\_addnewmenu
 
 Ti comparirà il riquadro per aggiungere una *Collezione*:
 
@@ -29,7 +23,7 @@ Ti comparirà il riquadro per aggiungere una *Collezione*:
    :align: center
    :alt: p4\_addcollection2
 
-   p4\_addcollection2
+
 
 Sotto i campi titolo e descrizione ci sono un insieme di campi per specificare
 il formato dei risultati restituiti dal criterio di ricerca della
@@ -47,7 +41,7 @@ fai click sulla scheda criteri per visualizzare il pannello per impostare i crit
    :align: center
    :alt: p4\_collectionssearchcrit1 2
 
-   p4\_collectionssearchcrit1 2
+
 
 L'area superiore del pannello, *Aggiungi nuovo Criterio*, consente di impostare un
 campo e un criterio di corrispondenza. L'area inferiore, *Ordinamento*, permette semplicemente 
@@ -57,7 +51,6 @@ di selezionare un campo per l'ordinamento:
    :align: center
    :alt: p4\_collectionssearchcrit2 2
 
-   p4\_collectionssearchcrit2 2
 
 I tipi di criteri per la ricerca dipendono da quale campo viene selezionato.
 
