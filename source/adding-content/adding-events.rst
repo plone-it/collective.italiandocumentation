@@ -4,19 +4,11 @@ Aggiungere un Evento
 **I siti Plone hanno un sistema integrato per la gestione e la visualizzazione 
 di eventi in un caledario.**
 
-:Data: 27-11-2012
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
-
 In una cartella, utilizza la voce del menu *Aggiungi...* per aggiungere un evento:
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
    :alt: add-new-menu.png
-
-   add-new-menu.png
 
 Comparirà un pannello abbastanza grande *Aggiungi Evento*:
 
@@ -52,13 +44,13 @@ al selettore a discesa del giorno, :
 
 .. figure:: ../_static/eventstartandendfields.png
    :align: center
-   :alt: 
+   :alt: null
 
 comparirà questo calendario pop-up:
 
 .. figure:: ../_static/calendarpopuppanel.png
    :align: center
-   :alt: 
+   :alt: null
 
 E' sufficiente cliccare sul giorno di interesse e questo verrà automaticamente impostato nel pannello.
 Compila i campi per i quali hai informazioni e salva, ma ricorda :
@@ -66,9 +58,5 @@ Compila i campi per i quali hai informazioni e salva, ma ricorda :
 **IMPORTANTE**: L'evento non verrà visualizzato nel calendario principale del sito fino a 
 quando non sarà **pubblicato**.
 
-
-`|image5| <http://media.plone.org/LearnPlone/Creating%20an%20Event.swf>`_
-Guarda il video con Plone 2 su come `aggiungere un
-evento <http://media.plone.org/LearnPlone/Creating%20an%20Event.swf>`_.
 
 .. |image4| image:: ../_static/addevent.png
