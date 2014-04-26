@@ -3,18 +3,13 @@ Definizione dei Criteri
 
 **Definizioni ed esempi dei vari campi criteri disponibili**
 
-:Data: 18-04-2014
-:Traduzione: Federica D'Elia
-:Impaginazione: Federica D'Elia
-:Revisione: Giovanni Giangiobbe
-
 Il potere delle Collezioni dipende certamente dai criteri che si possono impostare per esse.
 Imparare come utilizzare i diversi Criteri vi permetterà di creare
 Collezioni molto utili. In questa sezione, useremo
 esempi per illustrare i molti modi di utilizzare i Criteri.
 
 **Categorie**
---------------
+-------------
 
 Il criterio Categoria consente di ricercare il **campo Categoria** degli
 oggetti. Perchè funzioni, è necessario aver specificato prima le Categorie per i contenuti
