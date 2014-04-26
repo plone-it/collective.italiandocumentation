@@ -5,11 +5,6 @@ Controllo di versione
 elemento, confrontare le versioni, visualizzare in anteprima le versioni
 precedenti e ripristinare versioni precedenti.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
 Creare una nuova versione
 --------------------------
 
@@ -64,7 +59,6 @@ link *Confronta* collocato tra le due versioni nella finestra della Cronologia.
    :align: center
    :alt: compare-button.png
 
-   compare-button.png
 
 Cliccando su questo link, vedrai un una schermata come questa, in cui è possibile
 vedere le differenze fra le due versioni:
@@ -82,7 +76,6 @@ verde è quello che è stato aggiunto alla versione più recente.
    :align: center
    :alt: Comparing Versions (HTML Source)
 
-   Confronto versioni (Sorgente HTML)
 
 È inoltre possibile confrontare qualsiasi versione precedente con la versione *corrente*
 cliccando sul link *Confronta con versione attuale* nella finestra della Cronologia, 
