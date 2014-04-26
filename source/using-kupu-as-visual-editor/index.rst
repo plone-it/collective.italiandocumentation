@@ -5,11 +5,6 @@ Usare Kupu come visual editor
 web based. Questo significa che ti consente di creare contenuti HTML sul
 tuo sito web.**
 
-:Data: 18-04-2014
-:Traduzione: Federica D'Elia
-:Impaginazione: Federica D'Elia
-:Revisione: Giovanni Giangiobbe
-
 Da Plone 4 in poi, TinyMCE è il visual editor predefinito per i nuovi siti.
 Tuttavia, Kupu è ancora disponibile se lo preferisci. Controlla la sezione
 `Impostare il tuo profilo <https://documentazione-plone.readthedocs.org/en/latest/introduction/setting-your-preferences.html>`_
@@ -89,7 +84,7 @@ e apparirà il pannello *Inserisci ollegamento*:
 
 .. figure:: ../_static/insertlinkpanel.png
    :align: center
-   :alt:
+   :alt: null
 
 Puoi utilizzare questo pannello facendo click sulla cartella Home o sulla cartella Corrente,
 per iniziare la navigazione nel sito web Plone e per trovare una cartella, una pagina,
@@ -106,7 +101,7 @@ e apparirà il pannello *Collegamento Esterno*:
 
 .. figure:: ../_static/externallinkpanel.png
    :align: center
-   :alt:
+   :alt: null
 
 Digitare l'indirizzo web del sito esterno nel box che inizia con http://. È possibile
 fare click su *anteprima* se hai bisogno di controllare l'indirizzo. Se incolli
@@ -131,21 +126,21 @@ all'inizio del documento come per un indice:
 
 .. figure:: ../_static/anchortext.png
    :align: center
-   :alt:
+   :alt: null
 
 Quindi seleziona ogni sottotitolo riscritto all'inizio del documento e
 clicca l'icona a forma di ancora:
 
 .. figure:: ../_static/anchorset.png
    :align: center
-   :alt:
+   :alt: null
 
 Apparirà una maschera che permetterà di selezionare quale sottotitolo deve essere
 collegato all'ancora:
 
 .. figure:: ../_static/anchorwindow.png
    :align: center
-   :alt:
+   :alt: null
 
 Verrà visualizzata la scheda *Collegamento all'ancora*. La sezione di sinistra mostrerà una lista di
 stili che posso essere utilizzati nel documento. Nel nostro esempio, i sottotitoli
@@ -167,7 +162,7 @@ Vedrai il pannello *Aggiungi tabella*:
 
 .. figure:: ../_static/inserttablepanel.png
    :align: center
-   :alt:
+   :alt: null
 
 L'impostazione delle righe e delle colonne è semplice. Se selezioni il
 box *Crea Intestazioni* avrai un posto dove digitare le intestazioni
@@ -176,7 +171,7 @@ suo stile. Hai scelte come queste:
 
 .. figure:: ../_static/inserttablepanelclasses.png
    :align: center
-   :alt:
+   :alt: null
 
 Ecco alcuni esempi di questi stili per la tabella:
 
