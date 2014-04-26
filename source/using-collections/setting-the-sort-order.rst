@@ -4,11 +4,6 @@ Impostazione del criterio di Ordinamento
 **Scopri come utilizzare la funzione di Ordinamento per personalizzare l'ordine in cui
 i risultati vengono visualizzati**
 
-:Data: 18-04-2014
-:Traduzione: Federica D'Elia
-:Impaginazione: Federica D'Elia
-:Revisione: Giovanni Giangiobbe
-
 L'Ordinamento **determina l'ordine dei risultati della Collezione**.
 L'Ordinamento consente di ordinare su tre principali
 categorie: testo, proprietà degli oggetti, e date. Quando si ordina in base al testo,
