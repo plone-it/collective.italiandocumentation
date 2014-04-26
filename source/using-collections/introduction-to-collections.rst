@@ -5,10 +5,6 @@ Introduzione alle Collezioni
 un database. Utilizza le Collezioni per ordinare e visualizzare in modo
 dinamico il tuo contenuto.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
 
 Una **Collezione** in Plone funziona come un report o una query fatta in 
 un database. L'idea è di utilizzare una collezione per cercare nel tuo sito web
@@ -18,8 +14,8 @@ descrizione o nel corpo.
 
 Diciamo che sul tuo sito web hai un ampio catalogo di foto e mappe.
 Si possono facilmente visualizzare tutte in una sola volta creando un
-`collegamento ipertestuale <http://documentazione-plone.readthedocs.org/en/latest/adding-content/adding-links.html>`_ alla
-`cartella <http://documentazione-plone.readthedocs.org/en/latest/adding-content/adding-folders.html>`_ dove sono archiviate. 
+`collegamento ipertestuale <../adding-content/adding-links.html>`_ alla
+`cartella <../adding-content/adding-folders.html>`_ dove sono archiviate. 
 Potresti persino creare collegamenti differenti
 per differento sotto-cartelle, se hai organizzato le cose in questo modo.
 Tuttavia, se le immagini e le mappe fossero inserite
