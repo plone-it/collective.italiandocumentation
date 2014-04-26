@@ -3,11 +3,6 @@ Regolazione delle Impostazioni di Visualizzazione
 
 **Scopri come le impostazioni di visualizzazione possono modificare l'aspetto della pagina Collezione.**
 
-:Data: 18-04-2014
-:Traduzione: Federica D'Elia
-:Impaginazione: Federica D'Elia
-:Revisione: Giovanni Giangiobbe
-
 Mentre il punto di forza delle Collezioni sta nei Criteri, le impostazioni
 di visualizzazione possono fare una grande differenza nel modo in cui la vostra Collezione sarà
 mostrata. Tutte e tre le impostazioni che tratteremo in questa sezione possono essere
