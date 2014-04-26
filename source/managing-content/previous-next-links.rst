@@ -6,11 +6,6 @@ Link Precedente - Successivo
 **La visualizzazione dei link automatici Precedente-Successivo per i contenuti
 presenti in una cartella può essere abilitata nel tab Impostazioni della cartella stessa.**
 
-:Data: 18-04-2014
-:Traduzione: Giovanni Giangiobbe
-:Impaginazione: Giovanni Giangiobbe
-:Revisione: Giovanni Giangiobbe
-
 Il tab *Impostazioni* viene visualizzato al click del tab *Modifica* della cartella.
 C'è una casella di spunta per abilitare i link Precedente-Successivo per i vari 
 elementi contenuti nella cartella:
@@ -18,14 +13,14 @@ elementi contenuti nella cartella:
 
 .. figure:: ../_static/previousnextenabling.png
    :align: center
-   :alt: 
+   :alt: null
 
 Una volta abilitati, i link Precedente-Successivo compariranno automaticamente, se necessario, man
 mano che i vari contenuti verranno aggiunti alla cartella:
 
 .. figure:: ../_static/previousnextexample.png
    :align: center
-   :alt: 
+   :alt: null
 
 Tre pagine sono state create all'interno della cartella Cloudywings, ed è
 stata selezionata la "Pagina Due" (che in questo esempio non ha testo). Alla fine della
