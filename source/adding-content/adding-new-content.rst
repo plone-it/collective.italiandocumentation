@@ -4,10 +4,6 @@ Aggiungere nuovi contenuti
 **Una panoramica generale su come aggiungere nuovi contenuti in Plone
 e definizione dei tipi di contenuto standard.**
 
-:Traduzione: Alex Sani (27/11/2012)
-:Impaginazione: Alex Sani (27/11/2012)
-:Revisione: Giacomo Spettoli (19/05/2013)
-
 Per aggiungere nuovi contenuti si utilizza il menu a discesa
 **Aggiungi...**:
 
@@ -20,7 +16,6 @@ navigare fino alla sezione dove desideri aggiungere il contenuto prima
 di usare la voce del menu **Aggiungi...**. E' possibile ovviamente
 tagliare, copiare e incollare contenuti da una sezione  ad un altra se
 necessario.
-
 
 Tipi di contenuti
 -----------------
@@ -51,8 +46,6 @@ disponibili  nell'ordine in cui appaiono ed una breve descrizione:
     .. figure:: ../_static/events-summary-chart.jpg
        :align: center
        :alt: events-summary-chart.jpg
-    
-       events-summary-chart.jpg
 
     A partire da Plone 3.3 è anche possibile scaricare tutti gli Eventi 
     di una cartella in una sola volta (al momento è disponibile 
