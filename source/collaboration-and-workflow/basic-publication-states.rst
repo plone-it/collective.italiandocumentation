@@ -4,10 +4,6 @@ Stati di pubblicazione di base
 **Il sistema di controllo della pubblicazione di Plone è molto flessibile, 
 a partire dalle impostazioni di base per la creazione di un elemento privato o pubblico.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
 
 Nell'angolo in alto a destra del riquadro di modifica di qualsiasi tipo di contenuto --
 cartelle, immagini, pagine, etc. e tutti i tipi di contenuto specializzati -- c'è
@@ -16,7 +12,7 @@ gestisce lo stato della pubblicazione:
 
 .. figure:: ../_static/statemenu1.png
    :align: center
-   :alt: 
+   :alt: null
 
 L'intestazione del menu mostrerà lo stato di pubblicazione attuale del
 contenuto, ad esempio *Stato: Privato*, come mostrato sopra. Lo stato Privato è lo
@@ -55,7 +51,7 @@ Le scelte del menu di pubblicazione cambieranno di conseguenza:
 
 .. figure:: ../_static/statemenu2.png
    :align: center
-   :alt: 
+   :alt: null
 
 Occorre prendere in considerazione di revocare ("annullamento della pubblicazione"), o di
 rendere *privato*, qualsiasi contenuto che è diventato obsoleto o indesiderato per qualsiasi 
