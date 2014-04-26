@@ -4,11 +4,6 @@ Restrizioni sui tipi di contenuto in una cartella
 **Il menu "Aggiungi nuovo" ha la possibilità di limitare i tipi di 
 contenuto che possono essere aggiunti alla cartella.**
 
-:Data: 27-11-2012
-:Traduzione: Massimo Azzolini
-:Impaginazione: Massimo Azzolini
-:Revisione: Giovanni Giangiobbe
-
 Limitare i tipi di contenuti che possono essere aggiunti ad una cartella è
 il modo più semplice per controllare la creazione di contenuti in un 
 sito web Plone. Puoi scegliere di utilizzare restrizioni sui tipi di contenuti se il
@@ -23,13 +18,12 @@ chiamata "Restrizioni..."
    :align: center
    :alt: add-new-menu.png
 
-   add-new-menu.png
 
 Ci sono tre scelte possibili per aggiungere restrizioni ai tipi di contenuto creabili in una cartella:
 
 .. figure:: ../_static/restricttypes.png
    :align: center
-   :alt: 
+   :alt: null
 
 La scelta di default è di utilizzare le impostazioni della cartella-padre.
 Avere questa impostazione come default significa che se crei una 
@@ -43,7 +37,7 @@ L'ultima scelta permette di selezionare da una lista di tipi di contenuti dispon
 
 .. figure:: ../_static/restricttypesmanually.png
    :align: center
-   :alt: 
+   :alt: null
 
 I tipi di contenuti elencati sotto la voce *Tipi consentiti* sono quelli disponibili
 all'interno del sito web. Il default, come mostrato, è di permettere l'aggiunta di tutti i tipi di contenuti. 
