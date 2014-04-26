@@ -4,12 +4,6 @@ Viste per una cartella
 **Le cartelle hanno il tab Visualizza, che permette di impostare i vari modi in cui può essere mostrato 
 il contenuto della cartella stessa.**
 
-:Data: 18-04-2014
-:Traduzione: Giovanni Giangiobbe
-:Impaginazione: Giovanni Giangiobbe
-:Revisione: Giovanni Giangiobbe
-
-
 Per la maggior parte dei contenuti, puoi editare il contenuto stesso per cambiare il modo
 in cui esso appare. Ma le cartelle sono tipi di contenuto particolari. In quanto
 contenitori di altri elementi, le cartelle posso mostrare il loro contenuto
@@ -27,7 +21,6 @@ più semplicemente la "vista standard":
    :align: center
    :alt: folder-view-standard.png
 
-   folder-view-standard.png
 
 Il tab *Visualizza* mostra sempre il modo in cui un qualsiasi contenuto
 appare al navigatore anonimo del sito web. Fai click sul tab *Visualizza*, perciò,
@@ -39,26 +32,26 @@ La vista di default è chiamata *Vista standard*:
 
 .. figure:: ../_static/folderdisplaymenu.png
    :align: center
-   :alt: 
+   :alt: null
 
 Di seguito, invece, come appare la *Vista riassuntiva*:
 
 .. figure:: ../_static/folderviewsummary.png
    :align: center
-   :alt: 
+   :alt: null
 
 E ancora, la *Vista tabellare*:
 
 .. figure:: ../_static/folderviewtabular.png
    :align: center
-   :alt: 
+   :alt: null
 
 E, infine, la *Vista provini*, che è particolarmente utile per le immagini,
 ma funziona anche per gli altri tipi di contenuto:
 
 .. figure:: ../_static/folderviewthumbnail.png
    :align: center
-   :alt: 
+   :alt: null
 
 Creare un album fotografico in Plone è molto semplice. Devi solo
 aggiungere le foto (immagini, tipicamente in formato .jpg) in una cartella
