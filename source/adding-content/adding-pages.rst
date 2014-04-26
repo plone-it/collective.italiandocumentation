@@ -4,24 +4,18 @@ Aggiungere una Pagina
 **Le pagine in Plone possono variare molto, ma ad ogni modo sono
 sempre "pagine web".**
 
-:Data: 27-11-2012
-:Traduzione: Giacomo Spettoli
-:Impaginazione: Giacomo Spettoli
-:Revisione: Giovanni Giangiobbe
-
-
 Per aggiungere una pagina, utilizza il menu *Aggiungi...* presente in Plone a livello di cartella: 
 
 .. figure:: ../_static/addnewmenu.png
    :align: center
-   :alt: 
+   :alt: null
 
 Seleziona la voce **Pagina** dal menu a discesa e vedrai il pannello
 *Aggiungi pagina*:
 
 .. figure:: ../_static/editpagepanelplone3.png
    :align: center
-   :alt: 
+   :alt: null
 
 I campi **Titolo** e **Descrizione** sono i primi in alto, riempili in
 maniera appropriata. C'è un campo *Commento alle modifiche* in fondo,
