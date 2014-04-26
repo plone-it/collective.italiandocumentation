@@ -41,8 +41,8 @@ utilizzare l'opzione **Elenco dei Valori**. In caso contrario, si usa normalment
 l'opzione Testo, a meno che il creatore che si vuole selezionare non siate voi stesso, nel qual
 caso si utilizza l'opzione Limita a Utente Attuale.
 
-**Descrizione**
----------------
+Descrizione
+-----------
 
 Il campo Descrizione è essenzialmente un criterio che funziona come le ricerche testuali sul sito,
 fatte con un campo di tipo **search box** dove immettere i termini da cercare.
@@ -87,8 +87,8 @@ utilizzando il criterio Testo Ricercabile, specificando *collezioni* come valore
 Tutti i Tutorial, Video, voci di Glossario, ecc con *Collezioni* nel Titolo,
 nella Descrizione, o nel Corpo del Testo dovrebbero quindi comparire come risultati delle Collezione.
 
-**Contenuti Correlati**
------------------------
+Contenuti Correlati
+-------------------
 
 Il campo Contenuti Correlati è un altro campo, come Categoria, che **deve essere
 specificato su un oggetto contenuto prima di essere utilizzato per una Collezione**.
