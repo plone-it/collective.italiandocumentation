@@ -1,10 +1,6 @@
 Impostare il tuo profilo
 ================================
 
-:Traduzione: Massimo Azzolini (27/11/2012)
-:Impaginazione: Massimo Azzolini (27/11/2012)
-:Revisione: Maurizio Delmonte (01/05/2013)
-
 Una volta autenticato in un sito web Plone, puoi cambiare il tuo profilo
 personale indicando informazioni circa la tua identità e scegliere le
 impostazioni del sito web.
