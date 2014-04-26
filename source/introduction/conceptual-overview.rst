@@ -3,11 +3,6 @@ Panoramica
 
 **Una spiegazione di Plone come content management system.**
 
-:Traduzione: Giacomo Spettoli (27/11/2012)
-:Impaginazione: Giacomo Spettoli (27/11/2012)
-:Revisione: Maurizio Delmonte (28/04/2013)
-
-
 Cos'è Plone?
 ------------
 
