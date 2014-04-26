@@ -1,11 +1,6 @@
 Contenuti delle cartelle
 ========================
 
-:Data: 27-11-2012
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
 **Il tab Contenuti mostra la lista degli elementi in una cartella. E' il posto
 dove eseguire semplici operazioni sugli elementi e dove eseguire azioni come copiare, 
 tagliare, incollare, spostare, riordinare, etc.**
@@ -20,7 +15,6 @@ qui sotto, verrà mostrato la pannello *Contenuti*:
    :align: center
    :alt: folder-contents.png
 
-   folder-contents.png
 
 La scheda *Contenuti* è immediatamente riconoscibile per la presenza delle caselle di spunta (check boxes)
 accanto alle voci della lista. Spunta le caselle per selezionare più elementi ed
@@ -77,7 +71,7 @@ in cartelle con centinaia di oggetti.
 
 .. figure:: ../_static/advancedstatepanel.png
    :align: center
-   :alt: 
+   :alt: null
 
 In aggiunta a queste operazioni, il riordinamento può essere fatto
 in maniera naturale con il mouse, come descritto nella sezione successiva.
