@@ -3,10 +3,6 @@ Inserire collegamenti (links)
 
 **Inserire collegamenti interni, esterni ed ancore**
 
-:Data: 18-04-2014
-:Traduzione: Giovanni Giangiobbe
-:Impaginazione: Giovanni Giangiobbe
-:Revisione: Giovanni Giangiobbe
 
 Collegamenti interni
 --------------------
@@ -29,14 +25,13 @@ seleziona "Barra degli strumenti esterna" nella colonna Librerie; si aprirà un 
 
 .. figure:: ../_static/insert_external_link.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Digita l'indirizzo del sito web esterno cui vuoi far puntare il collegamento nella casella dopo http://.
 Quando premi Invio sulla tastiera o clicchi in un altro punto del pannello diverso dal campo di input,
 apparirà una preview, per permetterti di verificare che il sito web scelto sia quello giusto.
 Se incolli l'indirizzo web, assicurati che la stringa http:// non venga duplicata.
 Quindi clicca *Ok*. Il collegamento esterno verrà impostato per la parola o la frase che hai selezionato.
-
 
 
 Ancore
@@ -63,21 +58,21 @@ il nome dell'ancora nell'apposito campo. Quindi, fai click su *Ok*
 
 .. figure:: ../_static/insert_anchor.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Poi, seleziona uno dei sottotitoli che hai riscritto all'inizio del documento
 e fai click sull'icona *Inserisci/modifica collegamento*
 
 .. figure:: ../_static/insert_anchor_select_text.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 Selezionando *Ancore* dalla colonna "Librerie*, apparirà un pannello
 che ti permette di selezionare il sottotitolo cui far puntare il collegamento:
 
 .. figure:: ../_static/select_anchor.jpg
    :align: center
-   :alt: 
+   :alt: null
 
 
 Il tab "Collegamento ad un'ancora" apparirà. La parte destra del pannello
