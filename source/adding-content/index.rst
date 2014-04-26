@@ -5,7 +5,7 @@ Aggiungere contenuti
 Come aggiungere contenuti base ai siti web Plone
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     adding-new-content
     adding-folders
