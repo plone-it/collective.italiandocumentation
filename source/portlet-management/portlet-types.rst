@@ -3,11 +3,6 @@ I tipi di Portlet
 
 **Descrizione dei tipi di Portlet disponibili**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
 Ci sono diversi tipi di Portlet da scegliere. A volte, il nome dei vari
 tipi può essere ambiguo. Inoltre, alcuni possono
 essere configurati attraverso la Gestione Portlet e altri richiedono configurazioni
