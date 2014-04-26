@@ -4,24 +4,18 @@ Controllo avanzato
 **Il sistema di controllo della pubblicazione, alla voce del menu avanzate, ha caratteristiche 
 sofisticate per impostare la disponibilità per data e per contesto.**
 
-:Data: 18-04-2014
-:Traduzione: Alex Sani
-:Impaginazione: Alex Sani
-:Revisione: Giovanni Giangiobbe
-
 Il menu *Stato* ha una voce *Avanzate*...:
 
 .. figure:: ../_static/statemenu.png
    :align: center
    :alt: state-menu.png
 
-   state-menu.png
 
 che porta al pannello per la gestione *avanzata* della pubblicazione:
 
 .. figure:: ../_static/stateadvanced.png
    :align: center
-   :alt: 
+   :alt: null
 
 Di seguito una spiegazione dell'immagine: partendo dall'inizio del pannello c'è una
 casella che mostra il contenuto che sarà interessato dalla modifica dello
