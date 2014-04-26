@@ -5,13 +5,8 @@ Creare un tema con Diazo
 **Questa guida fornisce una panaromica sull'uso di DIAZO per creare un
 tema in Plone.**
 
-    :Date: 27-11-2012
-    :Translator: Naldesi
-    :Impagination: `Giacomo Spettoli <mailto:giacomo.spettoli@gmail.com>`_
-    :Source: `http://pypi.python.org/pypi/plone.app.theming <http://pypi.python.org/pypi/plone.app.theming>`_
 
-
-.. contents:: 
+.. contents::
 
 Che cos'è un tema Diazo?
 ===========================
@@ -432,7 +427,7 @@ bin/instance fg), le modifiche fatte al tema e alle regole hanno effetto
 immediato. Si può avere un'anteprima o abilitare il tema attraverso il
 pannello di controlloThemes, e quindi modificare come si desidera ed in
 modo interattivo il file rules.xml o il modello del tema.
-   
+
 Installazione attraverso il web
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -447,7 +442,7 @@ di controllo descritte precedentemente.
 Una volta creato, il tema può essere modificato dal pannello di
 controllo di Theming. Per maggiori dettagli si rimanda alle istruzioni
 descritte precedentemente.
-   
+
 Installazione come file zip
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 

@@ -38,9 +38,12 @@ Si ringraziano per il loro contributo a questa documentazione:
 * `Maurizio Delmonte <maurizio.delmonte@abstract.it>`_ (ideatore/motivatore)
 * `Massimo Azzolini <massimo@redturtle.it>`_ (motivatore/traduttore)
 * `Federica D'Elia <federica.delia@redturtle.it>`_ (traduttore)
+* Giovanni Giangiobbe (traduttore/revisore)
 * `Giampiero Lago <lago.giampiero@gmail.com>`_
 * `Alex Sani <alexsani.re@gmail.com>`_
-*  Luciano Naldesi 
+* Luciano Naldesi
+* Giorgio Borelli
+
 
 .. |Events summary table| image:: _static/events-summary-chart.jpg
 .. |lights-camera-action.png| image:: _static/lights-camera-action.png

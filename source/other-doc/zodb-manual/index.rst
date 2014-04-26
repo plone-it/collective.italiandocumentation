@@ -2,13 +2,8 @@
 ZODB - un database nativo ad oggetti per Python
 ================================================
 
-    Non schiacciare i tuoi oggetti nelle tabelle: memorizzali in un database
-    ad oggetti
-
-:Data: 29-01-2012
-:Traduzione: Giacomo Spettoli
-:Impaginazione: Giacomo Spettoli
-:Revisione:
+**Non schiacciare i tuoi oggetti nelle tabelle: memorizzali in un database
+ad oggetti.**
 
 
 Panoramica
@@ -49,7 +44,6 @@ Documentazione
 
    documentation/tutorial
    documentation/guide/index
-   documentation/articles/index
    bugs
    features
 
