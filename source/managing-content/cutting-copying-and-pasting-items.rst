@@ -4,11 +4,6 @@ Tagliare, Copiare e Incollare contenuti
 **Le operazioni taglia, copia e incolla comportano lo spostamento di uno o più contenuti
 da una cartella ad un'altra.**
 
-:Data: 18-04-2014
-:Traduzione: Luca De Giorgi
-:Impaginazione: Luca De Giorgi
-:Revisione: Giovanni Giangiobbe
-
 Taglia/Incolla
 --------------
 
@@ -21,7 +16,7 @@ nella cartella-padre Skippers, può semplicemente spostarla con una operazione d
 
 .. figure:: ../_static/copy_of_operationcut.png
    :align: center
-   :alt: 
+   :alt: null
 
 Nota che la cartella Eastern Tiger Swallowtail è stata selezionata,
 e che il pulsante *Taglia* sta per essere cliccato.
@@ -32,7 +27,7 @@ Il pulsante *Incolla* viene ora evidenziato per mostrare che l'operazione *tagli
 
 .. figure:: ../_static/operationpaste.png
    :align: center
-   :alt: 
+   :alt: null
 
 Il pulsante *Incolla* ora è attivo.
 Il passo successivo è quello di selezionare la cartella di destinazione,
@@ -40,7 +35,7 @@ in questo caso la cartella Swallowtails:
 
 .. figure:: ../_static/copy_of_operationpaste2.png
    :align: center
-   :alt: 
+   :alt: null
 
 Dopo aver cliccato ed essere entrati nella cartella Swallowtails,
 il pulsante *Incolla* continuerà a vedersi,
@@ -48,7 +43,7 @@ perché l'operazione Incolla non è ancora stata completata:
 
 .. figure:: ../_static/operationpaste3.png
    :align: center
-   :alt: 
+   :alt: null
 
 Per ultimo, facendo clic sul pulsante *Incolla* all'interno della cartella di destinazione Swallowtails,
 la cartella Eastern Tiger Swallowtail viene infine aggiunta nel giusto posto, e
@@ -57,7 +52,7 @@ L’operazione di *Copia*/*Incolla* è ora completata:
 
 .. figure:: ../_static/operationpaste4.png
    :align: center
-   :alt: 
+   :alt: null
 
 Il pulsante *Incolla* rimane attivo,
 perché è possibile continuare ad incollare la cartella in altri posti, se si vuole.
