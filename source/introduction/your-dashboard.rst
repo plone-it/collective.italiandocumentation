@@ -3,10 +3,6 @@ La tua Dashboard
 
 **Ogni utente Plone ha una sua "dashboard" da personalizzare.**
 
-:Traduzione: Massimo Azzolini (27/11/20129)
-:Impaginazione: Massimo Azzolini (27/11/2012)
-:Revisione:  Maurizio Delmonte (01/05/2013)
-
 Plone ha diversi "viste" predefinite per le notizie, gli eventi,
 i documenti modificati recentemente, ecc. Queste liste sono raggruppate
 in aree rettangolari chiamate portlet. Pensa ad una portlet come ad una 
@@ -20,7 +16,7 @@ in alto a destra, per andare alla sua area personale:
 
 .. figure:: ../_static/dashboard.png
    :align: center
-   :alt: 
+   :alt: null
 
 La dashboard appare vuota per un nuovo utente.
 
@@ -31,7 +27,7 @@ portlet di questo nuovo sito web. Ecco le portlet di default:
 
 .. figure:: ../_static/dashboardedit.png
    :align: center
-   :alt: 
+   :alt: null
 
 Vedi le portlet *Notizie* ed *Eventi* nella colonna più a sinistra,
 i *Contenuti recenti* nella seconda colonna e l'*Elenco di revisione*
