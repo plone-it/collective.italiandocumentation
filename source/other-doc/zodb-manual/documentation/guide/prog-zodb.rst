@@ -30,7 +30,7 @@ Installare i pacchetti
 
 Scaricate il tarball ZODB contenente tutti i pacchetti sia per ZODB sia per ZEO
 da `<http://www.zope.org/Products/ZODB3.3>`_ . Vedere il file :file:`README.txt`
-nel livello superiore delle directory per i dettagli su come compilare, 
+nel livello superiore delle directory per i dettagli su come compilare,
 testare e installare.
 
 È possibile trovare informazioni su ZODB e le versioni più recenti dello ZODB
@@ -45,15 +45,15 @@ di oggetti persistenti vengono caricati da un supporto di memorizzazione
 permanente, come un file su disco, quando il programma ha bisogno di loro,
 e rimangono nella cache in RAM. Lo ZODB intercetta le modifiche agli oggetti,
 in modo che quando uno statement come ``obj.size =1`` viene eseguito, l'oggetto
-modificato viene segnato come "dirty" (sporco). A richiesta, ogni oggetto 
+modificato viene segnato come "dirty" (sporco). A richiesta, ogni oggetto
 sporco viene scritto sullo storage permanente; questo è chiamato committing di
 una transazione. Le transazioni possono anche essere annullate e ripristinate,
 il che scarta tutte le modifiche e gli oggetti sporchi vengono ripristinati al
-loro stato iniziale prima dell'inizio della transazione. 
+loro stato iniziale prima dell'inizio della transazione.
 
-Il termine "transazione" ha uno specifico significato tecnico nella 
+Il termine "transazione" ha uno specifico significato tecnico nella
 computer science. È estremamente importante che i contenuti di un database non
-vengano corrotti da fallimenti hardware o software, e la maggior parte dei 
+vengano corrotti da fallimenti hardware o software, e la maggior parte dei
 database offrono protezione contro tali tipi di corruzioni supportando 4 utili
 proprietà: Atomicità, Consistenza, Isolamento e Durabilità. Nel gergo della
 computer science questi quattro termini sono chiamate collettivamente proprietà
@@ -82,7 +82,7 @@ Consistenza
 
 Isolamento
     significa che due programmi o thread in esecuzione in due diverse
-    transazioni non possono vedere le modifiche dell'altro fino a che non 
+    transazioni non possono vedere le modifiche dell'altro fino a che non
     eseguono il commit delle loro transazioni
 
 Durabilità
@@ -127,7 +127,7 @@ lines of code::
 
 Note that you can use a completely different data storage mechanism by changing
 the first line that opens a :class:`Storage`; the above example uses a
-:class:`FileStorage`.  In section :ref:`zeo`, "How ZEO Works", you'll see how
+:class:`FileStorage`.  In section zeo, "How ZEO Works", you'll see how
 ZEO uses this flexibility to good effect.
 
 
@@ -197,7 +197,7 @@ a new key/value pair for your application's root object.  We'll insert an
 
    dbroot = conn.root()
 
-   # Ensure that a 'userdb' key is present 
+   # Ensure that a 'userdb' key is present
    # in the root
    if not dbroot.has_key('userdb'):
        from BTrees.OOBTree import OOBTree
@@ -212,10 +212,10 @@ data, insert it into the :class:`BTree` instance, and commit this transaction.
    # Create new User instance
    import transaction
 
-   newuser = User() 
+   newuser = User()
 
    # Add whatever attributes you want to track
-   newuser.id = 'amk' 
+   newuser.id = 'amk'
    newuser.first_name = 'Andrew' ; newuser.last_name = 'Kuchling'
    ...
 
@@ -250,7 +250,7 @@ with transactions at the Python interpreter's prompt::
    >>> newuser
    <User instance at 81b1f40>
    >>> newuser.first_name           # Print initial value
-   'Andrew'         
+   'Andrew'
    >>> newuser.first_name = 'Bob'   # Change first name
    >>> newuser.first_name           # Verify the change
    'Bob'
@@ -437,7 +437,7 @@ new schema.  This can be easy if your network of object references is quite
 structured, making it easy to find all the instances of the class being
 modified.  For example, if all :class:`User` objects can be found inside a
 single dictionary or BTree, then it would be a simple matter to loop over every
-:class:`User` instance with a :keyword:`for` statement. This is more difficult
+:class:`User` instance with a *for* statement. This is more difficult
 if your object graph is less structured; if :class:`User` objects can be found
 as attributes of any number of different class instances, then there's no longer
 any easy way to find them all, short of writing a generalized object traversal

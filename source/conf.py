@@ -46,7 +46,12 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Documentazione di Plone'
-copyright = u''
+copyright = u'''The text and illustrations in this website are licensed by the Plone Foundation under a Creative Commons Attribution 4.0 International license.
+Plone and the Plone<sup>®</sup> logo are registered trademarks of the Plone Foundation, registered in the United States and other countries.
+For guidelines on the permitted uses of the Plone trademarks, see https://plone.org/foundation/logo
+All other trademarks are owned by their respective owners.'''
+trademark_name = "Plone"
+
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -95,20 +100,25 @@ pygments_style = 'sphinx'
 #modindex_common_prefix = []
 
 
-# -- Options for HTML output ---------------------------------------------------
+# -- Options for HTML output --------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  Major themes that come with
 # Sphinx are currently 'default' and 'sphinxdoc'.
-#html_theme = 'default'
-html_theme = 'plone'
+html_theme = 'plone_org_4'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+html_theme_options = {
+    'doc_languages': [],
+    'doc_language': 'it',
+    'trademark_name': 'Plone',
+}
+
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ['_themes']
+import sphinx.themes.plone
+html_theme_path = sphinx.themes.plone.get_html_theme_path()
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
@@ -153,7 +163,7 @@ html_sidebars = {
 #html_use_modindex = True
 
 # If false, no index is generated.
-#html_use_index = True
+html_use_index = True
 
 # If true, the index is split into individual pages for each letter.
 #html_split_index = False
@@ -210,7 +220,7 @@ latex_documents = [
 html_use_smartypants = False
 
 
-# Don't build Modules pages 
+# Don't build Modules pages
 html_domain_indices = False
 
 # Don't build term index

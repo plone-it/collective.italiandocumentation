@@ -260,10 +260,8 @@ testo andrà a sostituire Kupu. I formati mark-up disponibili in Plone sono:
 -  `Structured Text <http://www.zope.org/Documentation/Articles/STX>`_
 -  `Restructured Text <http://en.wikipedia.org/wiki/ReStructuredText>`_
 
-Ognuno di questi funziona incorporando speciali codici di formattazione
-all'interno del testo. Ad esempio, con la formattazione Structured Text,
-circondando una parola o una frase da un asterisco doppio si otterrà quella
-parola o frase in grassetto, come in *\*Questo testo sarà in grassetto.\*\*
+Ognuno di questi funziona incorporando speciali codici di formattazione all'interno del testo.
+Ad esempio, con la formattazione Structured Text, circondando una parola o una frase da un asterisco doppio si otterrà quella parola o frase in grassetto, come in \*\*Questo testo sarà in grassetto.\*\*
 Vale la pena di imparare questi formati di mark-up per la velocità di inserimento
 se si creano molte pagine, o se si preferiscono approcci per l'inserimento di
 testo leggermente più tecnici. Alcune persone preferiscono questi formati non solo

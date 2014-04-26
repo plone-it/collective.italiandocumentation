@@ -6,7 +6,7 @@ l'uso di diversi ruoli integrati.**
 
 
 Esempio 1: Consentire ad altri di aggiungere contenuti in una cartella che hai creato
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
 In questo esempio, Jane Smythe ha pieno accesso al suo sito Plone. Lei è in grado di
 aggiungere, modificare, cancellare e pubblicare contenuti in qualsiasi parte del sito. Per ora,

@@ -1,9 +1,9 @@
-================================
+=======================
 Documentazione di Plone
-================================
+=======================
 
 Plone 4: Manuale utente
-==========================
+=======================
 Il manuale per utenti, redattori e amministratori.
 
 .. toctree::
@@ -20,7 +20,7 @@ Il manuale per utenti, redattori e amministratori.
     portlet-management/index
 
 Altri manuali
-===============
+=============
 
 .. toctree::
     :maxdepth: 1
@@ -29,8 +29,8 @@ Altri manuali
     other-doc/zodb-manual/index
     other-doc/zca-manual.rst
 
-Contributori
-==============
+Credits e ringraziamenti
+========================
 
 Si ringraziano per il loro contributo a questa documentazione:
 
