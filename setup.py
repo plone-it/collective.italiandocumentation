@@ -16,6 +16,7 @@ setup(name='collective.italiandocumentation',
       classifiers=[
           "Programming Language :: Python",
           "Topic :: Software Development :: Libraries :: Python Modules",
+          "Topic :: Documentation"
       ],
       keywords='',
       author='La comunità Italiana di Plone',
